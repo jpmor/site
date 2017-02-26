@@ -1,0 +1,36 @@
+= Academics =
+
+=== Georgia Tech ===
+
+===== Computer Science =====
+    * [[syllabi/CS_4641.pdf|CS 4641 - Machine Learning]]
+    * [[syllabi/CS_4400.pdf|CS 4400 - Database Systems]]
+    * [[syllabi/CS_3510.pdf|CS 3510 - Design & Analysis of Algorithms]]
+    * [[syllabi/CS_3600.pdf|CS 3600 - Artifical Intelligence]]
+    * [[syllabi/CS_2200.pdf|CS 2200 - Computer Systems & Networks]]
+    * [[syllabi/CS_2110.pdf|CS 2110 - Computer Organization & Programming]]
+    * [[syllabi/CS_1332.pdf|CS 1332 - Data Structures & Algorithms]]
+    * CS 1331 - Object Oriented Programming
+    * CS 1301 - Intro Computer Science
+
+===== Industrial & Systems Engineering =====
+    * [[syllabi/ISYE_4031.pdf|ISYE 4232 - Advanced Stochastics]]
+    * [[syllabi/ISYE_4133.pdf|ISYE 4133 - Advanced Optimization for Machine Learning]]
+    * [[syllabi/ISYE_4031.pdf|ISYE 4031 - Regression and Forecasting]]
+    * [[syllabi/ISYE_3833.pdf|ISYE 3833 - Optimization]]
+    * [[syllabi/ISYE_3232.pdf|ISYE 3232 - Stochastics & Proccesses]]
+    * [[syllabi/ISYE_3044.pdf|ISYE 3044 - Simulation Analysis & Design]]
+    * [[syllabi/ISYE_3025.pdf|ISYE 3025 - Economics of Engineering]]
+    * [[syllabi/ISYE_2028.pdf|ISYE 2028 - Statistics]]
+    * [[syllabi/ISYE_2027.pdf|ISYE 2027 - Probability]]
+    * ECON 2100 - Economics & Policy
+    
+===== Math & Science =====
+    * MATH 2603 - Discrete Math
+    * [[syllabi/MATH_2401.pdf|MATH 2401 - Calculus III]]
+    * [[syllabi/MATH_1502.pdf|MATH 1502 - Calculus II]]
+    * [[syllabi/PHYS_2212.pdf|PHYS 2212 - Modern Physics]]
+    * PHYS 2211 - Classical Physics
+    * CHEM 1310 - Chemistry
+    * [[syllabi/EAS_1601.pdf|EAS  1601 - Habitable Planet]]
+
