@@ -14,7 +14,7 @@
 
     ===== Finished =====
 
-    * [X] _Making of the Atomic Bomb_ - Richard Rhodes
+    * [X] _The Making of the Atomic Bomb_ - Richard Rhodes
     * [X] _Annals of The Former World_ - John McPhee
     * [X] _John Adams_ - David McCullough
     * [X] _Shoe Dog_ - Phil Knight

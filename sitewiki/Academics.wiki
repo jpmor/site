@@ -14,7 +14,7 @@
     * CS 1301 - Intro Computer Science
 
 ===== Industrial & Systems Engineering =====
-    * [[syllabi/ISYE_4031.pdf|ISYE 4232 - Advanced Stochastics]]
+    * [[syllabi/ISYE_4232.pdf|ISYE 4232 - Advanced Stochastics]]
     * [[syllabi/ISYE_4133.pdf|ISYE 4133 - Advanced Optimization for Machine Learning]]
     * [[syllabi/ISYE_4031.pdf|ISYE 4031 - Regression and Forecasting]]
     * [[syllabi/ISYE_3833.pdf|ISYE 3833 - Optimization]]
