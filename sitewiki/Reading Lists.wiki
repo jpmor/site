@@ -1,1 +1,30 @@
-/home/jpm/homewiki/Reading Lists.wiki
+
+=== Reading Lists ===
+
+    * [[https://www.goodreads.com/review/list/35857728-james-moriarty|Goodreads]]
+
+    ===== Queued =====
+
+    * [ ] _An Astronaut's Guide to Life on Earth_ - Chris Hadfield
+    * [ ] _Cosmos_ - Carl Sagan
+    * _The Idea Factory_ - Jon Gertner
+    * _Capital In the 21st Century_ - Thomas Piketty
+    * _The Emperor of All Maladies_ - Siddhartha Mukherjee
+
+
+    ===== Finished =====
+
+    * [X] _Making of the Atomic Bomb_ - Richard Rhodes
+    * [X] _Annals of The Former World_ - John McPhee
+    * [X] _John Adams_ - David McCullough
+    * [X] _Shoe Dog_ - Phil Knight
+    * [X] _Millenium_ - Ian Mortimer
+    * [X] _On the Structures of Scientific Revolutions_ - Thomas Kuhn
+    * [X] _The Gene_ - Siddhartha Mukherjee
+    * [X] _The Intelligent Investor_ - Benjamin Graham
+    * [X] _Man's Search for Meaning_ - Viktor Frankl
+    * [X] _The Innovators_ - Walter Isaccson
+    * [X] _Zero to One_ - Peter Thiel
+    * [X] _Einstein: His Life and Universe_ - Walter Isaacson
+    * [X] _A Short History of Nearly Everything_ - Bill Bryson
+    * [X] _Godel, Eshcer, Bach: An Eternal Golden Braid_ - Douglas Hofstadter
