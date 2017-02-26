@@ -15,7 +15,10 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
-
+    <a href="%root_path%index.html">Home</a> |
+    <hr>
+    <div class="content">
+        %content%
+    </div>
 </body>
 </html>
