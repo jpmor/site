@@ -1,7 +1,10 @@
 
 === Tech ===
 
+===== March 2017 =====
+    * [[http://www.anandtech.com/show/11170/the-amd-zen-and-ryzen-7-review-a-deep-dive-on-1800x-1700x-and-1700|AMD Zen]]
 ===== February 2017 =====
+    * [[https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html|SHA-1 Collision]]
     * [[http://www.linusakesson.net/programming/tty/|History of TTY]]
 ===== January 2017 =====
     * [[http://www.cs.virginia.edu/~evans/cs216/guides/x86.html|x86 Assembly Guide]]
