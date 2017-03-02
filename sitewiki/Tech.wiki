@@ -1,0 +1,11 @@
+
+=== Tech ===
+
+===== February 2017 =====
+    * [[http://www.linusakesson.net/programming/tty/|History of TTY]]
+===== January 2017 =====
+    * [[http://www.cs.virginia.edu/~evans/cs216/guides/x86.html|x86 Assembly Guide]]
+===== December 2016 =====
+    * [[https://deepmind.com/blog/open-sourcing-deepmind-lab/|Deepmind AI Environments]]
+===== November 2016 =====
+    * [[https://ruudvanasseldonk.com/2016/11/30/zero-cost-abstractions|Rust - Zero cost abstractions]]
