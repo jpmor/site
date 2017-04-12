@@ -1,6 +1,8 @@
 
 === Tech ===
 
+===== April 2017 =====
+    * [[https://junyanz.github.io/CycleGAN/|Image Translation with Adversarial Networks]]
 ===== March 2017 =====
     * [[http://www.anandtech.com/show/11170/the-amd-zen-and-ryzen-7-review-a-deep-dive-on-1800x-1700x-and-1700|AMD Zen]]
 ===== February 2017 =====
