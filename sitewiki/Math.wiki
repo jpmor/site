@@ -1,0 +1,8 @@
+
+=== Math ===
+
+===== April 2017 =====
+    * [[http://distill.pub/2017/momentum/|Accelerated Gradient Descent]]
+    * [[https://www.quantamagazine.org/20170328-statistician-proves-gaussian-correlation-inequality/|Gaussian Correlation Inequality]]
+===== December 2016 =====
+    * [[https://www.quantamagazine.org/20161202-overhang-puzzle-solution/|Overhang Puzzle Solutions]]
