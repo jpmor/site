@@ -5,14 +5,16 @@
 
     ===== Queued =====
 
-    * [ ] _Capital In the 21st Century_ - Thomas Piketty
+    * [ ] _The Emperor of All Maladies_ - Siddhartha Mukherjee
+    * [ ] _On Trails: An Exploration_ - Robert Moor
     * [ ] _Cosmos_ - Carl Sagan
     * _The Idea Factory_ - Jon Gertner
-    * _The Emperor of All Maladies_ - Siddhartha Mukherjee
 
 
     ===== Finished =====
 
+    * [X] _Capital In the 21st Century_ - Thomas Piketty
+    * [X] _Homo Deus_ - Yuval Noah Harari
     * [X] _The Making of the Atomic Bomb_ - Richard Rhodes
     * [X] _Annals of The Former World_ - John McPhee
     * [X] _John Adams_ - David McCullough
