@@ -5,14 +5,19 @@
 
     ===== Queued =====
 
-    * [ ] _The Emperor of All Maladies_ - Siddhartha Mukherjee
+    * [ ] _A Distant Mirror: The Calamitous 14th Century_ - Barbara W. Tuchman
+    * [ ] _Debt: The First 5,000 Years_ - David Graeber
     * [ ] _On Trails: An Exploration_ - Robert Moor
-    * [ ] _Cosmos_ - Carl Sagan
-    * _The Idea Factory_ - Jon Gertner
-
 
     ===== Finished =====
 
+    * [X] _Guns, Germs, and Steel_ - Jared Diamond
+    * [X] _Midnight in the Garden of Good and Evil_ - John Berendt
+    * [X] _The Idea Factory_ - Jon Gertner
+    * [X] _Cosmos_ - Carl Sagan
+    * [X] _Titan_ - Ron Chernow
+    * [X] _Alexander Hamilton_ - Ron Chernow
+    * [X] _The Emperor of All Maladies_ - Siddhartha Mukherjee
     * [X] _Capital In the 21st Century_ - Thomas Piketty
     * [X] _Homo Deus_ - Yuval Noah Harari
     * [X] _The Making of the Atomic Bomb_ - Richard Rhodes
