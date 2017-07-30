@@ -78,7 +78,7 @@
     * [[https://en.wikipedia.org/wiki/Vapnik-Chervonenkis_theory|Vapnik–Chervonenkis theory]]
     * [[https://en.wikipedia.org/wiki/Richard_Stallman|Richard Stallman]]
 ===== February 2016 =====
-    * [[https://en.wikipedia.org/wiki/Tf%E%%idf|tf–idf]]
+    * [[https://en.wikipedia.org/wiki/Tf-idf|Tf–idf]]
     * [[https://en.wikipedia.org/wiki/Terahertz_radiation|Terahertz radiation]]
     * [[https://en.wikipedia.org/wiki/International_Technology_Roadmap_for_Semiconductors|International Technology Roadmap for Semiconductors]]
     * [[https://en.wikipedia.org/wiki/Breeding_back|Breeding back]]
@@ -137,7 +137,7 @@
     * [[https://en.wikipedia.org/wiki/Spanish_Empire|Spanish Empire]]
     * [[https://en.wikipedia.org/wiki/List_of_urban_areas_by_population|List of urban areas by population]]
     * [[https://en.wikipedia.org/wiki/Siberian_Traps|Siberian Traps]]
-    * [[https://en.wikipedia.org/wiki/History_of_private_equity_and_venture_capital|History of private equity and venture capital - Wikipedia, the free encyclo</a></li>]]
+    * [[https://en.wikipedia.org/wiki/History_of_private_equity_and_venture_capital|History of private equity and venture capital]]
 ===== March 2015 =====
     * [[https://en.wikipedia.org/wiki/William_Thomson,_st_Baron_Kelvin|William Thomson, st Baron Kelvin]]
     * [[https://en.wikipedia.org/wiki/List_of_lists_of_lists|List of lists of lists]]
