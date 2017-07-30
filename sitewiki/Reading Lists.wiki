@@ -1,16 +1,21 @@
 
 === Reading Lists ===
 
-    * [[https://www.goodreads.com/user/show/35857728-james-moriarty|Goodreads]]
+    * [[https://www.goodreads.com/jpm6|Goodreads]]
 
     ===== Queued =====
 
-    * [ ] _A Distant Mirror: The Calamitous 14th Century_ - Barbara W. Tuchman
+    * [ ] _Undaunted Courage_ - Stephen Ambrose
+    * [ ] _Team of Rivals_ - Doris K. Goodwin
     * [ ] _Debt: The First 5,000 Years_ - David Graeber
     * [ ] _On Trails: An Exploration_ - Robert Moor
 
     ===== Finished =====
 
+    * [X] _Nothing to Envy_ - Barbara Demick
+    * [X] _Surely You're Joking, Mr. Feynman!_ - Richard Feynman
+    * [X] _The Invention of Nature_ - Andrea Wolf
+    * [X] _A Distant Mirror: The Calamitous 14th Century_ - Barbara W. Tuchman
     * [X] _Guns, Germs, and Steel_ - Jared Diamond
     * [X] _Midnight in the Garden of Good and Evil_ - John Berendt
     * [X] _The Idea Factory_ - Jon Gertner
