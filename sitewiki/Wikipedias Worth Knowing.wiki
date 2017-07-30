@@ -1,6 +1,12 @@
 
 === Wikipedias Worth Knowing ===
 
+===== June 2017 =====
+    * [[https://en.wikipedia.org/wiki/Polysemy|Polysemy]]
+===== April 2017 =====
+    * [[https://en.wikipedia.org/wiki/Rapidity|Rapidity]]
+    * [[https://en.wikipedia.org/wiki/Fine-structure_constant|Fine-Structure Constant]]
+    * [[https://en.wikipedia.org/wiki/On-Line_Encyclopedia_of_Integer_Sequences|On-Line Encyclopedia of Integer Sequences]]
 ===== March 2017 =====
     * [[https://en.wikipedia.org/wiki/Gradient_descent|Gradient Descent]]
     * [[https://en.wikipedia.org/wiki/John_Adams|John Adams]]

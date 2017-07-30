@@ -1,6 +1,10 @@
 
 === Tech ===
 
+===== July 2017 =====
+    * [[https://blog.keras.io/the-limitations-of-deep-learning.html|The Limitations of Deep Learning]]
+===== May 2017 =====
+    * [[https://www.nextplatform.com/2017/05/08/crunching-machine-learning-databases-together-gpus|Crunching ML and DBs on GPUs]]
 ===== April 2017 =====
     * [[https://junyanz.github.io/CycleGAN/|Image Translation with Adversarial Networks]]
 ===== March 2017 =====
