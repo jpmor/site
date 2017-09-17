@@ -2,9 +2,11 @@
 
 ===== Computer Science =====
     * [[syllabi/CS_4641.pdf|CS 4641 - Machine Learning]]
+    * [[syllabi/CS_4510.pdf|CS 3510 - Automata & Complexity]]
     * [[syllabi/CS_4400.pdf|CS 4400 - Database Systems]]
-    * [[syllabi/CS_3510.pdf|CS 3510 - Design & Analysis of Algorithms]]
     * [[syllabi/CS_3600.pdf|CS 3600 - Artifical Intelligence]]
+    * [[syllabi/CS_3510.pdf|CS 3510 - Design & Analysis of Algorithms]]
+    * [[http://cs3210.cc.gatech.edu/index.html|CS 3210 - Operating System Design]]
     * [[syllabi/CS_2200.pdf|CS 2200 - Computer Systems & Networks]]
     * [[syllabi/CS_2110.pdf|CS 2110 - Computer Organization & Programming]]
     * [[syllabi/CS_1332.pdf|CS 1332 - Data Structures & Algorithms]]
@@ -12,6 +14,7 @@
     * CS 1301 - Intro Computer Science
 
 ===== Industrial & Systems Engineering =====
+    * [[syllabi/ISYE_4803.pdf|ISYE 4803 - Reliability Engineering]]
     * [[syllabi/ISYE_4232.pdf|ISYE 4232 - Advanced Stochastics]]
     * [[syllabi/ISYE_4133.pdf|ISYE 4133 - Advanced Optimization for Machine Learning]]
     * [[syllabi/ISYE_4031.pdf|ISYE 4031 - Regression and Forecasting]]
