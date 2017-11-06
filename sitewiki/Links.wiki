@@ -9,6 +9,8 @@
 
     * [[History]]
 
+    * [[Stories]]
+
     * [[Science]]
 
     * [[Math]]

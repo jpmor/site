@@ -1,6 +1,8 @@
 
 === Future ===
 
+===== November 2017 =====
+    * [[https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia|Smartphone Addiction]]
 ===== July 2017 =====
     * [[https://blog.keras.io/the-future-of-deep-learning.html|The Future of Deep Learning]]
 ===== June 2017 =====

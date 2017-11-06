@@ -5,13 +5,16 @@
 
     ===== Queued =====
 
-    * [ ] _Undaunted Courage_ - Stephen Ambrose
     * [ ] _Team of Rivals_ - Doris K. Goodwin
+    * [ ] _The Code Book_ - Simon Singh
+    * [ ] _Evicted_ - Mathew Desmond
     * [ ] _Debt: The First 5,000 Years_ - David Graeber
     * [ ] _On Trails: An Exploration_ - Robert Moor
 
     ===== Finished =====
 
+    * [X] _Empire of the Summer Moon_ - S.C. Gwynne
+    * [X] _Undaunted Courage_ - Stephen Ambrose
     * [X] _Nothing to Envy_ - Barbara Demick
     * [X] _Surely You're Joking, Mr. Feynman!_ - Richard Feynman
     * [X] _The Invention of Nature_ - Andrea Wolf
