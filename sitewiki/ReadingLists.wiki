@@ -15,6 +15,7 @@
 
     * [X] _Empire of the Summer Moon_ - S.C. Gwynne
     * [X] _Undaunted Courage_ - Stephen Ambrose
+    * [X] _Age of Ambition: Chasing Fortune, Truth, and Faith in the New China_ - Evan Osnos
     * [X] _Nothing to Envy_ - Barbara Demick
     * [X] _Surely You're Joking, Mr. Feynman!_ - Richard Feynman
     * [X] _The Invention of Nature_ - Andrea Wolf
