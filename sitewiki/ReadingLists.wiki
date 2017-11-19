@@ -5,14 +5,14 @@
 
     ===== Queued =====
 
-    * [ ] _Team of Rivals_ - Doris K. Goodwin
-    * [ ] _The Code Book_ - Simon Singh
     * [ ] _Evicted_ - Mathew Desmond
+    * [ ] _The Code Book_ - Simon Singh
     * [ ] _Debt: The First 5,000 Years_ - David Graeber
     * [ ] _On Trails: An Exploration_ - Robert Moor
 
     ===== Finished =====
 
+    * [X] _Team of Rivals_ - Doris K. Goodwin
     * [X] _Empire of the Summer Moon_ - S.C. Gwynne
     * [X] _Undaunted Courage_ - Stephen Ambrose
     * [X] _Age of Ambition: Chasing Fortune, Truth, and Faith in the New China_ - Evan Osnos
