@@ -1,0 +1,168 @@
+
+= Wikipedias Worth Knowing =
+
+== November 2017 ==
+- [[https://en.wikipedia.org/wiki/List_of_undecidable_problems|Undecidable Problems]]
+- [[https://en.wikipedia.org/wiki/Taiga|Taiga]]
+== June 2017 ==
+- [[https://en.wikipedia.org/wiki/Polysemy|Polysemy]]
+== April 2017 ==
+- [[https://en.wikipedia.org/wiki/Rapidity|Rapidity]]
+- [[https://en.wikipedia.org/wiki/Fine-structure_constant|Fine-Structure Constant]]
+- [[https://en.wikipedia.org/wiki/On-Line_Encyclopedia_of_Integer_Sequences|On-Line Encyclopedia of Integer Sequences]]
+== March 2017 ==
+- [[https://en.wikipedia.org/wiki/Gradient_descent|Gradient Descent]]
+- [[https://en.wikipedia.org/wiki/John_Adams|John Adams]]
+- [[https://en.wikipedia.org/wiki/Leo_Szilard|Leo Szilard]]
+== February 2017 ==
+- [[https://en.wikipedia.org/wiki/Control_theory|Control theory]]
+- [[https://en.wikipedia.org/wiki/Wind|Wind]]
+== January 2017 ==
+- [[https://en.wikipedia.org/wiki/Copyleft|Copyleft]]
+- [[https://en.wikipedia.org/wiki/Global_Positioning_System|GPS]]
+== December 2016 ==
+- [[https://en.wikipedia.org/wiki/Low-background_steel|Low-background Steel]]
+- [[https://en.wikipedia.org/wiki/Andrey_Kolmogorov|Andrey Kolmogorov]]
+- [[https://en.wikipedia.org/wiki/Moment_(mathematics)|Moment (mathematics)]]
+== November 2016 ==
+- [[https://en.wikipedia.org/wiki/Interplanetary_Transport_Network|Interplanetary Transport Network]]
+- [[https://en.wikipedia.org/wiki/Asteroid_mining|Asteroid mining]]
+- [[https://en.wikipedia.org/wiki/Khaosan_Road|Khaosan Road]]
+== October 2016 ==
+- [[https://en.wikipedia.org/wiki/Streisand_effect|Streisand effect]]
+== September 2016 ==
+- [[https://en.wikipedia.org/wiki/Linear-feedback_shift_register|Linear-feedback shift register]]
+== August 2016 ==
+- [[https://en.wikipedia.org/wiki/Levenshtein_distance|Levenshtein distance]]
+- [[https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_education)|Constructivism (philosophy of education)]]
+- [[https://en.wikipedia.org/wiki/Concept_map|Concept map]]
+- [[https://en.wikipedia.org/wiki/Schematic|Schematic]]
+- [[https://en.wikipedia.org/wiki/Web_crawler|Web crawler]]
+- [[https://en.wikipedia.org/wiki/DMOZ|DMOZ]]
+- [[https://en.wikipedia.org/wiki/Sed|sed]]
+- [[https://en.wikipedia.org/wiki/AWK|AWK]]
+- [[https://en.wikipedia.org/wiki/Gilbert_du_Motier,_Marquis_de_Lafayette|Gilbert du Motier, Marquis de Lafayette]]
+- [[https://en.wikipedia.org/wiki/Cobra_effect|Cobra effect]]
+== July 2016 ==
+- [[https://en.wikipedia.org/wiki/Catalysis|Catalysis]]
+- [[https://en.wikipedia.org/wiki/Faust|Faust]]
+== June 2016 ==
+- [[https://en.wikipedia.org/wiki/Lookout|Lookout]]
+- [[https://en.wikipedia.org/wiki/Peter_the_Great|Peter the Great]]
+- [[https://en.wikipedia.org/wiki/Backronym|Backronym]]
+- [[https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard|Filesystem Hierarchy Standard]]
+- [[https://en.wikipedia.org/wiki/Digital_forensics|Digital forensics]]
+- [[https://en.wikipedia.org/wiki/Katz_v._United_States|Katz v. United States]]
+== May 2016 ==
+- [[https://en.wikipedia.org/wiki/Order_of_operations|Order of operations]]
+- [[https://en.wikipedia.org/wiki/Monte_Carlo_method|Monte Carlo method]]
+- [[https://en.wikipedia.org/wiki/Mammalian_diving_reflex|Mammalian diving reflex]]
+- [[https://en.wikipedia.org/wiki/Project_West_Ford|Project West Ford]]
+- [[https://en.wikipedia.org/wiki/Massachusetts_Right_to_Repair_Initiative|Massachusetts Right to Repair Initiative]]
+- [[https://en.wikipedia.org/wiki/Dynamic_programming|Dynamic programming]]
+- [[https://en.wikipedia.org/wiki/Graphics_processing_unit|Graphics processing unit]]
+== April 2016 ==
+- [[https://en.wikipedia.org/wiki/Daniel_J._Bernstein|Daniel J. Bernstein]]
+- [[https://en.wikipedia.org/wiki/Autodidacticism|Autodidacticism]]
+- [[https://en.wikipedia.org/wiki/Macro_(computer_science)|Macro (computer science)]]
+- [[https://en.wikipedia.org/wiki/Realisation_(metrology)|Realisation (metrology)]]
+- [[https://en.wikipedia.org/wiki/Metric_system|Metric system]]
+- [[https://en.wikipedia.org/wiki/Malcom_McLean|Malcom McLean]]
+== March 2016 ==
+- [[https://en.wikipedia.org/wiki/MapReduce|MapReduce]]
+- [[https://en.wikipedia.org/wiki/Turtles_all_the_way_down|Turtles all the way down]]
+- [[https://en.wikipedia.org/wiki/Hairy_ball_theorem|Hairy ball theorem]]
+- [[https://en.wikipedia.org/wiki/Andrey_Kolmogorov|Andrey Kolmogorov]]
+- [[https://en.wikipedia.org/wiki/Ubiquitous_computing|Ubiquitous computing]]
+- [[https://en.wikipedia.org/wiki/Linus_Torvalds|Linus Torvalds]]
+- [[https://en.wikipedia.org/wiki/Biological_neural_network|Biological neural network]]
+- [[https://en.wikipedia.org/wiki/Information_retrieval|Information retrieval]]
+- [[https://en.wikipedia.org/wiki/Statistical_learning_theory|Statistical learning theory]]
+- [[https://en.wikipedia.org/wiki/Vapnik-Chervonenkis_theory|Vapnik–Chervonenkis theory]]
+- [[https://en.wikipedia.org/wiki/Richard_Stallman|Richard Stallman]]
+== February 2016 ==
+- [[https://en.wikipedia.org/wiki/Tf-idf|Tf–idf]]
+- [[https://en.wikipedia.org/wiki/Terahertz_radiation|Terahertz radiation]]
+- [[https://en.wikipedia.org/wiki/International_Technology_Roadmap_for_Semiconductors|International Technology Roadmap for Semiconductors]]
+- [[https://en.wikipedia.org/wiki/Breeding_back|Breeding back]]
+- [[https://en.wikipedia.org/wiki/Old_Tjikko|Old Tjikko]]
+== January 2016 ==
+- [[https://en.wikipedia.org/wiki/Operations_research|Operations research]]
+- [[https://en.wikipedia.org/wiki/Synecdoche|Synecdoche]]
+- [[https://en.wikipedia.org/wiki/Anna_Karenina_principle|Anna Karenina principle]]
+- [[https://en.wikipedia.org/wiki/User:ClueBot_NG|User:ClueBot NG]]
+- [[https://en.wikipedia.org/wiki/Brownian_motion|Brownian motion]]
+- [[https://en.wikipedia.org/wiki/Heuristic|Heuristic]]
+- [[https://en.wikipedia.org/wiki/Occam%s_razor|Occam's razor]]
+== December 2015 ==
+- [[https://en.wikipedia.org/wiki/Agner_Krarup_Erlang|Agner Krarup Erlang]]
+- [[https://en.wikipedia.org/wiki/Drake_equation|Drake equation]]
+- [[https://en.wikipedia.org/wiki/Time_series|Time series]]
+- [[https://en.wikipedia.org/wiki/Corrupted_Blood_incident|Corrupted Blood incident]]
+- [[https://en.wikipedia.org/wiki/John_Tukey|John Tukey]]
+- [[https://en.wikipedia.org/wiki/Leonhard_Euler|Leonhard Euler]]
+== November 2015 ==
+- [[https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe|Johann Wolfgang von Goethe]]
+- [[https://en.wikipedia.org/wiki/Apache_Software_Foundation|Apache Software Foundation]]
+- [[https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz|Gottfried Wilhelm Leibniz]]
+- [[https://en.wikipedia.org/wiki/Extreme_points_of_Earth|Extreme points of Earth]]
+- [[https://en.wikipedia.org/wiki/Bioinformatics|Bioinformatics]]
+- [[https://en.wikipedia.org/wiki/Random_forest|Random forest]]
+- [[https://en.wikipedia.org/wiki/Whitney_v._California|Whitney v. California]]
+- [[https://en.wikipedia.org/wiki/Time|Time]]
+== October 2015 ==
+- [[https://en.wikipedia.org/wiki/Non-photo_blue|Non-photo blue]]
+- [[https://en.wikipedia.org/wiki/MACRS|MACRS]]
+- [[https://en.wikipedia.org/wiki/Astronomical_object|Astronomical object]]
+- [[https://en.wikipedia.org/wiki/Biosphere|Biosphere]]
+- [[https://en.wikipedia.org/wiki/Matthew_Fontaine_Maury|Matthew Fontaine Maury]]
+== September 2015 ==
+- [[https://en.wikipedia.org/wiki/Claude_Shannon|Claude Shannon]]
+- [[https://en.wikipedia.org/wiki/Slashdot_effect|Slashdot effect]]
+- [[https://en.wikipedia.org/wiki/Gray_code|Gray code]]
+- [[https://en.wikipedia.org/wiki/Radio|Radio]]
+== August 2015 ==
+- [[https://en.wikipedia.org/wiki/The_Mother_of_All_Demos|The Mother of All Demos]]
+- [[https://en.wikipedia.org/wiki/Preferred_number|Preferred number]]
+== July 2015 ==
+- [[https://en.wikipedia.org/wiki/Nelson_rules|Nelson rules]]
+- [[https://en.wikipedia.org/wiki/Bowhead_whale|Bowhead whale]]
+- [[https://en.wikipedia.org/wiki/Potato_paradox|Potato paradox]]
+== June 2015 ==
+- [[https://en.wikipedia.org/wiki/Surgery|Surgery]]
+- [[https://en.wikipedia.org/wiki/Los_Angeles_County,_California|Los Angeles County, California]]
+== May 2015 ==
+- [[https://en.wikipedia.org/wiki/Cache_(computing)|Cache (computing)]]
+- [[https://en.wikipedia.org/wiki/CRISPR|CRISPR]]
+- [[https://en.wikipedia.org/wiki/Conway%s_Game_of_Life|Conway's Game of Life]]
+== April 2015 ==
+- [[https://en.wikipedia.org/wiki/File_Transfer_Protocol|File Transfer Protocol]]
+- [[https://en.wikipedia.org/wiki/Spanish_Empire|Spanish Empire]]
+- [[https://en.wikipedia.org/wiki/List_of_urban_areas_by_population|List of urban areas by population]]
+- [[https://en.wikipedia.org/wiki/Siberian_Traps|Siberian Traps]]
+- [[https://en.wikipedia.org/wiki/History_of_private_equity_and_venture_capital|History of private equity and venture capital]]
+== March 2015 ==
+- [[https://en.wikipedia.org/wiki/William_Thomson,_st_Baron_Kelvin|William Thomson, st Baron Kelvin]]
+- [[https://en.wikipedia.org/wiki/List_of_lists_of_lists|List of lists of lists]]
+- [[https://en.wikipedia.org/wiki/One-electron_universe|One-electron universe]]
+- [[https://en.wikipedia.org/wiki/Large_Hadron_Collider|Large Hadron Collider]]
+- [[https://en.wikipedia.org/wiki/Charles_K._Kao|Charles K. Kao]]
+== February 2015 ==
+- [[https://en.wikipedia.org/wiki/Richard_Feynman|Richard Feynman]]
+- [[https://en.wikipedia.org/wiki/Charles_Darwin|Charles Darwin]]
+- [[https://en.wikipedia.org/wiki/Alexander_Grothendieck|Alexander Grothendieck]]
+- [[https://en.wikipedia.org/wiki/Mathematics|Mathematics]]
+== January 2015 ==
+- [[https://en.wikipedia.org/wiki/Albert_Einstein|Albert Einstein]]
+- [[https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss|Carl Friedrich Gauss]]
+- [[https://en.wikipedia.org/wiki/Galileo_Galilei|Galileo Galilei]]
+- [[https://en.wikipedia.org/wiki/John_von_Neumann|John von Neumann]]
+- [[https://en.wikipedia.org/wiki/Frederick_Terman|Frederick Terman]]
+== December 2014 ==
+- [[https://en.wikipedia.org/wiki/Georg_Cantor|Georg Cantor]]
+- [[https://en.wikipedia.org/wiki/John_Carmack|John Carmack]]
+- [[https://en.wikipedia.org/wiki/Martin_Rees,_Baron_Rees_of_Ludlow|Martin Rees, Baron Rees of Ludlow]]
+- [[https://en.wikipedia.org/wiki/International_Space_Station|International Space Station]]
+- [[https://en.wikipedia.org/wiki/Cerebral_cortex|Cerebral cortex]]
+- [[https://en.wikipedia.org/wiki/Linux|Linux]]
+- [[https://en.wikipedia.org/wiki/Kurt_Vonnegut|Kurt Vonnegut]]

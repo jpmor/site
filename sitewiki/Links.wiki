@@ -1,18 +1,14 @@
 
-=== Links ===
+= Links =
 
-    * [[Interesting]]
+    - [[Interesting]]
 
-    * [[Tech]]
+    - [[Tech]]
 
-    * [[Future]]
+    - [[Research]]
 
-    * [[History]]
+    - [[Future]]
 
-    * [[Stories]]
+    - [[History]]
 
-    * [[Science]]
-
-    * [[Math]]
-
-    * [[Wikipedias Worth Knowing]]
+    - [[Wikipedias]]

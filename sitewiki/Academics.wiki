@@ -1,6 +1,6 @@
-=== Georgia Tech ===
+= Academics =
 
-===== Computer Science =====
+== Computer Science ==
     * [[syllabi/CS_4641.pdf|CS 4641 - Machine Learning]]
     * [[syllabi/CS_4510.pdf|CS 4510 - Automata & Complexity]]
     * [[syllabi/CS_4400.pdf|CS 4400 - Database Systems]]
@@ -13,7 +13,7 @@
     * CS 1331 - Object Oriented Programming
     * CS 1301 - Intro Computer Science
 
-===== Industrial & Systems Engineering =====
+== Industrial & Systems Engineering ==
     * [[syllabi/ISYE_4803.pdf|ISYE 4803 - Reliability Engineering]]
     * [[syllabi/ISYE_4232.pdf|ISYE 4232 - Advanced Stochastics]]
     * [[syllabi/ISYE_4133.pdf|ISYE 4133 - Advanced Optimization for Machine Learning]]
@@ -26,7 +26,7 @@
     * [[syllabi/ISYE_2027.pdf|ISYE 2027 - Probability]]
     * ECON 2100 - Economics & Policy
     
-===== Math & Science =====
+== Math & Science ==
     * MATH 2603 - Discrete Math
     * [[syllabi/MATH_2401.pdf|MATH 2401 - Calculus III]]
     * [[syllabi/MATH_1502.pdf|MATH 1502 - Calculus II]]

@@ -1,2 +1,8 @@
 
-=== James P. Moriarty ===
+= James P. Moriarty =
+
+    * [[Links]]
+
+    * [[Academics]]
+
+    * [[ReadingLists]]

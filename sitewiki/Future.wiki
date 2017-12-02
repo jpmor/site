@@ -1,17 +1,19 @@
 
-=== Future ===
+= Future =
 
-===== November 2017 =====
-    * [[https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia|Smartphone Addiction]]
-===== July 2017 =====
-    * [[https://blog.keras.io/the-future-of-deep-learning.html|The Future of Deep Learning]]
-===== June 2017 =====
-    * [[https://www.bloomberg.com/news/articles/2017-06-05/wsj-ends-google-users-free-ride-then-fades-in-search-results|WSJ Search Results]]
-===== May 2017 =====
-    * [[http://carnegieendowment.org/chinafinancialmarkets/66221| China: Debt, Unemployment, or Transfers]]
-===== April 2017 =====
-    * [[https://arstechnica.com/gaming/2017/03/the-cia-uses-board-games-to-train-officers-and-i-got-to-play-them/|CIA: Training with Games]]
-===== March 2017 =====
-    * [[http://ideas.ted.com/the-rise-of-the-useless-class/|Employment vs. Automation]]
-===== December 2016 =====
-    * [[https://www.bloomberg.com/news/articles/2016-12-15/world-energy-hits-a-turning-point-solar-that-s-cheaper-than-wind|Solar is Cheaper than Wind]]
+== November 2017 ==
+- [[https://staltz.com/the-web-began-dying-in-2014-heres-how.html|3 Tech Giants]]
+- [[https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia|Smartphone Addiction]]
+- [[https://www.newyorker.com/magazine/2015/07/20/the-really-big-one|PNW Quake]]
+== July 2017 ==
+- [[https://blog.keras.io/the-future-of-deep-learning.html|The Future of Deep Learning]]
+== June 2017 ==
+- [[https://www.bloomberg.com/news/articles/2017-06-05/wsj-ends-google-users-free-ride-then-fades-in-search-results|WSJ Search Results]]
+== May 2017 ==
+- [[http://carnegieendowment.org/chinafinancialmarkets/66221| China: Debt, Unemployment, or Transfers]]
+== April 2017 ==
+- [[https://arstechnica.com/gaming/2017/03/the-cia-uses-board-games-to-train-officers-and-i-got-to-play-them/|CIA: Training with Games]]
+== March 2017 ==
+- [[http://ideas.ted.com/the-rise-of-the-useless-class/|Employment vs. Automation]]
+== December 2016 ==
+- [[https://www.bloomberg.com/news/articles/2016-12-15/world-energy-hits-a-turning-point-solar-that-s-cheaper-than-wind|Solar is Cheaper than Wind]]

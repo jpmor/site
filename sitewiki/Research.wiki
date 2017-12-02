@@ -1,0 +1,16 @@
+
+= Research =
+
+== May 2017 ==
+- [[https://arxiv.org/pdf/1309.4838.pdf|Mass Extinction and the Structure of Milky Way]]
+== April 2017 ==
+- [[http://distill.pub/2017/momentum/|Accelerated Gradient Descent]]
+- [[https://www.quantamagazine.org/20170328-statistician-proves-gaussian-correlation-inequality/|Gaussian Correlation Inequality]]
+== February 2017 ==
+- [[http://www.nature.com/news/these-seven-alien-worlds-could-help-explain-how-planets-form-1.21512?WT.mc_id=TWT_NatureNews|Seven planets discovered 39ly away]]
+== December 2016 ==
+- [[https://www.quantamagazine.org/20161202-overhang-puzzle-solution/|Overhang Puzzle Solutions]]
+== July 2016 ==
+- [[https://www.nytimes.com/2016/07/10/upshot/a-medical-mystery-of-the-best-kind-major-diseases-are-in-decline.html|Diseases in Decline]]
+== June 2016 ==
+- [[https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm|Science - The Endless Frontier]]
