@@ -1,6 +1,8 @@
 
 = Wikipedias Worth Knowing =
 
+== December 2017 ==
+- [[https://en.wikipedia.org/wiki/Pretty_Good_Privacy|Pretty Good Privacy]]
 == November 2017 ==
 - [[https://en.wikipedia.org/wiki/List_of_undecidable_problems|Undecidable Problems]]
 - [[https://en.wikipedia.org/wiki/Taiga|Taiga]]
