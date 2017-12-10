@@ -2,6 +2,9 @@
 = Wikipedias Worth Knowing =
 
 == December 2017 ==
+- [[https://en.wikipedia.org/wiki/Whitfield_Diffie|Whitfield Diffie]]
+- [[https://en.wikipedia.org/wiki/System|Systems]]
+- [[https://en.wikipedia.org/wiki/Arbitration|Arbitration]]
 - [[https://en.wikipedia.org/wiki/Pretty_Good_Privacy|Pretty Good Privacy]]
 == November 2017 ==
 - [[https://en.wikipedia.org/wiki/List_of_undecidable_problems|Undecidable Problems]]

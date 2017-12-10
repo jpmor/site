@@ -1,25 +1,27 @@
 
 = ReadingList =
 
-[[https://www.goodreads.com/jpm6|Goodreads]]
+  [[https://www.goodreads.com/jpm6|Goodreads]]
 
 == Queued ==
 
-- [ ] _The Code Book_ - Simon Singh
 - [ ] _Debt: The First 5,000 Years_ - David Graeber
 - [ ] _On Trails: An Exploration_ - Robert Moor
 
 == Finished ==
 
+=== 2017 ===
+
+- [X] _The Code Book_ - Simon Singh
 - [X] _Evicted_ - Mathew Desmond
 - [X] _Team of Rivals_ - Doris K. Goodwin
 - [X] _Empire of the Summer Moon_ - S.C. Gwynne
 - [X] _Undaunted Courage_ - Stephen Ambrose
-- [X] _Age of Ambition: Chasing Fortune, Truth, and Faith in the New China_ - Evan Osnos
+- [X] _Age of Ambition_ - Evan Osnos
 - [X] _Nothing to Envy_ - Barbara Demick
 - [X] _Surely You're Joking, Mr. Feynman!_ - Richard Feynman
 - [X] _The Invention of Nature_ - Andrea Wolf
-- [X] _A Distant Mirror: The Calamitous 14th Century_ - Barbara W. Tuchman
+- [X] _A Distant Mirror_ - Barbara W. Tuchman
 - [X] _Guns, Germs, and Steel_ - Jared Diamond
 - [X] _Midnight in the Garden of Good and Evil_ - John Berendt
 - [X] _The Idea Factory_ - Jon Gertner
@@ -31,6 +33,9 @@
 - [X] _Homo Deus_ - Yuval Noah Harari
 - [X] _The Making of the Atomic Bomb_ - Richard Rhodes
 - [X] _Annals of The Former World_ - John McPhee
+
+=== 2016 ===
+
 - [X] _John Adams_ - David McCullough
 - [X] _Shoe Dog_ - Phil Knight
 - [X] _Millenium_ - Ian Mortimer
