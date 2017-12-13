@@ -2,6 +2,7 @@
 = Wikipedias Worth Knowing =
 
 == December 2017 ==
+- [[https://en.wikipedia.org/wiki/Uncontacted_peoples|Uncontacted Peoples]]
 - [[https://en.wikipedia.org/wiki/Whitfield_Diffie|Whitfield Diffie]]
 - [[https://en.wikipedia.org/wiki/System|Systems]]
 - [[https://en.wikipedia.org/wiki/Arbitration|Arbitration]]
