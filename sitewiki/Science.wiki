@@ -2,6 +2,7 @@
 = Science =
 
 == December 2017 ==
+- [[https://www.quantamagazine.org/new-model-warns-about-crispr-gene-drives-in-the-wild-20171116/|CRISPR Gene Drives]]
 - [[http://nsidc.org/arcticseaicenews/2017/12/record-low-extent-in-the-chukchi-sea/|Chukchi Sea Ice]]
 == November 2017 ==
 - [[https://www.newyorker.com/magazine/2015/07/20/the-really-big-one|PNW Quake]]

@@ -4,7 +4,6 @@
 == December 2017 ==
 - [[https://sketchfab.com/|Sketchfab]]
 - [[https://github.com/s-macke/VoxelSpace|Terrain Rendering]]
-- [[http://www.openculture.com/2017/11/a-map-showing-how-much-time-it-takes-to-learn-foreign-languages-from-easiest-to-hardest.html|Languages for English Speakers]]
 == November 2017 ==
 - [[https://www.theatlantic.com/health/archive/2017/11/paying-for-fake-friends-and-family/545060/?single_page=true|Fake Friends]]
 - [[https://uss-la-ca135.org/60/1960Judkins-Knott.html|I Fell 15,000 Feet and Lived]]

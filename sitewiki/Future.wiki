@@ -2,6 +2,7 @@
 = Future =
 
 == December 2017 ==
+- [[https://www.justinobeirne.com/google-maps-moat|Google Maps Moat]]
 - [[https://www.sec.gov/news/public-statement/statement-clayton-2017-12-11|SEC on ICOs]]
 == November 2017 ==
 - [[https://staltz.com/the-web-began-dying-in-2014-heres-how.html|3 Tech Giants]]
