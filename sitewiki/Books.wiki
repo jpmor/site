@@ -5,46 +5,62 @@
 
 == Queued ==
 
-- [ ] _Debt: The First 5,000 Years_ - David Graeber
-- [ ] _On Trails: An Exploration_ - Robert Moor
+- [ ] _Skunk Works_ - Ben Rich
+- [ ] _The Path to Power_ - Robert A. Caro
+- [ ] _The Looming Tower_ - Lawrence Wright
+- [ ] _Word by Word_ - Kory Stamper
+- [ ] _Voices from Chernobyl_ - Svetlana Alexievich
+- [ ] _SPQR_ - Mary Beard
+- [ ] _Grant_ - Ron Chernow
+- [ ] _Bury My Heart at Wounded Knee_ - Dee Brown
+- [ ] _The Rise of Theodore Roosevelt_ - Edmund Morris
 
 == Finished ==
 
+=== 2018 ===
+
+- [X] ***** _The Path Between the Seas_ - David McCullough
+- [X] ****  _Peter the Great_ - Robert K. Massie
+- [X] ****  _Postwar_ - Tony Judt
+
 === 2017 ===
 
-- [X] _The Code Book_ - Simon Singh
-- [X] _Evicted_ - Mathew Desmond
-- [X] _Team of Rivals_ - Doris K. Goodwin
-- [X] _Empire of the Summer Moon_ - S.C. Gwynne
-- [X] _Undaunted Courage_ - Stephen Ambrose
-- [X] _Age of Ambition_ - Evan Osnos
-- [X] _Nothing to Envy_ - Barbara Demick
-- [X] _Surely You're Joking, Mr. Feynman!_ - Richard Feynman
-- [X] _The Invention of Nature_ - Andrea Wolf
-- [X] _A Distant Mirror_ - Barbara W. Tuchman
-- [X] _Guns, Germs, and Steel_ - Jared Diamond
-- [X] _Midnight in the Garden of Good and Evil_ - John Berendt
-- [X] _The Idea Factory_ - Jon Gertner
-- [X] _Cosmos_ - Carl Sagan
-- [X] _Titan_ - Ron Chernow
-- [X] _Alexander Hamilton_ - Ron Chernow
-- [X] _The Emperor of All Maladies_ - Siddhartha Mukherjee
-- [X] _Capital In the 21st Century_ - Thomas Piketty
-- [X] _Homo Deus_ - Yuval Noah Harari
-- [X] _The Making of the Atomic Bomb_ - Richard Rhodes
-- [X] _Annals of The Former World_ - John McPhee
+- [X] ***** _The Rise and Fall of the Third Reich_ - William Shirer
+- [X] ***** _The Guns of August_ - Barbara W. Tuchman
+- [X] ***   _The Code Book_ - Simon Singh
+- [X] ***** _Evicted_ - Mathew Desmond
+- [X] ***** _Team of Rivals_ - Doris K. Goodwin
+- [X] ***   _Empire of the Summer Moon_ - S.C. Gwynne
+- [X] ****  _Undaunted Courage_ - Stephen Ambrose
+- [X] ***   _Age of Ambition_ - Evan Osnos
+- [X] ***** _Nothing to Envy_ - Barbara Demick
+- [X] ***** _Surely You're Joking, Mr. Feynman!_ - Richard Feynman
+- [X] ****  _The Invention of Nature_ - Andrea Wolf
+- [X] ***** _A Distant Mirror_ - Barbara W. Tuchman
+- [X] ***   _Guns, Germs, and Steel_ - Jared Diamond
+- [X] ***   _Midnight in the Garden of Good and Evil_ - John Berendt
+- [X] ****  _The Idea Factory_ - Jon Gertner
+- [X] ***** _Cosmos_ - Carl Sagan
+- [X] ****  _Titan_ - Ron Chernow
+- [X] ****  _Alexander Hamilton_ - Ron Chernow
+- [X] ***   _The Emperor of All Maladies_ - Siddhartha Mukherjee
+- [X] ***** _Capital In the 21st Century_ - Thomas Piketty
+- [X] ***   _Homo Deus_ - Yuval Noah Harari
+- [X] ***** _The Making of the Atomic Bomb_ - Richard Rhodes
+- [X] ****  _Annals of The Former World_ - John McPhee
 
 === 2016 ===
 
-- [X] _John Adams_ - David McCullough
-- [X] _Shoe Dog_ - Phil Knight
-- [X] _Millenium_ - Ian Mortimer
-- [X] _On the Structures of Scientific Revolutions_ - Thomas Kuhn
-- [X] _The Gene_ - Siddhartha Mukherjee
-- [X] _The Intelligent Investor_ - Benjamin Graham
-- [X] _Man's Search for Meaning_ - Viktor Frankl
-- [X] _The Innovators_ - Walter Isaccson
-- [X] _Zero to One_ - Peter Thiel
-- [X] _Einstein: His Life and Universe_ - Walter Isaacson
-- [X] _A Short History of Nearly Everything_ - Bill Bryson
-- [X] _Godel, Eshcer, Bach: An Eternal Golden Braid_ - Douglas Hofstadter
+- [X] ***** _John Adams_ - David McCullough
+- [X] ****  _Shoe Dog_ - Phil Knight
+- [X] ****  _Millenium_ - Ian Mortimer
+- [X] ****  _On the Structures of Scientific Revolutions_ - Thomas Kuhn
+- [X] ****  _The Gene_ - Siddhartha Mukherjee
+- [X] ***   _The Intelligent Investor_ - Benjamin Graham
+- [X] ***** _Man's Search for Meaning_ - Viktor Frankl
+- [X] ****  _The Innovators_ - Walter Isaccson
+- [X] ***   _Zero to One_ - Peter Thiel
+- [X] ***   _Einstein: His Life and Universe_ - Walter Isaacson
+- [X] ****  _A Short History of Nearly Everything_ - Bill Bryson
+- [X] ***** _Godel, Eshcer, Bach: An Eternal Golden Braid_ - Douglas Hofstadter
+
