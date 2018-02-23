@@ -1,6 +1,8 @@
 
 = Tech =
 
+== January 2018 ==
+- [[https://arstechnica.com/cars/2018/01/driving-around-without-a-driver-lidar-technology-explained/|LIDAR]]
 == December 2017 ==
 - [[https://labs.spotify.com/2017/11/20/autoscaling-pub-sub-consumers/|Spotify Event Delivery]]
 - [[https://dmitryulyanov.github.io/deep_image_prior|Deep Image Priors]]

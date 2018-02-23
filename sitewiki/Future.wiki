@@ -1,6 +1,11 @@
 
 = Future =
 
+== February 2018 ==
+- [[https://www.theverge.com/2018/2/8/16985666/alexandra-elbakyan-sci-hub-open-access-science-papers-lawsuit|Scihub]]
+== January 2018 ==
+- [[https://stratechery.com/2018/amazons-go-and-the-future/|Amazon Go]]
+- [[https://www.alicemaz.com/writing/minecraft.html|Minecraft Economics]]
 == December 2017 ==
 - [[https://www.justinobeirne.com/google-maps-moat|Google Maps Moat]]
 - [[https://www.sec.gov/news/public-statement/statement-clayton-2017-12-11|SEC on ICOs]]
