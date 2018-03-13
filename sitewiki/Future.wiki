@@ -1,6 +1,8 @@
 
 = Future =
 
+== March 2018 ==
+- [[https://opkode.com/blog/slacks-bait-and-switch/|Slack Closes XMPP Gateways]]
 == February 2018 ==
 - [[https://www.theverge.com/2018/2/8/16985666/alexandra-elbakyan-sci-hub-open-access-science-papers-lawsuit|Scihub]]
 == January 2018 ==
