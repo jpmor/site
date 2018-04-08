@@ -8,8 +8,9 @@ h5 {font-size: 1.3em; color: #989898;}
 h6 {font-size: 1.2em; color: #9c9c9c;}
 p, pre, blockquote, table, ul, ol, dl {margin-top: 1em; margin-bottom: 1em;}
 ul ul, ul ol, ol ol, ol ul {margin-top: 0.5em; margin-bottom: 0.5em;}
-li {margin: 0.3em auto;}
-ul {margin-left: 2em; padding-left: 0.5em;}
+li {margin: 0.4em auto; list-style-type: none}
+li:before { content: '\2022';}
+ul {margin-left: 1em; padding-left: 0.0em;}
 dt {font-weight: bold;}
 img {border: none;}
 pre {border-left: 1px solid #ccc; margin-left: 2em; padding-left: 0.5em;}

@@ -1,7 +1,10 @@
 
 = Science =
 
+== April 2018 ==
+- [[https://www.johndcook.com/blog/2018/04/05/solar-system-on-log-scale/|Planet Distance Distributions]]
 == March 2018 ==
+- [[http://backreaction.blogspot.com/2018/03/the-multiworse-is-coming.html|Particle Physics Crisis]]
 - [[http://science.sciencemag.org/content/359/6380/1136.full|Ice-VII]]
 == December 2017 ==
 - [[https://www.quantamagazine.org/new-model-warns-about-crispr-gene-drives-in-the-wild-20171116/|CRISPR Gene Drives]]

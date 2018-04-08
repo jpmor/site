@@ -6,10 +6,9 @@
 == Queued ==
 
 - _Skunk Works_ - Ben Rich
-- _The Path to Power_ - Robert A. Caro
+- _Voices from Chernobyl_ - Svetlana Alexievich
 - _The Looming Tower_ - Lawrence Wright
 - _Word by Word_ - Kory Stamper
-- _Voices from Chernobyl_ - Svetlana Alexievich
 - _SPQR_ - Mary Beard
 - _Grant_ - Ron Chernow
 - _Bury My Heart at Wounded Knee_ - Dee Brown
@@ -19,6 +18,7 @@
 
 === 2018 ===
 
+- _The Path to Power_ - Robert A. Caro
 - _The Path Between the Seas_ - David McCullough
 - _Peter the Great_ - Robert K. Massie
 - _Postwar_ - Tony Judt

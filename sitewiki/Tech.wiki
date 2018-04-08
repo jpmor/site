@@ -1,6 +1,10 @@
 
 = Tech =
 
+== April 2018 ==
+- [[https://gravitational.com/blog/kubernetes-release-cycle/#|Kubernetes Release Cycle]]
+== March 2018 ==
+- [[http://www.tedinski.com/2018/03/13/how-compilers-are-designed.html|Compiler Design]]
 == January 2018 ==
 - [[https://arstechnica.com/cars/2018/01/driving-around-without-a-driver-lidar-technology-explained/|LIDAR]]
 == December 2017 ==

@@ -2,6 +2,7 @@
 = Future =
 
 == March 2018 ==
+- [[https://www.reuters.com/article/us-china-credit/china-to-bar-people-with-bad-social-credit-from-planes-trains-idUSKCN1GS10S|Once Untrustworthy, Always Restricted]]
 - [[https://opkode.com/blog/slacks-bait-and-switch/|Slack Closes XMPP Gateways]]
 == February 2018 ==
 - [[https://www.theverge.com/2018/2/8/16985666/alexandra-elbakyan-sci-hub-open-access-science-papers-lawsuit|Scihub]]
