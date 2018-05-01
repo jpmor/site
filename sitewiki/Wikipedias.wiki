@@ -1,6 +1,10 @@
 
 = Wikipedias Worth Knowing =
 
+== April 2018 ==
+- [[https://en.wikipedia.org/wiki/Campaign_finance_reform_in_the_United_States|Campaign Finance Reform in the United States]]
+- [[https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern|Pubsub]]
+- [[https://en.wikipedia.org/wiki/North_American_Cordillera|North American Cordillera]]
 == March 2018 ==
 - [[https://en.wikipedia.org/wiki/Atlantic_Seaboard_fall_line|Atlantic Seaboard Fall Line]]
 - [[https://en.wikipedia.org/wiki/Secretary_problem|Secretary Problem]]
