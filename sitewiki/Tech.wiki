@@ -1,6 +1,10 @@
 
 = Tech =
 
+== July 2018 ==
+- [[https://www.openstreetmap.org/user/jbelien/diary/44356|OpenStreetMap vs. Google Maps]]
+== June 2018 ==
+- [[https://blog.growthbot.org/chatbots-were-the-next-big-thing-what-happened]]
 == April 2018 ==
 - [[https://gravitational.com/blog/kubernetes-release-cycle/#|Kubernetes Release Cycle]]
 == March 2018 ==

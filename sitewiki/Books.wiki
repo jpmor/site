@@ -5,12 +5,15 @@
 
 == Queued ==
 
-- _The Complete Essays_ - Michel de Montaigne
+- _Pale Blue Dot_ - Carl Sagan
+- _House of Morgan_ - Ron Chernow
+- _India After Gandhi_ - Ramachandra Guha
+- _Complete Essays_ - Michel de Montaigne
 - _SPQR_ - Mary Beard
-- _The Looming Tower_ - Lawrence Wright
+- _Looming Tower_ - Lawrence Wright
 - _Grant_ - Ron Chernow
 - _Bury My Heart at Wounded Knee_ - Dee Brown
-- _The Rise of Theodore Roosevelt_ - Edmund Morris
+- _Rise of Theodore Roosevelt_ - Edmund Morris
 - _A Walk in the Woods_ - Bill Bryson
 - _A Brief History of Time_ - Stephen Hawking
 - _Thinking Fast and Slow_ - Daniel Kahneman
@@ -25,22 +28,25 @@
 
 === 2018 ===
 
+- _Histories_ - Herodotus
+- _Silk Roads_ - Peter Francopan
+- _Thirty Years War_ - Peter H. Wilson
 - _On Tyranny_ - Timothy Snyder
 - _Word by Word_ - Kory Stamper
 - _Skunk Works_ - Ben Rich
 - _Justice_ - Michael Sandel
 - _Reality Is Not What It Seems_ - Carlo Rovelli
 - _Voices From Chernobyl_ - Svetlana Alexievich
-- _The Path to Power_ - Robert A. Caro
-- _The Path Between the Seas_ - David McCullough
+- _Path to Power_ - Robert A. Caro
+- _Path Between the Seas_ - David McCullough
 - _Peter the Great_ - Robert K. Massie
 - _Postwar_ - Tony Judt
 
 === 2017 ===
 
-- _The Rise and Fall of the Third Reich_ - William Shirer
-- _The Guns of August_ - Barbara W. Tuchman
-- _The Code Book_ - Simon Singh
+- _Rise and Fall of the Third Reich_ - William Shirer
+- _Guns of August_ - Barbara W. Tuchman
+- _Code Book_ - Simon Singh
 - _Evicted_ - Mathew Desmond
 - _Team of Rivals_ - Doris K. Goodwin
 - _Empire of the Summer Moon_ - S.C. Gwynne
@@ -48,18 +54,18 @@
 - _Age of Ambition_ - Evan Osnos
 - _Nothing to Envy_ - Barbara Demick
 - _Surely You're Joking, Mr. Feynman!_ - Richard Feynman
-- _The Invention of Nature_ - Andrea Wolf
+- _Invention of Nature_ - Andrea Wolf
 - _A Distant Mirror_ - Barbara W. Tuchman
 - _Guns, Germs, and Steel_ - Jared Diamond
 - _Midnight in the Garden of Good and Evil_ - John Berendt
-- _The Idea Factory_ - Jon Gertner
+- _Idea Factory_ - Jon Gertner
 - _Cosmos_ - Carl Sagan
 - _Titan_ - Ron Chernow
 - _Alexander Hamilton_ - Ron Chernow
-- _The Emperor of All Maladies_ - Siddhartha Mukherjee
+- _Emperor of All Maladies_ - Siddhartha Mukherjee
 - _Capital In the 21st Century_ - Thomas Piketty
 - _Homo Deus_ - Yuval Noah Harari
-- _The Making of the Atomic Bomb_ - Richard Rhodes
+- _Making of the Atomic Bomb_ - Richard Rhodes
 - _Annals of The Former World_ - John McPhee
 
 === 2016 ===
