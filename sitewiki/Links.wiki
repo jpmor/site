@@ -1,14 +1,14 @@
 
 = Links =
 
- [[Interesting]]
+ [[interesting]]
 
- [[Tech]]
+ [[tech]]
 
- [[Science]]
+ [[science]]
 
- [[Future]]
+ [[future]]
 
- [[History]]
+ [[history]]
 
- [[Wikipedias]]
+ [[wikipedias]]
