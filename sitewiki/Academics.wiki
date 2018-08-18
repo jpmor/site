@@ -1,4 +1,4 @@
-= Academics =
+= Georgia Tech =
 
 == Computer Science ==
 * [[syllabi/CS_4641.pdf|CS 4641 - Machine Learning]]
