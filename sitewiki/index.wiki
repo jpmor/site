@@ -1,14 +1,14 @@
-
+  
 = jpmor =
 
   [[links]]
 
   [[academics]]
+  
+  [[places]]
 
   [[https://www.goodreads.com/jpmor|books]]
   
   [[https://500px.com/jpmor|photos]]
-  
-  [[places]]
   
   [[https://open.spotify.com/user/jayman386|music]]

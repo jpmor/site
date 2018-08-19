@@ -14,20 +14,20 @@ body {
     align-items: stretch;
     display: flex;
     justify-content: center;
-    font-size: 140%;
-    line-height: 130%;
+    font-size: 120%;
+    line-height: 120%;
 }
 
 h1, h2, h3, h4, h5 {
     line-height:100%; 
-    margin-top: 1.5em; 
+    margin-top: 1.0em; 
     margin-bottom: 0.5em;
     text-align: center;
     vertical-align: middle;
 }
 
 h1 {font-size: 1.4em; color: #909090;}
-h2 {font-size: 1.2em; color: #989898;}
+h2 {font-size: 1.1em; color: #989898;}
 h3 {font-size: 1.1em; color: #9c9c9c;}
 h4 {font-size: 1.4em; color: #909090;}
 h5 {font-size: 1.3em; color: #989898;}
@@ -47,7 +47,7 @@ li {margin: 0.4em auto; list-style-type: none;}
 ul {margin-left: 1em; padding-left: 0.0em;}
 ul {vertical-align: middle}
 /*dt {font-weight: bold;}*/
-img {border: none;}
+img {border: none; margin-bottom: none;}
 pre {border-left: 1px solid #ccc; margin-left: 2em; padding-left: 0.5em;}
 blockquote {padding: 0.4em; background-color: #f6f5eb;}
 th, td {border: 1px solid #ccc; padding: 0.3em;}

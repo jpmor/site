@@ -16,6 +16,10 @@
 
 <body>
     <div class="content">
+        <p>
+          <img src="favicon.png" alt="favicon" style="width:125px;" />
+        </p>
+
         %content%
     </div>
 </body>
