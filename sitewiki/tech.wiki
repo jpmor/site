@@ -1,12 +1,15 @@
 
 = Tech =
 
+== August 2018 ==
+- [[https://brandur.org/interfaces|Terminal Interfaces]]
 == July 2018 ==
 - [[https://www.openstreetmap.org/user/jbelien/diary/44356|OpenStreetMap vs. Google Maps]]
 == June 2018 ==
 - [[https://blog.growthbot.org/chatbots-were-the-next-big-thing-what-happened|Chatbots]]
 == April 2018 ==
 - [[https://gravitational.com/blog/kubernetes-release-cycle/#|Kubernetes Release Cycle]]
+- [[https://blog.cloudflare.com/announcing-1111/|1.1.1.1]]
 == March 2018 ==
 - [[http://www.tedinski.com/2018/03/13/how-compilers-are-designed.html|Compiler Design]]
 == January 2018 ==

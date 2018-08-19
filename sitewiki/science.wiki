@@ -1,6 +1,8 @@
 
 = Science =
 
+== August 2018 ==
+- [[https://www.quantamagazine.org/teenager-finds-classical-alternative-to-quantum-recommendation-algorithm-20180731/|A Quantum-Inspired Classical Algorithm For Recommendation Systems]]
 == April 2018 ==
 - [[https://www.johndcook.com/blog/2018/04/05/solar-system-on-log-scale/|Planet Distance Distributions]]
 == March 2018 ==
