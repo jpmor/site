@@ -2,6 +2,8 @@
 = Wikipedias Worth Knowing =
 
 == July 2018 ==
+- [[https://en.wikipedia.org/wiki/Boltzmann_brain|Boltzmann Brain]]
+- [[https://en.wikipedia.org/wiki/Timeline_of_the_far_future|Timeline of the Far Future]]
 - [[https://en.wikipedia.org/wiki/Voyager_2|Voyager 2]]
 - [[https://en.wikipedia.org/wiki/Lateral_thinking|Lateral Thinking]]
 - [[https://en.wikipedia.org/wiki/Chaos_Monkey|Chaos Monkey]]

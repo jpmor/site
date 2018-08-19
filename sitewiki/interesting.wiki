@@ -1,6 +1,10 @@
 
 = Interesting =
 
+== August 2018 ==
+- [[http://mchap.io/using-foia-data-and-unix-to-halve-major-source-of-parking-tickets.html |FOIA Parking Ticket Data]]
+== July 2018 ==
+- [[https://www.scottaaronson.com/writings/bignumbers.html|Big Numbers]]
 == April 2018 ==
 - [[https://rumorsontheinternets.org/2010/10/14/magnasanti-the-largest-and-most-terrifying-simcity/|Largest SimCity]]
 - [[https://www.vanityfair.com/news/2018/04/inside-el-faro-the-worst-us-maritime-disaster-in-decades|El Faro]]
