@@ -1,6 +1,8 @@
 
 = Wikipedias Worth Knowing =
 
+== August 2018 ==
+- [[https://en.wikipedia.org/wiki/Denial-of-service_attack |Denial-of-service Attack]]
 == July 2018 ==
 - [[https://en.wikipedia.org/wiki/Boltzmann_brain|Boltzmann Brain]]
 - [[https://en.wikipedia.org/wiki/Timeline_of_the_far_future|Timeline of the Far Future]]
