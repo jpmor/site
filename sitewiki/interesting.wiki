@@ -1,6 +1,8 @@
 
 = Interesting =
 
+== September 2018 ==
+- [[https://www.eff.org/takedowns|Takedown Hall of Shame]]
 == August 2018 ==
 - [[http://mchap.io/using-foia-data-and-unix-to-halve-major-source-of-parking-tickets.html |FOIA Parking Ticket Data]]
 == July 2018 ==

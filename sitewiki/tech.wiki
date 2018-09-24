@@ -1,6 +1,8 @@
 
 = Tech =
 
+== September 2018 ==
+- [[https://blog.discordapp.com/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429|WebRTC at Discord]]
 == August 2018 ==
 - [[https://brandur.org/interfaces|Terminal Interfaces]]
 == July 2018 ==
