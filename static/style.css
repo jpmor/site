@@ -32,10 +32,11 @@ h4, h5 {
   margin: 1.0em 33% 0.5em 33%;
 }
 
+h2 { padding-top: 0.5em;}
 h5 { padding-bottom: 1.2em;}
 
 h1 {font-size: 1.5em; color: #CCCCCC;}
-h2 {font-size: 1.1em; color: #989898;}
+h2 {font-size: 1.1em; color: #999999;}
 h3 {font-size: 1.1em; color: #9c9c9c;}
 h4 {font-size: 0.8em; color: #909090;}
 h5 {font-size: 0.8em; color: #b23afc;}
