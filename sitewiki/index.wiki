@@ -1,6 +1,8 @@
   
 = jpmor =
 
+  [[https://github.com/jpmor|projects]]
+  
   [[links]]
 
   [[courses]]

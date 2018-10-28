@@ -28,14 +28,12 @@ h1, h2, h3, h4, h5 {
   vertical-align: middle;
 }
 
-h4, h5 {
-  margin: 1.0em 33% 0.5em 33%;
-}
-
+h1 { padding-bottom: 0.5em;}
 h2 { padding-top: 0.5em;}
-h5 { padding-bottom: 1.2em;}
+h4 { font-weight: normal; }
+h5 { font-weight: normal; padding-bottom: 1.2em;}
 
-h1 {font-size: 1.5em; color: #CCCCCC;}
+h1 {font-size: 1.4em; color: #CCCCCC;}
 h2 {font-size: 1.1em; color: #999999;}
 h3 {font-size: 1.1em; color: #9c9c9c;}
 h4 {font-size: 0.8em; color: #aaaaaa;}
