@@ -1,5 +1,5 @@
 
-= Science =
+= science =
 
 == August 2018 ==
 - [[https://www.nature.com/articles/d41586-018-05988-z |Elusive Mitochondrial Connection to Inflammation Uncovered]]

@@ -1,5 +1,5 @@
 
-= Places =
+= places =
 
   {{../static/places/usa.png|usa|style="width:90%;"}}
 

@@ -1,9 +1,14 @@
 
-= Wikipedias Worth Knowing =
+k wikipedias worth knowing =
 
+== October 2018 ==
+- [[https://en.wikipedia.org/wiki/Jus_soli|Jus Soli]]
+- [[https://en.wikipedia.org/wiki/Statelessness|Statelessness]]
+== September 2018 ==
+- [[https://en.wikipedia.org/wiki/Unorganized_Borough,_Alaska|Unorganized Borough Alaska]]
 == August 2018 ==
 - [[https://wikipedia.org/wiki/5_Pointz|5 Pointz]]
-- [[https://en.wikipedia.org/wiki/Denial-of-service_attack |Denial-of-service Attack]]
+- [[https://en.wikipedia.org/wiki/Denial-of-service_attack|Denial-of-service Attack]]
 == July 2018 ==
 - [[https://en.wikipedia.org/wiki/Boltzmann_brain|Boltzmann Brain]]
 - [[https://en.wikipedia.org/wiki/Timeline_of_the_far_future|Timeline of the Far Future]]

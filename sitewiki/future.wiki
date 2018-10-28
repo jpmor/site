@@ -1,5 +1,5 @@
 
-= Future =
+= future =
 
 == September 2018 ==
 - [[https://dearmoon.earth/|Dear Moon]]

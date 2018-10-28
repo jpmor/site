@@ -1,6 +1,8 @@
 
-= Interesting =
+= interesting =
 
+== October 2018 ==
+- [[https://medium.com/@bananaft/my-journey-into-fractals-d25ebc6c4dc2|Journey Into Fractals]]
 == September 2018 ==
 - [[https://www.eff.org/takedowns|Takedown Hall of Shame]]
 == August 2018 ==

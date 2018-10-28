@@ -3,7 +3,7 @@
 
   [[links]]
 
-  [[academics]]
+  [[courses]]
   
   [[places]]
 
@@ -12,3 +12,5 @@
   [[https://500px.com/jpmor|photos]]
   
   [[https://open.spotify.com/user/jayman386|music]]
+  
+  [[quotes]]
