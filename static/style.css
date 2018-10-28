@@ -38,8 +38,8 @@ h5 { padding-bottom: 1.2em;}
 h1 {font-size: 1.5em; color: #CCCCCC;}
 h2 {font-size: 1.1em; color: #999999;}
 h3 {font-size: 1.1em; color: #9c9c9c;}
-h4 {font-size: 0.8em; color: #909090;}
-h5 {font-size: 0.8em; color: #b23afc;}
+h4 {font-size: 0.8em; color: #aaaaaa;}
+h5 {font-size: 0.8em; color: #66ffb3;}
 
 p, pre, blockquote, table, ul, ol, dl {
   margin-top: 1em; 
@@ -52,6 +52,10 @@ ul ul, ul ol, ol ol, ol ul {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+a:link {color: #66d9ff;}
+a:visited {color: #8c66ff;}
+a:active {color: #8c66ff;}
+
 li {margin: 0.4em auto; list-style-type: none;}
 ul {margin-left: 1em; padding-left: 0.0em;}
 ul {vertical-align: middle}

@@ -3,18 +3,20 @@
 
 ==== "Ideas come to us out of order." ====
 ===== Simon Flexner =====
-==== "External circumstances take their savor and color from the inner constitution, just as clothes keep us warm not by their heat but by our own." ====
-===== Michel de Montaigne  =====
 ==== "In real life, every age is a checkerboard of light and dark." ====
 ===== Barbara Tuchman =====
 ==== "The future is already here. It's just not evenly distributed." ====
 ===== William Gibson =====
+==== "An expert is one who has made all the mistakes which can be made in a very narrow field." ====
+===== Niels Bohr =====
 ==== "The unwise is awake all night, worries over and again. When morning rises, restless still." ====
 ===== A Norse Proverb =====
-==== "The universe is not only queerer than we suppose, but queerer than we can suppose." ====
-===== JBS Haldane =====
+==== "External circumstances take their savor and color from the inner constitution, just as clothes keep us warm not by their heat but by our own." ====
+===== Michel de Montaigne  =====
 ==== "Memory is the mother of all wisdom." ====
 ===== Aeschylus =====
+==== "To succeed in this world you don't need to be much cleverer than other people, you just have to be one day earlier." ====
+===== Leo Szilard =====
 ==== "Nothing ages as fast as the future." ====
 ===== Stanisław Lem =====
 ==== "It is all the same whether one has good ideas oneself or is prepared to listen to someone else who is offering good advice." ====
@@ -29,14 +31,12 @@
 ===== Mark Twain =====
 ==== "A rising tide lifts all boats." ====
 ===== John F. Kennedy =====
-==== "An expert is one who has made all the mistakes which can be made in a very narrow field." ====
-===== Niels Bohr =====
+==== "The universe is not only queerer than we suppose, but queerer than we can suppose." ====
+===== JBS Haldane =====
 ==== "Given enough time, hydrogen starts to wonder where it came from." ====
 ===== Edward Robert Harrison =====
 ==== "The path is made in the walking of it." ====
 ===== Zhuangzi =====
-==== "If you want to succeed in this world you don't need to be much cleverer than other people, you just have to be one day earlier." ====
-=====  Leo Szilard =====
 ==== "Your margin is my opportunity" ====
 ===== Jeff Bezos =====
 ==== "The Namche Barwa will one day fall into the Tsangpo gorge and block the river, which will then turn aside and flow over the Doshong La" ====
@@ -77,7 +77,5 @@
 ===== Otto van Bismark =====
 ==== "The harder you work, the luckier you get." ====
 ===== Gary Player =====
-==== "Things that look like expensive toys are often future." ====
-===== Chris Dixon =====
 ==== "We should look for what is, and not for what we think should be." ====
 ===== Albert Einstein =====
