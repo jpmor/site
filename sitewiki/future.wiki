@@ -1,6 +1,8 @@
 
 = future =
 
+== November 2018 ==
+- [[https://marian42.itch.io/wfc|Wave Function Collapse]]
 == September 2018 ==
 - [[https://dearmoon.earth/|Dear Moon]]
 - [[https://www.theguardian.com/cities/2018/sep/18/paradise-life-spanish-city-banned-cars-pontevedra|Pontevedra Pedestrians]]

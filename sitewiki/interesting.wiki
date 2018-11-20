@@ -2,6 +2,7 @@
 = interesting =
 
 == October 2018 ==
+- [[https://medium.com/@jingtheory/what-i-learned-from-making-hot-sauce-at-scale-2cbb8ec709ba|Scaling Hot Sauce]]
 - [[https://medium.com/@bananaft/my-journey-into-fractals-d25ebc6c4dc2|Journey Into Fractals]]
 == September 2018 ==
 - [[https://www.eff.org/takedowns|Takedown Hall of Shame]]
