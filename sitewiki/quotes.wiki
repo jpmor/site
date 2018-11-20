@@ -1,6 +1,8 @@
 
 = quotes =
 
+==== It is all the same whether one has good ideas oneself or is prepared to listen to someone else who is offering good advice. ====
+===== Artabanus =====
 ==== Ideas come to us out of order. ====
 ===== Simon Flexner =====
 ==== The future is already here. It's just not evenly distributed. ====
@@ -19,8 +21,6 @@
 ===== Leo Szilard =====
 ==== Nothing ages as fast as the future. ====
 ===== Stanisław Lem =====
-==== It is all the same whether one has good ideas oneself or is prepared to listen to someone else who is offering good advice. ====
-===== Artabanus =====
 ==== Dreams are maps. ====
 ===== Carl Sagan =====
 ==== Everybody has a plan until they get punched in the mouth. ====
