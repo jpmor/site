@@ -1,6 +1,9 @@
 
 = science =
 
+== November 2018 ==
+- [[https://www.sciencemag.org/news/2018/11/massive-crater-under-greenland-s-ice-points-climate-altering-impact-time-humans|Greenland Impact Crater]]
+- [[https://www.cbc.ca/news/technology/hemimastigotes-supra-kingdom-1.4715823|Hemimastigotes Discovered]]
 == August 2018 ==
 - [[https://www.nature.com/articles/d41586-018-05988-z |Elusive Mitochondrial Connection to Inflammation Uncovered]]
 - [[https://www.quantamagazine.org/teenager-finds-classical-alternative-to-quantum-recommendation-algorithm-20180731/|A Quantum-Inspired Classical Algorithm For Recommendation Systems]]

@@ -2,6 +2,7 @@
 = future =
 
 == November 2018 ==
+- [[https://ai.googleblog.com/2018/11/night-sight-seeing-in-dark-on-pixel.html|Pixel Night Sight]]
 - [[https://marian42.itch.io/wfc|Wave Function Collapse]]
 == September 2018 ==
 - [[https://dearmoon.earth/|Dear Moon]]
