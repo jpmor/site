@@ -1,6 +1,13 @@
 
 = wikipedias worth knowing =
 
+== November 2018 ==
+- [[https://en.wikipedia.org/wiki/System_time|System time]]
+- [[https://en.wikipedia.org/wiki/IPhone|iPhone]]
+- [[https://en.wikipedia.org/wiki/Aral_Sea|Aral Sea]]
+- [[https://en.wikipedia.org/wiki/Internet_protocol_suite|Internet Protocol Suite]]
+- [[https://en.wikipedia.org/wiki/Dateline|Dateline]]
+- [[https://en.wikipedia.org/wiki/Airglow|Airglow]]
 == October 2018 ==
 - [[https://en.wikipedia.org/wiki/Jus_soli|Jus Soli]]
 - [[https://en.wikipedia.org/wiki/Statelessness|Statelessness]]
