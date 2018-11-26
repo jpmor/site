@@ -2,7 +2,7 @@
 = wikipedias worth knowing =
 
 == November 2018 ==
-- [[https://en.wikipedia.org/wiki/System_time|System time]]
+- [[https://en.wikipedia.org/wiki/System_time|System Time]]
 - [[https://en.wikipedia.org/wiki/IPhone|iPhone]]
 - [[https://en.wikipedia.org/wiki/Aral_Sea|Aral Sea]]
 - [[https://en.wikipedia.org/wiki/Internet_protocol_suite|Internet Protocol Suite]]
@@ -148,9 +148,9 @@
 - [[https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe|Johann Wolfgang von Goethe]]
 - [[https://en.wikipedia.org/wiki/Apache_Software_Foundation|Apache Software Foundation]]
 - [[https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz|Gottfried Wilhelm Leibniz]]
-- [[https://en.wikipedia.org/wiki/Extreme_points_of_Earth|Extreme points of Earth]]
+- [[https://en.wikipedia.org/wiki/Extreme_points_of_Earth|Extreme Points of Earth]]
 - [[https://en.wikipedia.org/wiki/Bioinformatics|Bioinformatics]]
-- [[https://en.wikipedia.org/wiki/Random_forest|Random forest]]
+- [[https://en.wikipedia.org/wiki/Random_forest|Random Forest]]
 - [[https://en.wikipedia.org/wiki/Whitney_v._California|Whitney v. California]]
 - [[https://en.wikipedia.org/wiki/Time|Time]]
 == October 2015 ==
@@ -204,7 +204,6 @@
 == December 2014 ==
 - [[https://en.wikipedia.org/wiki/Georg_Cantor|Georg Cantor]]
 - [[https://en.wikipedia.org/wiki/John_Carmack|John Carmack]]
-- [[https://en.wikipedia.org/wiki/Martin_Rees,_Baron_Rees_of_Ludlow|Martin Rees, Baron Rees of Ludlow]]
 - [[https://en.wikipedia.org/wiki/International_Space_Station|International Space Station]]
 - [[https://en.wikipedia.org/wiki/Cerebral_cortex|Cerebral cortex]]
 - [[https://en.wikipedia.org/wiki/Linux|Linux]]

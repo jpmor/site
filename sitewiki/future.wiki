@@ -2,8 +2,7 @@
 = future =
 
 == November 2018 ==
-- [[https://ai.googleblog.com/2018/11/night-sight-seeing-in-dark-on-pixel.html|Pixel Night Sight]]
-- [[https://marian42.itch.io/wfc|Wave Function Collapse]]
+- [[https://www.iea.org/newsroom/news/2018/october/population-without-access-to-electricity-falls-below-1-billion.html|Less Than 1B Without Electricity]]
 == September 2018 ==
 - [[https://dearmoon.earth/|Dear Moon]]
 - [[https://www.theguardian.com/cities/2018/sep/18/paradise-life-spanish-city-banned-cars-pontevedra|Pontevedra Pedestrians]]
