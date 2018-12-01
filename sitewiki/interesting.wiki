@@ -2,6 +2,7 @@
 = interesting =
 
 == November 2018 ==
+- [[https://libraryofbabel.info/|Library of Babel]]
 - [[https://marian42.itch.io/wfc|Wave Function Collapse]]
 == October 2018 ==
 - [[https://medium.com/@jingtheory/what-i-learned-from-making-hot-sauce-at-scale-2cbb8ec709ba|Scaling Hot Sauce]]

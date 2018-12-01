@@ -2,6 +2,8 @@
 = wikipedias worth knowing =
 
 == November 2018 ==
+- [[https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum|Andrew S. Tanenbaum]]
+- [[https://en.wikipedia.org/wiki/Year_2038_problem|Year 2038 Problem]]
 - [[https://en.wikipedia.org/wiki/System_time|System Time]]
 - [[https://en.wikipedia.org/wiki/IPhone|iPhone]]
 - [[https://en.wikipedia.org/wiki/Aral_Sea|Aral Sea]]
