@@ -1,6 +1,10 @@
 
 = wikipedias worth knowing =
 
+== December 2018 ==
+- [[https://en.wikipedia.org/wiki/Food_industry|Food Industry]]
+- [[https://en.wikipedia.org/wiki/Lipschitz_continuity|Lipschitz Continuity]]
+- [[https://en.wikipedia.org/wiki/Agriculture|Agriculture]]
 == November 2018 ==
 - [[https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum|Andrew S. Tanenbaum]]
 - [[https://en.wikipedia.org/wiki/Year_2038_problem|Year 2038 Problem]]
