@@ -1,6 +1,8 @@
 
 = science =
 
+== January 2019 ==
+- [[https://www.nature.com/articles/d41586-018-07848-2|Superconductive Graphene]]
 == December 2018 ==
 - [[http://theconversation.com/bizarre-dark-fluid-with-negative-mass-could-dominate-the-universe-what-my-research-suggests-107922|Negative Mass]]
 == November 2018 ==

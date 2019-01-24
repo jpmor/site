@@ -1,6 +1,10 @@
 
 = tech =
 
+== January 2019 ==
+- [[https://scottbot.net/the-route-of-a-text-message/|The Route of a Text Message]]
+== December 2018 ==
+- [[https://www.ipp.mpg.de/4550215/11_18|Wendelstein 7-X]]
 == November 2018 ==
 - [[https://ai.googleblog.com/2018/11/night-sight-seeing-in-dark-on-pixel.html|Pixel Night Sight]]
 == September 2018 ==

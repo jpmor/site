@@ -1,0 +1,6 @@
+
+= research =
+
+== December 2018 ==
+- [[https://arxiv.org/pdf/1812.03651.pdf]]
+- [[https://arxiv.org/abs/1801.06146]]

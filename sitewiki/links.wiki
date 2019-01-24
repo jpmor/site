@@ -6,9 +6,9 @@
   [[tech]]
 
   [[science]]
- 
+
   [[future]]
- 
+
   [[history]]
- 
-  [[wikipedias]]
+
+  [[wwk|wikipedias]]

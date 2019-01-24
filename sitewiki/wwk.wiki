@@ -1,6 +1,12 @@
 
 = wikipedias worth knowing =
 
+== January 2019 ==
+- [[https://en.wikipedia.org/wiki/Yeast|Yeast]]
+- [[https://en.wikipedia.org/wiki/Longue_durée|Longue Durée]]
+- [[https://en.wikipedia.org/wiki/Hadley_cell|Hadley Cell]]
+- [[https://en.wikipedia.org/wiki/Trade_winds|Trade Winds]]
+- [[https://en.wikipedia.org/wiki/Puerto_Rico_Trench|Puerto Rico Trench]]
 == December 2018 ==
 - [[https://en.wikipedia.org/wiki/Food_industry|Food Industry]]
 - [[https://en.wikipedia.org/wiki/Lipschitz_continuity|Lipschitz Continuity]]
