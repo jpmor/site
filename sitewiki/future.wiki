@@ -2,7 +2,7 @@
 = future =
 
 == January 2019 ==
-- [[https://www.citylab.com/transportation/2019/01/commuting-to-work-data-car-public-transit-bike/580507/|A Divide in Americans Commutes]]
+- [[https://www.citylab.com/transportation/2019/01/commuting-to-work-data-car-public-transit-bike/580507/|A Divide in American Commutes]]
 - [[https://opaque.link/post/dropgang/|Dropgangs]]
 == November 2018 ==
 - [[https://www.iea.org/newsroom/news/2018/october/population-without-access-to-electricity-falls-below-1-billion.html|Less Than 1B Without Electricity]]
