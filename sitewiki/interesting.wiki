@@ -1,7 +1,11 @@
 
 = interesting =
 
+== March 2019 ==
+- [[https://news.nationalgeographic.com/2016/09/australia-moves-gps-coordinates-adjusted-continental-drift/|Australian Drift]]
+- [[https://www.directexpose.com/paraglider-ewa-wisnierska-storm/|Ewa Wisnierska Glider Storm]]
 == February 2019 ==
+- [[https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure|Wolfram Personal Infrastructure]]
 - [[https://walkkumano.com/|Kumano Kodo]]
 - [[https://craigmod.com/essays/newsletters/|It's Raining Newsletters]]
 == December 2018 ==

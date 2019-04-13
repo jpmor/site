@@ -1,25 +1,31 @@
 
 = wikipedias worth knowing =
 
+== March 2019 ==
+- [[https://en.wikipedia.org/wiki/Daedalus|Daedalus]]
+- [[https://en.wikipedia.org/wiki/Border_Gateway_Protocol|Border Gateway Protocol]]
+- [[https://en.wikipedia.org/wiki/Esperanto|Esperanto]]
+- [[https://en.wikipedia.org/wiki/Hidden-variable_theory|Hidden-variable theory]]
+- [[https://en.wikipedia.org/wiki/Kolmogorov_complexity|Kolmogorov complexity]]
 == January 2019 ==
-- [[https://en.wikipedia.org/wiki/Fog_of_war|Fog of War]]
+- [[https://en.wikipedia.org/wiki/Fog_of_war|Fog of war]]
 - [[https://en.wikipedia.org/wiki/Aspirin|Aspirin]]
 - [[https://en.wikipedia.org/wiki/Yeast|Yeast]]
-- [[https://en.wikipedia.org/wiki/Longue_durée|Longue Durée]]
-- [[https://en.wikipedia.org/wiki/Hadley_cell|Hadley Cell]]
-- [[https://en.wikipedia.org/wiki/Trade_winds|Trade Winds]]
+- [[https://en.wikipedia.org/wiki/Longue_durée|Longue durée]]
+- [[https://en.wikipedia.org/wiki/Hadley_cell|Hadley cell]]
+- [[https://en.wikipedia.org/wiki/Trade_winds|Trade winds]]
 - [[https://en.wikipedia.org/wiki/Puerto_Rico_Trench|Puerto Rico Trench]]
 == December 2018 ==
-- [[https://en.wikipedia.org/wiki/Food_industry|Food Industry]]
-- [[https://en.wikipedia.org/wiki/Lipschitz_continuity|Lipschitz Continuity]]
+- [[https://en.wikipedia.org/wiki/Food_industry|Food industry]]
+- [[https://en.wikipedia.org/wiki/Lipschitz_continuity|Lipschitz continuity]]
 - [[https://en.wikipedia.org/wiki/Agriculture|Agriculture]]
 == November 2018 ==
 - [[https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum|Andrew S. Tanenbaum]]
-- [[https://en.wikipedia.org/wiki/Year_2038_problem|Year 2038 Problem]]
-- [[https://en.wikipedia.org/wiki/System_time|System Time]]
+- [[https://en.wikipedia.org/wiki/Year_2038_problem|Year 2038 problem]]
+- [[https://en.wikipedia.org/wiki/System_time|System time]]
 - [[https://en.wikipedia.org/wiki/IPhone|iPhone]]
 - [[https://en.wikipedia.org/wiki/Aral_Sea|Aral Sea]]
-- [[https://en.wikipedia.org/wiki/Internet_protocol_suite|Internet Protocol Suite]]
+- [[https://en.wikipedia.org/wiki/Internet_protocol_suite|Internet protocol suite]]
 - [[https://en.wikipedia.org/wiki/Dateline|Dateline]]
 - [[https://en.wikipedia.org/wiki/Airglow|Airglow]]
 == October 2018 ==
@@ -79,7 +85,6 @@
 - [[https://en.wikipedia.org/wiki/Global_Positioning_System|GPS]]
 == December 2016 ==
 - [[https://en.wikipedia.org/wiki/Low-background_steel|Low-background Steel]]
-- [[https://en.wikipedia.org/wiki/Andrey_Kolmogorov|Andrey Kolmogorov]]
 - [[https://en.wikipedia.org/wiki/Moment_(mathematics)|Moment (mathematics)]]
 == November 2016 ==
 - [[https://en.wikipedia.org/wiki/Interplanetary_Transport_Network|Interplanetary Transport Network]]
