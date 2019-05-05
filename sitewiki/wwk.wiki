@@ -1,6 +1,10 @@
 
 = wikipedias worth knowing =
 
+== May 2019 ==
+- [[https://en.wikipedia.org/wiki/Cosmological_constant_problem|Cosmological constant problem]]
+- [[https://en.wikipedia.org/wiki/Edward_Teller|Edward Teller]]
+- [[https://en.wikipedia.org/wiki/Horizon_problem|Horizon Problem]]
 == March 2019 ==
 - [[https://en.wikipedia.org/wiki/Daedalus|Daedalus]]
 - [[https://en.wikipedia.org/wiki/Border_Gateway_Protocol|Border Gateway Protocol]]
