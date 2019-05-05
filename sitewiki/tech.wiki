@@ -1,6 +1,9 @@
 
 = tech =
 
+== May 2019 ==
+- [[http://web.stanford.edu/class/cs166/handouts/100%20Suggested%20Final%20Project%20Topics.pdf|Datastructure Projects]]
+- [[http://images.globalknowledge.com/wwwimages/whitepaperpdf/WP_Mays_Ping.pdf|The Ping Program]]
 == April 2019 ==
 - [[https://cstack.github.io/db_tutorial/|DB Tutorial]]
 == January 2019 ==
