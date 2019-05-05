@@ -2,8 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Georgia, serif; 
-  font-family: Verdana, sanserif; 
+  font-family: Georgia, serif;
+  font-family: Verdana, sanserif;
+  text-decoration: none;
 }
 
 html, body {
@@ -16,48 +17,38 @@ body {
   align-items: stretch;
   display: flex;
   justify-content: center;
-  font-size: 120%;
+  font-size: 100%;
   line-height: 120%;
 }
 
 h1, h2, h3, h4, h5 {
-  line-height:100%; 
-  margin-top: 1.0em; 
+  line-height:100%;
+  margin-top: 1.0em;
   margin-bottom: 0.5em;
   text-align: center;
   vertical-align: middle;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-h1 { padding-bottom: 0.5em;}
-h2 { padding-top: 0.5em;}
-h4 { font-weight: normal; }
-h5 { font-weight: normal; padding-bottom: 1.2em;}
-
-h1 {font-size: 1.4em; color: #CCCCCC;}
-h2 {font-size: 1.1em; color: #999999;}
-h3 {font-size: 1.1em; color: #9c9c9c;}
-h4 {font-size: 0.8em; color: #aaaaaa;}
-h5 {font-size: 0.8em; color: #66ffb3;}
+h1 a {color: #CCCCCC; padding-bottom: 0.5em;}
+h2 a {color: #999999; padding-top: 0.5em;}
+h3 a {color: #9c9c9c;}
+h4 a {color: #aaaaaa; font-weight: normal;}
+h5 a {color: #66ffb3; font-weight: normal; padding-bottom: 1.2em;}
 
 p, pre, blockquote, table, ul, ol, dl {
-  margin-top: 1em; 
-  margin-bottom: 1em; 
+  margin-top: 1em;
+  margin-bottom: 1em;
   text-align: center;
-  vertical-align: middle;
 }
 
-ul ul, ul ol, ol ol, ol ul {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-a:link {color: #66d9ff;}
-a:visited {color: #8c66ff;}
-a:active {color: #8c66ff;}
+p a:link {color: #66d9ff;}
+p a:visited {color: #8c66ff;}
+p a {font-size: 125%}
 
-li {margin: 0.4em auto; list-style-type: none;}
+li {margin: 0.4em auto; list-style-type: none; font-size: 125%;}
 ul {margin-left: 1em; padding-left: 0.0em;}
-ul {vertical-align: middle}
-/*dt {font-weight: bold;}*/
 img {border: none; margin-bottom: none;}
 pre {border-left: 1px solid #ccc; margin-left: 2em; padding-left: 0.5em;}
 blockquote {padding: 0.4em; background-color: #f6f5eb;}
