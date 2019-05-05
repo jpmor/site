@@ -48,8 +48,8 @@ p, pre, blockquote, table, ul, ol, dl {
   text-align: center;
 }
 
-p a:link {color: #66d9ff;}
-p a:visited {color: #8c66ff;}
+p a:link, ul a:link {color: #66d9ff;}
+p a:visited, ul a:visited {color: #8c66ff;}
 p a {font-size: 125%}
 
 li {margin: 0.4em auto; list-style-type: none; font-size: 125%;}
