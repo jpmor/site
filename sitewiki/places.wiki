@@ -1,6 +1,6 @@
 
 = places =
 
-  {{../static/places/usa|usa|style="width:90%;"}}
+{{../static/places/usa|usa|style="width:90%;"}}
 
-  {{../static/places/global|global|style="width:90%;"}}
+{{../static/places/global|global|style="width:90%;"}}

@@ -1,18 +1,18 @@
-  
+
 = jpmor =
 
-  [[https://github.com/jpmor|projects]]
-  
-  [[links]]
+[[https://github.com/jpmor|projects]]
 
-  [[courses]]
-  
-  [[places]]
+[[links]]
 
-  [[https://www.goodreads.com/jpmor|books]]
-  
-  [[https://500px.com/jpmor|photos]]
-  
-  [[https://open.spotify.com/user/jayman386|music]]
-  
-  [[quotes]]
+[[courses]]
+
+[[places]]
+
+[[https://www.goodreads.com/jpmor|books]]
+
+[[https://500px.com/jpmor|photos]]
+
+[[https://open.spotify.com/user/jayman386|music]]
+
+[[quotes]]
