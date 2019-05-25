@@ -2,6 +2,7 @@
 = tech =
 
 == May 2019 ==
+- [[https://sidbala.com/h-264-is-magic/|H.264 is Magic]]
 - [[https://pandoc.org/|Pandoc]]
 - [[https://distill.pub/|distill.pub]]
 - [[https://dave.cheney.net/2019/05/14/why-bother-writing-tests-at-all|Why bother writing tests at all?]]
