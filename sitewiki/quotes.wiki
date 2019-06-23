@@ -1,81 +1,81 @@
 
 = quotes =
 
-=== It is all the same whether one has good ideas oneself or is prepared to listen to someone else who is offering good advice. ===
+    It is all the same whether one has good ideas oneself or is prepared to listen to someone else who is offering good advice.
 ==== Artabanus ====
-=== Ideas come to us out of order. ===
+    Ideas come to us out of order.
 ==== Simon Flexner ====
-=== The future is already here. It's just not evenly distributed. ===
+    The future is already here. It's just not evenly distributed.
 ==== William Gibson ====
-=== Everybody has a plan until they get punched in the mouth. ===
+    Everybody has a plan until they get punched in the mouth.
 ==== Mike Tyson ====
-=== In real life, every age is a checkerboard of light and dark. ===
+    In real life, every age is a checkerboard of light and dark.
 ==== Barbara Tuchman ====
-=== The unwise is awake all night, worries over and again. When morning rises, restless still. ===
+    The unwise is awake all night, worries over and again. When morning rises, restless still.
 ==== A Norse Proverb ====
-=== The dogs may bark, but the caravan moves on. ===
+    The dogs may bark, but the caravan moves on.
 ==== Montagu Norman ====
-=== An expert is one who has made all the mistakes which can be made in a very narrow field. ===
+    An expert is one who has made all the mistakes which can be made in a very narrow field.
 ==== Niels Bohr ====
-=== External circumstances take their savor and color from the inner constitution, just as clothes keep us warm not by their heat but by our own. ===
+    External circumstances take their savor and color from the inner constitution, just as clothes keep us warm not by their heat but by our own.
 ==== Michel de Montaigne  ====
-=== Memory is the mother of all wisdom. ===
+    Memory is the mother of all wisdom.
 ==== Aeschylus ====
-=== To succeed in this world you don't need to be much cleverer than other people, you just have to be one day earlier. ===
+    To succeed in this world you don't need to be much cleverer than other people, you just have to be one day earlier.
 ==== Leo Szilard ====
-=== Nothing ages as fast as the future. ===
+    Nothing ages as fast as the future.
 ==== Stanisław Lem ====
-=== Dreams are maps. ===
+    Dreams are maps.
 ==== Carl Sagan ====
-=== The rock in a column is more apt to commemorate a moment than to report a millennium. ===
+    The rock in a column is more apt to commemorate a moment than to report a millennium.
 ==== John McPhee ====
-=== It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so. ===
+    It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so.
 ==== Mark Twain ====
-=== A rising tide lifts all boats. ===
+    A rising tide lifts all boats.
 ==== John F. Kennedy ====
-=== The universe is not only queerer than we suppose, but queerer than we can suppose. ===
+    The universe is not only queerer than we suppose, but queerer than we can suppose.
 ==== JBS Haldane ====
-=== Given enough time, hydrogen starts to wonder where it came from. ===
+    Given enough time, hydrogen starts to wonder where it came from.
 ==== Edward Robert Harrison ====
-=== The path is made in the walking of it. ===
+    The path is made in the walking of it.
 ==== Zhuangzi ====
-=== Your margin is my opportunity ===
+    Your margin is my opportunity
 ==== Jeff Bezos ====
-=== The Namche Barwa will one day fall into the Tsangpo gorge and block the river, which will then turn aside and flow over the Doshong La ===
+    The Namche Barwa will one day fall into the Tsangpo gorge and block the river, which will then turn aside and flow over the Doshong La
 ==== A Kongbo Tibetan Prophecy ====
-=== Such as thou art, so once was I. As I am now, so shalt thou be. ===
+    Such as thou art, so once was I. As I am now, so shalt thou be.
 ==== Edward the Black Prince ====
-=== A lag stretches between the happenings of a historical process and it's recognition. ===
-==== Barbara W. Tuchman ====
-=== All efforts against the prevailing trend of history - which is not always obvious - are doomed to failure. ===
+    A lag stretches between the happenings of a historical process and it's recognition.
+==== Barbara Tuchman ====
+    All efforts against the prevailing trend of history - which is not always obvious - are doomed to failure.
 ==== Fernand Braudel ====
-=== Italy is cultivated right up to the mountain tops. ===
+    Italy is cultivated right up to the mountain tops.
 ==== Guicciardini ====
-=== India lives in its villages. ===
+    India lives in its villages.
 ==== Gandhi ====
-=== The eye seldom sees what the mind does not anticipate. ===
+    The eye seldom sees what the mind does not anticipate.
 ==== Robertson Davies ====
-=== The steepest places have been at all times the asylum of liberty. ===
+    The steepest places have been at all times the asylum of liberty.
 ==== Baron de Tott ====
-=== Institutions are the shadows of men. ===
+    Institutions are the shadows of men.
 ==== Emerson ====
-=== The Stone Age did not end for lack of stone. ===
+    The Stone Age did not end for lack of stone.
 ==== Sheikh Zaki Yamani, Saudi oil minister ====
-=== En toute chose il faut considérer la fin. ===
+    En toute chose il faut considérer la fin.
 ==== Jean de La Fontaine ====
-=== The best way to predict the future is to invent it. ===
+    The best way to predict the future is to invent it.
 ==== Alan Kay ====
-=== You don't need a weatherman to know which way the wind blows. ===
+    You don't need a weatherman to know which way the wind blows.
 ==== Bob Dylan ====
-=== The one who moves a mountain begins by carrying away small stones. ===
+    The one who moves a mountain begins by carrying away small stones.
 ==== Confucius ====
-=== It is only slightly overstating the case to say that physics is the study of symmetry. ===
+    It is only slightly overstating the case to say that physics is the study of symmetry.
 ==== PW Anderson  ====
-=== To teach is to learn twice. ===
+    To teach is to learn twice.
 ==== Joseph Joubert ====
-=== Only a fool learns from his own mistakes. The wise man learns from the mistakes of others. ===
+    Only a fool learns from his own mistakes. The wise man learns from the mistakes of others.
 ==== Otto van Bismark ====
-=== The harder you work, the luckier you get. ===
+    The harder you work, the luckier you get.
 ==== Gary Player ====
-=== We should look for what is, and not for what we think should be. ===
+    We should look for what is, and not for what we think should be.
 ==== Albert Einstein ====
