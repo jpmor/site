@@ -2,6 +2,7 @@
 = future =
 
 == June 2019 ==
+- [[https://www.eff.org/cases/hiq-v-linkedin|hiQ v. LinkedIn]]
 - [[https://idlewords.com/2019/06/the_new_wilderness.htm|The New Wilderness]]
 - [[https://www.city-journal.org/decline-of-family-loneliness-epidemic|Loneliness Epidemic]]
 == April 2019 ==
