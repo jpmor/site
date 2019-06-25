@@ -2,6 +2,7 @@
 = tech =
 
 == June 2019 ==
+- [[https://semiengineering.com/5nm-vs-3nm/|5nm v. 3nm]]
 - [[http://thume.ca/2019/04/29/comparing-compilers-in-rust-haskell-c-and-python/|Comparing Compilers in Rust, Haskell, C, and Python]]
 == May 2019 ==
 - [[https://sidbala.com/h-264-is-magic/|H.264 is Magic]]
