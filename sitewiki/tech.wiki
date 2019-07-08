@@ -1,6 +1,8 @@
 
 = tech =
 
+== July 2019 ==
+- [[https://arslan.io/2019/07/03/how-to-write-idempotent-bash-scripts/|Idempotent Bash Scripts]]
 == June 2019 ==
 - [[https://semiengineering.com/5nm-vs-3nm/|5nm v. 3nm]]
 - [[http://thume.ca/2019/04/29/comparing-compilers-in-rust-haskell-c-and-python/|Comparing Compilers in Rust, Haskell, C, and Python]]
