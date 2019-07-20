@@ -1,12 +1,6 @@
 
 = links =
 
-[[organizations]]
-
-[[wwk|wikipedias]]
-
-== reads ==
-
 [[interesting]]
 
 [[tech]]
@@ -16,3 +10,5 @@
 [[future]]
 
 [[history]]
+
+[[wwk|wikipedias]]
