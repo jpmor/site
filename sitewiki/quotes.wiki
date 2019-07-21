@@ -15,6 +15,8 @@
 ==== A Norse Proverb ====
     The dogs may bark, but the caravan moves on.
 ==== Montagu Norman ====
+    Families are always rising and falling in America.
+==== Nathaniel Hawthorne ====
     An expert is one who has made all the mistakes which can be made in a very narrow field.
 ==== Niels Bohr ====
     External circumstances take their savor and color from the inner constitution, just as clothes keep us warm not by their heat but by our own.
@@ -23,14 +25,18 @@
 ==== Aeschylus ====
     To succeed in this world you don't need to be much cleverer than other people, you just have to be one day earlier.
 ==== Leo Szilard ====
+    Wisdom lies not in regretting the inevitable but in adapting oneself to the altered condition of things.
+==== Saddlery and Harness magazine, 1895 ====
     Nothing ages as fast as the future.
 ==== Stanisław Lem ====
-    Dreams are maps.
-==== Carl Sagan ====
+    How long should one’s legs be? Long enough to reach the ground.
+==== Abraham Lincoln ====
     The rock in a column is more apt to commemorate a moment than to report a millennium.
 ==== John McPhee ====
     It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so.
 ==== Mark Twain ====
+    Institutions are the shadows of men.
+==== Emerson ====
     A rising tide lifts all boats.
 ==== John F. Kennedy ====
     The universe is not only queerer than we suppose, but queerer than we can suppose.
@@ -39,6 +45,8 @@
 ==== Edward Robert Harrison ====
     The path is made in the walking of it.
 ==== Zhuangzi ====
+    We must catch up morally and internationally with the machine age. We must catch up with it... in such a way as to create peace in the world, or it will destroy us and everyone else. And that we don’t dare contemplate.
+==== Harry Truman ====
     Your margin is my opportunity
 ==== Jeff Bezos ====
     The Namche Barwa will one day fall into the Tsangpo gorge and block the river, which will then turn aside and flow over the Doshong La
@@ -57,12 +65,12 @@
 ==== Robertson Davies ====
     The steepest places have been at all times the asylum of liberty.
 ==== Baron de Tott ====
-    Institutions are the shadows of men.
-==== Emerson ====
     The Stone Age did not end for lack of stone.
 ==== Sheikh Zaki Yamani, Saudi oil minister ====
     En toute chose il faut considérer la fin.
 ==== Jean de La Fontaine ====
+    A great city, whose image dwells in the memory of man, is the type of some great idea.
+==== Benjamin Disraeli ====
     The best way to predict the future is to invent it.
 ==== Alan Kay ====
     You don't need a weatherman to know which way the wind blows.
@@ -73,9 +81,45 @@
 ==== PW Anderson  ====
     To teach is to learn twice.
 ==== Joseph Joubert ====
+    Dreams are maps.
+==== Carl Sagan ====
     Only a fool learns from his own mistakes. The wise man learns from the mistakes of others.
 ==== Otto van Bismark ====
     The harder you work, the luckier you get.
 ==== Gary Player ====
     We should look for what is, and not for what we think should be.
 ==== Albert Einstein ====
+    All happy families are alike; each unhappy family is unhappy in its own way.
+==== Leo Tolstoy ====
+    These regions, which yet form only an immense wilderness, will become one of the richest and most powerful countries in the world. Nothing is missing except civilized man, and he is at the door.
+==== Alexis de Tocqueville 1831 ====
+    When the well is dry, we know the worth of water.
+==== Ben Franklin ====
+    Grief for something lost and fear of losing it amount to the same thing.
+==== Seneca ====
+    Wilderness is the raw material out of which man has hammered the artifact called civilization. Wilderness was never a homogeneous raw material. It was very diverse, and the resulting artifacts are very diverse. These differences in the end-product are known as cultures. The rich diversity of the world’s cultures reflect a corresponding diversity in the wilds that gave them birth.
+==== Aldo Leopold ====
+    What the smartest people do on the weekend is what everyone else will do during the week in ten years.
+==== Chris Dixon ====
+    The United States is a nation of compromises.
+==== Shelby Foote ====
+    In a crisis the middle class mind tries to assume a lofty detachment from the deep issues of the day.
+==== Max Lerner ====
+    Software often grows to use the hardware you give it.
+==== Drew Devault ====
+    If you can’t stand the heat, get out of the kitchen.
+==== Harry Truman ====
+    Physics is simple only when analyzed locally.
+==== Charles Misner ====
+    In a way everything is technology. Not only the rapid changes we are quick to label revolutions, but also the long slow improvements in processes and tools.
+==== Fernand Braudel ====
+    Napoleon moved no faster than Julius Caesar.
+==== Paul Valéry ====
+    Money, said the Seven Sages of Greece, is the blood and soul of men and he who has none wanders dead among the living.
+==== Scipion de Gramont ====
+    All the vibrations of economic life can be grasped through the special case of the metallurgical industry: it sums up everything and paved the way for all that follows.
+==== Stefan Kurowski ====
+    When iron succeeded in becoming the most important production material, it was the event of events in the evolution of humanities.
+==== Lewis Morgan ====
+    The same logic that causes big rivers always to flow past big cities causes cheap farms sometimes to be marooned by spring floods.
+==== Aldo Leopold ====
