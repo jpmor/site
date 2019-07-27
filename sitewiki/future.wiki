@@ -1,6 +1,8 @@
 
 = future =
 
+== July 2019 ==
+- [[https://www.eff.org/deeplinks/2019/07/adblocking-how-about-nah|How about nah?]]
 == June 2019 ==
 - [[https://www.eff.org/cases/hiq-v-linkedin|hiQ v. LinkedIn]]
 - [[https://idlewords.com/2019/06/the_new_wilderness.htm|The New Wilderness]]
