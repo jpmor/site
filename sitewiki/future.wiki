@@ -1,6 +1,8 @@
 
 = future =
 
+== August 2019 ==
+- [[https://theconversation.com/heatwave-think-its-hot-in-europe-the-human-body-is-already-close-to-thermal-limits-elsewhere-121003|35°C]]
 == July 2019 ==
 - [[https://www.eff.org/deeplinks/2019/07/adblocking-how-about-nah|How about nah?]]
 == June 2019 ==
