@@ -1,6 +1,8 @@
 
 = links =
 
+[[maps]]
+
 [[interesting]]
 
 [[tech]]

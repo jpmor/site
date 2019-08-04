@@ -1,6 +1,8 @@
 
 = wikipedias worth knowing =
 
+{{../static/wikis|wikis|style="width:90%;"}}
+
 == August 2019 ==
 - [[https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/1|Vital Articles: Level 1]]
 == July 2019 ==
