@@ -1,6 +1,8 @@
 
 = interesting =
 
+== August 2019 ==
+- [[https://www.gwern.net/Death-Note-Anonymity|Death Note Anonymity]]
 == July 2019 ==
 - [[https://towndock.net/shippingnews/sean-d-epagnier-and-alexandra?viewport=980,1764,0|Sean D'Epagnier and Alexandra]]
 - [[https://mattstoller.substack.com/p/the-coming-boeing-bailout|The Coming Boeing Bailout]]
