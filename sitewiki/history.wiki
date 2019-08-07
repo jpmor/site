@@ -1,6 +1,8 @@
 
 = history =
 
+== August 2019 ==
+- [[http://info.cern.ch/hypertext/WWW/TheProject.html|WWW]]
 == July 2019 ==
 - [[https://rootsofprogress.org/why-did-we-wait-so-long-for-the-bicycle|Why did we wait so long for the bicycle?]]
 == November 2016 ==
