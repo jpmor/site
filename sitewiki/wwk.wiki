@@ -2,6 +2,7 @@
 = wikipedias worth knowing =
 
 == August 2019 ==
+- [[https://en.wikipedia.org/wiki/International_Standard_Book_Number|ISBN]]
 - [[https://en.wikipedia.org/wiki/Marbury_v._Madison|Marbury v. Madison]]
 {{../static/wikis|wikis|style="width:90%;"}}
 
