@@ -1,0 +1,5 @@
+
+= business =
+
+== August 2019 ==
+- [[https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/|Deconstructing Google Excuses]]
