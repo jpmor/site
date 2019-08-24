@@ -2,6 +2,7 @@
 = business =
 
 == August 2019 ==
+- [[http://jpkoning.blogspot.com/2019/08/starbucks-monetary-superpower.html|Starbucks: Monetary Superpower]]
 - [[https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/|Deconstructing Google Excuses]]
 == July 2019 ==
 - [[https://www.eff.org/deeplinks/2019/07/adblocking-how-about-nah|How about nah?]]
