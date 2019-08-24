@@ -20,16 +20,12 @@
 - [[https://scottbot.net/the-route-of-a-text-message/|The Route of a Text Message]]
 == December 2018 ==
 - [[https://www.ipp.mpg.de/4550215/11_18|Wendelstein 7-X]]
-== November 2018 ==
-- [[https://ai.googleblog.com/2018/11/night-sight-seeing-in-dark-on-pixel.html|Pixel Night Sight]]
 == September 2018 ==
 - [[https://blog.discordapp.com/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429|WebRTC at Discord]]
 == August 2018 ==
 - [[https://brandur.org/interfaces|Terminal Interfaces]]
 == July 2018 ==
 - [[https://www.openstreetmap.org/user/jbelien/diary/44356|OpenStreetMap vs. Google Maps]]
-== June 2018 ==
-- [[https://blog.growthbot.org/chatbots-were-the-next-big-thing-what-happened|Chatbots]]
 == April 2018 ==
 - [[https://gravitational.com/blog/kubernetes-release-cycle/#|Kubernetes Release Cycle]]
 - [[https://blog.cloudflare.com/announcing-1111/|1.1.1.1]]
@@ -40,10 +36,9 @@
 == December 2017 ==
 - [[https://labs.spotify.com/2017/11/20/autoscaling-pub-sub-consumers/|Spotify Event Delivery]]
 - [[https://dmitryulyanov.github.io/deep_image_prior|Deep Image Priors]]
+- [[https://github.com/s-macke/VoxelSpace|Terrain Rendering]]
 == November 2017 ==
-- [[https://hacks.mozilla.org/2017/11/entering-the-quantum-era-how-firefox-got-fast-again-and-where-its-going-to-get-faster/|Firefox Quantum]]
 - [[https://www.ifixit.com/Teardown/iPhone%2BX%2BTeardown/98975|iPhone X Teardown]]
-- [[https://aws.amazon.com/earth/|Amazon Earth]]
 - [[http://devdocs.io/|devdocs]]
 == July 2017 ==
 - [[https://blog.keras.io/the-limitations-of-deep-learning.html|The Limitations of Deep Learning]]
@@ -51,14 +46,10 @@
 - [[https://www.nextplatform.com/2017/05/08/crunching-machine-learning-databases-together-gpus|Crunching ML and DBs on GPUs]]
 == April 2017 ==
 - [[https://junyanz.github.io/CycleGAN/|Image Translation with Adversarial Networks]]
-== March 2017 ==
-- [[http://www.anandtech.com/show/11170/the-amd-zen-and-ryzen-7-review-a-deep-dive-on-1800x-1700x-and-1700|AMD Zen]]
 == February 2017 ==
 - [[https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html|SHA-1 Collision]]
 - [[http://www.linusakesson.net/programming/tty/|History of TTY]]
 == January 2017 ==
 - [[http://www.cs.virginia.edu/~evans/cs216/guides/x86.html|x86 Assembly Guide]]
-== December 2016 ==
-- [[https://deepmind.com/blog/open-sourcing-deepmind-lab/|Deepmind AI Environments]]
 == November 2016 ==
 - [[https://ruudvanasseldonk.com/2016/11/30/zero-cost-abstractions|Rust - Zero cost abstractions]]

@@ -1,16 +1,18 @@
 
 = links =
 
-[[maps]]
-
-[[interesting]]
-
-[[tech]]
-
-[[science]]
+[[business]]
 
 [[future]]
 
 [[history]]
+
+[[interesting]]
+
+[[maps]]
+
+[[science]]
+
+[[tech]]
 
 [[wwk|wikipedias]]

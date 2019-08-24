@@ -3,3 +3,39 @@
 
 == August 2019 ==
 - [[https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/|Deconstructing Google Excuses]]
+== July 2019 ==
+- [[https://www.eff.org/deeplinks/2019/07/adblocking-how-about-nah|How about nah?]]
+- [[https://mattstoller.substack.com/p/the-coming-boeing-bailout|The Coming Boeing Bailout]]
+== June 2019 ==
+- [[https://www.eff.org/cases/hiq-v-linkedin|hiQ v. LinkedIn]]
+- [[https://idlewords.com/2019/06/the_new_wilderness.htm|The New Wilderness]]
+== April 2019 ==
+- [[https://www.deepsouthventures.com/i-sell-onions-on-the-internet/|I Sell Onions on the Internet]]
+== November 2018 ==
+- [[https://ai.googleblog.com/2018/11/night-sight-seeing-in-dark-on-pixel.html|Pixel Night Sight]]
+== October 2018 ==
+- [[https://medium.com/@jingtheory/what-i-learned-from-making-hot-sauce-at-scale-2cbb8ec709ba|Scaling Hot Sauce]]
+== June 2018 ==
+- [[https://blog.growthbot.org/chatbots-were-the-next-big-thing-what-happened|Chatbots]]
+== March 2018 ==
+- [[https://opkode.com/blog/slacks-bait-and-switch/|Slack Closes XMPP Gateways]]
+== February 2018 ==
+- [[https://www.starterstory.com/mini-materials|Mini Materials]]
+== January 2018 ==
+- [[https://stratechery.com/2018/amazons-go-and-the-future/|Amazon Go]]
+== December 2017 ==
+- [[https://www.justinobeirne.com/google-maps-moat|Google Maps Moat]]
+- [[https://www.sec.gov/news/public-statement/statement-clayton-2017-12-11|SEC on ICOs]]
+== November 2017 ==
+- [[https://hacks.mozilla.org/2017/11/entering-the-quantum-era-how-firefox-got-fast-again-and-where-its-going-to-get-faster/|Firefox Quantum]]
+- [[https://staltz.com/the-web-began-dying-in-2014-heres-how.html|3 Tech Giants]]
+- [[https://aws.amazon.com/earth/|Amazon Earth]]
+== June 2017 ==
+- [[https://fymhotsauce.rocks/blogs/news/my-uber-driver-robbed-me-so-i-took-uber-to-court-and-won|Taking Uber to Court]]
+- [[https://www.bloomberg.com/news/articles/2017-06-05/wsj-ends-google-users-free-ride-then-fades-in-search-results|WSJ Search Results]]
+== March 2017 ==
+- [[http://www.anandtech.com/show/11170/the-amd-zen-and-ryzen-7-review-a-deep-dive-on-1800x-1700x-and-1700|AMD Zen]]
+== February 2017 ==
+- [[https://www.bloomberg.com/news/features/2017-02-16/global-infrastructure-partners-gets-big-returns-in-sleepy-sector|Infrastructure Funds]]
+== December 2016 ==
+- [[https://deepmind.com/blog/open-sourcing-deepmind-lab/|Deepmind AI Environments]]

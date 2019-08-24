@@ -3,11 +3,7 @@
 
 == August 2019 ==
 - [[https://theconversation.com/heatwave-think-its-hot-in-europe-the-human-body-is-already-close-to-thermal-limits-elsewhere-121003|35°C]]
-== July 2019 ==
-- [[https://www.eff.org/deeplinks/2019/07/adblocking-how-about-nah|How about nah?]]
 == June 2019 ==
-- [[https://www.eff.org/cases/hiq-v-linkedin|hiQ v. LinkedIn]]
-- [[https://idlewords.com/2019/06/the_new_wilderness.htm|The New Wilderness]]
 - [[https://www.city-journal.org/decline-of-family-loneliness-epidemic|Loneliness Epidemic]]
 == April 2019 ==
 - [[https://www.citylab.com/transportation/2019/04/protected-bike-lanes-traffic-safety-cambridge-bicycle-plan/586876/|Cambridge Bike Infrastructure]]
@@ -30,25 +26,18 @@
 - [[https://qz.com/1247382/online-dating-is-so-awful-that-people-are-paying-virtual-dating-assistants-to-impersonate-them/|Virtual Dating Assistance]]
 == March 2018 ==
 - [[https://www.reuters.com/article/us-china-credit/china-to-bar-people-with-bad-social-credit-from-planes-trains-idUSKCN1GS10S|Once Untrustworthy, Always Restricted]]
-- [[https://opkode.com/blog/slacks-bait-and-switch/|Slack Closes XMPP Gateways]]
 == February 2018 ==
 - [[https://www.theverge.com/2018/2/8/16985666/alexandra-elbakyan-sci-hub-open-access-science-papers-lawsuit|Scihub]]
 == January 2018 ==
-- [[https://stratechery.com/2018/amazons-go-and-the-future/|Amazon Go]]
 - [[https://www.alicemaz.com/writing/minecraft.html|Minecraft Economics]]
-== December 2017 ==
-- [[https://www.justinobeirne.com/google-maps-moat|Google Maps Moat]]
-- [[https://www.sec.gov/news/public-statement/statement-clayton-2017-12-11|SEC on ICOs]]
 == November 2017 ==
-- [[https://staltz.com/the-web-began-dying-in-2014-heres-how.html|3 Tech Giants]]
+- [[https://www.theatlantic.com/health/archive/2017/11/paying-for-fake-friends-and-family/545060/?single_page=true|Fake Friends]]
 - [[https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia|Smartphone Addiction]]
 - [[https://www.newyorker.com/magazine/2015/07/20/the-really-big-one|PNW Quake]]
 == July 2017 ==
 - [[https://blog.keras.io/the-future-of-deep-learning.html|The Future of Deep Learning]]
-== June 2017 ==
-- [[https://www.bloomberg.com/news/articles/2017-06-05/wsj-ends-google-users-free-ride-then-fades-in-search-results|WSJ Search Results]]
 == May 2017 ==
-- [[http://carnegieendowment.org/chinafinancialmarkets/66221| China: Debt, Unemployment, or Transfers]]
+- [[http://carnegieendowment.org/chinafinancialmarkets/66221|China: Debt, Unemployment, or Transfers]]
 == April 2017 ==
 - [[https://arstechnica.com/gaming/2017/03/the-cia-uses-board-games-to-train-officers-and-i-got-to-play-them/|CIA: Training with Games]]
 == March 2017 ==
