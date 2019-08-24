@@ -2,6 +2,7 @@
 = future =
 
 == August 2019 ==
+- [[https://sloanreview.mit.edu/article/yes-im-feeling-bad-about-climate-change-lets-discuss/|Feeling Bad About Climate Change]]
 - [[https://theconversation.com/heatwave-think-its-hot-in-europe-the-human-body-is-already-close-to-thermal-limits-elsewhere-121003|35°C]]
 == June 2019 ==
 - [[https://www.city-journal.org/decline-of-family-loneliness-epidemic|Loneliness Epidemic]]
