@@ -1,13 +1,13 @@
 
 = jpmor =
 
-[[https://github.com/jpmor|projects]]
-
 [[links]]
 
 [[courses]]
 
 [[places]]
+
+[[https://github.com/jpmor|repos]]
 
 [[https://www.goodreads.com/jpmor|books]]
 
