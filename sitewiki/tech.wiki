@@ -1,6 +1,8 @@
 
 = tech =
 
+== August 2019 ==
+- [[https://gchq.github.io/CyberChef/|CyberChef]]
 == July 2019 ==
 - [[https://begriffs.com/posts/2019-07-19-history-use-vim.html|History and Effective Use of Vim]]
 - [[https://arslan.io/2019/07/03/how-to-write-idempotent-bash-scripts/|Idempotent Bash Scripts]]
