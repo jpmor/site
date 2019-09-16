@@ -1,6 +1,8 @@
 
 = business =
 
+== September 2019 ==
+- [[https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b|A Boring One Person Internet Company]]
 == August 2019 ==
 - [[http://jpkoning.blogspot.com/2019/08/starbucks-monetary-superpower.html|Starbucks: Monetary Superpower]]
 - [[https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/|Deconstructing Google Excuses]]
