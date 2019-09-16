@@ -1,6 +1,8 @@
 
 = tech =
 
+== September 2019 ==
+- [[https://www.zdnet.com/article/screaming-car-wreck-of-internet-routing-needs-a-fire-brigade-geoff-huston/|BGP Weirdness]]
 == August 2019 ==
 - [[https://gchq.github.io/CyberChef/|CyberChef]]
 == July 2019 ==
