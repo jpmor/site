@@ -2,6 +2,7 @@
 = tech =
 
 == September 2019 ==
+- [[https://wozniak.ca/blog/2014/08/03/What-ORMs-have-taught-me-just-learn-SQL/|What ORMs have taught me.]]
 - [[https://www.zdnet.com/article/screaming-car-wreck-of-internet-routing-needs-a-fire-brigade-geoff-huston/|BGP Weirdness]]
 == August 2019 ==
 - [[https://gchq.github.io/CyberChef/|CyberChef]]
