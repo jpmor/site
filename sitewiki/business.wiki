@@ -1,6 +1,8 @@
 
 = business =
 
+== October 2019 ==
+- [[https://www.propublica.org/article/inside-turbotax-20-year-fight-to-stop-americans-from-filing-their-taxes-for-free|Intuit Lobbying]]
 == September 2019 ==
 - [[https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b|A Boring One Person Internet Company]]
 == August 2019 ==
