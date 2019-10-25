@@ -1,6 +1,8 @@
 
 = interesting =
 
+== October 2019 ==
+- [[https://ciechanow.ski/earth-and-sun/|Earth and Sun]]
 == August 2019 ==
 - [[https://www.uspto.gov/|USPTO Patent & Trademark Records]]
 - [[https://www.gwern.net/Death-Note-Anonymity|Death Note Anonymity]]
