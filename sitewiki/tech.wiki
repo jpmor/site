@@ -1,6 +1,8 @@
 
 = tech =
 
+== November 2019 ==
+- [[https://peteris.rocks/blog/htop/|htop]]
 == October 2019 ==
 - [[https://www.thegrove3d.com/releases/the-grove-release-8/|Growing Trees in Blender]]
 == September 2019 ==

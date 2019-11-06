@@ -1,6 +1,8 @@
 
 = business =
 
+== November 2019 ==
+- [[https://blog.cloudflare.com/the-project-jengo-saga-how-cloudflare-stood-up-to-a-patent-troll-and-won/|Cloudflare vs. Patent Trolls]]
 == October 2019 ==
 - [[https://www.propublica.org/article/inside-turbotax-20-year-fight-to-stop-americans-from-filing-their-taxes-for-free|Intuit Lobbying]]
 == September 2019 ==
