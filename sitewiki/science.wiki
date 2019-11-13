@@ -1,6 +1,8 @@
 
 = science =
 
+== November 2019 ==
+- [[https://arxiv.org/abs/1908.03795|Eigenvectors from Eigenvalues]]
 == August 2019 ==
 - [[http://whatweknow.aaas.org/get-the-facts/|What We Know]]
 == May 2019 ==
