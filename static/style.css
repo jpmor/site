@@ -37,9 +37,9 @@ h2 { padding-top: 0.5em;}
 h3 { font-weight: normal; }
 h4 { font-weight: normal; padding-bottom: 1.2em;}
 
-h1 a {color: #CCCCCC;}
-h2 a {color: #999999;}
-h3 a {color: #aaaaaa;}
+h1 a {color: #DDDDDD;}
+h2 a {color: #BBBBBB;}
+h3 a {color: #AAAAAA;}
 h4 a {color: #66ffb3;}
 
 p, pre, blockquote, table, ul, ol, dl {
