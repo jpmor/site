@@ -2,6 +2,7 @@
 = wikipedias worth knowing =
 
 == November 2019 ==
+- [[https://en.wikipedia.org/wiki/Hyperbolic_geometry|Hyperbolic Geometry]]
 - [[https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor|Frederick II]]
 - [[https://en.wikipedia.org/wiki/Francis_Bacon|Francis Bacon]]
 - [[https://en.wikipedia.org/wiki/Bank_of_Saint_George|Casa di San Giorgio]]
