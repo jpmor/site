@@ -1,6 +1,8 @@
 
 = wikipedias worth knowing =
 
+== December 2019 ==
+- [[https://en.wikipedia.org/wiki/Great_Firewall|Great Firewall]]
 == November 2019 ==
 - [[https://en.wikipedia.org/wiki/Hyperbolic_geometry|Hyperbolic Geometry]]
 - [[https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor|Frederick II]]
