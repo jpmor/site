@@ -1,6 +1,8 @@
 
 = future =
 
+== December 2019 ==
+- [[https://www.usdebtclock.org/|U.S. National Debt Clock]]
 == November 2019 ==
 - [[https://chinapower.csis.org/energy-footprint/|China’s Changing Energy Footprint]]
 == August 2019 ==
