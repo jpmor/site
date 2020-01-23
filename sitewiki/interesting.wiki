@@ -1,6 +1,8 @@
 
 = interesting =
 
+== January 2020 ==
+- [[https://www.ribbonfarm.com/2020/01/16/the-internet-of-beefs/|The Internet of Beefs]]
 == December 2019 ==
 - [[https://mystery.knightlab.com/|The SQL Murder Mystery]]
 == November 2019 ==

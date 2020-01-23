@@ -1,6 +1,8 @@
 
 = future =
 
+== January 2020 ==
+- [[https://mule.substack.com/p/dark-horse-discord|Dark Horse Discord]]
 == December 2019 ==
 - [[https://www.usdebtclock.org/|U.S. National Debt Clock]]
 == November 2019 ==
