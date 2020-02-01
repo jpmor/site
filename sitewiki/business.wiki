@@ -1,6 +1,8 @@
 
 = business =
 
+== February 2020 ==
+- [[https://parsers.me/us-court-fully-legalized-website-scraping-and-technically-prohibited-it/|Scraping does not violate CFAA]]
 == November 2019 ==
 - [[https://blog.cloudflare.com/the-project-jengo-saga-how-cloudflare-stood-up-to-a-patent-troll-and-won/|Cloudflare vs. Patent Trolls]]
 == October 2019 ==
