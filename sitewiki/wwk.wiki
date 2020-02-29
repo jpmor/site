@@ -2,6 +2,7 @@
 = wikipedias worth knowing =
 
 == February 2020 ==
+- [[https://en.wikipedia.org/wiki/Brendan_Eich|Brendan Eich]]
 - [[https://en.wikipedia.org/wiki/CURL|cURL]]
 == December 2019 ==
 - [[https://en.wikipedia.org/wiki/Navigation_Acts|The Navigation Acts]]
