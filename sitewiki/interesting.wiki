@@ -2,6 +2,7 @@
 = interesting =
 
 == February 2020 ==
+- [[https://www.neilwithdata.com/mathematics-self-learner|Self-Learning Mathematics]]
 - [[http://www.runwes.com/2020/02/11/howilearnedfrench.html|How I Learned French in 12 Months]]
 - [[https://aschmann.net/AmEng/|American English Dialects]]
 == January 2020 ==
