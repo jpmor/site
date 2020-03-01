@@ -2,6 +2,7 @@
 = wikipedias worth knowing =
 
 == March 2020 ==
+- [[https://en.wikipedia.org/wiki/Wi-Fi|Wi-Fi]]
 - [[https://en.wikipedia.org/wiki/ICANN|ICANN]]
 - [[https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers|American Registry for Internet Numbers]]
 == February 2020 ==
