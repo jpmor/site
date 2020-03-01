@@ -1,6 +1,8 @@
 
 = tech =
 
+== March 2020 ==
+- [[https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml|DNS Parameters]]
 == November 2019 ==
 - [[https://peteris.rocks/blog/htop/|htop]]
 == October 2019 ==
