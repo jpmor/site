@@ -1,6 +1,8 @@
 
 = business =
 
+== March 2020 ==
+- [[https://www.troyhunt.com/project-svalbard-have-i-been-pwned-and-its-ongoing-independence/|Have I Been Pwned Remains Independent]]
 == February 2020 ==
 - [[https://scottlocklin.wordpress.com/2020/02/21/andreessen-horowitz-craps-on-ai-startups-from-a-great-height/|a16z on AI]]
 - [[https://letsencrypt.org/2020/02/27/one-billion-certs.html|Let's Encrypt Has Issued a Billion Certificates]]
