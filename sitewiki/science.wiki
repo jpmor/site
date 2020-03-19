@@ -1,6 +1,8 @@
 
 = science =
 
+== March 2020 ==
+- [[https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3|Covid-19 DNA]]
 == November 2019 ==
 - [[https://arxiv.org/abs/1908.03795|Eigenvectors from Eigenvalues]]
 == August 2019 ==
