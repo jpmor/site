@@ -1,6 +1,8 @@
 
 = tech =
 
+== May 2020 ==
+- [[https://quip.com/2gwZArKuWk7W|Medium-Hard SQL Problems]]
 == March 2020 ==
 - [[https://www.zotero.org/|Zotero]]
 - [[https://toroid.org/unix-pipe-implementation|Unix Pipes]]
