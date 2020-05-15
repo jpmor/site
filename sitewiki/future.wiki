@@ -1,6 +1,8 @@
 
 = future =
 
+== May 2020 ==
+- [[https://www.thisworddoesnotexist.com/|This Word Does Not Exist]]
 == January 2020 ==
 - [[https://mule.substack.com/p/dark-horse-discord|Dark Horse Discord]]
 == December 2019 ==
