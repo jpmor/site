@@ -2,6 +2,7 @@
 = tech =
 
 == May 2020 ==
+- [[https://blog.darknedgy.net/technology/2020/05/02/0/|10 Years of systemd]]
 - [[http://www.lurklurk.org/linkers/linkers.html|Beginner's Guide to Linkers]]
 - [[https://quip.com/2gwZArKuWk7W|Medium-Hard SQL Problems]]
 == March 2020 ==
