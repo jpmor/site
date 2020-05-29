@@ -1,9 +1,12 @@
 
 = business =
 
+<<<<<<< HEAD
 == May 2020 ==
 - [[https://themargins.substack.com/p/doordash-and-pizza-arbitrage|Doordash and Pizza Arbitrage]]
 - [[https://www.wired.co.uk/article/dropshipping-instagram-ads|Dropshipping]]
+=======
+>>>>>>> 0d31140e035122fda36d0e2041530e8a2a216c2c
 == March 2020 ==
 - [[https://www.troyhunt.com/project-svalbard-have-i-been-pwned-and-its-ongoing-independence/|Have I Been Pwned Remains Independent]]
 == February 2020 ==
