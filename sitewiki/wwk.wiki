@@ -2,6 +2,7 @@
 = wikipedias worth knowing =
 
 == May 2020 ==
+- [[https://en.wikipedia.org/wiki/Hugo_Grotius|Hugo Grotius]]
 - [[https://en.wikipedia.org/wiki/Port_knocking|Port knocking]]
 - [[https://en.wikipedia.org/wiki/Leonetto_Cappiello|Leonetto Cappiello]]
 - [[https://en.wikipedia.org/wiki/Social_Security_(United_States)|Social Security]]
