@@ -1,6 +1,9 @@
 
 = wikipedias worth knowing =
 
+== June 2020 ==
+- [[https://en.wikipedia.org/wiki/Karakoram_Highway|Karakoram Highway]]
+- [[https://en.wikipedia.org/wiki/Felix_Klein|Felix Klein]]
 == May 2020 ==
 - [[https://en.wikipedia.org/wiki/Hugo_Grotius|Hugo Grotius]]
 - [[https://en.wikipedia.org/wiki/Port_knocking|Port knocking]]
