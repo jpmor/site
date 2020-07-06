@@ -1,6 +1,8 @@
 
 = interesting =
 
+== July 2020 ==
+- [[https://cs.nyu.edu/~gottlieb/tr/|Puzzle Corner]]
 == June 2020 ==
 - [[https://www.thiswebsitewillselfdestruct.com/|This Website Will Self Destruct]]
 == May 2020 ==
