@@ -1,6 +1,9 @@
 
 = business =
 
+== July 2020 ==
+- [[https://www.pressgazette.co.uk/ten-years-of-the-times-digital-paywall-how-murdochs-big-gamble-paid-off/|The New York Times Paywall]]
+- [[https://www.brookings.edu/techstream/the-chip-making-machine-at-the-center-of-chinese-dual-use-concerns/|ASML]]
 == May 2020 ==
 - [[https://themargins.substack.com/p/doordash-and-pizza-arbitrage|Doordash and Pizza Arbitrage]]
 == March 2020 ==
