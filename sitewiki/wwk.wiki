@@ -2,6 +2,7 @@
 = wikipedias worth knowing =
 
 == July 2020 ==
+- [[https://en.wikipedia.org/wiki/Van_Allen_radiation_belt|Van Allen radiation belt]]
 - [[https://en.wikipedia.org/wiki/Black_List_(survey)|Black List]]
 - [[https://en.wikipedia.org/wiki/List_of_U.S._state_budgets|List of U.S. state budgets]]
 - [[https://en.wikipedia.org/wiki/Wireless_Emergency_Alerts|Wireless Emergency Alerts]]
