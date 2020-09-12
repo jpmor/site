@@ -2,6 +2,8 @@
 = wikipedias worth knowing =
 
 == September 2020 ==
+- [[https://en.wikipedia.org/wiki/Asbestos|Asbestos]]
+- [[https://en.wikipedia.org/wiki/Iron_peak|Iron peak]]
 - [[https://en.wikipedia.org/wiki/List_of_the_72_names_on_the_Eiffel_Tower|List of the 72 names on the Eiffel Tower]]
 - [[https://en.wikipedia.org/wiki/Parallel_postulate|Parallel postulate]]
 - [[https://en.wikipedia.org/wiki/Orthography|Orthography]]
