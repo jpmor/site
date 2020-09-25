@@ -375,7 +375,6 @@
         "Anson__NC",
         "Richmond__NC",
         "Forsyth__GA",
-        "Dawson__GA",
         "Dade__GA",
         "Marion__TN",
         "Grundy__TN",
@@ -584,7 +583,8 @@
         "Charlevoix__MI",
         "Emmet__MI",
         "Charlottesville__VA",
-        "Arlington__VA"
+        "Arlington__VA",
+        "Dawson__GA"
       ]
     },
     "#525252": {
@@ -3193,5 +3193,8 @@
   "title": "USA Travel Map",
   "hidden": [],
   "background": "#000000",
-  "borders": "#000000"
+  "borders": "#000000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000000",
+  "legendBgColor": "rgba(0, 0, 0, 0)"
 }
