@@ -174,7 +174,8 @@
         "Franklin__TN",
         "Dawson__GA",
         "Cherokee__GA",
-        "Murray__GA"
+        "Murray__GA",
+        "Gwinnett__GA"
       ]
     },
     "#66c2a4": {
@@ -182,7 +183,6 @@
       "label": "Passed Through",
       "paths": [
         "Somerset__ME",
-        "Gwinnett__GA",
         "Barrow__GA",
         "Jackson__GA",
         "Hall__GA",
