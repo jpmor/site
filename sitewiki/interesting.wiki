@@ -1,6 +1,8 @@
 
 = interesting =
 
+== November 2020 ==
+- [[https://delu.medium.com/i-spent-11-years-working-on-this-line-rider-track-96742fc0b709|Omniverse 2 Line Rider Track]]
 == July 2020 ==
 - [[https://cs.nyu.edu/~gottlieb/tr/|Puzzle Corner]]
 == June 2020 ==
