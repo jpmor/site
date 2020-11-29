@@ -2,7 +2,11 @@
 = interesting =
 
 == November 2020 ==
+<<<<<<< HEAD
 - [[https://delu.medium.com/i-spent-11-years-working-on-this-line-rider-track-96742fc0b709|Omniverse 2 Line Rider Tack]]
+=======
+- [[https://delu.medium.com/i-spent-11-years-working-on-this-line-rider-track-96742fc0b709|Omniverse 2 Line Rider Track]]
+>>>>>>> ff4e54425686066ce53ec908505c0daebed914b1
 == July 2020 ==
 - [[https://cs.nyu.edu/~gottlieb/tr/|Puzzle Corner]]
 == June 2020 ==
