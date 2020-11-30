@@ -1,6 +1,8 @@
 
 = science =
 
+== November 2020 ==
+- [[https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology|AlphaFold]]
 == July 2020 ==
 - [[https://astrobiology.nasa.gov/news/close-and-tranquil-solar-system-has-astronomers-excited/|Solar System GJ-887]]
 == April 2020 ==
