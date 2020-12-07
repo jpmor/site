@@ -3,11 +3,11 @@
 
 [[links]]
 
-[[courses]]
-
 [[places]]
 
 [[https://github.com/jpmor|repos]]
+
+[[courses]]
 
 [[https://www.goodreads.com/jpmor|books]]
 

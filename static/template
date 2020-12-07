@@ -19,10 +19,13 @@
     <a href="index.html">
       <p>
         <img src="static/favicon.png" alt="favicon" style="width:125px;" />
-      </p> 
+      </p>
     </a>
 
-    %content%
+<!-- Begin page-specific html -->
+%content%
+<!-- End page-specific html -->
+
   </div>
 </body>
 </html>
