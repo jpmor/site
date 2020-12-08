@@ -2,6 +2,7 @@
 = wikipedias worth knowing =
 
 == December 2020 ==
+- [[https://en.wikipedia.org/wiki/Peering|Peering]]
 - [[https://en.wikipedia.org/wiki/Tier_1_network|Tier 1 Network]]
 == November 2020 ==
 - [[https://en.wikipedia.org/wiki/Bill_Joy|Bill Joy]]
