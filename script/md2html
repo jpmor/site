@@ -1,5 +1,6 @@
 #!/bin/bash
 
-head -25 static/template > tmp.html
+head -19 static/template > tmp.html
 pandoc $1 >> tmp.html
-tail -5 static/template >> tmp.html
+tail -3 static/template >> tmp.html
+tidy -iqm -w 80 tmp.html
