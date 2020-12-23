@@ -1,6 +1,8 @@
 
 = tech =
 
+== December 2020 ==
+- [[https://github.com/alex/what-happens-when|What Happens When]]
 == May 2020 ==
 - [[https://blog.darknedgy.net/technology/2020/05/02/0/|10 Years of systemd]]
 - [[http://www.lurklurk.org/linkers/linkers.html|Beginner's Guide to Linkers]]
