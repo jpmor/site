@@ -1,6 +1,8 @@
 
 = business =
 
+== January 2021 ==
+- [[https://warontherocks.com/2020/06/the-chip-wars-of-the-21st-century/|Chip Wars]]
 == July 2020 ==
 - [[https://www.pressgazette.co.uk/ten-years-of-the-times-digital-paywall-how-murdochs-big-gamble-paid-off/|The New York Times Paywall]]
 - [[https://www.brookings.edu/techstream/the-chip-making-machine-at-the-center-of-chinese-dual-use-concerns/|ASML]]

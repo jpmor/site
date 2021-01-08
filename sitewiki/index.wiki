@@ -9,7 +9,7 @@
 
 [[courses]]
 
-[[https://www.goodreads.com/jpmor|books]]
+[[reading]]
 
 [[https://500px.com/jpmor|photos]]
 
