@@ -2,6 +2,7 @@
 = wikipedias worth knowing =
 
 == January 2021 ==
+- [[https://en.wikipedia.org/wiki/Damnatio_memoriae|Damnatio memoriae]]
 - [[https://en.wikipedia.org/wiki/List_of_pending_United_States_Supreme_Court_cases|List of pending United States Supreme Court cases]]
 - [[https://en.wikipedia.org/wiki/Johan_van_Oldenbarnevelt|Johan van Oldenbarnevelt]]
 - [[https://en.wikipedia.org/wiki/Fujio_Masuoka|Fujio Masuoka]]
