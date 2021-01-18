@@ -1,6 +1,8 @@
 
 = tech =
 
+== January 2021 ==
+- [[https://florian.github.io//xor-trick/|That XOR Trick]]
 == December 2020 ==
 - [[https://github.com/alex/what-happens-when|What Happens When]]
 == May 2020 ==
