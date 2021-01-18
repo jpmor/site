@@ -1,6 +1,8 @@
 
 = future =
 
+== January 2021 ==
+- [[https://grimminck.medium.com/running-a-fake-power-plant-on-the-internet-for-a-month-4a624f685aaa|Running a Fake Power Plant on the Internet]]
 == May 2020 ==
 - [[https://www.thisworddoesnotexist.com/|This Word Does Not Exist]]
 == January 2020 ==
