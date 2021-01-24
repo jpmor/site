@@ -67,7 +67,8 @@
         "Wyoming_US",
         "Montana_US",
         "North_Dakota_US",
-        "Kentucky_US"
+        "Kentucky_US",
+        "Alabama_US"
       ]
     },
     "#bbddff": {
@@ -309,7 +310,6 @@
         "Çanakkale_TR",
         "Çankiri_TR",
         "Çorum_TR",
-        "Alabama_US",
         "Alaska_US",
         "Colorado_US",
         "Idaho_US",
