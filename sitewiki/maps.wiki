@@ -1,6 +1,8 @@
 
 = maps =
 
+== January 2021 ==
+- [[https://darksitefinder.com/maps/world.html|Light Pollution]]
 == March 2020 ==
 - [[https://www.eia.gov/state/maps.php|U.S. Energy Mapping System]]
 == February 2020 ==
