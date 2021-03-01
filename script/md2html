@@ -9,7 +9,7 @@ fi
 while read page;
 do
   echo "Converting: $page"
-  head -19 static/template > "$page.html"
+  head -17 static/template > "$page.html"
   pandoc --lua-filter=links-to-html.lua "sitewiki/$page.md" >> "$page.html"
   tail -3 static/template >> "$page.html"
   tidy -iqm -w 80 --tidy-mark no "$page.html"
