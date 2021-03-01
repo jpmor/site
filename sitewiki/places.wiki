@@ -1,6 +1,0 @@
-
-= places =
-
-{{../static/places/usa.png|usa|style="width:90%;"}}
-
-{{../static/places/global.png|global|style="width:90%;"}}
