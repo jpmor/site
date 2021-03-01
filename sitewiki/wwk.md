@@ -8,7 +8,7 @@
 
 ## January 2021
 
-- [René Descartes](https://en.wikipedia.org/wiki/René_Descartes)
+- [René Descartes](https://en.wikipedia.org/wiki/Rene_Descartes)
 - [Damnatio Memoriae](https://en.wikipedia.org/wiki/Damnatio_memoriae)
 - [List of pending United States Supreme Court cases](https://en.wikipedia.org/wiki/List_of_pending_United_States_Supreme_Court_cases)
 - [Johan van Oldenbarnevel](https://en.wikipedia.org/wiki/Johan_van_Oldenbarnevelt)
@@ -114,7 +114,7 @@
 - [Casa di San Giorgio](https://en.wikipedia.org/wiki/Bank_of_Saint_George)
 - [Quaternary sector](https://en.wikipedia.org/wiki/Quaternary_sector_of_the_economy)
 - [State-owned enterprises of the United States](https://en.wikipedia.org/wiki/State-owned_enterprises_of_the_United_States)
-- [Jacques Cœur](https://en.wikipedia.org/wiki/Jacques_Cœur)
+- [Jacques Cœur](https://en.wikipedia.org/wiki/Jacques_Coeur)
 - [Jean-Baptiste Colbert](https://en.wikipedia.org/wiki/Jean-Baptiste_Colbert)
 
 ## October 2019
@@ -178,7 +178,7 @@
 - [Fog of war](https://en.wikipedia.org/wiki/Fog_of_war)
 - [Aspirin](https://en.wikipedia.org/wiki/Aspirin)
 - [Yeast](https://en.wikipedia.org/wiki/Yeast)
-- [Longue durée](https://en.wikipedia.org/wiki/Longue_durée)
+- [Longue durée](https://en.wikipedia.org/wiki/Longue_duree)
 - [Hadley cell](https://en.wikipedia.org/wiki/Hadley_cell)
 - [Trade winds](https://en.wikipedia.org/wiki/Trade_winds)
 - [Puerto Rico Trench](https://en.wikipedia.org/wiki/Puerto_Rico_Trench)
