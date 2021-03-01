@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## March 2021
+
+- [Luddite](https://en.wikipedia.org/wiki/Luddite)
+
 ## February 2021
 
 - [Textile](https://en.wikipedia.org/wiki/Textile)
