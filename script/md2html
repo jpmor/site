@@ -12,6 +12,6 @@ do
   head -19 static/template > "$page.html"
   pandoc --lua-filter=links-to-html.lua "sitewiki/$page.md" >> "$page.html"
   tail -3 static/template >> "$page.html"
-  tidy -iqm -w 80 "$page.html"
+  tidy -iqm -w 80 --tidy-mark no "$page.html"
 done <<< $pages
 
