@@ -35,12 +35,12 @@ h1, h2, h3, h4, h5, blockquote {
 h1 { padding-bottom: 0.5em;}
 h2 { padding-top: 0.5em;}
 h3 { font-weight: normal; }
-h4 { font-weight: normal; padding-bottom: 1.2em;}
+h5 { font-weight: normal; padding-bottom: 1.2em;}
 
-h1 a {color: #DDDDDD;}
-h2 a {color: #BBBBBB;}
-h3 a {color: #AAAAAA;}
-h4 a {color: #66ffb3;}
+h1 {color: #DDDDDD;}
+h2 {color: #BBBBBB;}
+h3 {color: #AAAAAA;}
+h5 {color: #66ffb3;}
 
 p, pre, blockquote, table, ul, ol, dl {
   margin-top: 1em;
