@@ -453,7 +453,7 @@
 
 ## March 2015
 
-- [William Thomson, st Baron Kelvin](https://en.wikipedia.org/wiki/William_Thomson,_st_Baron_Kelvin)
+- [William Thomson, 1st Baron Kelvin](https://en.wikipedia.org/wiki/William_Thomson,_1st_Baron_Kelvin)
 - [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists)
 - [One-electron universe](https://en.wikipedia.org/wiki/One-electron_universe)
 - [Large Hadron Collider](https://en.wikipedia.org/wiki/Large_Hadron_Collider)
