@@ -1,5 +1,9 @@
 # history
 
+## March 2021
+
+- [The Texas Electricity Crisis](https://www.utilitydive.com/news/the-texas-electricity-crisis-and-the-energy-transition/595315/)
+
 ## June 2020
 
 - [The Worst Year to be Alive: 536 A.D.](https://www.sciencemag.org/news/2018/11/why-536-was-worst-year-be-alive)
