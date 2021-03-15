@@ -2,6 +2,7 @@
 
 ## March 2021
 
+- [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)
 - [Fukushima](https://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster)
 - [Charles James Fox](https://en.wikipedia.org/wiki/Charles_James_Fox)
 - [3D Job](https://en.wikipedia.org/wiki/Dirty,_dangerous_and_demeaning)
