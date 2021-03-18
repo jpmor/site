@@ -2,6 +2,7 @@
 
 ## March 2021
 
+- [William Cobbett](https://en.wikipedia.org/wiki/William_Cobbett)
 - [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)
 - [Fukushima](https://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster)
 - [Charles James Fox](https://en.wikipedia.org/wiki/Charles_James_Fox)
