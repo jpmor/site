@@ -2,6 +2,7 @@
 
 ## March 2021
 
+- [Thirty-six Views of Mount Fuji](https://en.wikipedia.org/wiki/Thirty-six_Views_of_Mount_Fuji)
 - [William Cobbett](https://en.wikipedia.org/wiki/William_Cobbett)
 - [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)
 - [Fukushima](https://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster)
