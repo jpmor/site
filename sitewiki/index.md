@@ -6,8 +6,6 @@
 
 [repos](https://github.com/jpmor)
 
-[courses](courses.md)
-
 [reading](reading.md)
 
 [photos](https://500px.com/jpmor)
