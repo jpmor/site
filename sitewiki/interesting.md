@@ -2,6 +2,7 @@
 
 ## March 2021
 
+- [Inside a Viral Website](https://notfunatparties.substack.com/p/inside-a-viral-website)
 - [Greater Los Angeles](https://www.bldgblog.com/2007/10/greater-los-angeles/)
 
 ## December 2020
