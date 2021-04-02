@@ -1,5 +1,9 @@
 # tech
 
+## April 2021
+
+- [SQLite is not a toy database](https://antonz.org/sqlite-is-not-a-toy-database/)
+
 ## March 2021
 
 - [How I cut GTA Online loading times by 70%](https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/)
