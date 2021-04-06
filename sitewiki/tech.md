@@ -2,6 +2,7 @@
 
 ## April 2021
 
+- [Web Browser Engineering](https://browser.engineering/index.html)
 - [SQLite is not a toy database](https://antonz.org/sqlite-is-not-a-toy-database/)
 
 ## March 2021
