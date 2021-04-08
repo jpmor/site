@@ -2,6 +2,7 @@
 
 ## April 2021
 
+- [The Architecture Behind A One-Person Tech Startup](https://anthonynsimon.com/blog/one-man-saas-architecture/)
 - [Web Browser Engineering](https://browser.engineering/index.html)
 - [SQLite is not a toy database](https://antonz.org/sqlite-is-not-a-toy-database/)
 
