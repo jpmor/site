@@ -1,5 +1,9 @@
 # business
 
+## April 2021
+
+- [5G: The outsourced elephant in the room](https://berthub.eu/articles/posts/5g-elephant-in-the-room/)
+
 ## January 2021
 - [Chip Wars](https://warontherocks.com/2020/06/the-chip-wars-of-the-21st-century/)
 
