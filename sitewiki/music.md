@@ -1,5 +1,5 @@
 # music
 
-[dead](https://archive.org/details/fav-jpmor)
+[dead](dead.md)
 
 [spotify](https://open.spotify.com/user/jayman386)
