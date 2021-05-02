@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## May 2021
+
+- [Norman Rockwell](https://en.wikipedia.org/wiki/Norman_Rockwell)
+
 ## April 2021
 
 - [vCard](https://en.wikipedia.org/wiki/VCard)
