@@ -1,5 +1,9 @@
 # future
 
+## May 2021
+
+- [Lyn Alden: Fiscal-Driven Inflation](https://www.lynalden.com/may-2021-newsletter/)
+
 ## January 2021
 
 - [Running a Fake Power Plant on the Internet](https://grimminck.medium.com/running-a-fake-power-plant-on-the-internet-for-a-month-4a624f685aaa)
