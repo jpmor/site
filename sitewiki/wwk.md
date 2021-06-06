@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## June 2021
+
+- [List of proverbial phrases](https://en.wikipedia.org/wiki/List_of_proverbial_phrases)
+
 ## May 2021
 
 - [Pipeline transport](https://en.wikipedia.org/wiki/Pipeline_transport)
