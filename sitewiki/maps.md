@@ -1,5 +1,9 @@
 # maps
 
+## June 2021
+
+- [Datacenter Map](https://baxtel.com/map)
+
 ## April 2021
 
 - [🛰️ See A Satellite Tonight](https://james.darpinian.com/satellites/)
