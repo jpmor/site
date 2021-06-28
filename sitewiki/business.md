@@ -1,5 +1,9 @@
 # business
 
+## June 2021
+
+- [The Economics of Dollar Stores](https://thehustle.co/the-economics-of-dollar-stores/)
+
 ## April 2021
 
 - [5G: The outsourced elephant in the room](https://berthub.eu/articles/posts/5g-elephant-in-the-room/)
