@@ -190,12 +190,15 @@
         "Clarke__GA",
         "Hart__GA",
         "Anderson__SC",
+        "Oconee__SC",
+        "Greenville__SC",
         "Greene__GA",
         "Baldwin__GA",
         "Allendale__SC",
         "Colleton__SC",
         "Dade__GA",
-        "Gilmer__GA"
+        "Gilmer__GA",
+        "York__SC"
       ]
     },
     "#bbddff": {
@@ -209,8 +212,6 @@
         "Hall__GA",
         "Banks__GA",
         "Franklin__GA",
-        "Oconee__SC",
-        "Greenville__SC",
         "Spartanburg__SC",
         "Cherokee__SC",
         "Cleveland__NC",
@@ -450,7 +451,6 @@
         "Danville__VA",
         "Rockingham__NC",
         "Caswell__NC",
-        "York__SC",
         "Fairfield__SC",
         "Aiken__SC",
         "Columbia__GA",
