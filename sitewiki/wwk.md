@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## July 2021
+
+- [Linguistic Relativity](https://en.wikipedia.org/wiki/Linguistic_relativity)
+
 ## June 2021
 
 - [Jon Postel](https://en.wikipedia.org/wiki/Jon_Postel)
