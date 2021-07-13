@@ -2,6 +2,7 @@
 
 ## July 2021
 
+- [List of Cognitive Biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases)
 - [Linguistic Relativity](https://en.wikipedia.org/wiki/Linguistic_relativity)
 
 ## June 2021
