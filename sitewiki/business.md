@@ -1,5 +1,9 @@
 # business
 
+## July 2021
+
+- [AWS’s Egregious Egress](https://blog.cloudflare.com/aws-egregious-egress/)
+
 ## June 2021
 
 - [The Economics of Dollar Stores](https://thehustle.co/the-economics-of-dollar-stores/)
