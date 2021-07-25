@@ -1,5 +1,10 @@
 # future
 
+## July 2021
+
+- [SpaceX's Starlink Review](http://www.jeffgeerling.com/blog/2021/spacexs-starlink-review-four-months)
+- [BirdNET](https://birdnet.cornell.edu/)
+
 ## May 2021
 
 - [Lyn Alden: Fiscal-Driven Inflation](https://www.lynalden.com/may-2021-newsletter/)
