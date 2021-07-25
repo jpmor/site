@@ -1,5 +1,9 @@
 # tech
 
+## July 2021
+
+- [Syncing all the things](https://lwn.net/Articles/861978/)
+
 ## April 2021
 
 - [The Architecture Behind A One-Person Tech Startup](https://anthonynsimon.com/blog/one-man-saas-architecture/)
