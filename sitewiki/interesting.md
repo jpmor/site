@@ -1,5 +1,9 @@
 # interesting
 
+## July 2021
+
+- [How Dwarf Fortress is Built](https://stackoverflow.blog/2021/07/28/700000-lines-of-code-20-years-and-one-developer-how-dwarf-fortress-is-built/)
+
 ## April 2021
 
 - [Internal Combustion Engine](https://ciechanow.ski/internal-combustion-engine/)
