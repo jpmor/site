@@ -1,5 +1,9 @@
 # history
 
+## August 2021
+
+- [On the Disappearing Antonyms of “Grumpy” Words](https://lithub.com/kempt-couth-ruth-on-the-disappearing-antonyms-of-grumpy-words/)
+
 ## March 2021
 
 - [The Texas Electricity Crisis](https://www.utilitydive.com/news/the-texas-electricity-crisis-and-the-energy-transition/595315/)
