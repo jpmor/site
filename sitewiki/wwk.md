@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## August 2021
+
+- [Five-year plans of China](https://en.wikipedia.org/wiki/Five-year_plans_of_China)
+
 ## July 2021
 
 - [Dean Acheson](https://en.wikipedia.org/wiki/Dean_Acheson)
