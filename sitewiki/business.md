@@ -1,5 +1,9 @@
 # business
 
+## August 2021
+
+- [It looks like a product but is secretly a subscription](https://calpaterson.com/printers.html)
+
 ## July 2021
 
 - [AWS’s Egregious Egress](https://blog.cloudflare.com/aws-egregious-egress/)
