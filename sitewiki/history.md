@@ -2,6 +2,7 @@
 
 ## August 2021
 
+- [Mao Zedong meets Richard Nixon](https://china.usc.edu/mao-zedong-meets-richard-nixon-february-21-1972)
 - [On the Disappearing Antonyms of “Grumpy” Words](https://lithub.com/kempt-couth-ruth-on-the-disappearing-antonyms-of-grumpy-words/)
 
 ## March 2021
