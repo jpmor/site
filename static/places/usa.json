@@ -198,7 +198,8 @@
         "Colleton__SC",
         "Dade__GA",
         "Gilmer__GA",
-        "York__SC"
+        "York__SC",
+        "Beaufort__SC"
       ]
     },
     "#bbddff": {
@@ -216,7 +217,6 @@
         "Cherokee__SC",
         "Cleveland__NC",
         "Jasper__SC",
-        "Beaufort__SC",
         "Cook__GA",
         "Dooly__GA",
         "Crisp__GA",
@@ -637,7 +637,13 @@
         "Treutlen__GA",
         "Laurens__GA",
         "Bleckley__GA",
-        "Twiggs__GA"
+        "Twiggs__GA",
+        "Kershaw__SC",
+        "Chesterfield__SC",
+        "Darlington__SC",
+        "Florence__SC",
+        "Sumter__SC",
+        "Clarendon__SC"
       ]
     },
     "#bbbbbb": {
@@ -1765,16 +1771,11 @@
         "Abbeville__SC",
         "Bamberg__SC",
         "Barnwell__SC",
-        "Chesterfield__SC",
-        "Clarendon__SC",
-        "Darlington__SC",
         "Dillon__SC",
         "Edgefield__SC",
-        "Florence__SC",
         "Georgetown__SC",
         "Greenwood__SC",
         "Horry__SC",
-        "Kershaw__SC",
         "Laurens__SC",
         "Lee__SC",
         "Marion__SC",
@@ -1782,7 +1783,6 @@
         "McCormick__SC",
         "Newberry__SC",
         "Saluda__SC",
-        "Sumter__SC",
         "Union__SC",
         "Williamsburg__SC",
         "Beadle__SD",
