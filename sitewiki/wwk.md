@@ -2,6 +2,7 @@
 
 ## August 2021
 
+- [Koh-i-Noor](https://en.wikipedia.org/wiki/Koh-i-Noor)
 - [Five-year plans of China](https://en.wikipedia.org/wiki/Five-year_plans_of_China)
 
 ## July 2021
