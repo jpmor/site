@@ -2,6 +2,7 @@
 
 ## August 2021
 
+- [Arm China Has Gone Rogue](https://semianalysis.substack.com/p/the-semiconductor-heist-of-the-century)
 - [It looks like a product but is secretly a subscription](https://calpaterson.com/printers.html)
 
 ## July 2021
