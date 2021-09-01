@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## September 2021
+
+- [DARPA](https://en.wikipedia.org/wiki/DARPA)
+
 ## August 2021
 
 - [Koh-i-Noor](https://en.wikipedia.org/wiki/Koh-i-Noor)
