@@ -2,6 +2,7 @@
 
 ## September 2021
 
+- [Mencius](https://en.wikipedia.org/wiki/Mencius)
 - [DARPA](https://en.wikipedia.org/wiki/DARPA)
 
 ## August 2021
