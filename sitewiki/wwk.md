@@ -2,6 +2,10 @@
 
 ## September 2021
 
+- [Gerontocracy](https://en.wikipedia.org/wiki/Gerontocracy)
+- [List of Criminal Enterprises, Gangs, and Syndicates](https://en.wikipedia.org/wiki/List_of_criminal_enterprises,_gangs,_and_syndicates)
+- [Sun Yat-Sen](https://en.wikipedia.org/wiki/Sun_Yat-sen)
+- [List of Writing Systems](https://en.wikipedia.org/wiki/List_of_writing_systems)
 - [Mencius](https://en.wikipedia.org/wiki/Mencius)
 - [DARPA](https://en.wikipedia.org/wiki/DARPA)
 
