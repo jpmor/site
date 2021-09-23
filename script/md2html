@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 if [ $# -eq 0 ]; then
   pages=$(find sitewiki/*.md | sed -n -e 's/sitewiki\/\([a-z]\+\)\.md/\1/p')
@@ -6,12 +6,11 @@ else
   pages=$1
 fi
 
-while read page;
+for page in $pages;
 do
   echo "Converting: $page"
   head -17 static/template > "$page.html"
   pandoc --lua-filter=links-to-html.lua "sitewiki/$page.md" >> "$page.html"
   tail -3 static/template >> "$page.html"
   tidy -iqm -w 80 --tidy-mark no "$page.html"
-done <<< $pages
-
+done
