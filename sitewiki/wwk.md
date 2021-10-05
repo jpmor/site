@@ -2,6 +2,7 @@
 
 ## October 2021
 
+- [List of IXPs by Size](https://en.wikipedia.org/wiki/List_of_Internet_exchange_points_by_size)
 - [Autonomous System (Internet)](https://en.wikipedia.org/wiki/Autonomous_system_(Internet))
 
 ## September 2021
