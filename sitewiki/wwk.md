@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## October 2021
+
+- [Autonomous System (Internet)](https://en.wikipedia.org/wiki/Autonomous_system_(Internet))
+
 ## September 2021
 
 - [List of Largest Power Stations](https://en.wikipedia.org/wiki/List_of_largest_power_stations)
