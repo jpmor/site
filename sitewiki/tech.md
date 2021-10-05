@@ -1,5 +1,9 @@
 # tech
 
+## October 2021
+
+- [Understanding How Facebook Disappeared from the Internet](https://blog.cloudflare.com/october-2021-facebook-outage/)
+
 ## July 2021
 
 - [Syncing all the things](https://lwn.net/Articles/861978/)
