@@ -1,5 +1,9 @@
 # tech
 
+## November 2021
+
+- [SectorLISP Now Fits in One Sector](https://justine.lol/sectorlisp/)
+
 ## October 2021
 
 - [Understanding How Facebook Disappeared from the Internet](https://blog.cloudflare.com/october-2021-facebook-outage/)
