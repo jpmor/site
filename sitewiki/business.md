@@ -1,5 +1,9 @@
 # business
 
+## November 2021
+
+- [How Credit Cards Make Money](https://bam.kalzumeus.com/archive/how-credit-cards-make-money/)
+
 ## August 2021
 
 - [Arm China Has Gone Rogue](https://semianalysis.substack.com/p/the-semiconductor-heist-of-the-century)
