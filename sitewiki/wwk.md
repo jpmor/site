@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## November 2021
+
+- [Witwatersrand](https://en.wikipedia.org/wiki/Witwatersrand)
+
 ## October 2021
 
 - [List of IXPs by Size](https://en.wikipedia.org/wiki/List_of_Internet_exchange_points_by_size)
