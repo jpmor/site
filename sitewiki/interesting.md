@@ -1,5 +1,9 @@
 # interesting
 
+## November 2021
+
+- [What is AT&T doing at 1111340002?](https://scribe.rip/telecom-expert/what-is-at-t-doing-at-1111340002-c418876c212c)
+
 ## July 2021
 
 - [How Dwarf Fortress is Built](https://stackoverflow.blog/2021/07/28/700000-lines-of-code-20-years-and-one-developer-how-dwarf-fortress-is-built/)
