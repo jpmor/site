@@ -2,6 +2,7 @@
 
 ## November 2021
 
+- [Special Pages](https://en.wikipedia.org/wiki/Help:Special_page)
 - [Jebel Ali](https://en.wikipedia.org/wiki/Jebel_Ali)
 - [Witwatersrand](https://en.wikipedia.org/wiki/Witwatersrand)
 
