@@ -2,6 +2,7 @@
 
 ## November 2021
 
+- [Jebel Ali](https://en.wikipedia.org/wiki/Jebel_Ali)
 - [Witwatersrand](https://en.wikipedia.org/wiki/Witwatersrand)
 
 ## October 2021
