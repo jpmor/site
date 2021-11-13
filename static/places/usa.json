@@ -1,7 +1,6 @@
 {
   "groups": {
     "#ffaa55": {
-      "div": "#box0",
       "label": "Lived",
       "paths": [
         "Westchester__NY",
@@ -15,7 +14,6 @@
       ]
     },
     "#00aaee": {
-      "div": "#box1",
       "label": "Visited",
       "paths": [
         "Bronx__NY",
@@ -71,7 +69,6 @@
         "Salt_Lake__UT",
         "Summit__UT",
         "Washington__DC",
-        "Fairfax_Co__VA",
         "Fairfax_Co___VA",
         "Arlington__VA",
         "Riverside__CA",
@@ -107,7 +104,6 @@
         "Honolulu__HI",
         "Maui__HI",
         "St__Joseph__IN",
-        "St_Joseph__IN",
         "Cass__MI",
         "Baltimore_City__MD",
         "Lynchburg__VA",
@@ -205,7 +201,6 @@
       ]
     },
     "#bbddff": {
-      "div": "#box2",
       "label": "Passed Through",
       "paths": [
         "Somerset__ME",
@@ -297,7 +292,6 @@
         "Ramsey__MN",
         "Washington__MN",
         "Hennepin__MN",
-        "St_Croix__WI",
         "Dunn__WI",
         "Eau_Claire__WI",
         "Trempealeau__WI",
@@ -484,7 +478,6 @@
         "Mississippi__MO",
         "New_Madrid__MO",
         "Pemiscot__MO",
-        "St_Louis_Co__MO",
         "Caledonia__VT",
         "Washington__VT",
         "Anne_Arundel__MD",
@@ -654,7 +647,6 @@
       ]
     },
     "#bbbbbb": {
-      "div": "#box3",
       "label": "State Visited",
       "paths": [
         "Autauga__AL",
@@ -782,7 +774,6 @@
         "Sebastian__AR",
         "Sevier__AR",
         "Sharp__AR",
-        "St_Francis__AR",
         "St__Francis__AR",
         "Stone__AR",
         "Union__AR",
@@ -892,8 +883,6 @@
         "Santa_Rosa__FL",
         "Sarasota__FL",
         "Seminole__FL",
-        "St_Johns__FL",
-        "St_Lucie__FL",
         "St__Johns__FL",
         "St__Lucie__FL",
         "Taylor__FL",
@@ -1033,7 +1022,6 @@
         "Saline__IL",
         "Schuyler__IL",
         "Scott__IL",
-        "St_Clair__IL",
         "St__Clair__IL",
         "Stark__IL",
         "Stephenson__IL",
@@ -1280,8 +1268,6 @@
         "Presque_Isle__MI",
         "Sanilac__MI",
         "Schoolcraft__MI",
-        "St_Clair__MI",
-        "St_Joseph__MI",
         "St__Clair__MI",
         "St__Joseph__MI",
         "Tuscola__MI",
@@ -1341,7 +1327,6 @@
         "Scott__MN",
         "Sherburne__MN",
         "Sibley__MN",
-        "St_Louis__MN",
         "St__Louis__MN",
         "Steele__MN",
         "Stevens__MN",
@@ -1446,9 +1431,6 @@
         "Scotland__MO",
         "Shannon__MO",
         "Shelby__MO",
-        "St_Charles__MO",
-        "St_Clair__MO",
-        "St_Francois__MO",
         "St__Charles__MO",
         "St__Clair__MO",
         "St__Francois__MO",
@@ -1644,7 +1626,6 @@
         "Saratoga__NY",
         "Schoharie__NY",
         "Schuyler__NY",
-        "St_Lawrence__NY",
         "St__Lawrence__NY",
         "Steuben__NY",
         "Suffolk__NY",
@@ -2190,7 +2171,6 @@
         "Appomattox__VA",
         "Augusta__VA",
         "Bath__VA",
-        "Bedford_Co__VA",
         "Bedford_Co___VA",
         "Bland__VA",
         "Botetourt__VA",
@@ -2211,7 +2191,6 @@
         "Falls_Church__VA",
         "Floyd__VA",
         "Fluvanna__VA",
-        "Franklin_Co__VA",
         "Franklin_Co___VA",
         "Franklin__VA",
         "Galax__VA",
@@ -2257,9 +2236,7 @@
         "Pulaski__VA",
         "Radford__VA",
         "Rappahannock__VA",
-        "Richmond_Co__VA",
         "Richmond_Co___VA",
-        "Roanoke_Co__VA",
         "Roanoke_Co___VA",
         "Roanoke__VA",
         "Rockbridge__VA",
@@ -2397,7 +2374,6 @@
       ]
     },
     "#555555": {
-      "div": "#box4",
       "label": "State Not Visited",
       "paths": [
         "Aleutians_East__AK",
@@ -3195,7 +3171,16 @@
   "hidden": [],
   "background": "#000000",
   "borders": "#000000",
-  "legendFont": "Century Gothic",
+  "legendFont": "Arial:400",
   "legendFontColor": "#ffffff",
-  "legendBgColor": "rgba(0, 0, 0, 0)"
+  "legendBgColor": "rgba(0, 0, 0, 0)",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#000000",
+  "strokeWidth": "medium",
+  "legendPosition": "bottom_right",
+  "legendSize": "medium",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true
 }
