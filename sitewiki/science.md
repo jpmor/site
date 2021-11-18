@@ -1,5 +1,9 @@
 # science
 
+## November 2021
+
+- [Ivermectin: Much More Than You Wanted To Know](https://astralcodexten.substack.com/p/ivermectin-much-more-than-you-wanted)
+
 ## August 2021
 
 - [IPCC Sixth Assessment Report](https://www.ipcc.ch/assessment-report/ar6/)
