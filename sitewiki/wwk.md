@@ -2,6 +2,7 @@
 
 ## November 2021
 
+- [Public Land Survey System](https://en.wikipedia.org/wiki/Public_Land_Survey_System)
 - [Alternate Periodic Tables](https://en.wikipedia.org/wiki/Alternative_periodic_tables)
 - [Special Pages](https://en.wikipedia.org/wiki/Help:Special_page)
 - [Jebel Ali](https://en.wikipedia.org/wiki/Jebel_Ali)
