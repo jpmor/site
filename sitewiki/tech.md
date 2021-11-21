@@ -2,6 +2,7 @@
 
 ## November 2021
 
+- [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
 - [SectorLISP Now Fits in One Sector](https://justine.lol/sectorlisp/)
 
 ## October 2021
