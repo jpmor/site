@@ -2,6 +2,7 @@
 
 ## November 2021
 
+- [The World’s Deadliest Thing](https://www.the-angry-chef.com/blog/the-worlds-deadliest-thing)
 - [What is AT&T doing at 1111340002?](https://scribe.rip/telecom-expert/what-is-at-t-doing-at-1111340002-c418876c212c)
 
 ## July 2021
