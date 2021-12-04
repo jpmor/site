@@ -643,7 +643,10 @@
         "Newberry__SC",
         "Laurens__SC",
         "Stephens__GA",
-        "Habersham__GA"
+        "Habersham__GA",
+        "Lincoln__NC",
+        "Catawba__NC",
+        "Burke__NC"
       ]
     },
     "#bbbbbb": {
@@ -1488,11 +1491,9 @@
         "Bertie__NC",
         "Bladen__NC",
         "Brunswick__NC",
-        "Burke__NC",
         "Caldwell__NC",
         "Camden__NC",
         "Carteret__NC",
-        "Catawba__NC",
         "Cherokee__NC",
         "Chowan__NC",
         "Columbus__NC",
@@ -1515,7 +1516,6 @@
         "Johnston__NC",
         "Jones__NC",
         "Lenoir__NC",
-        "Lincoln__NC",
         "Madison__NC",
         "Martin__NC",
         "Mitchell__NC",
