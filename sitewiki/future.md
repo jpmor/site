@@ -1,5 +1,9 @@
 # future
 
+## December 2021
+
+- [Play-to-earn and Bullshit Jobs](https://paulbutler.org/2021/play-to-earn-and-bullshit-jobs/)
+
 ## July 2021
 
 - [SpaceX's Starlink Review](http://www.jeffgeerling.com/blog/2021/spacexs-starlink-review-four-months)
