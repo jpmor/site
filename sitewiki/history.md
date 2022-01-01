@@ -1,5 +1,9 @@
 # history
 
+## January 2022
+
+- [2021 Letter](https://danwang.co/2021-letter/)
+
 ## August 2021
 
 - [Mao Zedong meets Richard Nixon](https://china.usc.edu/mao-zedong-meets-richard-nixon-february-21-1972)
