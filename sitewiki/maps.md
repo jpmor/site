@@ -1,5 +1,9 @@
 # maps
 
+## January 2022
+
+- [Mini Tokyo 3D](https://minitokyo3d.com)
+
 ## June 2021
 
 - [Datacenter Map](https://baxtel.com/map)
