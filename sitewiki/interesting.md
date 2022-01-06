@@ -1,5 +1,9 @@
 # interesting
 
+## January 2022
+
+- [Designing a 1000 Year House](https://constructionphysics.substack.com/p/how-to-design-a-house-to-last-for)
+
 ## November 2021
 
 - [The World’s Deadliest Thing](https://www.the-angry-chef.com/blog/the-worlds-deadliest-thing)
