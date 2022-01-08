@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## January 2022
+
+- [Siberian High](https://en.wikipedia.org/wiki/Siberian_High)
+
 ## November 2021
 
 - [Public Land Survey System](https://en.wikipedia.org/wiki/Public_Land_Survey_System)
