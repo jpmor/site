@@ -2,6 +2,7 @@
 
 ## January 2022
 
+- [Obshchina](https://en.wikipedia.org/wiki/Obshchina)
 - [Siberian High](https://en.wikipedia.org/wiki/Siberian_High)
 
 ## November 2021
