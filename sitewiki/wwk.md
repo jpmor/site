@@ -2,6 +2,7 @@
 
 ## January 2022
 
+- [Epstein–Barr Virus](https://en.wikipedia.org/wiki/Epstein–Barr_virus)
 - [Obshchina](https://en.wikipedia.org/wiki/Obshchina)
 - [Siberian High](https://en.wikipedia.org/wiki/Siberian_High)
 
