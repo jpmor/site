@@ -2,6 +2,7 @@
 
 ## January 2022
 
+- [@detroitships](https://twitter.com/detroitships)
 - [Designing a 1000 Year House](https://constructionphysics.substack.com/p/how-to-design-a-house-to-last-for)
 
 ## November 2021
