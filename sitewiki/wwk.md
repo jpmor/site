@@ -2,6 +2,7 @@
 
 ## January 2022
 
+- [Chukchi Sea](https://en.wikipedia.org/wiki/Chukchi_Sea)
 - [Søren Kierkegaard](https://en.wikipedia.org/wiki/Søren_Kierkegaard)
 - [Epstein–Barr Virus](https://en.wikipedia.org/wiki/Epstein–Barr_virus)
 - [Obshchina](https://en.wikipedia.org/wiki/Obshchina)
