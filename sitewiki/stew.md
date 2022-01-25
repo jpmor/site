@@ -27,4 +27,4 @@
 
 ### Suggested hot sides / toppings
 
-- French Bread with Butter
+1. French Bread with Butter
