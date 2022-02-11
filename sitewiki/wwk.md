@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## February 2022
+
+- [Zaha Hadid](https://en.wikipedia.org/wiki/Zaha_Hadid)
+
 ## January 2022
 
 - [Chukchi Sea](https://en.wikipedia.org/wiki/Chukchi_Sea)
