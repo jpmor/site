@@ -2,6 +2,7 @@
 
 ## February 2022
 
+- [Johann Gottfried Herder](https://en.wikipedia.org/wiki/Johann_Gottfried_Herder)
 - [Zaha Hadid](https://en.wikipedia.org/wiki/Zaha_Hadid)
 
 ## January 2022
