@@ -2,6 +2,7 @@
 
 ## February 2022
 
+- [Leopold von Ranke](https://en.wikipedia.org/wiki/Leopold_von_Ranke)
 - [Johann Gottfried Herder](https://en.wikipedia.org/wiki/Johann_Gottfried_Herder)
 - [Zaha Hadid](https://en.wikipedia.org/wiki/Zaha_Hadid)
 
