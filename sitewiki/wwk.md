@@ -2,6 +2,7 @@
 
 ## February 2022
 
+- [Robert Koch](https://en.wikipedia.org/wiki/Robert_Koch)
 - [Three-domain system](https://en.wikipedia.org/wiki/Three-domain_system)
 - [Leopold von Ranke](https://en.wikipedia.org/wiki/Leopold_von_Ranke)
 - [Johann Gottfried Herder](https://en.wikipedia.org/wiki/Johann_Gottfried_Herder)
