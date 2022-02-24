@@ -1,7 +1,9 @@
 #!/bin/bash
 
 if [ $# -eq 0 ]; then
-  pages=$(find sitewiki/*.md | gsed -n -e 's/sitewiki\/\([a-z]\+\)\.md/\1/p')
+  cd sitewiki
+  pages=$(find *.md | sed -e 's/\.md$//')
+  cd ..
 else 
   pages=$1
 fi
