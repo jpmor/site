@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## March 2022
+
+- [Gravitational Redshift](https://en.wikipedia.org/wiki/Gravitational_redshift)
+
 ## February 2022
 
 - [SWIFT](https://en.wikipedia.org/wiki/SWIFT)
