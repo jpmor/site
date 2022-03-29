@@ -2,6 +2,7 @@
 
 ## March 2022
 
+- [George Santayana](https://en.wikipedia.org/wiki/George_Santayana)
 - [Sprezzatura](https://en.wikipedia.org/wiki/Sprezzatura)
 - [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein)
 - [Caffeine](https://en.wikipedia.org/wiki/Caffeine)
