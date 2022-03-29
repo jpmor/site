@@ -2,6 +2,7 @@
 
 ## March 2022
 
+- [Sprezzatura](https://en.wikipedia.org/wiki/Sprezzatura)
 - [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein)
 - [Caffeine](https://en.wikipedia.org/wiki/Caffeine)
 - [Garden](https://en.wikipedia.org/wiki/Garden)
