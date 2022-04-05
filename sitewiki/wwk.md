@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## April 2022
+
+- [Ecological Succession](https://en.wikipedia.org/wiki/Ecological_succession)
+
 ## March 2022
 
 - [Hierarchical Data Format](https://en.wikipedia.org/wiki/Hierarchical_Data_Format)
