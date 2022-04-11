@@ -2,6 +2,7 @@
 
 ## April 2022
 
+- [Carl Linnaeus](https://en.wikipedia.org/wiki/Carl_Linnaeus)
 - [Ecological Succession](https://en.wikipedia.org/wiki/Ecological_succession)
 
 ## March 2022
