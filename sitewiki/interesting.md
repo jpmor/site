@@ -2,6 +2,7 @@
 
 ## April 2022
 
+- [Explordle](https://www.explordle.com/map/wor)
 - [A few things to know before stealing my 914](https://www.hagerty.com/media/advice/a-few-things-to-know-before-you-steal-my-914/)
 
 ## January 2022
