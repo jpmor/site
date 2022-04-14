@@ -2,6 +2,12 @@
 
 ## April 2022
 
+- [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
+- [Dynamic Linker](https://en.wikipedia.org/wiki/Dynamic_linker)
+- [rsync](https://en.wikipedia.org/wiki/Rsync)
+- [GoLang](https://en.wikipedia.org/wiki/Go_(programming_language))
+- [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
+- [Terraform](https://en.wikipedia.org/wiki/Terraform_(software))
 - [Carl Linnaeus](https://en.wikipedia.org/wiki/Carl_Linnaeus)
 - [Ecological Succession](https://en.wikipedia.org/wiki/Ecological_succession)
 
