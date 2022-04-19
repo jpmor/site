@@ -1,5 +1,9 @@
 # future
 
+## April 2022
+
+- [Nobody wants your fancy algorithm](https://joemorrison.substack.com/p/nobody-wants-your-fancy-algorithm)
+
 ## December 2021
 
 - [Play-to-earn and Bullshit Jobs](https://paulbutler.org/2021/play-to-earn-and-bullshit-jobs/)
