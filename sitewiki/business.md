@@ -1,5 +1,9 @@
 # business
 
+## April 2022
+
+- [Choose Boring Technology](https://mcfunley.com/choose-boring-technology)
+
 ## November 2021
 
 - [How Credit Cards Make Money](https://bam.kalzumeus.com/archive/how-credit-cards-make-money/)
