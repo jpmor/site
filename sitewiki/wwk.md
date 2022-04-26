@@ -2,6 +2,7 @@
 
 ## April 2022
 
+- [Edge Effects](https://en.wikipedia.org/wiki/Edge_effects)
 - [Refugium](https://en.wikipedia.org/wiki/Refugium_(population_biology))
 - [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
 - [Dynamic Linker](https://en.wikipedia.org/wiki/Dynamic_linker)
