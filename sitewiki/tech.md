@@ -1,5 +1,9 @@
 # tech
 
+## April 2022
+
+- [Consider SQLite](https://blog.wesleyac.com/posts/consider-sqlite)
+
 ## March 2022
 
 - [How to do Distributed Locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
