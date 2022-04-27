@@ -2,6 +2,7 @@
 
 ## April 2022
 
+- [Japan's Hometown Tax](https://www.kalzumeus.com/2018/10/19/japanese-hometown-tax/)
 - [Explordle](https://www.explordle.com/map/wor)
 - [A few things to know before stealing my 914](https://www.hagerty.com/media/advice/a-few-things-to-know-before-you-steal-my-914/)
 
