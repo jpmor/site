@@ -1,5 +1,9 @@
 # business
 
+## May 2022
+
+- [I Took A Corporation To Arbitration](https://www.shuchow.com/so-i-took-a-huge-corporation-to-arbitration/)
+
 ## April 2022
 
 - [Choose Boring Technology](https://mcfunley.com/choose-boring-technology)
