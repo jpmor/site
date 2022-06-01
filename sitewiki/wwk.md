@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## June 2022
+
+- [Land Reforms By Country](https://en.wikipedia.org/wiki/Land_reforms_by_country)
+
 ## April 2022
 
 - [Escherichia Coli](https://en.wikipedia.org/wiki/Escherichia_coli)
