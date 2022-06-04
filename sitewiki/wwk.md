@@ -2,6 +2,8 @@
 
 ## June 2022
 
+- [Walt Rostow](https://en.wikipedia.org/wiki/Walt_Rostow)
+- [Park Chung-hee](https://en.wikipedia.org/wiki/Park_Chung-hee)
 - [University of Tokyo](https://en.wikipedia.org/wiki/University_of_Tokyo)
 - [University of Tokyo](https://en.wikipedia.org/wiki/University_of_Tokyo)
 - [Land Reforms By Country](https://en.wikipedia.org/wiki/Land_reforms_by_country)
