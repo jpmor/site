@@ -2,6 +2,7 @@
 
 ## June 2022
 
+- [Rhodes Scholarship](https://en.wikipedia.org/wiki/Rhodes_Scholarship)
 - [Walt Rostow](https://en.wikipedia.org/wiki/Walt_Rostow)
 - [Park Chung-hee](https://en.wikipedia.org/wiki/Park_Chung-hee)
 - [University of Tokyo](https://en.wikipedia.org/wiki/University_of_Tokyo)
