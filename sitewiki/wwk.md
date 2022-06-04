@@ -6,7 +6,8 @@
 - [Walt Rostow](https://en.wikipedia.org/wiki/Walt_Rostow)
 - [Park Chung-hee](https://en.wikipedia.org/wiki/Park_Chung-hee)
 - [University of Tokyo](https://en.wikipedia.org/wiki/University_of_Tokyo)
-- [University of Tokyo](https://en.wikipedia.org/wiki/University_of_Tokyo)
+- [Friedrich List](https://en.wikipedia.org/wiki/Friedrich_List)
+- [Wolf Ladejinsky](https://en.wikipedia.org/wiki/Wolf_Ladejinsky)
 - [Land Reforms By Country](https://en.wikipedia.org/wiki/Land_reforms_by_country)
 
 ## April 2022
