@@ -2,6 +2,7 @@
 
 ## June 2022
 
+- [University of Tokyo](https://en.wikipedia.org/wiki/University_of_Tokyo)
 - [Land Reforms By Country](https://en.wikipedia.org/wiki/Land_reforms_by_country)
 
 ## April 2022
