@@ -2,6 +2,7 @@
 
 ## June 2022
 
+- [Chung Ju Yung](https://en.wikipedia.org/wiki/Chung_Ju-yung)
 - [Rhodes Scholarship](https://en.wikipedia.org/wiki/Rhodes_Scholarship)
 - [Walt Rostow](https://en.wikipedia.org/wiki/Walt_Rostow)
 - [Park Chung-hee](https://en.wikipedia.org/wiki/Park_Chung-hee)
