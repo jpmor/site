@@ -2,6 +2,7 @@
 
 ## June 2022
 
+- [List of Economic Crises](https://en.wikipedia.org/wiki/List_of_economic_crises)
 - [Chung Ju Yung](https://en.wikipedia.org/wiki/Chung_Ju-yung)
 - [Rhodes Scholarship](https://en.wikipedia.org/wiki/Rhodes_Scholarship)
 - [Walt Rostow](https://en.wikipedia.org/wiki/Walt_Rostow)
