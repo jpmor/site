@@ -1,5 +1,10 @@
 # tech
 
+## June 2022
+
+- [How a Car Works](https://www.howacarworks.com/)
+- [dns.toys](https://www.dns.toys/)
+
 ## April 2022
 
 - [Consider SQLite](https://blog.wesleyac.com/posts/consider-sqlite)
