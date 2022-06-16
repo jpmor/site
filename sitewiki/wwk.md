@@ -2,6 +2,7 @@
 
 ## June 2022
 
+- [Paul Volcker](https://en.wikipedia.org/wiki/Paul_Volcker)
 - [Deng Xiaoping](https://en.wikipedia.org/wiki/Deng_Xiaoping)
 - [SASAC](https://en.wikipedia.org/wiki/State-owned_Assets_Supervision_and_Administration_Commission_of_the_State_Council)
 - [Deng Xiaoping](https://en.wikipedia.org/wiki/Deng_Xiaoping)
