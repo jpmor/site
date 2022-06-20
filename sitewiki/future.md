@@ -1,5 +1,9 @@
 # future
 
+## June 2022
+
+- [The Integrated Timetable of Switzerland](https://www.jokteur.com/a/integrated-timetable-switzerland/)
+
 ## April 2022
 
 - [Nobody wants your fancy algorithm](https://joemorrison.substack.com/p/nobody-wants-your-fancy-algorithm)
