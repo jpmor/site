@@ -2,6 +2,8 @@
 
 ## June 2022
 
+- [Ray Tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
+- [Gotthard Base Tunnel](https://en.wikipedia.org/wiki/Gotthard_Base_Tunnel)
 - [List of Oldest Companies](https://en.wikipedia.org/wiki/List_of_oldest_companies)
 - [Paul Volcker](https://en.wikipedia.org/wiki/Paul_Volcker)
 - [SASAC](https://en.wikipedia.org/wiki/State-owned_Assets_Supervision_and_Administration_Commission_of_the_State_Council)
