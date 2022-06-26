@@ -1,5 +1,9 @@
 # interesting
 
+## June 2022
+
+- [The Charming Bloke Who Dominates GeoGuessr](https://www.newyorker.com/culture/rabbit-holes/the-charming-bloke-who-dominates-geoguessr)
+
 ## April 2022
 
 - [Japan's Hometown Tax](https://www.kalzumeus.com/2018/10/19/japanese-hometown-tax/)
