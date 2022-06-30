@@ -2,6 +2,7 @@
 
 ## June 2022
 
+- [Alfred Escher](https://en.wikipedia.org/wiki/Alfred_Escher)
 - [Ray Tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
 - [Gotthard Base Tunnel](https://en.wikipedia.org/wiki/Gotthard_Base_Tunnel)
 - [List of Oldest Companies](https://en.wikipedia.org/wiki/List_of_oldest_companies)
