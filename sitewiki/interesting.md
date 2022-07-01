@@ -1,5 +1,9 @@
 # interesting
 
+## July 2022
+
+- [What's the deal with all those weird wrong-number texts?](https://maxread.substack.com/p/whats-the-deal-with-all-those-weird)
+
 ## June 2022
 
 - [The Charming Bloke Who Dominates GeoGuessr](https://www.newyorker.com/culture/rabbit-holes/the-charming-bloke-who-dominates-geoguessr)
