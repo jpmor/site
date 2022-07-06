@@ -1,5 +1,9 @@
 # tech
 
+## July 2022
+
+- [How does rsync work?](https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work/)
+
 ## June 2022
 
 - [How a Car Works](https://www.howacarworks.com/)
