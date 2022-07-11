@@ -1,5 +1,9 @@
 # science
 
+## July 2022
+
+- [First Webb Image](https://www.nasa.gov/image-feature/goddard/2022/nasa-s-webb-delivers-deepest-infrared-image-of-universe-yet)
+
 ## November 2021
 
 - [Ivermectin: Much More Than You Wanted To Know](https://astralcodexten.substack.com/p/ivermectin-much-more-than-you-wanted)
