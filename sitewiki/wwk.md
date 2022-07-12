@@ -2,6 +2,7 @@
 
 ## July 2022
 
+- [The Local Group](https://en.wikipedia.org/wiki/Local_Group)
 - [List of Systems of the Human Body](https://en.wikipedia.org/wiki/List_of_systems_of_the_human_body)
 - [Penumbra](https://en.wikipedia.org/wiki/Penumbra_(law))
 - [List of Countries by Steel Production](https://en.wikipedia.org/wiki/List_of_countries_by_steel_production)
