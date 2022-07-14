@@ -2,6 +2,7 @@
 
 ## July 2022
 
+- [Vallium](https://en.wikipedia.org/wiki/Diazepam)
 - [Tontine](https://en.wikipedia.org/wiki/Tontine)
 - [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units)
 - [The Local Group](https://en.wikipedia.org/wiki/Local_Group)
