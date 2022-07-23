@@ -2,6 +2,7 @@
 
 ## July 2022
 
+- [Simon van der Meer](https://en.wikipedia.org/wiki/Simon_van_der_Meer)
 - [Able Archer 83](https://en.wikipedia.org/wiki/Able_Archer_83)
 - [Vallium](https://en.wikipedia.org/wiki/Diazepam)
 - [Tontine](https://en.wikipedia.org/wiki/Tontine)
