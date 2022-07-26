@@ -2,6 +2,7 @@
 
 ## July 2022
 
+- [Standard Ebooks](https://standardebooks.org/)
 - [What's the deal with all those weird wrong-number texts?](https://maxread.substack.com/p/whats-the-deal-with-all-those-weird)
 
 ## June 2022
