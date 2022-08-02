@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## August 2022
+
+- [William Howard Russell](https://en.wikipedia.org/wiki/William_Howard_Russell)
+
 ## July 2022
 
 - [Terrestrial Time](https://en.wikipedia.org/wiki/Terrestrial_Time)
