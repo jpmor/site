@@ -1,5 +1,9 @@
 # business
 
+## August 2022
+
+- [Understanding Jane Street](https://www.thediff.co/p/jane-street)
+
 ## May 2022
 
 - [I Took A Corporation To Arbitration](https://www.shuchow.com/so-i-took-a-huge-corporation-to-arbitration/)
