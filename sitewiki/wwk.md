@@ -2,6 +2,9 @@
 
 ## August 2022
 
+- [Paul Cézanne](https://en.wikipedia.org/wiki/Paul_Cézanne)
+- [London Underground](https://en.wikipedia.org/wiki/London_Underground)
+- [Suburb](https://en.wikipedia.org/wiki/Suburb)
 - [William Howard Russell](https://en.wikipedia.org/wiki/William_Howard_Russell)
 
 ## July 2022
