@@ -2,6 +2,8 @@
 
 ## August 2022
 
+- [Itō Hirobumi](https://en.wikipedia.org/wiki/Itō_Hirobumi)
+- [Saionji Kinmochi](https://en.wikipedia.org/wiki/Saionji_Kinmochi)
 - [Montesquieu](https://en.wikipedia.org/wiki/Montesquieu)
 - [Flood Control in the Netherlands](https://en.wikipedia.org/wiki/Flood_control_in_the_Netherlands)
 - [Porphyry](https://en.wikipedia.org/wiki/Porphyry_(geology))
