@@ -2,6 +2,7 @@
 
 ## August 2022
 
+- [FIPS Codes](https://en.wikipedia.org/wiki/Federal_Information_Processing_Standard_state_code)
 - [Itō Hirobumi](https://en.wikipedia.org/wiki/Itō_Hirobumi)
 - [Saionji Kinmochi](https://en.wikipedia.org/wiki/Saionji_Kinmochi)
 - [Montesquieu](https://en.wikipedia.org/wiki/Montesquieu)
