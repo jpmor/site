@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## October 2022
+
+- [Jamsetji Tata](https://en.wikipedia.org/wiki/Jamsetji_Tata)
+
 ## September 2022
 
 - [United States National Marine Sanctuary](https://en.wikipedia.org/wiki/United_States_National_Marine_Sanctuary)
