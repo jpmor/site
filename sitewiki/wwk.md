@@ -2,6 +2,7 @@
 
 ## October 2022
 
+- [Bildung](https://en.wikipedia.org/wiki/Bildung)
 - [Jamsetji Tata](https://en.wikipedia.org/wiki/Jamsetji_Tata)
 
 ## September 2022
