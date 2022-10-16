@@ -2,6 +2,7 @@
 
 ## October 2022
 
+- [Bihar](https://en.wikipedia.org/wiki/Bihar)
 - [ITER](https://en.wikipedia.org/wiki/ITER)
 - [Bildung](https://en.wikipedia.org/wiki/Bildung)
 - [Jamsetji Tata](https://en.wikipedia.org/wiki/Jamsetji_Tata)
