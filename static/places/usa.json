@@ -205,7 +205,11 @@
         "Franklin__FL",
         "Leon__FL",
         "Chattahoochee__GA",
-        "Gordon__GA"
+        "Gordon__GA",
+        "Richmond__GA",
+        "Berkeley__SC",
+        "Dorchester__SC",
+        "Aiken__SC"
       ]
     },
     "#bbddff": {
@@ -456,9 +460,7 @@
         "Rockingham__NC",
         "Caswell__NC",
         "Fairfield__SC",
-        "Aiken__SC",
         "Columbia__GA",
-        "Richmond__GA",
         "McDuffie__GA",
         "Warren__GA",
         "Taliaferro__GA",
@@ -553,8 +555,6 @@
         "St__Louis_Co___MO",
         "Calhoun__SC",
         "Orangeburg__SC",
-        "Dorchester__SC",
-        "Berkeley__SC",
         "Chattooga__GA",
         "Walker__GA",
         "Catoosa__GA",
@@ -677,7 +677,9 @@
         "St__Lucie__FL",
         "Martin__FL",
         "Palm_Beach__FL",
-        "Broward__FL"
+        "Broward__FL",
+        "Barnwell__SC",
+        "Bamberg__SC"
       ]
     },
     "#bbbbbb": {
@@ -1753,8 +1755,6 @@
         "York__PA",
         "Bristol__RI",
         "Abbeville__SC",
-        "Bamberg__SC",
-        "Barnwell__SC",
         "Dillon__SC",
         "Edgefield__SC",
         "Georgetown__SC",
