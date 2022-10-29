@@ -2,6 +2,8 @@
 
 ## October 2022
 
+- [Rebreather](https://en.wikipedia.org/wiki/Rebreather)
+- [Sanskrit](https://en.wikipedia.org/wiki/Sanskrit)
 - [High Street](https://en.wikipedia.org/wiki/High_Street)
 - [Bihar](https://en.wikipedia.org/wiki/Bihar)
 - [ITER](https://en.wikipedia.org/wiki/ITER)
