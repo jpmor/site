@@ -2,6 +2,7 @@
 
 ## October 2022
 
+- [High Street](https://en.wikipedia.org/wiki/High_Street)
 - [Bihar](https://en.wikipedia.org/wiki/Bihar)
 - [ITER](https://en.wikipedia.org/wiki/ITER)
 - [Bildung](https://en.wikipedia.org/wiki/Bildung)
