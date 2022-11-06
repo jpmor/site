@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## November 2022
+
+- [Terroir](https://en.wikipedia.org/wiki/Terroir)
+
 ## October 2022
 
 - [Rebreather](https://en.wikipedia.org/wiki/Rebreather)
