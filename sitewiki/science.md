@@ -1,5 +1,9 @@
 # science
 
+## November 2022
+
+- [Discrete mean estimates and the Landau-Siegel zero](https://arxiv.org/abs/2211.02515)
+
 ## July 2022
 
 - [Fabricated Alzheimer’s Research](https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease)
