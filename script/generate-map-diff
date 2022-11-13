@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# diffs the current map with a given sha
+magick compare -metric PSNR <(git show $1:static/places/usa.png) static/places/usa.png diff.png
+
+open diff.png
