@@ -2,6 +2,7 @@
 
 ## November 2022
 
+- [Anycast](https://en.wikipedia.org/wiki/Anycast)
 - [Town Meeting](https://en.wikipedia.org/wiki/Town_meeting)
 - [Agloe, New York](https://en.wikipedia.org/wiki/Agloe,_New_York)
 - [Terroir](https://en.wikipedia.org/wiki/Terroir)
