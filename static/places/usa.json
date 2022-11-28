@@ -209,7 +209,9 @@
         "Richmond__GA",
         "Berkeley__SC",
         "Dorchester__SC",
-        "Aiken__SC"
+        "Aiken__SC",
+        "Iredell__NC",
+        "Laurens__SC"
       ]
     },
     "#bbddff": {
@@ -648,7 +650,6 @@
         "Polk__NC",
         "Union__SC",
         "Newberry__SC",
-        "Laurens__SC",
         "Stephens__GA",
         "Habersham__GA",
         "Lincoln__NC",
@@ -679,7 +680,8 @@
         "Palm_Beach__FL",
         "Broward__FL",
         "Barnwell__SC",
-        "Bamberg__SC"
+        "Bamberg__SC",
+        "Abbeville__SC"
       ]
     },
     "#bbbbbb": {
@@ -1514,7 +1516,6 @@
         "Hertford__NC",
         "Hoke__NC",
         "Hyde__NC",
-        "Iredell__NC",
         "Johnston__NC",
         "Jones__NC",
         "Lenoir__NC",
@@ -1754,7 +1755,6 @@
         "Wyoming__PA",
         "York__PA",
         "Bristol__RI",
-        "Abbeville__SC",
         "Dillon__SC",
         "Edgefield__SC",
         "Georgetown__SC",
