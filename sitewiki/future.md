@@ -1,5 +1,9 @@
 # future
 
+## December 2022
+
+- [Building A Virtual Machine inside ChatGPT](https://www.engraved.blog/building-a-virtual-machine-inside/)
+
 ## June 2022
 
 - [Cargo Sous Terrain](https://www.cst.ch/en/)
