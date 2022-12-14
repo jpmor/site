@@ -2,6 +2,7 @@
 
 ## December 2022
 
+- [Recursive Game of Life](https://oimo.io/works/life/)
 - [Most-Viewed Bills](https://www.congress.gov/most-viewed-bills)
 
 ## July 2022
