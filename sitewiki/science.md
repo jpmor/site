@@ -1,5 +1,9 @@
 # science
 
+## December 2022
+
+- [Fusion Ignition](https://www.energy.gov/articles/doe-national-laboratory-makes-history-achieving-fusion)
+
 ## November 2022
 
 - [Discrete mean estimates and the Landau-Siegel zero](https://arxiv.org/abs/2211.02515)
