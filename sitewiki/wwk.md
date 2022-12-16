@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## December 2022
+
+- [ARGUS-IS](https://en.wikipedia.org/wiki/ARGUS-IS)
+
 ## November 2022
 
 - [Onion Routing](https://en.wikipedia.org/wiki/Onion_routing)
