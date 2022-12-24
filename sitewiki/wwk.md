@@ -2,6 +2,7 @@
 
 ## December 2022
 
+- [Spice](https://en.wikipedia.org/wiki/Spice)
 - [Transmitter](https://en.wikipedia.org/wiki/Transmitter)
 - [ARGUS-IS](https://en.wikipedia.org/wiki/ARGUS-IS)
 
