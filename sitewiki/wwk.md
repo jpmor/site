@@ -2,6 +2,7 @@
 
 ## December 2022
 
+- [Pedro Menéndez de Avilés](https://en.wikipedia.org/wiki/Pedro_Menéndez_de_Avilés)
 - [Spice](https://en.wikipedia.org/wiki/Spice)
 - [Transmitter](https://en.wikipedia.org/wiki/Transmitter)
 - [ARGUS-IS](https://en.wikipedia.org/wiki/ARGUS-IS)
