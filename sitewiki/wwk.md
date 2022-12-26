@@ -2,6 +2,7 @@
 
 ## December 2022
 
+- [Externality](https://en.wikipedia.org/wiki/Externality)
 - [Pedro Menéndez de Avilés](https://en.wikipedia.org/wiki/Pedro_Menéndez_de_Avilés)
 - [Spice](https://en.wikipedia.org/wiki/Spice)
 - [Transmitter](https://en.wikipedia.org/wiki/Transmitter)
