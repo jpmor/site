@@ -2,6 +2,7 @@
 
 ## December 2022
 
+- [World Magnetic Model](https://en.wikipedia.org/wiki/World_Magnetic_Model)
 - [Tea Processing](https://en.wikipedia.org/wiki/Tea_processing)
 - [Externality](https://en.wikipedia.org/wiki/Externality)
 - [Pedro Menéndez de Avilés](https://en.wikipedia.org/wiki/Pedro_Menéndez_de_Avilés)
