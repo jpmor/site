@@ -1,5 +1,9 @@
 # history
 
+## December 2022
+
+- [NTSB Aviation Accident Database](https://www.ntsb.gov/Pages/AviationQuery.aspx)
+
 ## January 2022
 
 - [2021 Letter](https://danwang.co/2021-letter/)
