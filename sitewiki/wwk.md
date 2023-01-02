@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## January 2023
+
+- [Marc Rich](https://en.wikipedia.org/wiki/Marc_Rich)
+
 ## December 2022
 
 - [World Magnetic Model](https://en.wikipedia.org/wiki/World_Magnetic_Model)
