@@ -1,5 +1,9 @@
 # business
 
+## January 2023
+
+- [Brick Experiment Channel](https://brickexperimentchannel.wordpress.com/2022/11/19/my-youtube-earnings/)
+
 ## August 2022
 
 - [Understanding Jane Street](https://www.thediff.co/p/jane-street)
