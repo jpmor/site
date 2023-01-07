@@ -2,6 +2,7 @@
 
 ## January 2023
 
+- [Alang Ship Breaking Yard](https://en.wikipedia.org/wiki/Alang_Ship_Breaking_Yard)
 - [Metric Prefix](https://en.wikipedia.org/wiki/Metric_prefix)
 - [Miscibility](https://en.wikipedia.org/wiki/Miscibility)
 - [Marc Rich](https://en.wikipedia.org/wiki/Marc_Rich)
