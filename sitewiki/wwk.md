@@ -2,6 +2,7 @@
 
 ## January 2023
 
+- [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
 - [Logogram](https://en.wikipedia.org/wiki/Logogram)
 - [Alang Ship Breaking Yard](https://en.wikipedia.org/wiki/Alang_Ship_Breaking_Yard)
 - [Metric Prefix](https://en.wikipedia.org/wiki/Metric_prefix)
