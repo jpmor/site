@@ -2,6 +2,7 @@
 
 ## January 2023
 
+- [Logogram](https://en.wikipedia.org/wiki/Logogram)
 - [Alang Ship Breaking Yard](https://en.wikipedia.org/wiki/Alang_Ship_Breaking_Yard)
 - [Metric Prefix](https://en.wikipedia.org/wiki/Metric_prefix)
 - [Miscibility](https://en.wikipedia.org/wiki/Miscibility)
