@@ -2,6 +2,7 @@
 
 ## January 2023
 
+- [Chinese Radicals](https://en.wikipedia.org/wiki/Radical_(Chinese_characters))
 - [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
 - [Logogram](https://en.wikipedia.org/wiki/Logogram)
 - [Alang Ship Breaking Yard](https://en.wikipedia.org/wiki/Alang_Ship_Breaking_Yard)
