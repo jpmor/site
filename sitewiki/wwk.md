@@ -2,6 +2,7 @@
 
 ## January 2023
 
+- [Prester John](https://en.wikipedia.org/wiki/Prester_John)
 - [Chinese Radicals](https://en.wikipedia.org/wiki/Radical_(Chinese_characters))
 - [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
 - [Logogram](https://en.wikipedia.org/wiki/Logogram)
