@@ -2,6 +2,7 @@
 
 ## January 2023
 
+- [Worsted](https://en.wikipedia.org/wiki/Worsted)
 - [MUTCD](https://en.wikipedia.org/wiki/Manual_on_Uniform_Traffic_Control_Devices)
 - [Prester John](https://en.wikipedia.org/wiki/Prester_John)
 - [Chinese Radicals](https://en.wikipedia.org/wiki/Radical_(Chinese_characters))
