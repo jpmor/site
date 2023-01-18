@@ -2,6 +2,7 @@
 
 ## January 2023
 
+- [Hangul](https://en.wikipedia.org/wiki/Hangul)
 - [Matteo Ricci](https://en.wikipedia.org/wiki/Matteo_Ricci)
 - [Worsted](https://en.wikipedia.org/wiki/Worsted)
 - [MUTCD](https://en.wikipedia.org/wiki/Manual_on_Uniform_Traffic_Control_Devices)
