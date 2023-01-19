@@ -2,6 +2,7 @@
 
 ## January 2023
 
+- [Panopticon](https://en.wikipedia.org/wiki/Panopticon)
 - [Hangul](https://en.wikipedia.org/wiki/Hangul)
 - [Matteo Ricci](https://en.wikipedia.org/wiki/Matteo_Ricci)
 - [Worsted](https://en.wikipedia.org/wiki/Worsted)
