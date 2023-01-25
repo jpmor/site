@@ -2,6 +2,7 @@
 
 ## January 2023
 
+- [Carolingian Minuscule](https://en.wikipedia.org/wiki/Carolingian_minuscule)
 - [Panopticon](https://en.wikipedia.org/wiki/Panopticon)
 - [Hangul](https://en.wikipedia.org/wiki/Hangul)
 - [Matteo Ricci](https://en.wikipedia.org/wiki/Matteo_Ricci)
