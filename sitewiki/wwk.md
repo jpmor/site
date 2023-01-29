@@ -4,8 +4,6 @@
 
 - [Hockett's Design Features](https://en.wikipedia.org/wiki/Hockett%27s_design_features)
 - [Semantics](https://en.wikipedia.org/wiki/Semantics)
-- [Hockett's Design Features](https://en.wikipedia.org/wiki/Hockett%27s_design_features)
-- [Semantics](https://en.wikipedia.org/wiki/Semantics)
 - [Carolingian Minuscule](https://en.wikipedia.org/wiki/Carolingian_minuscule)
 - [Panopticon](https://en.wikipedia.org/wiki/Panopticon)
 - [Hangul](https://en.wikipedia.org/wiki/Hangul)
