@@ -1,5 +1,9 @@
 # maps
 
+## February 2023
+
+- [Atlanta Geology](https://ngmdb.usgs.gov/ngm-bin/pdp/zui_viewer.pl?id=8865)
+
 ## December 2022
 
 - [Zip Codes](https://www.unitedstateszipcodes.org/)
