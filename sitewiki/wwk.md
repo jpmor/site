@@ -2,6 +2,7 @@
 
 ## February 2023
 
+- [Glagolitic](https://en.wikipedia.org/wiki/Glagolitic_script)
 - [Futhark](https://en.wikipedia.org/wiki/Elder_Futhark)
 - [Grafting](https://en.wikipedia.org/wiki/Grafting)
 - [Hydrological Code](https://en.wikipedia.org/wiki/Hydrological_code)
