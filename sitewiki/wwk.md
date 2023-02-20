@@ -2,6 +2,7 @@
 
 ## February 2023
 
+- [Crop Rotation](https://en.wikipedia.org/wiki/Crop_rotation)
 - [Glagolitic](https://en.wikipedia.org/wiki/Glagolitic_script)
 - [Futhark](https://en.wikipedia.org/wiki/Elder_Futhark)
 - [Grafting](https://en.wikipedia.org/wiki/Grafting)
