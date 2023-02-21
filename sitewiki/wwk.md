@@ -3,6 +3,7 @@
 ## February 2023
 
 - [Plough](https://en.wikipedia.org/wiki/Plough)
+- [Plough](https://en.wikipedia.org/wiki/Plough)
 - [Crop Rotation](https://en.wikipedia.org/wiki/Crop_rotation)
 - [Crop Rotation](https://en.wikipedia.org/wiki/Crop_rotation)
 - [Glagolitic](https://en.wikipedia.org/wiki/Glagolitic_script)
