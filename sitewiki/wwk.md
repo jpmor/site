@@ -2,6 +2,8 @@
 
 ## February 2023
 
+- [William Berkeley](https://en.wikipedia.org/wiki/William_Berkeley_(governor))
+- [John Winthrop](https://en.wikipedia.org/wiki/John_Winthrop)
 - [Plough](https://en.wikipedia.org/wiki/Plough)
 - [Plough](https://en.wikipedia.org/wiki/Plough)
 - [Crop Rotation](https://en.wikipedia.org/wiki/Crop_rotation)
