@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## March 2023
+
+- [Exegesis](https://en.wikipedia.org/wiki/Exegesis)
+
 ## February 2023
 
 - [Domesday Book](https://en.wikipedia.org/wiki/Domesday_Book)
