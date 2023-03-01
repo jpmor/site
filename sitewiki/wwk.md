@@ -2,6 +2,7 @@
 
 ## March 2023
 
+- [William Penn](https://en.wikipedia.org/wiki/William_Penn)
 - [Exegesis](https://en.wikipedia.org/wiki/Exegesis)
 
 ## February 2023
