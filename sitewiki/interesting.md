@@ -1,5 +1,9 @@
 # interesting
 
+## March 2023
+
+- [2022 Letter](https://danwang.co/2022-letter/)
+
 ## December 2022
 
 - [Recursive Game of Life](https://oimo.io/works/life/)
