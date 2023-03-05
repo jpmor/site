@@ -2,6 +2,7 @@
 
 ## March 2023
 
+- [Ptolemy](https://en.wikipedia.org/wiki/Ptolemy)
 - [Alkaloid](https://en.wikipedia.org/wiki/Alkaloid)
 - [Water Clock](https://en.wikipedia.org/wiki/Water_clock)
 - [Shen Kuo](https://en.wikipedia.org/wiki/Shen_Kuo)
