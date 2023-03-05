@@ -20,8 +20,6 @@
 - [William Berkeley](https://en.wikipedia.org/wiki/William_Berkeley_(governor))
 - [John Winthrop](https://en.wikipedia.org/wiki/John_Winthrop)
 - [Plough](https://en.wikipedia.org/wiki/Plough)
-- [Plough](https://en.wikipedia.org/wiki/Plough)
-- [Crop Rotation](https://en.wikipedia.org/wiki/Crop_rotation)
 - [Crop Rotation](https://en.wikipedia.org/wiki/Crop_rotation)
 - [Glagolitic](https://en.wikipedia.org/wiki/Glagolitic_script)
 - [Futhark](https://en.wikipedia.org/wiki/Elder_Futhark)
