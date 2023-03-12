@@ -2,6 +2,8 @@
 
 ## March 2023
 
+- [Champagne Fairs](https://en.wikipedia.org/wiki/Champagne_fairs)
+- [Wool](https://en.wikipedia.org/wiki/Wool)
 - [Assembly Line](https://en.wikipedia.org/wiki/Assembly_line)
 - [Glass](https://en.wikipedia.org/wiki/Glass)
 - [Epigenetics](https://en.wikipedia.org/wiki/Epigenetics)
