@@ -2,6 +2,8 @@
 
 ## April 2023
 
+- [George Stibitz](https://en.wikipedia.org/wiki/George_Stibitz)
+- [Microform](https://en.wikipedia.org/wiki/Microform)
 - [Differential Analyzer](https://en.wikipedia.org/wiki/Differential_analyser)
 - [William Blackstone](https://en.wikipedia.org/wiki/William_Blackstone)
 - [IUCN Red List](https://en.wikipedia.org/wiki/IUCN_Red_List)
