@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Differential Analyzer](https://en.wikipedia.org/wiki/Differential_analyser)
 - [William Blackstone](https://en.wikipedia.org/wiki/William_Blackstone)
 - [IUCN Red List](https://en.wikipedia.org/wiki/IUCN_Red_List)
 
