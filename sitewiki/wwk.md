@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [RAM](https://en.wikipedia.org/wiki/Random-access_memory)
 - [Entropy](https://en.wikipedia.org/wiki/Entropy)
 - [Howard H. Aiken](https://en.wikipedia.org/wiki/Howard_H._Aiken)
 - [Norbert Wiener](https://en.wikipedia.org/wiki/Norbert_Wiener)
