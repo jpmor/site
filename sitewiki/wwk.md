@@ -2,6 +2,9 @@
 
 ## April 2023
 
+- [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky)
+- [Modem](https://en.wikipedia.org/wiki/Modem)
+- [George Armitage Miller](https://en.wikipedia.org/wiki/George_Armitage_Miller)
 - [SABRE](https://en.wikipedia.org/wiki/Sabre_(travel_reservation_system))
 - [GCI](https://en.wikipedia.org/wiki/Ground-controlled_interception)
 - [Jay Wright Forrester](https://en.wikipedia.org/wiki/Jay_Wright_Forrester)
