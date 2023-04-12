@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Whirlwind I](https://en.wikipedia.org/wiki/Whirlwind_I)
 - [Cognitive Revolution](https://en.wikipedia.org/wiki/Cognitive_revolution)
 - [RAM](https://en.wikipedia.org/wiki/Random-access_memory)
 - [Entropy](https://en.wikipedia.org/wiki/Entropy)
