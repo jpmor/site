@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [GCI](https://en.wikipedia.org/wiki/Ground-controlled_interception)
 - [Jay Wright Forrester](https://en.wikipedia.org/wiki/Jay_Wright_Forrester)
 - [Whirlwind I](https://en.wikipedia.org/wiki/Whirlwind_I)
 - [Cognitive Revolution](https://en.wikipedia.org/wiki/Cognitive_revolution)
