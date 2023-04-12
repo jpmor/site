@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Entropy](https://en.wikipedia.org/wiki/Entropy)
 - [Howard H. Aiken](https://en.wikipedia.org/wiki/Howard_H._Aiken)
 - [Norbert Wiener](https://en.wikipedia.org/wiki/Norbert_Wiener)
 - [John Vincent Atanasoff](https://en.wikipedia.org/wiki/John_Vincent_Atanasoff)
