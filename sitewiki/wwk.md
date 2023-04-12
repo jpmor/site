@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Logic Theorist](https://en.wikipedia.org/wiki/Logic_Theorist)
 - [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky)
 - [Modem](https://en.wikipedia.org/wiki/Modem)
 - [George Armitage Miller](https://en.wikipedia.org/wiki/George_Armitage_Miller)
