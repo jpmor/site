@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Time Sharing](https://en.wikipedia.org/wiki/Time-sharing)
 - [John McCarthy](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist))
 - [PDP-1](https://en.wikipedia.org/wiki/PDP-1)
 - [Logic Theorist](https://en.wikipedia.org/wiki/Logic_Theorist)
