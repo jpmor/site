@@ -2,6 +2,8 @@
 
 ## April 2023
 
+- [John McCarthy](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist))
+- [PDP-1](https://en.wikipedia.org/wiki/PDP-1)
 - [Logic Theorist](https://en.wikipedia.org/wiki/Logic_Theorist)
 - [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky)
 - [Modem](https://en.wikipedia.org/wiki/Modem)
