@@ -1,5 +1,9 @@
 # tech
 
+## April 2023
+
+- [The early days of Linux](https://lwn.net/SubscriberLink/928581/841b747332791ac4/)
+
 ## July 2022
 
 - [How does rsync work?](https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work/)
