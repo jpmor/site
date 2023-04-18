@@ -2,6 +2,9 @@
 
 ## April 2023
 
+- [Sketchpad](https://en.wikipedia.org/wiki/Sketchpad)
+- [Bob Taylor](https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist))
+- [Spacewar](https://en.wikipedia.org/wiki/Spacewar!)
 - [Pulse Dialing](https://en.wikipedia.org/wiki/Pulse_dialing)
 - [Andrew Viterbi](https://en.wikipedia.org/wiki/Andrew_Viterbi)
 - [Fernando J. Corbató](https://en.wikipedia.org/wiki/Fernando_J._Corbató)
