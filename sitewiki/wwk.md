@@ -2,6 +2,8 @@
 
 ## April 2023
 
+- [Pulse Dialing](https://en.wikipedia.org/wiki/Pulse_dialing)
+- [Andrew Viterbi](https://en.wikipedia.org/wiki/Andrew_Viterbi)
 - [Fernando J. Corbató](https://en.wikipedia.org/wiki/Fernando_J._Corbató)
 - [Punch Card](https://en.wikipedia.org/wiki/Punched_card)
 - [CTSS](https://en.wikipedia.org/wiki/Compatible_Time-Sharing_System)
