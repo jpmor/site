@@ -2,6 +2,8 @@
 
 ## April 2023
 
+- [Butler Lampson](https://en.wikipedia.org/wiki/Butler_Lampson)
+- [Intel 4004](https://en.wikipedia.org/wiki/Intel_4004)
 - [Sketchpad](https://en.wikipedia.org/wiki/Sketchpad)
 - [Bob Taylor](https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist))
 - [Spacewar](https://en.wikipedia.org/wiki/Spacewar!)
