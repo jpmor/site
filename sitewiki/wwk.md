@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Bob Kahn](https://en.wikipedia.org/wiki/Bob_Kahn)
 - [Photocopier](https://en.wikipedia.org/wiki/Photocopier)
 - [Butler Lampson](https://en.wikipedia.org/wiki/Butler_Lampson)
 - [Intel 4004](https://en.wikipedia.org/wiki/Intel_4004)
