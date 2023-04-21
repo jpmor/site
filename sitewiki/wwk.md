@@ -2,6 +2,8 @@
 
 ## April 2023
 
+- [Usenet](https://en.wikipedia.org/wiki/Usenet)
+- [VLSI](https://en.wikipedia.org/wiki/Very_Large_Scale_Integration)
 - [Bob Kahn](https://en.wikipedia.org/wiki/Bob_Kahn)
 - [Photocopier](https://en.wikipedia.org/wiki/Photocopier)
 - [Butler Lampson](https://en.wikipedia.org/wiki/Butler_Lampson)
