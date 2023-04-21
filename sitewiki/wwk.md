@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Oda Nobunaga](https://en.wikipedia.org/wiki/Oda_Nobunaga)
 - [Fujiwara](https://en.wikipedia.org/wiki/Fujiwara_clan)
 - [NSF](https://en.wikipedia.org/wiki/National_Science_Foundation)
 - [Usenet](https://en.wikipedia.org/wiki/Usenet)
