@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Wabi Sabi](https://en.wikipedia.org/wiki/Wabi-sabi)
 - [Oda Nobunaga](https://en.wikipedia.org/wiki/Oda_Nobunaga)
 - [Fujiwara](https://en.wikipedia.org/wiki/Fujiwara_clan)
 - [NSF](https://en.wikipedia.org/wiki/National_Science_Foundation)
