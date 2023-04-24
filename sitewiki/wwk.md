@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Idiom](https://en.wikipedia.org/wiki/Idiom)
 - [Wabi Sabi](https://en.wikipedia.org/wiki/Wabi-sabi)
 - [Oda Nobunaga](https://en.wikipedia.org/wiki/Oda_Nobunaga)
 - [Fujiwara](https://en.wikipedia.org/wiki/Fujiwara_clan)
