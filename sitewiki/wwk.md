@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Kanō School](https://en.wikipedia.org/wiki/Kanō_school)
 - [Idiom](https://en.wikipedia.org/wiki/Idiom)
 - [Wabi Sabi](https://en.wikipedia.org/wiki/Wabi-sabi)
 - [Oda Nobunaga](https://en.wikipedia.org/wiki/Oda_Nobunaga)
