@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Mahjong](https://en.wikipedia.org/wiki/Mahjong)
 - [Mora](https://en.wikipedia.org/wiki/Mora_(linguistics))
 - [Kanō School](https://en.wikipedia.org/wiki/Kanō_school)
 - [Idiom](https://en.wikipedia.org/wiki/Idiom)
