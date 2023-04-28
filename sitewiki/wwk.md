@@ -2,6 +2,8 @@
 
 ## April 2023
 
+- [Mono No Aware](https://en.wikipedia.org/wiki/Mono_no_aware)
+- [Laozi](https://en.wikipedia.org/wiki/Laozi)
 - [Zhu Xi](https://en.wikipedia.org/wiki/Zhu_Xi)
 - [Mahjong](https://en.wikipedia.org/wiki/Mahjong)
 - [Mora](https://en.wikipedia.org/wiki/Mora_(linguistics))
