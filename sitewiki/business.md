@@ -1,5 +1,9 @@
 # business
 
+## April 2023
+
+- [Why <s>does</s> did Google Brain exist?](https://www.moderndescartes.com/essays/why_brain/)
+
 ## January 2023
 
 - [Brick Experiment Channel](https://brickexperimentchannel.wordpress.com/2022/11/19/my-youtube-earnings/)
