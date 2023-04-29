@@ -2,6 +2,7 @@
 
 ## April 2023
 
+- [Victor Gruen](https://en.wikipedia.org/wiki/Victor_Gruen)
 - [Ring of Fire](https://en.wikipedia.org/wiki/Ring_of_Fire)
 - [Mono No Aware](https://en.wikipedia.org/wiki/Mono_no_aware)
 - [Laozi](https://en.wikipedia.org/wiki/Laozi)
