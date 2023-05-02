@@ -2,6 +2,7 @@
 
 ## May 2023
 
+- [Sakuma Shōzan](https://en.wikipedia.org/wiki/Sakuma_Shōzan)
 - [Fertilizer](https://en.wikipedia.org/wiki/Fertilizer)
 
 ## April 2023
