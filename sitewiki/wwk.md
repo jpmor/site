@@ -2,6 +2,8 @@
 
 ## May 2023
 
+- [Sakamoto Ryōma](https://en.wikipedia.org/wiki/Sakamoto_Ryōma)
+- [Fukuzawa Yukichi](https://en.wikipedia.org/wiki/Fukuzawa_Yukichi)
 - [Jardine Matheson Company](https://en.wikipedia.org/wiki/Jardine_Matheson)
 - [Sakuma Shōzan](https://en.wikipedia.org/wiki/Sakuma_Shōzan)
 - [Fertilizer](https://en.wikipedia.org/wiki/Fertilizer)
