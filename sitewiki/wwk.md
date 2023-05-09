@@ -2,6 +2,7 @@
 
 ## May 2023
 
+- [Commedia dell'arte](https://en.wikipedia.org/wiki/Commedia_dell%27arte)
 - [Sakamoto Ryōma](https://en.wikipedia.org/wiki/Sakamoto_Ryōma)
 - [Fukuzawa Yukichi](https://en.wikipedia.org/wiki/Fukuzawa_Yukichi)
 - [Jardine Matheson Company](https://en.wikipedia.org/wiki/Jardine_Matheson)
