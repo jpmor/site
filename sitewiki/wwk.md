@@ -2,6 +2,7 @@
 
 ## May 2023
 
+- [Radiometric Dating](https://en.wikipedia.org/wiki/Radiometric_dating)
 - [maia arson crimew](https://en.wikipedia.org/wiki/Maia_arson_crimew)
 - [Bone](https://en.wikipedia.org/wiki/Bone)
 - [Mass Extinction](https://en.wikipedia.org/wiki/Extinction_event)
