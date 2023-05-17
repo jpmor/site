@@ -64,7 +64,6 @@
 - [Howard H. Aiken](https://en.wikipedia.org/wiki/Howard_H._Aiken)
 - [Norbert Wiener](https://en.wikipedia.org/wiki/Norbert_Wiener)
 - [John Vincent Atanasoff](https://en.wikipedia.org/wiki/John_Vincent_Atanasoff)
-- [Microform](https://en.wikipedia.org/wiki/Microform)
 - [George Stibitz](https://en.wikipedia.org/wiki/George_Stibitz)
 - [Microform](https://en.wikipedia.org/wiki/Microform)
 - [Differential Analyzer](https://en.wikipedia.org/wiki/Differential_analyser)
