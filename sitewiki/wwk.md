@@ -3,6 +3,7 @@
 ## May 2023
 
 - [Walter Alvarez](https://en.wikipedia.org/wiki/Walter_Alvarez)
+- [Walter Alvarez](https://en.wikipedia.org/wiki/Walter_Alvarez)
 - [Feather](https://en.wikipedia.org/wiki/Feather)
 - [Wishbone](https://en.wikipedia.org/wiki/Furcula)
 - [Páramo](https://en.wikipedia.org/wiki/P%C3%A1ramo)
