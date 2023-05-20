@@ -2,6 +2,7 @@
 
 ## May 2023
 
+- [Baldwin of Boulogne](https://en.wikipedia.org/wiki/Baldwin_I_of_Jerusalem)
 - [Walter Alvarez](https://en.wikipedia.org/wiki/Walter_Alvarez)
 - [Walter Alvarez](https://en.wikipedia.org/wiki/Walter_Alvarez)
 - [Feather](https://en.wikipedia.org/wiki/Feather)
