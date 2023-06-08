@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## June 2023
+
+- [Phylloxera](https://en.wikipedia.org/wiki/Phylloxera)
+
 ## May 2023
 
 - [Gnosticism](https://en.wikipedia.org/wiki/Gnosticism)
