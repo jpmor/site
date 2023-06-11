@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Participle](https://en.wikipedia.org/wiki/Participle)
 - [Phylloxera](https://en.wikipedia.org/wiki/Phylloxera)
 
 ## May 2023
