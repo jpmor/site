@@ -1,5 +1,9 @@
 # interesting
 
+## June 2023
+
+- [Bad Waitress](https://dirt.fyi/article/2023/06/bad-waitress)
+
 ## March 2023
 
 - [2022 Letter](https://danwang.co/2022-letter/)
