@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Private Equity](https://en.wikipedia.org/wiki/Private_equity)
 - [Participle](https://en.wikipedia.org/wiki/Participle)
 - [Phylloxera](https://en.wikipedia.org/wiki/Phylloxera)
 
