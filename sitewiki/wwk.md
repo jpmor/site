@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Jules Verne](https://en.wikipedia.org/wiki/Jules_Verne)
 - [Kite](https://en.wikipedia.org/wiki/Kite)
 - [Justinian I](https://en.wikipedia.org/wiki/Justinian_I)
 - [Private Equity](https://en.wikipedia.org/wiki/Private_equity)
