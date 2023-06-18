@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Pietro II Orseolo](https://en.wikipedia.org/wiki/Pietro_II_Orseolo)
 - [Jules Verne](https://en.wikipedia.org/wiki/Jules_Verne)
 - [Kite](https://en.wikipedia.org/wiki/Kite)
 - [Justinian I](https://en.wikipedia.org/wiki/Justinian_I)
