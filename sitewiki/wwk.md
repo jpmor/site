@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Roger II](https://en.wikipedia.org/wiki/Roger_II_of_Sicily)
 - [Robert Guiscard](https://en.wikipedia.org/wiki/Robert_Guiscard)
 - [Pietro II Orseolo](https://en.wikipedia.org/wiki/Pietro_II_Orseolo)
 - [Jules Verne](https://en.wikipedia.org/wiki/Jules_Verne)
