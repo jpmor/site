@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Mitsui](https://en.wikipedia.org/wiki/Mitsui)
 - [Frederick Barbarossa](https://en.wikipedia.org/wiki/Frederick_Barbarossa)
 - [Roger II](https://en.wikipedia.org/wiki/Roger_II_of_Sicily)
 - [Robert Guiscard](https://en.wikipedia.org/wiki/Robert_Guiscard)
