@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [HOPE VI](https://en.wikipedia.org/wiki/HOPE_VI)
 - [Mitsui](https://en.wikipedia.org/wiki/Mitsui)
 - [Frederick Barbarossa](https://en.wikipedia.org/wiki/Frederick_Barbarossa)
 - [Roger II](https://en.wikipedia.org/wiki/Roger_II_of_Sicily)
