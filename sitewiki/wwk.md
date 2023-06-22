@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Petrarch](https://en.wikipedia.org/wiki/Petrarch)
 - [Niccolò Polo](https://en.wikipedia.org/wiki/Niccolò_and_Maffeo_Polo)
 - [HOPE VI](https://en.wikipedia.org/wiki/HOPE_VI)
 - [Mitsui](https://en.wikipedia.org/wiki/Mitsui)
