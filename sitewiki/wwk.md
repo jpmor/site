@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Proto-Protestantism](https://en.wikipedia.org/wiki/Proto-Protestantism)
 - [Francesco Guicciardini](https://en.wikipedia.org/wiki/Francesco_Guicciardini)
 - [Charles V](https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor)
 - [Toponymy](https://en.wikipedia.org/wiki/Toponymy)
