@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Toponymy](https://en.wikipedia.org/wiki/Toponymy)
 - [Sigismund](https://en.wikipedia.org/wiki/Sigismund,_Holy_Roman_Emperor)
 - [Petrarch](https://en.wikipedia.org/wiki/Petrarch)
 - [Niccolò Polo](https://en.wikipedia.org/wiki/Niccolò_and_Maffeo_Polo)
