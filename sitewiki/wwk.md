@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Charles V](https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor)
 - [Toponymy](https://en.wikipedia.org/wiki/Toponymy)
 - [Sigismund](https://en.wikipedia.org/wiki/Sigismund,_Holy_Roman_Emperor)
 - [Petrarch](https://en.wikipedia.org/wiki/Petrarch)
