@@ -1,5 +1,9 @@
 # history
 
+## June 2023
+
+- [Historisches Lexikon der Schweiz](https://hls-dhs-dss.ch/de/)
+
 ## December 2022
 
 - [NTSB Aviation Accident Database](https://www.ntsb.gov/Pages/AviationQuery.aspx)
