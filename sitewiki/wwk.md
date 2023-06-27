@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [George Bernard Shaw](https://en.wikipedia.org/wiki/George_Bernard_Shaw)
 - [Eleftherios Venizelos](https://en.wikipedia.org/wiki/Eleftherios_Venizelos)
 - [Proto-Protestantism](https://en.wikipedia.org/wiki/Proto-Protestantism)
 - [Francesco Guicciardini](https://en.wikipedia.org/wiki/Francesco_Guicciardini)
