@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Proto-Indo-European](https://en.wikipedia.org/wiki/Proto-Indo-European_language)
 - [Immanuel Kant](https://en.wikipedia.org/wiki/Immanuel_Kant)
 - [Voltaire](https://en.wikipedia.org/wiki/Voltaire)
 - [George Bernard Shaw](https://en.wikipedia.org/wiki/George_Bernard_Shaw)
