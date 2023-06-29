@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [Voltaire](https://en.wikipedia.org/wiki/Voltaire)
 - [George Bernard Shaw](https://en.wikipedia.org/wiki/George_Bernard_Shaw)
 - [Eleftherios Venizelos](https://en.wikipedia.org/wiki/Eleftherios_Venizelos)
 - [Proto-Protestantism](https://en.wikipedia.org/wiki/Proto-Protestantism)
