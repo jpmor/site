@@ -2,6 +2,7 @@
 
 ## June 2023
 
+- [LISA](https://en.wikipedia.org/wiki/Laser_Interferometer_Space_Antenna)
 - [Proto-Indo-European](https://en.wikipedia.org/wiki/Proto-Indo-European_language)
 - [Immanuel Kant](https://en.wikipedia.org/wiki/Immanuel_Kant)
 - [Voltaire](https://en.wikipedia.org/wiki/Voltaire)
