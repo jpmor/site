@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Carl von Clausewitz](https://en.wikipedia.org/wiki/Carl_von_Clausewitz)
 - [Iskra](https://en.wikipedia.org/wiki/Iskra)
 
 ## June 2023
