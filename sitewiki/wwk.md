@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [SS7](https://en.wikipedia.org/wiki/Signalling_System_No._7)
 - [4X](https://en.wikipedia.org/wiki/4X)
 - [Demoscene](https://en.wikipedia.org/wiki/Demoscene)
 - [Carl von Clausewitz](https://en.wikipedia.org/wiki/Carl_von_Clausewitz)
