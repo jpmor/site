@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Demoscene](https://en.wikipedia.org/wiki/Demoscene)
 - [Carl von Clausewitz](https://en.wikipedia.org/wiki/Carl_von_Clausewitz)
 - [Iskra](https://en.wikipedia.org/wiki/Iskra)
 
