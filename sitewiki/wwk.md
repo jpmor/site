@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [4X](https://en.wikipedia.org/wiki/4X)
 - [Demoscene](https://en.wikipedia.org/wiki/Demoscene)
 - [Carl von Clausewitz](https://en.wikipedia.org/wiki/Carl_von_Clausewitz)
 - [Iskra](https://en.wikipedia.org/wiki/Iskra)
