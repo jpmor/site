@@ -1,5 +1,9 @@
 # maps
 
+## July 2023
+
+- [Human Terrain](https://pudding.cool/2018/10/city_3d)
+
 ## May 2023
 
 - [Species Density](http://bonap.org/2015_SpecialtyMaps/Density%20Gradient%202015/Density%20Gradient%202015.html)
