@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Shinkansen](https://en.wikipedia.org/wiki/Shinkansen)
 - [Metastability](https://en.wikipedia.org/wiki/Metastability)
 - [Gömböc](https://en.wikipedia.org/wiki/Gömböc)
 - [SS7](https://en.wikipedia.org/wiki/Signalling_System_No._7)
