@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Iwakura Mission](https://en.wikipedia.org/wiki/Iwakura_Mission)
 - [Karl Marx](https://en.wikipedia.org/wiki/Karl_Marx)
 - [Leon Trotsky](https://en.wikipedia.org/wiki/Leon_Trotsky)
 - [Shinkansen](https://en.wikipedia.org/wiki/Shinkansen)
