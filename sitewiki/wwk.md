@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Leon Trotsky](https://en.wikipedia.org/wiki/Leon_Trotsky)
 - [Shinkansen](https://en.wikipedia.org/wiki/Shinkansen)
 - [Metastability](https://en.wikipedia.org/wiki/Metastability)
 - [Gömböc](https://en.wikipedia.org/wiki/Gömböc)
