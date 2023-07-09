@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Code of Hammurabi](https://en.wikipedia.org/wiki/Code_of_Hammurabi)
 - [Iwakura Mission](https://en.wikipedia.org/wiki/Iwakura_Mission)
 - [Karl Marx](https://en.wikipedia.org/wiki/Karl_Marx)
 - [Leon Trotsky](https://en.wikipedia.org/wiki/Leon_Trotsky)
