@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Otto von Bismarck](https://en.wikipedia.org/wiki/Otto_von_Bismarck)
 - [John Stuart Mill](https://en.wikipedia.org/wiki/John_Stuart_Mill)
 - [Code of Hammurabi](https://en.wikipedia.org/wiki/Code_of_Hammurabi)
 - [Iwakura Mission](https://en.wikipedia.org/wiki/Iwakura_Mission)
