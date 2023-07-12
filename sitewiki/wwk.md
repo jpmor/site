@@ -2,6 +2,8 @@
 
 ## July 2023
 
+- [Iki](https://en.wikipedia.org/wiki/Iki_(aesthetics))
+- [Kunio Yanagita](https://en.wikipedia.org/wiki/Kunio_Yanagita)
 - [Realpolitik](https://en.wikipedia.org/wiki/Realpolitik)
 - [Otto von Bismarck](https://en.wikipedia.org/wiki/Otto_von_Bismarck)
 - [John Stuart Mill](https://en.wikipedia.org/wiki/John_Stuart_Mill)
