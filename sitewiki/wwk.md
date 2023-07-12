@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Joseph Stilwell](https://en.wikipedia.org/wiki/Joseph_Stilwell)
 - [Iki](https://en.wikipedia.org/wiki/Iki_(aesthetics))
 - [Kunio Yanagita](https://en.wikipedia.org/wiki/Kunio_Yanagita)
 - [Realpolitik](https://en.wikipedia.org/wiki/Realpolitik)
