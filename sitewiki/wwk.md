@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [ə](https://en.wikipedia.org/wiki/Schwa)
 - [Crab Nebula](https://en.wikipedia.org/wiki/Crab_Nebula)
 - [Al-Khazini](https://en.wikipedia.org/wiki/Al-Khazini)
 - [Semaglutide](https://en.wikipedia.org/wiki/Semaglutide)
