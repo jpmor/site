@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Schlager](https://en.wikipedia.org/wiki/Schlager_music)
 - [Ashoka](https://en.wikipedia.org/wiki/Ashoka)
 - [ə](https://en.wikipedia.org/wiki/Schwa)
 - [Crab Nebula](https://en.wikipedia.org/wiki/Crab_Nebula)
