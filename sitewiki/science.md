@@ -1,5 +1,9 @@
 # science
 
+## July 2023
+
+- [Supermassive Dark Star candidates seen by JWST](https://www.pnas.org/doi/10.1073/pnas.2305762120)
+
 ## December 2022
 
 - [Fusion Ignition](https://www.energy.gov/articles/doe-national-laboratory-makes-history-achieving-fusion)
