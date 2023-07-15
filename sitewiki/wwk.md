@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [🕉️](https://en.wikipedia.org/wiki/Om)
 - [Diphthong](https://en.wikipedia.org/wiki/Diphthong)
 - [Aramaic](https://en.wikipedia.org/wiki/Aramaic_alphabet)
 - [Schlager](https://en.wikipedia.org/wiki/Schlager_music)
