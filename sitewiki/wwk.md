@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Aramaic](https://en.wikipedia.org/wiki/Aramaic_alphabet)
 - [Schlager](https://en.wikipedia.org/wiki/Schlager_music)
 - [Ashoka](https://en.wikipedia.org/wiki/Ashoka)
 - [ə](https://en.wikipedia.org/wiki/Schwa)
