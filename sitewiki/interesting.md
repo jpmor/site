@@ -1,5 +1,9 @@
 # interesting
 
+## July 2023
+
+- [Emoji Requests](https://unicode.org/emoji/emoji-requests.html)
+
 ## June 2023
 
 - [Bad Waitress](https://dirt.fyi/article/2023/06/bad-waitress)
