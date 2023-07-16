@@ -15,6 +15,10 @@
 
 `- Sophocles`
 
+> In order to be sure one must be unsure.
+
+`- Edmund Morgan`
+
 > To teach is to learn twice.
 
 `- Joseph Joubert`
@@ -43,22 +47,45 @@
 
 `- Bob Dylan`
 
+> To everything there is a season, and a time to every purpose.
+
+`- Ecclesiastes`
+
 > It’s a lovely day for the race. The human race.
 
 `- Samuel Samuel`
+
+> Oh what a tangled web we weave when first we practice to deceive.
+
+`- Alex Murdaugh`
+
+> Hells hottest fires burn for hypocrites.
+
+`- Edwin Edwards`
 
 > If you can’t stand the heat, get out of the kitchen.
 
 `- Harry Truman`
 
+> He that drinks cider alone. Let him catch his horse alone.
+
+`- Benjamin Franklin`
+
 > When the well is dry, we know the worth of water.
 
-`- Ben Franklin`
+`- Benjamin Franklin`
+
+> He who has access to the fountain does not go to the water jar.
+
+`- Leonardo Da Vinci`
 
 > Human life is an anvil on which souls are formed by the blows of fate.
 
 `- Dostoevsky`
 
+> Life is not so important as the duties of life.
+
+`- John Randolph`
 
 ## language
 
@@ -97,6 +124,32 @@
 
 `- Bourke Cockran`
 
+> Knowledge travels in the baggage of language.
+
+`- Jurgen Osterhammel`
+
+> Language, the first and most basic tool of culture, is also its truest mirror.
+
+`- Richard Ben Kramer`
+
+> Humankind is defined by language; but civilization is defined by writing.
+
+`- Peter Daniels`
+
+> Language changes constantly but writing is generally fixed.
+
+`- Peter Daniels`
+
+> Cognitively as well as sociologically, writing underpins 'civilization', the culture of cities.
+
+`- Jack Goody`
+
+> Now as regards to the shape of foreign letters, they are confused and irregular.
+> In the construction of their dots and lines, one misses the balance of the pictorial characters,
+> the significance of the compounds, and the deep meaning of the characters.
+
+`- Shinoya Tōin`
+
 
 ## future
 
@@ -112,6 +165,16 @@
 > The longer you look back, the farther you can look forward.
 
 `- Winston Churchill`
+
+> Seekers of lost glories must be grateful even for crumbs.
+
+`- Scott Weidensaul`
+
+> The spiritual estate of man is so enormous and so inexhaustible in
+> its diversity that only he who stands on the shoulders of great predecessors
+> can utter a truly new and weighty word.
+
+`- Leon Trotsky`
 
 > Wisdom lies not in regretting the inevitable but in adapting oneself
 > to the altered condition of things.
@@ -170,6 +233,13 @@
 
 `- Theodore White`
 
+> It is not our mind that masters the great events.
+> On the contrary the events arising from a combination, interplay, and
+> concatenation of great objective historical forces compel our sluggish,
+> lazy mind waddlingly and limpingly to adjust itself.
+
+`- Leon Trotsky`
+
 > Everyday we get a front seat to history.
 
 `- John H. White`
@@ -208,6 +278,11 @@
 
 `- Fernand Braudel`
 
+> No man who is correctly informed as to the past will be disposed
+> to take a morose or desponding view of the present.
+
+`- Thomas Babington Macaulay`
+
 > As we see them change, so we see how we became who we are.
 
 `- E. P. Thompson`
@@ -231,6 +306,11 @@
 
 `- Edward the Black Prince`
 
+> What the dead had no speech for when living, they can tell you, being dead.
+> The communication of the dead is tongued with fire beyond the language of the living.
+
+`- T. S. Elliot`
+
 
 ## places
 
@@ -242,10 +322,19 @@
 
 `- Beryl Markham`
 
+> Travel is usually a greater source of learning than the page.
+
+`- Dan Wang`
+
 > It is a great error to suppose that people are rendered stupid by
 > remaining always in the same place.
 
 `- William Cobbett`
+
+> The Earth is a generous mother. She will provide in plentiful abundance food
+> for all her children, if they will but cultivate her soil in justice and peace.
+
+`- Bourke Cockran`
 
 > Wilderness is the raw material out of which man has hammered the
 > artifact called civilization. Wilderness was never a homogeneous raw
@@ -265,6 +354,11 @@
 > America is a religion in itself.
 
 `- Michael Novak`
+
+> America is conservative in fundamental principles, but the
+> principles conserved are liberal and sometime radical.
+
+`- Gunnar Myrdal`
 
 > I think that in no country in the civilized world is less
 > attention paid to philosophy than in the United States.
@@ -287,6 +381,10 @@
 > the next crisis came along.
 
 `- William Brennan`
+
+> There are no second acts in American lives.
+
+`- F. Scott Fitzgerald`
 
 > Families are always rising and falling in America.
 
@@ -314,6 +412,10 @@
 
 `- William Cronon`
 
+> The history of Capitalism is the subordination of the country to the town.
+
+`- Leon Trotsky`
+
 > A great city, whose image dwells in the memory of man, is the type of
 > some great idea.
 
@@ -339,6 +441,14 @@
 
 `- Aldo Leopold`
 
+> The warmth of southern sun pervades in subtle ways the northern shades.
+
+`- Luís de Camões`
+
+> Quid est mare? Refugium in periculis.
+
+`- Alcuins Catechism`
+
 > The steepest places have been at all times the asylum of liberty.
 
 `- Baron de Tott`
@@ -355,14 +465,30 @@
 
 `- King James 1st`
 
+> I have been crushed under a sense of the mere magnitude of London -
+> its inconceivable immensity - in such a way as to paralyze my mind
+> for any appreciation of details.
+
+`- Henry James`
+
 > Amsterdam is the inventory of the possible.
 
 `- Descartes`
+
+> History clearly shows that the salt of the earth is gradually shifting
+> eastwards. In the 18th century France was the salt of the earth, in the
+> 19th Germany. Now it is Russia.
+
+`- Grigori Sokolnikov`
 
 > Russians possess the genius of all the peoples and also have our own;
 > thus we can understand you and you cannot understand us.
 
 `- Dostoevsky`
+
+> There are two parties in Russia. One party in office and one in prison.
+
+`- Nikolai Bukharin`
 
 > India lives in its villages.
 
@@ -378,6 +504,13 @@
 
 `- Kongbo Tibetan Prophecy`
 
+> No trading port as large as Malacca is known, nor any where they deal in such
+> fine and highly prized merchandise. Goods from all over the East are found here;
+> goods from all over the West are sold here. It is at the end of the monsoons
+> where you find what you want, and sometimes more than you are looking for.
+
+`- Tomé Pires`
+
 > With God's help, we will lift Shanghai up and up,
 > ever up until it is just like Kansas City.
 
@@ -386,6 +519,11 @@
 > Stilwell knew too much about China for his own good.
 
 `- General Paul Freeman`
+
+> Leadership in a world economy is an experience of power which may one
+> day blind the victor to the march of history.
+
+`- Fernand Braudel`
 
 > So often in international affairs, hawkish paranoia can
 > create the monster that is most feared.
@@ -422,14 +560,19 @@
 
 `- Sherlock Holmes`
 
-> Everyone wants to know, but no one wants to pay the price.
-
-`- Juvenal`
-
 > An expert is a man who has made all the mistakes which can be made in
 > a very narrow field.
 
 `- Niels Bohr`
+
+> No one can impart spiritual knowledge unless he has realization.
+> What is meant by realization? It means knowledge based on direct perception.
+
+`- Katha Upanishad`
+
+> Everyone wants to know, but no one wants to pay the price.
+
+`- Juvenal`
 
 > All of physics is either impossible or trivial. It is impossible until
 > you understand it, and then it becomes trivial.
@@ -516,11 +659,20 @@
 
 `- Edward Wilson`
 
+> There are still surprises for travelers who motor deep into the country
+> and walk into the woods.
+
+`- Donald Culross Peattie`
+
 > The tropical rain forest, though home to tens of thousands of species,
 > is in a sense a counterfeit paradise, a castle of immense biological
 > sophistication built quite literally on a foundation of sand.
 
 `- Wade Davis`
+
+> Water is timeless. Forever new and eternal.
+
+`- Marjorie Stoneman Douglas`
 
 > Every drop of rain on the solid aggregate of minerals is a hammer blow.
 
@@ -559,6 +711,11 @@
 
 `- Edward Snowden`
 
+> A new device merely opens the door, it does not compel anyone to
+> enter.
+
+`- Lynn White`
+
 > The Stone Age did not end for lack of stone.
 
 `- Sheikh Zaki Yamani`
@@ -589,6 +746,16 @@
 
 `- Harold Ickes`
 
+> It is commonplace in military history that there exists a continuity between
+> the closing phase of one war and the opening phase of the next.
+
+`- Isaac Deuscher`
+
+> In every civilization technical knowhow has manifested itself
+> above all in relation to warfare.
+
+`- Jürgen Osterhammer`
+
 > Our most critical vulnerability is the electrical supply, upon which all
 > other layers of modern society's technological infrastructure depend.
 
@@ -599,15 +766,6 @@
 > until it finally broke under predictable circumstances.
 
 `- Ed Hirs`
-
-> Flight is but a temporary escape from the eternal custody of the Earth.
-
-`- Beryl Markham`
-
-> A new device merely opens the door, it does not compel anyone to
-> enter.
-
-`- Lynn White`
 
 > We must catch up morally and internationally with the machine age. We
 > must catch up with it... in such a way as to create peace in the
@@ -625,6 +783,21 @@
 
 `- Frank Sabadka`
 
+> Our nation was built of White Pine, literally and figuratively.
+
+`- Donald Culross Peattie`
+
+> Canal construction was the grim material foundation
+> of the rise of the United States.
+
+`- Jurgen Osterhammel`
+
+> I envisioned that a group of professionals from The East would come
+> along by and by to tell us how networking was supposed to be done.
+> We had this sort of magical view of The East.
+
+`- Steve Crocker`
+
 > The internet has been the most fundamental change during my lifetime,
 > and for hundreds of years.
 
@@ -635,18 +808,17 @@
 
 `- Drew Pearson`
 
-> Software often grows to use the hardware you give it.
-
-`- Drew Devault`
-
 > A feature isn't real until it's been exploited.
 
 `- Joe Uhl`
 
-> What the smartest people do on the weekend is what everyone else will
-> do during the week in ten years.
+> Software often grows to use the hardware you give it.
 
-`- Chris Dixon`
+`- Drew Devault`
+
+> Flight is but a temporary escape from the eternal custody of the Earth.
+
+`- Beryl Markham`
 
 
 ## design
@@ -668,6 +840,11 @@
 > which are copies of their own communication structures.
 
 `- Melvin Conway`
+
+> Rarely does one recognize or discover a complex problem, formulate it, and
+> lay out a procedure that will solve it - all in one great flash of insight.
+
+`- J. C. R. Licklider`
 
 > Premature optimization is the root of all evil (or at least most of
 > it) in programming.
@@ -723,14 +900,9 @@
 
 `- Jeff Bezos`
 
-> Leadership in a world economy is an experience of power which may one
-> day blind the victor to the march of history.
-
-`- Fernand Braudel`
-
 > All your friends are false, all your enemies are real.
 
-`- A Mexican proverb.`
+`- A Mexican proverb`
 
 > Only when the tide goes out you find out who has been swimming naked.
 
@@ -758,6 +930,15 @@
 
 `- Samuel Johnson`
 
+> Patents add the fuel of interest to the fire of genius.
+
+`- Abraham Lincoln`
+
+> The best way to answer difficult questions is to find the
+> people who know the answers and interview them.
+
+`- Bill Browder`
+
 > Only a fool learns from their own mistakes. The wise learn from the
 > mistakes of others.
 
@@ -775,6 +956,10 @@
 > and he who has none wanders dead among the living.
 
 `- Scipion de Gramont`
+
+> If you don't inherit it you have to borrow it.
+
+`- Michael Milken`
 
 > Val più avere amici in piazza che denari nella cassa.
 
@@ -855,29 +1040,32 @@
 
 `- Richard Kluger`
 
-> The laws are spider webs, they catch the little,
-> but are brushed aside by the big.
-
-`- Saying in the Spanish Indies`
-
 > In order to maintain a tolerant society, the society must be
 > intolerant of intolerance.
 
 `- Karl Popper`
+
+> Everyone should have biases, and should be forgiven them.
+
+`- Scott Weidensaul`
 
 > The freedom of a country can only be measured by its respect for the
 > rights of its citizens.
 
 `- Edward Snowden`
 
+> No national culture can have a healthy and continuous growth without being
+> periodically fertilized by fresh inspiration and new ideas from abroad.
+
+`- C. R. Boxer`
+
 > Wherever purity is paramount, terror is close at hand.
 
 `- Lawrence Wright`
 
-> Our constitution is color-blind, and neither
-> knows nor tolerates classes among citizens.
+> Better 60 years of tyranny than 1 day of anarchy.
 
-`- John Marshall Harlan`
+`- An Arab proverb`
 
 > Class is defined by men as they live their own history.
 
@@ -888,9 +1076,57 @@
 
 `- Edmund Burke`
 
-> Better 60 years of tyranny than 1 day of anarchy.
+> Distinctions between citizens solely because of their ancestry are
+> by their very nature odious to a free people whose institutions
+> are founded upon the doctrine of equality.
 
-`- An Arab proverb.`
+`- Rice v. Cayetano`
+
+> Our constitution is color-blind, and neither
+> knows nor tolerates classes among citizens.
+
+`- John Marshall Harlan`
+
+> It is collective self-consciousness which distinguishes the
+> 19th century working class from the 18th century mob.
+
+`- E. P. Thompson`
+
+> A sort of Socratic spirit will necessarily grow up, wherever large bodies assemble.
+
+`- John Thelwall`
+
+> The lord prefers common looking people, that is why
+> he made so many of them.
+
+`- Abraham Lincoln`
+
+> The mass is always the magnified reflection of some individual.
+
+`- Harry Reichenbach`
+
+> Institutions are the shadows of men.
+
+`- Emerson`
+
+> The more hierarchical a society becomes, the stronger
+> is the cultural dominion of its elite.
+
+`- David Hackett Fischer`
+
+> There will always be an inner circle of corporate executives, politicians,
+> lawyers, and judges to control the others and obtain the real rewards.
+
+`- Theodore Roosevelt`
+
+> The river of power flows from the Ivy League.
+
+`- Joe Biden`
+
+> The laws are spider webs, they catch the little,
+> but are brushed aside by the big.
+
+`- Saying in the Spanish Indies`
 
 > The life of the law has not been logic; it has been experience.
 
@@ -899,6 +1135,10 @@
 > A law is a prediction of what the courts will do.
 
 `- Oliver Wendell Holmes Jr.`
+
+> Law forces us to distill things down to their essence.
+
+`- Mary Jo White`
 
 > Lawyers are on all sides of all questions.
 
@@ -910,15 +1150,6 @@
 > the organized life of men must be carried on.
 
 `- John W. Davis`
-
-> There will always be an inner circle of corporate executives, politicians,
-> lawyers, and judges to control the others and obtain the real rewards.
-
-`- Theodore Roosevelt`
-
-> Institutions are the shadows of men.
-
-`- Emerson`
 
 > The magnet which attracts corrupters and the natural locus of
 > corruption is always where the discretionary power resides.
@@ -932,10 +1163,6 @@
 > In the real world, everyone has something to lose.
 
 `- Thomas Friedman`
-
-> There are no second acts in American lives.
-
-`- F. Scott Fitzgerald`
 
 > There’s always a best hotel in every town. And the best room of the
 > best hotel always has someone in it.
@@ -951,9 +1178,17 @@
 
 `- Robert Caro`
 
+> All winning campaigns communicate optimism.
+
+`- Richard Ben Cramer`
+
 > Government is itself an art, one of the subtlest arts.
 
 `- Felix Frankfurter`
+
+> The ultimate victory will depend on the hearts and minds of the people.
+
+`- Lyndon B. Johnson`
 
 > Vom Staat soll an erster Stelle die Rede sein.
 
@@ -993,41 +1228,19 @@
 
 `- Benjamin Disraeli`
 
-> What a convenient thing is a mask. Under the mask every man is equal
-> and the principal magistrates can daily discover for themselves all
-> the little things that concern the people. Behind the mask the doge
-> himself may often be taking a walk.
+> If there were not merchants who go to seek for earthly treasures in the Indies,
+> who would transport thither the preachers who take the heavenly treasures?
 
-`- Goldoni`
+`- Pablo Antonio Vieira`
 
-> The lord prefers common looking people, that is why
-> he made so many of them.
+> The more backwards a country, the more powerful is the influence of religious
+> superstition and the more likely the people are to worship idols and animals.
 
-`- Abraham Lincoln`
+`- Kume Kunitake`
 
 > The Reformation spoke the language of nationalism.
 
 `- Namier`
-
-> It is collective self-consciousness which distinguishes the 19th century working class from the 18th century mob.
-
-`- E. P. Thompson`
-
-> A sort of Socratic spirit will necessarily grow up, wherever large bodies of men assemble.
-
-`- John Thelwall`
-
-> The mass is always the magnified reflection of some individual.
-
-`- Harry Reichenbach`
-
-> All happy families are alike; each unhappy family is unhappy in its own way.
-
-`- Leo Tolstoy`
-
-> We are all marked to some extent by the stamp of our generation.
-
-`- Anthony Eden`
 
 > Behind every great civilization is a vision.
 
@@ -1041,7 +1254,22 @@
 
 `- Lyndon B. Johnson`
 
-> The Earth is a generous mother. She will provide in plentiful abundance food
-> for all her children, if they will but cultivate her soil in justice and peace.
+> Every generation cherishes illusions which baffle its successors.
 
-`- Bourke Cockran`
+`- William Manchester`
+
+> We are all marked to some extent by the stamp of our generation.
+
+`- Anthony Eden`
+
+> What a convenient thing is a mask. Under the mask every man is equal
+> and the principal magistrates can daily discover for themselves all
+> the little things that concern the people. Behind the mask the doge
+> himself may often be taking a walk.
+
+`- Goldoni`
+
+> All happy families are alike; each unhappy family is unhappy in its own way.
+
+`- Leo Tolstoy`
+
