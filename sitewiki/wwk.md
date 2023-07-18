@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Heat Capacity](https://en.wikipedia.org/wiki/Heat_capacity)
 - [Emoji](https://en.wikipedia.org/wiki/Emoji)
 - [🕉️](https://en.wikipedia.org/wiki/Om)
 - [Diphthong](https://en.wikipedia.org/wiki/Diphthong)
