@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Numinous](https://en.wikipedia.org/wiki/Numinous)
 - [Rice](https://en.wikipedia.org/wiki/Rice)
 - [Myth](https://en.wikipedia.org/wiki/Myth)
 - [Kami](https://en.wikipedia.org/wiki/Kami)
