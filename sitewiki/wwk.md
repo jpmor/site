@@ -2,6 +2,8 @@
 
 ## July 2023
 
+- [Rice](https://en.wikipedia.org/wiki/Rice)
+- [Myth](https://en.wikipedia.org/wiki/Myth)
 - [Kami](https://en.wikipedia.org/wiki/Kami)
 - [Asiatic Low](https://en.wikipedia.org/wiki/Asiatic_Low)
 - [Heat Capacity](https://en.wikipedia.org/wiki/Heat_capacity)
