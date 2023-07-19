@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Kami](https://en.wikipedia.org/wiki/Kami)
 - [Asiatic Low](https://en.wikipedia.org/wiki/Asiatic_Low)
 - [Heat Capacity](https://en.wikipedia.org/wiki/Heat_capacity)
 - [Emoji](https://en.wikipedia.org/wiki/Emoji)
