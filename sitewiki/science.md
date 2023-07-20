@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Science Integrity Digest](https://scienceintegritydigest.com/)
 - [Supermassive Dark Star candidates seen by JWST](https://www.pnas.org/doi/10.1073/pnas.2305762120)
 
 ## December 2022
