@@ -1,5 +1,9 @@
 # history
 
+## July 2023
+
+- [Nixon to Clinton on Foreign Affairs](https://www.wsj.com/public/resources/documents/nixonletter.pdf)
+
 ## June 2023
 
 - [Historisches Lexikon der Schweiz](https://hls-dhs-dss.ch/de/)
