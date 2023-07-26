@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Li](https://en.wikipedia.org/wiki/Li_(Confucianism))
 - [LaTeX](https://en.wikipedia.org/wiki/LaTeX)
 - [Superconductivity](https://en.wikipedia.org/wiki/Superconductivity)
 - [AMOC](https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation)
