@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Softmax](https://en.wikipedia.org/wiki/Softmax_function)
 - [Li](https://en.wikipedia.org/wiki/Li_(Confucianism))
 - [LaTeX](https://en.wikipedia.org/wiki/LaTeX)
 - [Superconductivity](https://en.wikipedia.org/wiki/Superconductivity)
