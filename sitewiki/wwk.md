@@ -2,6 +2,8 @@
 
 ## July 2023
 
+- [Superconductivity](https://en.wikipedia.org/wiki/Superconductivity)
+- [AMOC](https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation)
 - [Feng Shui](https://en.wikipedia.org/wiki/Feng_shui)
 - [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing)
 - [Numinous](https://en.wikipedia.org/wiki/Numinous)
