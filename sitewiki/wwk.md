@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [LaTeX](https://en.wikipedia.org/wiki/LaTeX)
 - [Superconductivity](https://en.wikipedia.org/wiki/Superconductivity)
 - [AMOC](https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation)
 - [Feng Shui](https://en.wikipedia.org/wiki/Feng_shui)
