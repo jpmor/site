@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Feng Shui](https://en.wikipedia.org/wiki/Feng_shui)
 - [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing)
 - [Numinous](https://en.wikipedia.org/wiki/Numinous)
 - [Rice](https://en.wikipedia.org/wiki/Rice)
