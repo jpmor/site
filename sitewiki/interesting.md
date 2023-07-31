@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Screwed-o-meter](https://rachelbythebay.com/fun/som/)
 - [Emoji Requests](https://unicode.org/emoji/emoji-requests.html)
 
 ## June 2023
