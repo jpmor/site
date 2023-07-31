@@ -2,6 +2,7 @@
 
 ## July 2023
 
+- [Clickbait](https://en.wikipedia.org/wiki/Clickbait)
 - [Emotion](https://en.wikipedia.org/wiki/Emotion)
 - [Softmax](https://en.wikipedia.org/wiki/Softmax_function)
 - [Li](https://en.wikipedia.org/wiki/Li_(Confucianism))
