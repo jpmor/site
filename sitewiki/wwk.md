@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## August 2023
+
+- [Tantra](https://en.wikipedia.org/wiki/Tantra)
+
 ## July 2023
 
 - [Fouling](https://en.wikipedia.org/wiki/Fouling)
