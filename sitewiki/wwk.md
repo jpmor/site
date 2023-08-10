@@ -2,6 +2,7 @@
 
 ## August 2023
 
+- [Aesthetics](https://en.wikipedia.org/wiki/Aesthetics)
 - [Tantra](https://en.wikipedia.org/wiki/Tantra)
 
 ## July 2023
