@@ -2,6 +2,7 @@
 
 ## August 2023
 
+- [Wendelstein 7-X](https://en.wikipedia.org/wiki/Wendelstein_7-X)
 - [Aesthetics](https://en.wikipedia.org/wiki/Aesthetics)
 - [Tantra](https://en.wikipedia.org/wiki/Tantra)
 
