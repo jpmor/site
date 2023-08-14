@@ -220,7 +220,10 @@
         "Galveston__TX",
         "Orleans__LA",
         "Jackson__MS",
-        "Montgomery__AL"
+        "Montgomery__AL",
+        "Macon__NC",
+        "Jackson__NC",
+        "Rabun__GA"
       ]
     },
     "#bbddff": {
@@ -580,8 +583,6 @@
         "Walker__GA",
         "Catoosa__GA",
         "McDowell__NC",
-        "Jackson__NC",
-        "Macon__NC",
         "Clay__NC",
         "Towns__GA",
         "Pickens__GA",
@@ -746,7 +747,8 @@
         "Lowndes__AL",
         "Macon__AL",
         "Lee__AL",
-        "Chambers__AL"
+        "Chambers__AL",
+        "White__GA"
       ]
     },
     "#bbbbbb": {
@@ -972,7 +974,6 @@
         "Oglethorpe__GA",
         "Pierce__GA",
         "Quitman__GA",
-        "Rabun__GA",
         "Schley__GA",
         "Seminole__GA",
         "Sumter__GA",
@@ -984,7 +985,6 @@
         "Ware__GA",
         "Webster__GA",
         "Wheeler__GA",
-        "White__GA",
         "Wilcox__GA",
         "Wilkes__GA",
         "Wilkinson__GA",
