@@ -2,6 +2,7 @@
 
 ## August 2023
 
+- [William Bartram](https://en.wikipedia.org/wiki/William_Bartram)
 - [Soil Seed Bank](https://en.wikipedia.org/wiki/Soil_seed_bank)
 - [Wendelstein 7-X](https://en.wikipedia.org/wiki/Wendelstein_7-X)
 - [Aesthetics](https://en.wikipedia.org/wiki/Aesthetics)
