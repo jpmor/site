@@ -2,6 +2,9 @@
 
 ## August 2023
 
+- [Terrane](https://en.wikipedia.org/wiki/Terrane)
+- [Valhalla Crater](https://en.wikipedia.org/wiki/Valhalla_(crater))
+- [Bushveld Igneous Complex](https://en.wikipedia.org/wiki/Bushveld_Igneous_Complex)
 - [William Bartram](https://en.wikipedia.org/wiki/William_Bartram)
 - [Soil Seed Bank](https://en.wikipedia.org/wiki/Soil_seed_bank)
 - [Wendelstein 7-X](https://en.wikipedia.org/wiki/Wendelstein_7-X)
