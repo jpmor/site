@@ -2,6 +2,7 @@
 
 ## August 2023
 
+- [Continuity Equation](https://en.wikipedia.org/wiki/Continuity_equation)
 - [Lightcone](https://en.wikipedia.org/wiki/Light_cone)
 - [Dark Energy](https://en.wikipedia.org/wiki/Dark_energy)
 - [ΛCDM](https://en.wikipedia.org/wiki/Lambda-CDM_model)
