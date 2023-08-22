@@ -1,5 +1,9 @@
 # interesting
 
+## August 2023
+
+- [Beautiful Public Data](https://www.beautifulpublicdata.com/)
+
 ## July 2023
 
 - [Screwed-o-meter](https://rachelbythebay.com/fun/som/)
