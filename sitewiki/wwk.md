@@ -2,6 +2,7 @@
 
 ## August 2023
 
+- [Malt](https://en.wikipedia.org/wiki/Malt)
 - [Continuity Equation](https://en.wikipedia.org/wiki/Continuity_equation)
 - [Lightcone](https://en.wikipedia.org/wiki/Light_cone)
 - [Dark Energy](https://en.wikipedia.org/wiki/Dark_energy)
