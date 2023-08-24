@@ -2,6 +2,7 @@
 
 ## August 2023
 
+- [Dead Sea](https://en.wikipedia.org/wiki/Dead_Sea)
 - [Malt](https://en.wikipedia.org/wiki/Malt)
 - [Continuity Equation](https://en.wikipedia.org/wiki/Continuity_equation)
 - [Lightcone](https://en.wikipedia.org/wiki/Light_cone)
