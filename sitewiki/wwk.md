@@ -2,6 +2,7 @@
 
 ## August 2023
 
+- [Ozone Layer](https://en.wikipedia.org/wiki/Ozone_layer)
 - [Dead Sea](https://en.wikipedia.org/wiki/Dead_Sea)
 - [Malt](https://en.wikipedia.org/wiki/Malt)
 - [Continuity Equation](https://en.wikipedia.org/wiki/Continuity_equation)
