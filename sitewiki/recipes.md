@@ -10,3 +10,5 @@
 [risotto](risotto.md)
 
 [amatriciana](amatriciana.md)
+
+[gnocchi](gnocchi.md)
