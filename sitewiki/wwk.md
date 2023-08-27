@@ -2,6 +2,7 @@
 
 ## August 2023
 
+- [Part of Speech](https://en.wikipedia.org/wiki/Part_of_speech)
 - [Octave](https://en.wikipedia.org/wiki/Octave)
 - [Ozone Layer](https://en.wikipedia.org/wiki/Ozone_layer)
 - [Dead Sea](https://en.wikipedia.org/wiki/Dead_Sea)
