@@ -1,5 +1,9 @@
 # interesting
 
+## September 2023
+
+- [Animated Knots](https://www.animatedknots.com/)
+
 ## August 2023
 
 - [Beautiful Public Data](https://www.beautifulpublicdata.com/)
