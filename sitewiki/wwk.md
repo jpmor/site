@@ -1,5 +1,10 @@
 # wikipedias worth knowing
 
+## September 2023
+
+- [Transduction](https://en.wikipedia.org/wiki/Transduction_(physiology))
+- [Eustachian Tube](https://en.wikipedia.org/wiki/Eustachian_tube)
+
 ## August 2023
 
 - [Quarry](https://en.wikipedia.org/wiki/Quarry)
