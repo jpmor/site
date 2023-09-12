@@ -2,9 +2,8 @@
 
 ## September 2023
 
-- [https://en.wikipedia.org/wiki/Umami](Umami)
+- [Umami](https://en.wikipedia.org/wiki/Umami)
 - [Inselberg](https://en.wikipedia.org/wiki/Inselberg)
-- [Chimera](https://en.wikipedia.org/wiki/Chimera_(genetics))
 - [Chimera](https://en.wikipedia.org/wiki/Chimera_(genetics))
 - [Transduction](https://en.wikipedia.org/wiki/Transduction_(physiology))
 - [Eustachian Tube](https://en.wikipedia.org/wiki/Eustachian_tube)
