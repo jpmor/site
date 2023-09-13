@@ -1,5 +1,9 @@
 # business
 
+## September 2023
+
+- [Credit Card Debt Collection](https://www.bitsaboutmoney.com/archive/the-waste-stream-of-consumer-finance/)
+
 ## April 2023
 
 - [Why <s>does</s> did Google Brain exist?](https://www.moderndescartes.com/essays/why_brain/)
