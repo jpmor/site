@@ -2,6 +2,7 @@
 
 ## September 2023
 
+- [Nichiren](https://en.wikipedia.org/wiki/Nichiren)
 - [Omen](https://en.wikipedia.org/wiki/Omen)
 - [Umami](https://en.wikipedia.org/wiki/Umami)
 - [Inselberg](https://en.wikipedia.org/wiki/Inselberg)
