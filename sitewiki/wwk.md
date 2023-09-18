@@ -2,6 +2,7 @@
 
 ## September 2023
 
+- [Koan](https://en.wikipedia.org/wiki/Koan)
 - [Nichiren](https://en.wikipedia.org/wiki/Nichiren)
 - [Omen](https://en.wikipedia.org/wiki/Omen)
 - [Umami](https://en.wikipedia.org/wiki/Umami)
