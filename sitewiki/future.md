@@ -1,5 +1,9 @@
 # future
 
+## September 2023
+
+- [Varda Space Denied Reentry](https://techcrunch.com/2023/09/15/varda-space-puts-off-orbital-factory-reentry-pending-air-force-and-faa-green-light/)
+
 ## December 2022
 
 - [Building A Virtual Machine inside ChatGPT](https://www.engraved.blog/building-a-virtual-machine-inside/)
