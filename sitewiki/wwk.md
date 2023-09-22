@@ -2,6 +2,8 @@
 
 ## September 2023
 
+- [Charcoal](https://en.wikipedia.org/wiki/Charcoal)
+- [Biomass](https://en.wikipedia.org/wiki/Biomass_(ecology))
 - [Koan](https://en.wikipedia.org/wiki/Koan)
 - [Nichiren](https://en.wikipedia.org/wiki/Nichiren)
 - [Omen](https://en.wikipedia.org/wiki/Omen)
