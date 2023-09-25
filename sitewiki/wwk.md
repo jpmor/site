@@ -2,6 +2,7 @@
 
 ## September 2023
 
+- [Taboo](https://en.wikipedia.org/wiki/Taboo)
 - [Saccade](https://en.wikipedia.org/wiki/Saccade)
 - [Photosynthesis](https://en.wikipedia.org/wiki/Photosynthesis)
 - [Nutrient](https://en.wikipedia.org/wiki/Nutrient)
