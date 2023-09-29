@@ -2,6 +2,7 @@
 
 ## September 2023
 
+- [Consensus (CS)](https://en.wikipedia.org/wiki/Consensus_(computer_science))
 - [Dialectic](https://en.wikipedia.org/wiki/Dialectic)
 - [Gnosiology](https://en.wikipedia.org/wiki/Gnosiology)
 - [Taboo](https://en.wikipedia.org/wiki/Taboo)
