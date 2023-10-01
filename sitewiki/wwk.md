@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [François-Noël Babeuf](https://en.wikipedia.org/wiki/François-Noël_Babeuf)
 - [Shibboleth](https://en.wikipedia.org/wiki/Shibboleth)
 - [Chen Duxiu](https://en.wikipedia.org/wiki/Chen_Duxiu)
 
