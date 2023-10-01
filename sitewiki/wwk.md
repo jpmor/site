@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## October 2023
+
+- [Chen Duxiu](https://en.wikipedia.org/wiki/Chen_Duxiu)
+
 ## September 2023
 
 - [Consensus (CS)](https://en.wikipedia.org/wiki/Consensus_(computer_science))
