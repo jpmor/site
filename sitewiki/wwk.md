@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Vinyl Chloride](https://en.wikipedia.org/wiki/Vinyl_chloride)
 - [Essential Amino Acids](https://en.wikipedia.org/wiki/Essential_amino_acid)
 - [Tilth](https://en.wikipedia.org/wiki/Tilth)
 - [Don Quixote](https://en.wikipedia.org/wiki/Don_Quixote)
