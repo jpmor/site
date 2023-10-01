@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Essential Amino Acids](https://en.wikipedia.org/wiki/Essential_amino_acid)
 - [Tilth](https://en.wikipedia.org/wiki/Tilth)
 - [Don Quixote](https://en.wikipedia.org/wiki/Don_Quixote)
 - [François-Noël Babeuf](https://en.wikipedia.org/wiki/François-Noël_Babeuf)
