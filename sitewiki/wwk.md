@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Shibboleth](https://en.wikipedia.org/wiki/Shibboleth)
 - [Chen Duxiu](https://en.wikipedia.org/wiki/Chen_Duxiu)
 
 ## September 2023
