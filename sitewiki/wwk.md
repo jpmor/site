@@ -2,6 +2,8 @@
 
 ## October 2023
 
+- [Phosphorescence](https://en.wikipedia.org/wiki/Phosphorescence)
+- [Symbiosis](https://en.wikipedia.org/wiki/Symbiosis)
 - [Diazotroph](https://en.wikipedia.org/wiki/Diazotroph)
 - [Carcinogen](https://en.wikipedia.org/wiki/Carcinogen)
 - [Vinyl Chloride](https://en.wikipedia.org/wiki/Vinyl_chloride)
