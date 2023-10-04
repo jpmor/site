@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Diazotroph](https://en.wikipedia.org/wiki/Diazotroph)
 - [Carcinogen](https://en.wikipedia.org/wiki/Carcinogen)
 - [Vinyl Chloride](https://en.wikipedia.org/wiki/Vinyl_chloride)
 - [Essential Amino Acids](https://en.wikipedia.org/wiki/Essential_amino_acid)
