@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Cliché](https://en.wikipedia.org/wiki/Cliché)
 - [Phosphorescence](https://en.wikipedia.org/wiki/Phosphorescence)
 - [Symbiosis](https://en.wikipedia.org/wiki/Symbiosis)
 - [Diazotroph](https://en.wikipedia.org/wiki/Diazotroph)
