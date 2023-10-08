@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio)
 - [Cliché](https://en.wikipedia.org/wiki/Cliché)
 - [Phosphorescence](https://en.wikipedia.org/wiki/Phosphorescence)
 - [Symbiosis](https://en.wikipedia.org/wiki/Symbiosis)
