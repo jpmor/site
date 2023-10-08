@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Dual_EC_DRBG](https://en.wikipedia.org/wiki/Dual_EC_DRBG)
 - [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio)
 - [Cliché](https://en.wikipedia.org/wiki/Cliché)
 - [Phosphorescence](https://en.wikipedia.org/wiki/Phosphorescence)
