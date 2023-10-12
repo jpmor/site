@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Ages of Man](https://en.wikipedia.org/wiki/Ages_of_Man)
 - [Airfoil](https://en.wikipedia.org/wiki/Airfoil)
 - [Anemometer](https://en.wikipedia.org/wiki/Anemometer)
 - [Dual_EC_DRBG](https://en.wikipedia.org/wiki/Dual_EC_DRBG)
