@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Ore](https://en.wikipedia.org/wiki/Ore)
 - [Ages of Man](https://en.wikipedia.org/wiki/Ages_of_Man)
 - [Airfoil](https://en.wikipedia.org/wiki/Airfoil)
 - [Anemometer](https://en.wikipedia.org/wiki/Anemometer)
