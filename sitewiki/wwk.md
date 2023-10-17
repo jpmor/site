@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Abraham Darby](https://en.wikipedia.org/wiki/Abraham_Darby_I)
 - [Ore](https://en.wikipedia.org/wiki/Ore)
 - [Ages of Man](https://en.wikipedia.org/wiki/Ages_of_Man)
 - [Airfoil](https://en.wikipedia.org/wiki/Airfoil)
