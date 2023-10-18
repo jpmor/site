@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Michael Faraday](https://en.wikipedia.org/wiki/Michael_Faraday)
 - [Rankine Cycle](https://en.wikipedia.org/wiki/Rankine_cycle)
 - [James Watt](https://en.wikipedia.org/wiki/James_Watt)
 - [Friability](https://en.wikipedia.org/wiki/Friability)
