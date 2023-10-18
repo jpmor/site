@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Friability](https://en.wikipedia.org/wiki/Friability)
 - [Cyanobacteria](https://en.wikipedia.org/wiki/Cyanobacteria)
 - [Abraham Darby](https://en.wikipedia.org/wiki/Abraham_Darby_I)
 - [Ore](https://en.wikipedia.org/wiki/Ore)
