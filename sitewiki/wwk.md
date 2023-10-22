@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Urea](https://en.wikipedia.org/wiki/Urea)
 - [Transformer](https://en.wikipedia.org/wiki/Transformer)
 - [Michael Faraday](https://en.wikipedia.org/wiki/Michael_Faraday)
 - [Rankine Cycle](https://en.wikipedia.org/wiki/Rankine_cycle)
