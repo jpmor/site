@@ -2,6 +2,7 @@
 
 ## October 2023
 
+- [Fritz Haber](https://en.wikipedia.org/wiki/Fritz_Haber)
 - [Wernher von Braun](https://en.wikipedia.org/wiki/Wernher_von_Braun)
 - [Urea](https://en.wikipedia.org/wiki/Urea)
 - [Transformer](https://en.wikipedia.org/wiki/Transformer)
