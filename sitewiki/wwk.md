@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## November 2023
+
+- [eBPF](https://en.wikipedia.org/wiki/EBPF)
+
 ## October 2023
 
 - [Fritz Haber](https://en.wikipedia.org/wiki/Fritz_Haber)
