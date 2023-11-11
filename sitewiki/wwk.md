@@ -2,6 +2,7 @@
 
 ## November 2023
 
+- [Thermidor](https://en.wikipedia.org/wiki/Thermidorian_Reaction)
 - [DDS](https://en.wikipedia.org/wiki/Data_Distribution_Service)
 - [eBPF](https://en.wikipedia.org/wiki/EBPF)
 
