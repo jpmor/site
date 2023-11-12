@@ -2,6 +2,7 @@
 
 ## November 2023
 
+- [Qanat](https://en.wikipedia.org/wiki/Qanat)
 - [Thermidor](https://en.wikipedia.org/wiki/Thermidorian_Reaction)
 - [DDS](https://en.wikipedia.org/wiki/Data_Distribution_Service)
 - [eBPF](https://en.wikipedia.org/wiki/EBPF)
