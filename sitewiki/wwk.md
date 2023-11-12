@@ -2,6 +2,7 @@
 
 ## November 2023
 
+- [Alibi](https://en.wikipedia.org/wiki/Alibi)
 - [Qanat](https://en.wikipedia.org/wiki/Qanat)
 - [Thermidor](https://en.wikipedia.org/wiki/Thermidorian_Reaction)
 - [DDS](https://en.wikipedia.org/wiki/Data_Distribution_Service)
