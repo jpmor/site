@@ -2,6 +2,7 @@
 
 ## November 2023
 
+- [Kitabatake Chikafusa](https://en.wikipedia.org/wiki/Kitabatake_Chikafusa)
 - [Alibi](https://en.wikipedia.org/wiki/Alibi)
 - [Qanat](https://en.wikipedia.org/wiki/Qanat)
 - [Thermidor](https://en.wikipedia.org/wiki/Thermidorian_Reaction)
