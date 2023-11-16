@@ -2,6 +2,7 @@
 
 ## November 2023
 
+- [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
 - [Kitabatake Chikafusa](https://en.wikipedia.org/wiki/Kitabatake_Chikafusa)
 - [Alibi](https://en.wikipedia.org/wiki/Alibi)
 - [Qanat](https://en.wikipedia.org/wiki/Qanat)
