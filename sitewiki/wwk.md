@@ -2,6 +2,7 @@
 
 ## November 2023
 
+- [Wang Zhi](https://en.wikipedia.org/wiki/Wang_Zhi_(pirate))
 - [Francis Xavier](https://en.wikipedia.org/wiki/Francis_Xavier)
 - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
 - [Kitabatake Chikafusa](https://en.wikipedia.org/wiki/Kitabatake_Chikafusa)
