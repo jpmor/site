@@ -1,5 +1,9 @@
 # business
 
+## November 2023
+
+- [The Bond Villain Compliance Strategy](https://www.bitsaboutmoney.com/archive/bond-villain-compliance-strategy/)
+
 ## September 2023
 
 - [Credit Card Debt Collection](https://www.bitsaboutmoney.com/archive/the-waste-stream-of-consumer-finance/)
