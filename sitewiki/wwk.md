@@ -2,6 +2,7 @@
 
 ## November 2023
 
+- [RTOS](https://en.wikipedia.org/wiki/Real-time_operating_system)
 - [Wang Zhi](https://en.wikipedia.org/wiki/Wang_Zhi_(pirate))
 - [Francis Xavier](https://en.wikipedia.org/wiki/Francis_Xavier)
 - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
