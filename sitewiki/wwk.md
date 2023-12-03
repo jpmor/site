@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## December 2023
+
+- [Ikkō Ikki](https://en.wikipedia.org/wiki/Ikk%C5%8D-ikki)
+
 ## November 2023
 
 - [RTOS](https://en.wikipedia.org/wiki/Real-time_operating_system)
