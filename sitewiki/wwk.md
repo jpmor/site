@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Camouflage](https://en.wikipedia.org/wiki/Camouflage)
 - [Ikkō Ikki](https://en.wikipedia.org/wiki/Ikk%C5%8D-ikki)
 
 ## November 2023
