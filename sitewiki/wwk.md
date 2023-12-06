@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Paradox](https://en.wikipedia.org/wiki/Paradox)
 - [Dominoes](https://en.wikipedia.org/wiki/Dominoes)
 - [Riddle](https://en.wikipedia.org/wiki/Riddle)
 - [Tinnitus](https://en.wikipedia.org/wiki/Tinnitus)
