@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Riddle](https://en.wikipedia.org/wiki/Riddle)
 - [Tinnitus](https://en.wikipedia.org/wiki/Tinnitus)
 - [Camouflage](https://en.wikipedia.org/wiki/Camouflage)
 - [Ikkō Ikki](https://en.wikipedia.org/wiki/Ikk%C5%8D-ikki)
