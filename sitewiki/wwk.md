@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Dominoes](https://en.wikipedia.org/wiki/Dominoes)
 - [Riddle](https://en.wikipedia.org/wiki/Riddle)
 - [Tinnitus](https://en.wikipedia.org/wiki/Tinnitus)
 - [Camouflage](https://en.wikipedia.org/wiki/Camouflage)
