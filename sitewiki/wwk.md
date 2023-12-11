@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Ice Bucket Challenge](https://en.wikipedia.org/wiki/Ice_Bucket_Challenge)
 - [Devil](https://en.wikipedia.org/wiki/Devil)
 - [Pan Am](https://en.wikipedia.org/wiki/Pan_Am)
 - [Paradox](https://en.wikipedia.org/wiki/Paradox)
