@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Devil](https://en.wikipedia.org/wiki/Devil)
 - [Pan Am](https://en.wikipedia.org/wiki/Pan_Am)
 - [Paradox](https://en.wikipedia.org/wiki/Paradox)
 - [Dominoes](https://en.wikipedia.org/wiki/Dominoes)
