@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
 - [Ice Bucket Challenge](https://en.wikipedia.org/wiki/Ice_Bucket_Challenge)
 - [Devil](https://en.wikipedia.org/wiki/Devil)
 - [Pan Am](https://en.wikipedia.org/wiki/Pan_Am)
