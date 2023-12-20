@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Sharia](https://en.wikipedia.org/wiki/Sharia)
 - [Absinthe](https://en.wikipedia.org/wiki/Absinthe)
 - [Shigeru Miyamoto](https://en.wikipedia.org/wiki/Shigeru_Miyamoto)
 - [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
