@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Stigma](https://en.wikipedia.org/wiki/Social_stigma)
 - [Hallucination](https://en.wikipedia.org/wiki/Hallucination)
 - [Ethics](https://en.wikipedia.org/wiki/Ethics)
 - [Sharia](https://en.wikipedia.org/wiki/Sharia)
