@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [LNG](https://en.wikipedia.org/wiki/Liquefied_natural_gas)
 - [Stigma](https://en.wikipedia.org/wiki/Social_stigma)
 - [Hallucination](https://en.wikipedia.org/wiki/Hallucination)
 - [Ethics](https://en.wikipedia.org/wiki/Ethics)
