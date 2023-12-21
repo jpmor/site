@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Hallucination](https://en.wikipedia.org/wiki/Hallucination)
 - [Ethics](https://en.wikipedia.org/wiki/Ethics)
 - [Sharia](https://en.wikipedia.org/wiki/Sharia)
 - [Absinthe](https://en.wikipedia.org/wiki/Absinthe)
