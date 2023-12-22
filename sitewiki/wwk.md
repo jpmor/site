@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Tattoo](https://en.wikipedia.org/wiki/Tattoo)
 - [Domestication](https://en.wikipedia.org/wiki/Domestication)
 - [LNG](https://en.wikipedia.org/wiki/Liquefied_natural_gas)
 - [Stigma](https://en.wikipedia.org/wiki/Social_stigma)
