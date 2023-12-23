@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Henry Every](https://en.wikipedia.org/wiki/Henry_Every)
 - [Tattoo](https://en.wikipedia.org/wiki/Tattoo)
 - [Domestication](https://en.wikipedia.org/wiki/Domestication)
 - [LNG](https://en.wikipedia.org/wiki/Liquefied_natural_gas)
