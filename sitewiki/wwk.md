@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [The Waste Land](https://en.wikipedia.org/wiki/The_Waste_Land)
 - [Henry Every](https://en.wikipedia.org/wiki/Henry_Every)
 - [Tattoo](https://en.wikipedia.org/wiki/Tattoo)
 - [Domestication](https://en.wikipedia.org/wiki/Domestication)
