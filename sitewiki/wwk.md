@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [John Cabot](https://en.wikipedia.org/wiki/John_Cabot)
 - [The Waste Land](https://en.wikipedia.org/wiki/The_Waste_Land)
 - [Henry Every](https://en.wikipedia.org/wiki/Henry_Every)
 - [Tattoo](https://en.wikipedia.org/wiki/Tattoo)
