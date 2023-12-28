@@ -226,7 +226,11 @@
         "Macon__NC",
         "Jackson__NC",
         "Rabun__GA",
-        "Pickens__GA"
+        "Pickens__GA",
+        "Hampton__SC",
+        "Camden__GA",
+        "St__Johns__FL",
+        "Flagler__FL"
       ]
     },
     "#bbddff": {
@@ -651,7 +655,6 @@
         "Jefferson__GA",
         "Burke__GA",
         "Screven__GA",
-        "Hampton__SC",
         "Bryan__GA",
         "Bulloch__GA",
         "Candler__GA",
@@ -707,10 +710,7 @@
         "Jeff_Davis__GA",
         "Appling__GA",
         "Wayne__GA",
-        "Camden__GA",
         "Nassau__FL",
-        "St__Johns__FL",
-        "Flagler__FL",
         "Volusia__FL",
         "Brevard__FL",
         "Madison__FL",
@@ -748,7 +748,9 @@
         "Macon__AL",
         "Lee__AL",
         "Chambers__AL",
-        "White__GA"
+        "White__GA",
+        "Liberty__GA",
+        "McIntosh__GA"
       ]
     },
     "#bbbbbb": {
@@ -963,12 +965,10 @@
         "Jones__GA",
         "Lanier__GA",
         "Lee__GA",
-        "Liberty__GA",
         "Lincoln__GA",
         "Long__GA",
         "Macon__GA",
         "Marion__GA",
-        "McIntosh__GA",
         "Mitchell__GA",
         "Montgomery__GA",
         "Oglethorpe__GA",
