@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [José Martí](https://en.wikipedia.org/wiki/José_Martí)
 - [Status Quo](https://en.wikipedia.org/wiki/Status_quo)
 - [Time Zone](https://en.wikipedia.org/wiki/Time_zone)
 - [Yellow Fever](https://en.wikipedia.org/wiki/Yellow_fever)
