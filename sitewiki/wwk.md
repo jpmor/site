@@ -2,6 +2,7 @@
 
 ## December 2023
 
+- [Résumé](https://en.wikipedia.org/wiki/Résumé)
 - [DnD](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons)
 - [José Martí](https://en.wikipedia.org/wiki/José_Martí)
 - [Status Quo](https://en.wikipedia.org/wiki/Status_quo)
