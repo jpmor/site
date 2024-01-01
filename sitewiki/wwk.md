@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## January 2024
+
+- [Ponzi Scheme](https://en.wikipedia.org/wiki/Ponzi_scheme)
+
 ## December 2023
 
 - [Résumé](https://en.wikipedia.org/wiki/Résumé)
