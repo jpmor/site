@@ -2,6 +2,7 @@
 
 ## January 2024
 
+- [Hajj](https://en.wikipedia.org/wiki/Hajj)
 - [Crystal](https://en.wikipedia.org/wiki/Crystal)
 - [The Explorers Club](https://en.wikipedia.org/wiki/The_Explorers_Club)
 - [Ponzi Scheme](https://en.wikipedia.org/wiki/Ponzi_scheme)
