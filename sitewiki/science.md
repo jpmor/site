@@ -1,5 +1,9 @@
 # science
 
+## January 2024
+
+- [What does the Cerebellum Do Anyway?](https://sarahconstantin.substack.com/p/what-does-the-cerebellum-do-anyway)
+
 ## August 2023
 
 - [WTF? The Universe's expansion rate isn't accelerating?](https://bigthink.com/starts-with-a-bang/universe-expansion-not-accelerating/)
