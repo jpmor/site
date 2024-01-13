@@ -2,6 +2,7 @@
 
 ## January 2024
 
+- [Oasis](https://en.wikipedia.org/wiki/Oasis)
 - [YouTube](https://en.wikipedia.org/wiki/YouTube)
 - [Hajj](https://en.wikipedia.org/wiki/Hajj)
 - [Crystal](https://en.wikipedia.org/wiki/Crystal)
