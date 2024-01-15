@@ -2,6 +2,7 @@
 
 ## January 2024
 
+- [World Economic Forum](https://en.wikipedia.org/wiki/World_Economic_Forum)
 - [Oasis](https://en.wikipedia.org/wiki/Oasis)
 - [YouTube](https://en.wikipedia.org/wiki/YouTube)
 - [Hajj](https://en.wikipedia.org/wiki/Hajj)
