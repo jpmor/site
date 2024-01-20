@@ -2,6 +2,7 @@
 
 ## January 2024
 
+- [Jacques Delors](https://en.wikipedia.org/wiki/Jacques_Delors)
 - [Distillation](https://en.wikipedia.org/wiki/Distillation)
 - [☯️](https://en.wikipedia.org/wiki/Yin_and_yang)
 - [Censorship](https://en.wikipedia.org/wiki/Censorship)
