@@ -2,6 +2,7 @@
 
 ## January 2024
 
+- [Distillation](https://en.wikipedia.org/wiki/Distillation)
 - [☯️](https://en.wikipedia.org/wiki/Yin_and_yang)
 - [Censorship](https://en.wikipedia.org/wiki/Censorship)
 - [World Economic Forum](https://en.wikipedia.org/wiki/World_Economic_Forum)
