@@ -2,6 +2,9 @@
 
 ## January 2024
 
+- [Zou Yan](https://en.wikipedia.org/wiki/Zou_Yan)
+- [Fuxi](https://en.wikipedia.org/wiki/Fuxi)
+- [Wuxing](https://en.wikipedia.org/wiki/Wuxing_(Chinese_philosophy))
 - [Jacques Delors](https://en.wikipedia.org/wiki/Jacques_Delors)
 - [Distillation](https://en.wikipedia.org/wiki/Distillation)
 - [☯️](https://en.wikipedia.org/wiki/Yin_and_yang)
