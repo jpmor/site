@@ -2,6 +2,7 @@
 
 ## January 2024
 
+- [Mirror](https://en.wikipedia.org/wiki/Mirror)
 - [Zou Yan](https://en.wikipedia.org/wiki/Zou_Yan)
 - [Fuxi](https://en.wikipedia.org/wiki/Fuxi)
 - [Wuxing](https://en.wikipedia.org/wiki/Wuxing_(Chinese_philosophy))
