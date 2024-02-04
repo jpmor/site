@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## February 2024
+
+- [Smallpox](https://en.wikipedia.org/wiki/Smallpox#Eradication)
+
 ## January 2024
 
 - [Jean-Jacques Rousseau](https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau)
