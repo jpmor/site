@@ -2,6 +2,7 @@
 
 ## February 2024
 
+- [Diffusion](https://en.wikipedia.org/wiki/Diffusion)
 - [Smallpox](https://en.wikipedia.org/wiki/Smallpox#Eradication)
 
 ## January 2024
