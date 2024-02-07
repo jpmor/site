@@ -7,7 +7,6 @@
 ## January 2024
 
 - [Jean-Jacques Rousseau](https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau)
-- [Jean-Jacques Rousseau](https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau)
 - [Birch Bayh](https://en.wikipedia.org/wiki/Birch_Bayh)
 - [Sunlight](https://en.wikipedia.org/wiki/Sunlight)
 - [Mirror](https://en.wikipedia.org/wiki/Mirror)
