@@ -2,6 +2,7 @@
 
 ## February 2024
 
+- [Ceramic](https://en.wikipedia.org/wiki/Ceramic)
 - [Diffusion](https://en.wikipedia.org/wiki/Diffusion)
 - [Smallpox](https://en.wikipedia.org/wiki/Smallpox#Eradication)
 
