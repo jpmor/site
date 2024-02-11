@@ -2,6 +2,9 @@
 
 ## February 2024
 
+- [Pelagius](https://en.wikipedia.org/wiki/Pelagius)
+- [Wang Chong](https://en.wikipedia.org/wiki/Wang_Chong)
+- [Hildegard of Bingen](https://en.wikipedia.org/wiki/Hildegard_of_Bingen)
 - [Ceramic](https://en.wikipedia.org/wiki/Ceramic)
 - [Diffusion](https://en.wikipedia.org/wiki/Diffusion)
 - [Smallpox](https://en.wikipedia.org/wiki/Smallpox#Eradication)
