@@ -2,6 +2,7 @@
 
 ## February 2024
 
+- [Hundred Schools of Thought](https://en.wikipedia.org/wiki/Hundred_Schools_of_Thought)
 - [Pelagius](https://en.wikipedia.org/wiki/Pelagius)
 - [Wang Chong](https://en.wikipedia.org/wiki/Wang_Chong)
 - [Hildegard of Bingen](https://en.wikipedia.org/wiki/Hildegard_of_Bingen)
