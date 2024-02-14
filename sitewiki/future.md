@@ -1,5 +1,9 @@
 # future
 
+## February 2024
+
+- [Someone is going to dim the sun, and it will be soon.](https://climate.benjames.io/someone-is-going-to-dim-the-sun/)
+
 ## September 2023
 
 - [Varda Space Denied Reentry](https://techcrunch.com/2023/09/15/varda-space-puts-off-orbital-factory-reentry-pending-air-force-and-faa-green-light/)
