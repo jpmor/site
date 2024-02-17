@@ -2,6 +2,7 @@
 
 ## February 2024
 
+- [Brethren of Purity](https://en.wikipedia.org/wiki/Brethren_of_Purity)
 - [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer))
 - [Hundred Schools of Thought](https://en.wikipedia.org/wiki/Hundred_Schools_of_Thought)
 - [Pelagius](https://en.wikipedia.org/wiki/Pelagius)
