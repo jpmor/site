@@ -2,6 +2,7 @@
 
 ## February 2024
 
+- [Keiretsu](https://en.wikipedia.org/wiki/Keiretsu)
 - [World Geodetic System](https://en.wikipedia.org/wiki/World_Geodetic_System)
 - [Brethren of Purity](https://en.wikipedia.org/wiki/Brethren_of_Purity)
 - [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer))
