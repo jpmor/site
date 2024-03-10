@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## March 2024
+
+- [Pantograph](https://en.wikipedia.org/wiki/Pantograph_(transport))
+
 ## February 2024
 
 - [Keiretsu](https://en.wikipedia.org/wiki/Keiretsu)
