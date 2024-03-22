@@ -1,5 +1,9 @@
 # science
 
+## March 2024
+
+- [When Armor Met Lips](https://crookedtimber.org/2024/03/16/occasional-paper-when-armor-met-lips/)
+
 ## January 2024
 
 - [What does the Cerebellum Do Anyway?](https://sarahconstantin.substack.com/p/what-does-the-cerebellum-do-anyway)
