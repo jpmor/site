@@ -1,5 +1,9 @@
 # business
 
+## March 2024
+
+- [Suicide Mission](https://prospect.org/infrastructure/transportation/2024-03-28-suicide-mission-boeing/)
+
 ## November 2023
 
 - [The Bond Villain Compliance Strategy](https://www.bitsaboutmoney.com/archive/bond-villain-compliance-strategy/)
