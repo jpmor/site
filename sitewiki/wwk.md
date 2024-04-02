@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## April 2024
+
+- [Sator Square](https://en.wikipedia.org/wiki/Sator_Square)
+
 ## March 2024
 
 - [PCB](https://en.wikipedia.org/wiki/Printed_circuit_board)
