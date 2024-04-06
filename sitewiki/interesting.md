@@ -1,5 +1,9 @@
 # interesting
 
+## April 2024
+
+- [Tips for Linking Shell Companies to their Secret Owners](https://gijn.org/stories/tracking-shell-companies-secret-owners/)
+
 ## September 2023
 
 - [Animated Knots](https://www.animatedknots.com/)
