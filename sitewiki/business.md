@@ -1,5 +1,9 @@
 # business
 
+## April 2024
+
+- [Anatomy of Credit Cards Rewards Programs](https://www.bitsaboutmoney.com/archive/anatomy-of-credit-card-rewards-programs/)
+
 ## March 2024
 
 - [Suicide Mission](https://prospect.org/infrastructure/transportation/2024-03-28-suicide-mission-boeing/)
