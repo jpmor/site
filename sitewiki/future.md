@@ -1,5 +1,9 @@
 # future
 
+## April 2024
+
+- [Lavender](https://www.972mag.com/lavender-ai-israeli-army-gaza/)
+
 ## February 2024
 
 - [Someone is going to dim the sun, and it will be soon.](https://climate.benjames.io/someone-is-going-to-dim-the-sun/)
