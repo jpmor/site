@@ -1,5 +1,9 @@
 # tech
 
+## April 2024
+
+- [Timeline of the xz open source attack](https://research.swtch.com/xz-timeline)
+
 ## July 2023
 
 - [Zenbleed](https://lock.cmpxchg8b.com/zenbleed.html)
