@@ -2,6 +2,7 @@
 
 ## April 2024
 
+- [Potlatch](https://en.wikipedia.org/wiki/Potlatch)
 - [Sator Square](https://en.wikipedia.org/wiki/Sator_Square)
 
 ## March 2024
