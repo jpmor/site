@@ -2,6 +2,7 @@
 
 ## April 2024
 
+- [Soma](https://en.wikipedia.org/wiki/Soma_(drink))
 - [Potlatch](https://en.wikipedia.org/wiki/Potlatch)
 - [Sator Square](https://en.wikipedia.org/wiki/Sator_Square)
 
