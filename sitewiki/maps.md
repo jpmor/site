@@ -2,6 +2,7 @@
 
 ## April 2024
 
+- [Cruise Mapper](https://www.cruisemapper.com/)
 - [Census Bureau Maps](https://data.census.gov/map)
 
 ## March 2024
