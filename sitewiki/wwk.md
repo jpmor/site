@@ -2,6 +2,7 @@
 
 ## April 2024
 
+- [Ectomycorrhiza](https://en.wikipedia.org/wiki/Ectomycorrhiza)
 - [Daṇḍa](https://en.wikipedia.org/wiki/Daṇḍa_(Hindu_punishment))
 - [Puruṣārtha](https://en.wikipedia.org/wiki/Puruṣārtha)
 - [Brahman](https://en.wikipedia.org/wiki/Brahman)
