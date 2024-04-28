@@ -2,6 +2,7 @@
 
 ## April 2024
 
+- [Rotten Borough](https://en.wikipedia.org/wiki/Rotten_and_pocket_boroughs)
 - [Ectomycorrhiza](https://en.wikipedia.org/wiki/Ectomycorrhiza)
 - [Daṇḍa](https://en.wikipedia.org/wiki/Daṇḍa_(Hindu_punishment))
 - [Puruṣārtha](https://en.wikipedia.org/wiki/Puruṣārtha)
