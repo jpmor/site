@@ -2,6 +2,7 @@
 
 ## April 2024
 
+- [Robert Clive](https://en.wikipedia.org/wiki/Robert_Clive)
 - [Rotten Borough](https://en.wikipedia.org/wiki/Rotten_and_pocket_boroughs)
 - [Ectomycorrhiza](https://en.wikipedia.org/wiki/Ectomycorrhiza)
 - [Daṇḍa](https://en.wikipedia.org/wiki/Daṇḍa_(Hindu_punishment))
