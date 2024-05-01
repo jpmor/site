@@ -2,6 +2,7 @@
 
 ## April 2024
 
+- [Akbar](https://en.wikipedia.org/wiki/Akbar)
 - [Robert Clive](https://en.wikipedia.org/wiki/Robert_Clive)
 - [Rotten Borough](https://en.wikipedia.org/wiki/Rotten_and_pocket_boroughs)
 - [Ectomycorrhiza](https://en.wikipedia.org/wiki/Ectomycorrhiza)
