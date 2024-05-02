@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## May 2024
+
+- [Mahatma Gandhi](https://en.wikipedia.org/wiki/Mahatma_Gandhi)
+
 ## April 2024
 
 - [Akbar](https://en.wikipedia.org/wiki/Akbar)
