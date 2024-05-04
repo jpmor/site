@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Concept](https://en.wikipedia.org/wiki/Concept)
 - [Burlap](https://en.wikipedia.org/wiki/Hessian_fabric)
 - [Mahatma Gandhi](https://en.wikipedia.org/wiki/Mahatma_Gandhi)
 
