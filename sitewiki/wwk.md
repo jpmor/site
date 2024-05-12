@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Diplomatic Revolution](https://en.wikipedia.org/wiki/Diplomatic_Revolution)
 - [Angola Prison](https://en.wikipedia.org/wiki/Louisiana_State_Penitentiary)
 - [Concept](https://en.wikipedia.org/wiki/Concept)
 - [Burlap](https://en.wikipedia.org/wiki/Hessian_fabric)
