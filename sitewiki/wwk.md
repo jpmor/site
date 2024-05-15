@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Georg Wilhelm Friedrich Hegel](https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel)
 - [Karl August von Hardenberg](https://en.wikipedia.org/wiki/Karl_August_von_Hardenberg)
 - [Caenorhabditis elegans](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)
 - [Janus](https://en.wikipedia.org/wiki/Janus)
