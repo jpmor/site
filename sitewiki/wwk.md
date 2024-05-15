@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Karl August von Hardenberg](https://en.wikipedia.org/wiki/Karl_August_von_Hardenberg)
 - [Caenorhabditis elegans](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)
 - [Janus](https://en.wikipedia.org/wiki/Janus)
 - [Diplomatic Revolution](https://en.wikipedia.org/wiki/Diplomatic_Revolution)
