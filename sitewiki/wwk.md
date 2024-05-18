@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Dreyse Needle Gun](https://en.wikipedia.org/wiki/Dreyse_needle_gun)
 - [Lèse-majesté](https://en.wikipedia.org/wiki/Lèse-majesté)
 - [Georg Wilhelm Friedrich Hegel](https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel)
 - [Karl August von Hardenberg](https://en.wikipedia.org/wiki/Karl_August_von_Hardenberg)
