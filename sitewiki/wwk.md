@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [James George Frazer](https://en.wikipedia.org/wiki/James_George_Frazer)
 - [Dreyse Needle Gun](https://en.wikipedia.org/wiki/Dreyse_needle_gun)
 - [Lèse-majesté](https://en.wikipedia.org/wiki/Lèse-majesté)
 - [Georg Wilhelm Friedrich Hegel](https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel)
