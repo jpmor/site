@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Alfred North Whitehead](https://en.wikipedia.org/wiki/Alfred_North_Whitehead)
 - [James George Frazer](https://en.wikipedia.org/wiki/James_George_Frazer)
 - [Dreyse Needle Gun](https://en.wikipedia.org/wiki/Dreyse_needle_gun)
 - [Lèse-majesté](https://en.wikipedia.org/wiki/Lèse-majesté)
