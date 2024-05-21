@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Kabbalah](https://en.wikipedia.org/wiki/Kabbalah)
 - [Lucretius](https://en.wikipedia.org/wiki/Lucretius)
 - [Alfred North Whitehead](https://en.wikipedia.org/wiki/Alfred_North_Whitehead)
 - [James George Frazer](https://en.wikipedia.org/wiki/James_George_Frazer)
