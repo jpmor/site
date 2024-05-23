@@ -2,6 +2,8 @@
 
 ## May 2024
 
+- [Karma](https://en.wikipedia.org/wiki/Karma)
+- [Adhan](https://en.wikipedia.org/wiki/Adhan)
 - [Kabbalah](https://en.wikipedia.org/wiki/Kabbalah)
 - [Lucretius](https://en.wikipedia.org/wiki/Lucretius)
 - [Alfred North Whitehead](https://en.wikipedia.org/wiki/Alfred_North_Whitehead)
