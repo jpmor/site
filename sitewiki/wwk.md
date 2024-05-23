@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Asceticism](https://en.wikipedia.org/wiki/Asceticism)
 - [Karma](https://en.wikipedia.org/wiki/Karma)
 - [Adhan](https://en.wikipedia.org/wiki/Adhan)
 - [Kabbalah](https://en.wikipedia.org/wiki/Kabbalah)
