@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Lapis Lazuli](https://en.wikipedia.org/wiki/Lapis_lazuli)
 - [Type Site](https://en.wikipedia.org/wiki/Type_site)
 - [Asceticism](https://en.wikipedia.org/wiki/Asceticism)
 - [Karma](https://en.wikipedia.org/wiki/Karma)
