@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Type Site](https://en.wikipedia.org/wiki/Type_site)
 - [Asceticism](https://en.wikipedia.org/wiki/Asceticism)
 - [Karma](https://en.wikipedia.org/wiki/Karma)
 - [Adhan](https://en.wikipedia.org/wiki/Adhan)
