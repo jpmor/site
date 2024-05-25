@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Lost 52 Project](https://en.wikipedia.org/wiki/Lost_52_Project)
 - [Göbekli Tepe](https://en.wikipedia.org/wiki/Göbekli_Tepe)
 - [Lapis Lazuli](https://en.wikipedia.org/wiki/Lapis_lazuli)
 - [Type Site](https://en.wikipedia.org/wiki/Type_site)
