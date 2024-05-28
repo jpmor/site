@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Perrin Remonté](https://www.perrinremonte.com/)
 - [Fractal](https://en.wikipedia.org/wiki/Fractal)
 - [Tirtha](https://en.wikipedia.org/wiki/Tirtha_(Jainism))
 - [Lost 52 Project](https://en.wikipedia.org/wiki/Lost_52_Project)
