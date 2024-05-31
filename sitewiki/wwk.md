@@ -2,6 +2,9 @@
 
 ## May 2024
 
+- [Śūnyatā](https://en.wikipedia.org/wiki/Śūnyatā)
+- [Cognate](https://en.wikipedia.org/wiki/Cognate)
+- [Aphorism](https://en.wikipedia.org/wiki/Aphorism)
 - [Cave](https://en.wikipedia.org/wiki/Cave)
 - [Fractal](https://en.wikipedia.org/wiki/Fractal)
 - [Tirtha](https://en.wikipedia.org/wiki/Tirtha_(Jainism))
