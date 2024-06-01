@@ -2,6 +2,7 @@
 
 ## May 2024
 
+- [Limestone](https://en.wikipedia.org/wiki/Limestone)
 - [Śūnyatā](https://en.wikipedia.org/wiki/Śūnyatā)
 - [Cognate](https://en.wikipedia.org/wiki/Cognate)
 - [Aphorism](https://en.wikipedia.org/wiki/Aphorism)
