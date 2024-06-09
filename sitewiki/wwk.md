@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## June 2024
+
+- [Saadi Shirazi](https://en.wikipedia.org/wiki/Saadi_Shirazi)
+
 ## May 2024
 
 - [Limestone](https://en.wikipedia.org/wiki/Limestone)
