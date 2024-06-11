@@ -2,6 +2,7 @@
 
 ## June 2024
 
+- [Dialect Continuum](https://en.wikipedia.org/wiki/Dialect_continuum)
 - [Saadi Shirazi](https://en.wikipedia.org/wiki/Saadi_Shirazi)
 
 ## May 2024
