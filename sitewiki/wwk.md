@@ -2,6 +2,7 @@
 
 ## June 2024
 
+- [Parchment](https://en.wikipedia.org/wiki/Parchment)
 - [Dialect Continuum](https://en.wikipedia.org/wiki/Dialect_continuum)
 - [Saadi Shirazi](https://en.wikipedia.org/wiki/Saadi_Shirazi)
 
