@@ -2,6 +2,7 @@
 
 ## June 2024
 
+- [Amber](https://en.wikipedia.org/wiki/Amber)
 - [Ferrocerium](https://en.wikipedia.org/wiki/Ferrocerium)
 - [Parchment](https://en.wikipedia.org/wiki/Parchment)
 - [Dialect Continuum](https://en.wikipedia.org/wiki/Dialect_continuum)
