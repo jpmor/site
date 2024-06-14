@@ -2,6 +2,7 @@
 
 ## June 2024
 
+- [Flint](https://en.wikipedia.org/wiki/Flint)
 - [Amber](https://en.wikipedia.org/wiki/Amber)
 - [Ferrocerium](https://en.wikipedia.org/wiki/Ferrocerium)
 - [Parchment](https://en.wikipedia.org/wiki/Parchment)
