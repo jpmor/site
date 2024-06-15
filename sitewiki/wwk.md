@@ -2,6 +2,7 @@
 
 ## June 2024
 
+- [Sermon on the Mount](https://en.wikipedia.org/wiki/Sermon_on_the_Mount)
 - [Flint](https://en.wikipedia.org/wiki/Flint)
 - [Amber](https://en.wikipedia.org/wiki/Amber)
 - [Ferrocerium](https://en.wikipedia.org/wiki/Ferrocerium)
