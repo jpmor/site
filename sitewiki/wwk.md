@@ -2,6 +2,8 @@
 
 ## June 2024
 
+- [Philip Melanchthon](https://en.wikipedia.org/wiki/Philip_Melanchthon)
+- [Erasmus](https://en.wikipedia.org/wiki/Erasmus)
 - [Sermon on the Mount](https://en.wikipedia.org/wiki/Sermon_on_the_Mount)
 - [Flint](https://en.wikipedia.org/wiki/Flint)
 - [Amber](https://en.wikipedia.org/wiki/Amber)
