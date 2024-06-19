@@ -2,6 +2,7 @@
 
 ## June 2024
 
+- [Universal Postal Union](https://en.wikipedia.org/wiki/Universal_Postal_Union)
 - [Philip Melanchthon](https://en.wikipedia.org/wiki/Philip_Melanchthon)
 - [Erasmus](https://en.wikipedia.org/wiki/Erasmus)
 - [Sermon on the Mount](https://en.wikipedia.org/wiki/Sermon_on_the_Mount)
