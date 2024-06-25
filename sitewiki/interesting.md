@@ -1,5 +1,9 @@
 # interesting
 
+## June 2024
+
+- [dropofahat.zone](https://dropofahat.zone/dropofahat.zone)
+
 ## April 2024
 
 - [Tips for Linking Shell Companies to their Secret Owners](https://gijn.org/stories/tracking-shell-companies-secret-owners/)
