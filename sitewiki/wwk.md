@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## July 2024
+
+- [Commodity](https://en.wikipedia.org/wiki/Commodity)
+
 ## June 2024
 
 - [Gregorian Calendar](https://en.wikipedia.org/wiki/Gregorian_calendar)
