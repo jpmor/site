@@ -2,6 +2,7 @@
 
 ## July 2024
 
+- [Pneumothorax](https://en.wikipedia.org/wiki/Pneumothorax)
 - [Commodity](https://en.wikipedia.org/wiki/Commodity)
 
 ## June 2024
