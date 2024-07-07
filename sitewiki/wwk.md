@@ -2,6 +2,7 @@
 
 ## July 2024
 
+- [Ghee](https://en.wikipedia.org/wiki/Ghee)
 - [Pneumothorax](https://en.wikipedia.org/wiki/Pneumothorax)
 - [Commodity](https://en.wikipedia.org/wiki/Commodity)
 
