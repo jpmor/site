@@ -2,6 +2,7 @@
 
 ## July 2024
 
+- [Fossil](https://en.wikipedia.org/wiki/Fossil)
 - [Immortality](https://en.wikipedia.org/wiki/Immortality)
 - [Plasmid](https://en.wikipedia.org/wiki/Plasmid)
 - [Notochord](https://en.wikipedia.org/wiki/Notochord)
