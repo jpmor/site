@@ -2,6 +2,7 @@
 
 ## July 2024
 
+- [Helen Keller](https://en.wikipedia.org/wiki/Helen_Keller)
 - [Fossil](https://en.wikipedia.org/wiki/Fossil)
 - [Immortality](https://en.wikipedia.org/wiki/Immortality)
 - [Plasmid](https://en.wikipedia.org/wiki/Plasmid)
