@@ -230,7 +230,9 @@
         "Hampton__SC",
         "Camden__GA",
         "St__Johns__FL",
-        "Flagler__FL"
+        "Flagler__FL",
+        "Lorain__OH",
+        "Erie__OH"
       ]
     },
     "#bbddff": {
@@ -364,8 +366,6 @@
         "Wood__OH",
         "Ottawa__OH",
         "Sandusky__OH",
-        "Erie__OH",
-        "Lorain__OH",
         "Lake__OH",
         "Ashtabula__OH",
         "Summit__OH",

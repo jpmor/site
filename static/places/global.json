@@ -91,7 +91,11 @@
         "Fukuoka_JP",
         "Oita_JP",
         "Kumamoto_JP",
-        "Miyazaki_JP"
+        "Miyazaki_JP",
+        "Bayern_DE",
+        "Maharashtra_IN",
+        "Rajasthan_IN",
+        "Uttar_Pradesh_IN"
       ]
     },
     "#bbddff": {
@@ -114,7 +118,6 @@
         "Nitriansky_SK",
         "Pest_HU",
         "Umbria_IT",
-        "Uttar_Pradesh_IN",
         "Dubay_AE",
         "West_Virginia_US",
         "New_Jersey_US",
@@ -131,7 +134,9 @@
         "Gifu_JP",
         "Shiga_JP",
         "Okayama_JP",
-        "Yamaguchi_JP"
+        "Yamaguchi_JP",
+        "Haryana_IN",
+        "Incheon_KR"
       ]
     },
     "#bbbbbb": {
@@ -250,7 +255,6 @@
         "Noord-Brabant_NL",
         "Zeeland_NL",
         "Zuid-Holland_NL",
-        "Bayern_DE",
         "Bremen_DE",
         "Hamburg_DE",
         "Mecklenburg-Vorpommern_DE",
@@ -320,7 +324,6 @@
         "Chhattisgarh_IN",
         "Dadra_and_Nagar_Haveli_and_Daman_and_Diu_IN",
         "Gujarat_IN",
-        "Haryana_IN",
         "Himachal_Pradesh_IN",
         "Jammu_and_Kashmir_IN",
         "Jharkhand_IN",
@@ -329,7 +332,6 @@
         "Ladakh_IN",
         "Lakshadweep_IN",
         "Madhya_Pradesh_IN",
-        "Maharashtra_IN",
         "Manipur_IN",
         "Meghalaya_IN",
         "Mizoram_IN",
@@ -337,7 +339,6 @@
         "Odisha_IN",
         "Puducherry_IN",
         "Punjab_IN",
-        "Rajasthan_IN",
         "Sikkim_IN",
         "Tamil_Nadu_IN",
         "Telangana_IN",
@@ -1898,7 +1899,6 @@
         "Gangwon_KR",
         "Gwangju_KR",
         "Gyeonggi_KR",
-        "Incheon_KR",
         "Jeju_KR",
         "North_Chungcheong_KR",
         "North_Gyeongsang_KR",
