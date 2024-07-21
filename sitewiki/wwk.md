@@ -2,6 +2,7 @@
 
 ## July 2024
 
+- [Milky Way](https://en.wikipedia.org/wiki/Milky_Way)
 - [Defibrillation](https://en.wikipedia.org/wiki/Defibrillation)
 - [Friedrich Wöhler](https://en.wikipedia.org/wiki/Friedrich_Wöhler)
 - [Immunotherapy](https://en.wikipedia.org/wiki/Immunotherapy)
