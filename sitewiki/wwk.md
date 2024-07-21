@@ -2,6 +2,7 @@
 
 ## July 2024
 
+- [Defibrillation](https://en.wikipedia.org/wiki/Defibrillation)
 - [Friedrich Wöhler](https://en.wikipedia.org/wiki/Friedrich_Wöhler)
 - [Immunotherapy](https://en.wikipedia.org/wiki/Immunotherapy)
 - [Helen Keller](https://en.wikipedia.org/wiki/Helen_Keller)
