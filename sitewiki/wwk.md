@@ -2,6 +2,7 @@
 
 ## July 2024
 
+- [Alcoholics Anonymous](https://en.wikipedia.org/wiki/Alcoholics_Anonymous)
 - [Milky Way](https://en.wikipedia.org/wiki/Milky_Way)
 - [Defibrillation](https://en.wikipedia.org/wiki/Defibrillation)
 - [Friedrich Wöhler](https://en.wikipedia.org/wiki/Friedrich_Wöhler)
