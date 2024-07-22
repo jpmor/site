@@ -2,6 +2,7 @@
 
 ## July 2024
 
+- [Tchotchke](https://en.wikipedia.org/wiki/Tchotchke)
 - [Perfume](https://en.wikipedia.org/wiki/Perfume)
 - [Alcoholics Anonymous](https://en.wikipedia.org/wiki/Alcoholics_Anonymous)
 - [Milky Way](https://en.wikipedia.org/wiki/Milky_Way)
