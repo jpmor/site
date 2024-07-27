@@ -3,6 +3,7 @@
 ## July 2024
 
 - [Hippie Trail](https://en.wikipedia.org/wiki/Hippie_trail)
+- [Hippie Trail](https://en.wikipedia.org/wiki/Hippie_trail)
 - [Tchotchke](https://en.wikipedia.org/wiki/Tchotchke)
 - [Perfume](https://en.wikipedia.org/wiki/Perfume)
 - [Alcoholics Anonymous](https://en.wikipedia.org/wiki/Alcoholics_Anonymous)
