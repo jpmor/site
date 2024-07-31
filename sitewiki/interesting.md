@@ -1,5 +1,9 @@
 # interesting
 
+## July 2024
+
+- [Court Listener](https://www.courtlistener.com/)
+
 ## June 2024
 
 - [dropofahat.zone](https://dropofahat.zone/dropofahat.zone)
