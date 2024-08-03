@@ -1,5 +1,10 @@
 # maps
 
+## August 2024
+
+- [U.S. Counties](https://www.mob-rule.com/map)
+- [Open Infrastructure Map](https://openinframap.org/)
+
 ## July 2024
 
 - [4G LTE Coverage](https://fcc.maps.arcgis.com/apps/webappviewer/index.html?id=6c1b2e73d9d749cdb7bc88a0d1bdd25b)
