@@ -2,6 +2,7 @@
 
 ## August 2024
 
+- [Hussein bin Ali](https://en.wikipedia.org/wiki/Hussein_bin_Ali,_King_of_Hejaz)
 - [Rhyme](https://en.wikipedia.org/wiki/Rhyme)
 
 ## July 2024
