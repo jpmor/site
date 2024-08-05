@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## August 2024
+
+- [Rhyme](https://en.wikipedia.org/wiki/Rhyme)
+
 ## July 2024
 
 - [Hippie Trail](https://en.wikipedia.org/wiki/Hippie_trail)
