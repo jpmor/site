@@ -232,7 +232,12 @@
         "St__Johns__FL",
         "Flagler__FL",
         "Lorain__OH",
-        "Erie__OH"
+        "Erie__OH",
+        "Lee__AL",
+        "Okaloosa__FL",
+        "Walton__FL",
+        "Escambia__FL",
+        "Santa_Rosa__FL"
       ]
     },
     "#bbddff": {
@@ -717,10 +722,6 @@
         "Jefferson__FL",
         "Washington__FL",
         "Holmes__FL",
-        "Walton__FL",
-        "Okaloosa__FL",
-        "Santa_Rosa__FL",
-        "Escambia__FL",
         "Baldwin__AL",
         "Harrison__MS",
         "Hancock__MS",
@@ -746,11 +747,11 @@
         "Butler__AL",
         "Lowndes__AL",
         "Macon__AL",
-        "Lee__AL",
         "Chambers__AL",
         "White__GA",
         "Liberty__GA",
-        "McIntosh__GA"
+        "McIntosh__GA",
+        "Covington__AL"
       ]
     },
     "#bbbbbb": {
@@ -2342,7 +2343,6 @@
         "Coffee__AL",
         "Colbert__AL",
         "Coosa__AL",
-        "Covington__AL",
         "Crenshaw__AL",
         "Cullman__AL",
         "Dale__AL",
