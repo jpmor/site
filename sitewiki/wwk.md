@@ -2,6 +2,7 @@
 
 ## August 2024
 
+- [Salt Dome](https://en.wikipedia.org/wiki/Salt_dome)
 - [SDRAM](https://en.wikipedia.org/wiki/Synchronous_dynamic_random-access_memory)
 - [Hussein bin Ali](https://en.wikipedia.org/wiki/Hussein_bin_Ali,_King_of_Hejaz)
 - [Rhyme](https://en.wikipedia.org/wiki/Rhyme)
