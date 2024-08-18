@@ -2,6 +2,7 @@
 
 ## August 2024
 
+- [Cancer-Causing Industrial Air Pollution](https://projects.propublica.org/toxmap/)
 - [U.S. Counties](https://www.mob-rule.com/map)
 - [Open Infrastructure Map](https://openinframap.org/)
 
