@@ -2,6 +2,7 @@
 
 ## August 2024
 
+- [Community HDI](https://communityhdi.org/)
 - [Cancer-Causing Industrial Air Pollution](https://projects.propublica.org/toxmap/)
 - [U.S. Counties](https://www.mob-rule.com/map)
 - [Open Infrastructure Map](https://openinframap.org/)
