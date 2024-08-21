@@ -2,6 +2,7 @@
 
 ## August 2024
 
+- [Cliff Finder](https://haraschax.github.io/cliff-finder/)
 - [Vineyards](https://vineyards.com/search-wine-maps)
 - [Community HDI](https://communityhdi.org/)
 - [Cancer-Causing Industrial Air Pollution](https://projects.propublica.org/toxmap/)
