@@ -2,6 +2,7 @@
 
 ## August 2024
 
+- [Theo Jansen](https://en.wikipedia.org/wiki/Theo_Jansen)
 - [Reinhold Messner](https://en.wikipedia.org/wiki/Reinhold_Messner)
 - [Asthma](https://en.wikipedia.org/wiki/Asthma)
 - [Piolets d'Or](https://en.wikipedia.org/wiki/Piolets_d%27Or)
