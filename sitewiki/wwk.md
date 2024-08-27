@@ -2,6 +2,7 @@
 
 ## August 2024
 
+- [Hieronymus Bosch](https://en.wikipedia.org/wiki/Hieronymus_Bosch)
 - [Iron Dome](https://en.wikipedia.org/wiki/Iron_Dome)
 - [Theo Jansen](https://en.wikipedia.org/wiki/Theo_Jansen)
 - [Reinhold Messner](https://en.wikipedia.org/wiki/Reinhold_Messner)
