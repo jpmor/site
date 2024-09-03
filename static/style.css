@@ -41,11 +41,15 @@ p a {
 }
 
 p a:link, ul a:link {
-  color: #66d9ff;
+  color: #66D9FF;
   text-decoration: none;
 }
 p a:visited, ul a:visited {
-  color: #8c66ff;
+  color: #8C66FF;
+  text-decoration: none;
+}
+p a:hover, ul a:hover {
+  color: #FABC2A;
   text-decoration: none;
 }
 
