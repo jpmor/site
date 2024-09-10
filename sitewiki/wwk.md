@@ -2,6 +2,7 @@
 
 ## September 2024
 
+- [Bermuda Triangle](https://en.wikipedia.org/wiki/Bermuda_Triangle)
 - [Museum](https://en.wikipedia.org/wiki/Museum)
 - [Museum](https://en.wikipedia.org/wiki/Museum)
 - [Greenhouse](https://en.wikipedia.org/wiki/Greenhouse)
