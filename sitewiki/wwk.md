@@ -6,7 +6,6 @@
 - [Printer Tracking Dots](https://en.wikipedia.org/wiki/Printer_tracking_dots)
 - [Bermuda Triangle](https://en.wikipedia.org/wiki/Bermuda_Triangle)
 - [Museum](https://en.wikipedia.org/wiki/Museum)
-- [Museum](https://en.wikipedia.org/wiki/Museum)
 - [Greenhouse](https://en.wikipedia.org/wiki/Greenhouse)
 
 ## August 2024
