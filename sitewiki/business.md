@@ -1,5 +1,9 @@
 # business
 
+## September 2024
+
+- [HOW TO SUCCEED IN MRBEAST PRODUCTION](https://simonwillison.net/2024/Sep/15/how-to-succeed-in-mrbeast-production/)
+
 ## April 2024
 
 - [Anatomy of Credit Cards Rewards Programs](https://www.bitsaboutmoney.com/archive/anatomy-of-credit-card-rewards-programs/)
