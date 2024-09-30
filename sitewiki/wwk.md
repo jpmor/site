@@ -2,6 +2,7 @@
 
 ## September 2024
 
+- [Jedediah Smith](https://en.wikipedia.org/wiki/Jedediah_Smith)
 - [Plastic](https://en.wikipedia.org/wiki/Plastic)
 - [Alkane](https://en.wikipedia.org/wiki/Alkane)
 - [Younger Dryas](https://en.wikipedia.org/wiki/Younger_Dryas)
