@@ -1,5 +1,9 @@
 # interesting
 
+## October 2024
+
+- [Bop Spotter](https://walzr.com/bop-spotter)
+
 ## July 2024
 
 - [Court Listener](https://www.courtlistener.com/)
