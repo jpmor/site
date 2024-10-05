@@ -237,7 +237,10 @@
         "Okaloosa__FL",
         "Walton__FL",
         "Escambia__FL",
-        "Santa_Rosa__FL"
+        "Santa_Rosa__FL",
+        "Hall__GA",
+        "Towns__GA",
+        "White__GA"
       ]
     },
     "#bbddff": {
@@ -247,7 +250,6 @@
         "Oxford__ME",
         "Barrow__GA",
         "Jackson__GA",
-        "Hall__GA",
         "Franklin__GA",
         "Spartanburg__SC",
         "Cherokee__SC",
@@ -595,7 +597,6 @@
         "Catoosa__GA",
         "McDowell__NC",
         "Clay__NC",
-        "Towns__GA",
         "Richmond__NC",
         "Marion__TN",
         "Grundy__TN",
@@ -748,7 +749,6 @@
         "Lowndes__AL",
         "Macon__AL",
         "Chambers__AL",
-        "White__GA",
         "Liberty__GA",
         "McIntosh__GA",
         "Covington__AL"
