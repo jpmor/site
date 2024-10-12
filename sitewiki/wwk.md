@@ -2,6 +2,7 @@
 
 ## October 2024
 
+- [Water Table](https://en.wikipedia.org/wiki/Water_table)
 - [Submarine Canyon](https://en.wikipedia.org/wiki/Submarine_canyon)
 - [Fasciation](https://en.wikipedia.org/wiki/Fasciation)
 - [Public Works Administration](https://en.wikipedia.org/wiki/Public_Works_Administration)
