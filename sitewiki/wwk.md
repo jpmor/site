@@ -2,6 +2,7 @@
 
 ## October 2024
 
+- [Diamond Dust](https://en.wikipedia.org/wiki/Diamond_dust)
 - [Motility](https://en.wikipedia.org/wiki/Motility)
 - [Water Table](https://en.wikipedia.org/wiki/Water_table)
 - [Submarine Canyon](https://en.wikipedia.org/wiki/Submarine_canyon)
