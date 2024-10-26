@@ -2,6 +2,7 @@
 
 ## October 2024
 
+- [Alice Waters](https://en.wikipedia.org/wiki/Alice_Waters)
 - [Rashomon](https://en.wikipedia.org/wiki/Rashomon)
 - [NAWAPA](https://en.wikipedia.org/wiki/North_American_Water_and_Power_Alliance)
 - [Diamond Dust](https://en.wikipedia.org/wiki/Diamond_dust)
