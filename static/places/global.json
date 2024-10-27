@@ -1,25 +1,54 @@
 {
+  "areBordersShown": true,
+  "areLabelsShown": false,
+  "background": "#000000",
+  "borders": "#252525",
+  "defaultColor": "#d1dbdd",
+  "hidden": [],
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "legendBgColor": "rgba(0, 0, 0, 0)",
+  "legendBorderColor": "#00000000",
+  "legendBoxShape": "square",
+  "legendColumnCount": 1,
+  "legendFont": "Arial:400",
+  "legendFontColor": "#ffffff",
+  "legendPosition": "bottom_left",
+  "legendRowsSameColor": true,
+  "legendSize": "medium",
+  "legendStatus": "show",
+  "legendWidth": 530.9928778171648,
+  "scalingPatterns": true,
+  "strokeWidth": "medium",
+  "title": "Global Travel",
+  "uncoloredScriptColor": "#ffff33",
+  "v6": true,
   "groups": {
-    "#ffaa55": {
-      "label": "Lived",
+    "#bd0026": {
+      "label": "Year",
       "paths": [
         "New_York_US",
         "Illinois_US",
         "Maine_US",
         "New_Hampshire_US",
-        "Georgia_US",
-        "Tennessee_US"
+        "Georgia_US"
       ]
     },
-    "#00aaee": {
-      "label": "Visited",
+    "#fc4e2a": {
+      "label": "Month",
       "paths": [
-        "Wisconsin_US",
+        "Tennessee_US",
+        "North_Carolina_US",
+        "Florida_US"
+      ]
+    },
+    "#feb24c": {
+      "label": "Day",
+      "paths": [
         "Michigan_US",
         "Virginia_US",
         "Connecticut_US",
         "Massachusetts_US",
-        "Florida_US",
         "Ontario_CA",
         "British_Columbia_CA",
         "California_US",
@@ -35,18 +64,11 @@
         "Minnesota_US",
         "Indiana_US",
         "Ohio_US",
-        "Maryland_US",
-        "Rhode_Island_US",
-        "Vermont_US",
-        "North_Carolina_US",
         "South_Carolina_US",
-        "Arkansas_US",
         "Washington_US",
         "Texas_US",
         "Istanbul_TR",
         "Nevsehir_TR",
-        "Nigde_TR",
-        "Aksaray_TR",
         "Noord-Holland_NL",
         "Berlin_DE",
         "Prague_CZ",
@@ -55,7 +77,6 @@
         "Liguria_IT",
         "Toscana_IT",
         "Lazio_IT",
-        "Vatican_VA",
         "Attiki_GR",
         "South_Aegean_GR",
         "Delhi_IN",
@@ -67,39 +88,51 @@
         "Wyoming_US",
         "Montana_US",
         "North_Dakota_US",
-        "Kentucky_US",
-        "Alabama_US",
         "Grand_Est_FR",
-        "Baden-Württemberg_DE",
         "Niedersachsen_DE",
-        "Zürich_CH",
         "Bern_CH",
-        "Louisiana_US",
+        "Wisconsin_US",
+        "Alabama_US",
         "Mississippi_US",
         "London_Unitary_Authorities_UK",
         "Madeira_PT",
         "Porto_PT",
-        "Vila_Real_PT",
-        "Viseu_PT",
         "Lisboa_PT",
         "Tokyo_JP",
         "Kyoto_JP",
-        "Nara_JP",
         "Osaka_JP",
-        "Hyogo_JP",
         "Hiroshima_JP",
         "Fukuoka_JP",
-        "Oita_JP",
         "Kumamoto_JP",
-        "Miyazaki_JP",
         "Bayern_DE",
         "Maharashtra_IN",
         "Rajasthan_IN",
         "Uttar_Pradesh_IN"
       ]
     },
-    "#bbddff": {
-      "label": "Passed Through",
+    "#ffeda0": {
+      "label": "Hour",
+      "paths": [
+        "Maryland_US",
+        "Rhode_Island_US",
+        "Arkansas_US",
+        "Nigde_TR",
+        "Aksaray_TR",
+        "Vatican_VA",
+        "Kentucky_US",
+        "Baden-Württemberg_DE",
+        "Zürich_CH",
+        "Louisiana_US",
+        "Vila_Real_PT",
+        "Viseu_PT",
+        "Nara_JP",
+        "Hyogo_JP",
+        "Oita_JP",
+        "Miyazaki_JP"
+      ]
+    },
+    "#bdbdbd": {
+      "label": "Minute",
       "paths": [
         "Centre-Val_de_Loire_FR",
         "Pays_de_la_Loire_FR",
@@ -139,8 +172,8 @@
         "Incheon_KR"
       ]
     },
-    "#bbbbbb": {
-      "label": "Country Visited",
+    "#737373": {
+      "label": "Visited",
       "paths": [
         "Alaska_US",
         "Colorado_US",
@@ -490,8 +523,8 @@
         "Yamanashi_JP"
       ]
     },
-    "#555555": {
-      "label": "Country Not Visited",
+    "#252525": {
+      "label": "Not Visited",
       "paths": [
         "Andorra_AD",
         "Abu_Dhabi_AE",
@@ -3825,29 +3858,5 @@
         "Midlands_ZW"
       ]
     }
-  },
-  "title": "Global Travel Map",
-  "hidden": [],
-  "background": "#000000",
-  "borders": "#252525",
-  "legendFont": "Arial:400",
-  "legendFontColor": "#ffffff",
-  "legendBorderColor": "#00000000",
-  "legendBgColor": "rgba(0, 0, 0, 0)",
-  "legendWidth": 530.9928778171648,
-  "legendBoxShape": "square",
-  "areBordersShown": true,
-  "defaultColor": "#d1dbdd",
-  "labelsColor": "#6a0707",
-  "labelsFont": "Arial",
-  "strokeWidth": "medium",
-  "areLabelsShown": false,
-  "uncoloredScriptColor": "#ffff33",
-  "v6": true,
-  "legendPosition": "bottom_left",
-  "legendSize": "medium",
-  "legendStatus": "show",
-  "scalingPatterns": true,
-  "legendRowsSameColor": true,
-  "legendColumnCount": 1
+  }
 }
