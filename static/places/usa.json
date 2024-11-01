@@ -789,7 +789,10 @@
         "Chambers__AL",
         "Liberty__GA",
         "McIntosh__GA",
-        "Covington__AL"
+        "Covington__AL",
+        "Coffee__AL",
+        "Pike__AL",
+        "Bullock__AL"
       ]
     },
     "#737373": {
@@ -2372,12 +2375,10 @@
         "Autauga__AL",
         "Bibb__AL",
         "Blount__AL",
-        "Bullock__AL",
         "Chilton__AL",
         "Choctaw__AL",
         "Clarke__AL",
         "Clay__AL",
-        "Coffee__AL",
         "Colbert__AL",
         "Coosa__AL",
         "Crenshaw__AL",
@@ -2404,7 +2405,6 @@
         "Morgan__AL",
         "Perry__AL",
         "Pickens__AL",
-        "Pike__AL",
         "Randolph__AL",
         "Shelby__AL",
         "Sumter__AL",
