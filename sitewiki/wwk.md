@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## November 2024
+
+- [Fluoridation](https://en.wikipedia.org/wiki/Water_fluoridation)
+
 ## October 2024
 
 - [Tehuantepecer](https://en.wikipedia.org/wiki/Tehuantepecer)
