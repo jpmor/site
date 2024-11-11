@@ -3235,7 +3235,13 @@
         "Polk__TN",
         "Coffee__AL",
         "Pike__AL",
-        "Bullock__AL"
+        "Bullock__AL",
+        "Forsyth__NC",
+        "Henry__VA",
+        "Franklin_Co___VA",
+        "Roanoke__VA",
+        "Bedford_Co___VA",
+        "Appomattox__VA"
       ]
     },
     "#ffeda0": {
@@ -3475,7 +3481,11 @@
         "Hall__GA",
         "Towns__GA",
         "White__GA",
-        "Polk__TN"
+        "Polk__TN",
+        "Roanoke__VA",
+        "Lynchburg__VA",
+        "Amherst__VA",
+        "Appomattox__VA"
       ]
     },
     "#feb24c": {
@@ -3562,7 +3572,8 @@
         "Flagler__FL",
         "Lorain__OH",
         "Okaloosa__FL",
-        "Santa_Clara__CA"
+        "Santa_Clara__CA",
+        "Lynchburg__VA"
       ]
     },
     "#fc4e2a": {
