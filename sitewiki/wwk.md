@@ -2,6 +2,7 @@
 
 ## November 2024
 
+- [Poker](https://en.wikipedia.org/wiki/Poker)
 - [Fluoridation](https://en.wikipedia.org/wiki/Water_fluoridation)
 
 ## October 2024
