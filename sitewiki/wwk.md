@@ -2,6 +2,7 @@
 
 ## November 2024
 
+- [Boomburb](https://en.wikipedia.org/wiki/Boomburb)
 - [Committee for Economic Development](https://en.wikipedia.org/wiki/Committee_for_Economic_Development)
 - [Macadam](https://en.wikipedia.org/wiki/Macadam)
 - [Poker](https://en.wikipedia.org/wiki/Poker)
