@@ -2,6 +2,7 @@
 
 ## November 2024
 
+- [Committee for Economic Development](https://en.wikipedia.org/wiki/Committee_for_Economic_Development)
 - [Macadam](https://en.wikipedia.org/wiki/Macadam)
 - [Poker](https://en.wikipedia.org/wiki/Poker)
 - [Fluoridation](https://en.wikipedia.org/wiki/Water_fluoridation)
