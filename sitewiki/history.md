@@ -1,5 +1,9 @@
 # history
 
+## November 2024
+
+- [Historical Metropolitan Populations of the United States](https://www.peakbagger.com/PBGeog/histmetropop.aspx)
+
 ## September 2023
 
 - [The Mystery of the Bloomfield Bridge](https://tylervigen.com/the-mystery-of-the-bloomfield-bridge)
