@@ -1,5 +1,9 @@
 # maps
 
+## December 2024
+
+- [Census Dots](https://www.censusdots.com/)
+
 ## November 2024
 
 - [Cellular Coverage and Tower Map](https://www.cellmapper.net/map)
