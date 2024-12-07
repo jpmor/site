@@ -1,5 +1,9 @@
 # interesting
 
+## December 2024
+
+- [TV Tropes](https://tvtropes.org/)
+
 ## October 2024
 
 - [Bop Spotter](https://walzr.com/bop-spotter)
