@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## December 2024
+
+- [The War of the Worlds](https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama))
+
 ## November 2024
 
 - [Boomburb](https://en.wikipedia.org/wiki/Boomburb)
