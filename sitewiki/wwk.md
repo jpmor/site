@@ -2,6 +2,7 @@
 
 ## December 2024
 
+- [Laurentia](https://en.wikipedia.org/wiki/Laurentia)
 - [The War of the Worlds](https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama))
 
 ## November 2024
