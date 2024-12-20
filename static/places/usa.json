@@ -3241,7 +3241,11 @@
         "Franklin_Co___VA",
         "Roanoke__VA",
         "Bedford_Co___VA",
-        "Appomattox__VA"
+        "Appomattox__VA",
+        "Manatee__FL",
+        "Sarasota__FL",
+        "Charlotte__FL",
+        "Collier__FL"
       ]
     },
     "#ffeda0": {
@@ -3386,6 +3390,7 @@
         "Billings__ND",
         "Burleigh__ND",
         "Anson__NC",
+        "Chatham__NC",
         "Moore__NC",
         "Cherokee__GA",
         "Bartow__GA",
@@ -3485,7 +3490,8 @@
         "Roanoke__VA",
         "Lynchburg__VA",
         "Amherst__VA",
-        "Appomattox__VA"
+        "Appomattox__VA",
+        "Tift__GA"
       ]
     },
     "#feb24c": {
@@ -3573,7 +3579,8 @@
         "Lorain__OH",
         "Okaloosa__FL",
         "Santa_Clara__CA",
-        "Lynchburg__VA"
+        "Lynchburg__VA",
+        "Pasco__FL"
       ]
     },
     "#fc4e2a": {
@@ -3588,7 +3595,8 @@
         "Fulton__GA",
         "Shelby__TN",
         "Union__NC",
-        "Cobb__GA"
+        "Cobb__GA",
+        "Miami_Dade__FL"
       ]
     },
     "#bd0026": {
