@@ -2,6 +2,7 @@
 
 ## December 2024
 
+- [Snipe Hunt](https://en.wikipedia.org/wiki/Snipe_hunt)
 - [AP1000](https://en.wikipedia.org/wiki/AP1000)
 - [Laurentia](https://en.wikipedia.org/wiki/Laurentia)
 - [The War of the Worlds](https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama))
