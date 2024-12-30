@@ -2,6 +2,7 @@
 
 ## December 2024
 
+- [Desiccant](https://en.wikipedia.org/wiki/Desiccant)
 - [Snipe Hunt](https://en.wikipedia.org/wiki/Snipe_hunt)
 - [AP1000](https://en.wikipedia.org/wiki/AP1000)
 - [Laurentia](https://en.wikipedia.org/wiki/Laurentia)
