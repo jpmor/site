@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## January 2025
+
+- [Ash Pond](https://en.wikipedia.org/wiki/Ash_pond)
+
 ## December 2024
 
 - [Scope](https://en.wikipedia.org/wiki/Telescopic_sight)
