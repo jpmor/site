@@ -2,6 +2,7 @@
 
 ## January 2025
 
+- [Shell Corporation](https://en.wikipedia.org/wiki/Shell_corporation)
 - [Ash Pond](https://en.wikipedia.org/wiki/Ash_pond)
 
 ## December 2024
