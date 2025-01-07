@@ -1,5 +1,9 @@
 # interesting
 
+## January 2025
+
+- [Stimulation Clicker](https://neal.fun/stimulation-clicker/)
+
 ## December 2024
 
 - [TV Tropes](https://tvtropes.org/)
