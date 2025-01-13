@@ -2,6 +2,7 @@
 
 ## January 2025
 
+- [Indian Ocean Geoid Low](https://en.wikipedia.org/wiki/Indian_Ocean_Geoid_Low)
 - [Richard Arkwright](https://en.wikipedia.org/wiki/Richard_Arkwright)
 - [Metonic Cycle](https://en.wikipedia.org/wiki/Metonic_cycle)
 - [OTA](https://en.wikipedia.org/wiki/Terrestrial_television)
