@@ -2,6 +2,7 @@
 
 ## January 2025
 
+- [Venom](https://en.wikipedia.org/wiki/Venom)
 - [Indian Ocean Geoid Low](https://en.wikipedia.org/wiki/Indian_Ocean_Geoid_Low)
 - [Richard Arkwright](https://en.wikipedia.org/wiki/Richard_Arkwright)
 - [Metonic Cycle](https://en.wikipedia.org/wiki/Metonic_cycle)
