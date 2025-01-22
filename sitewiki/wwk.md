@@ -2,6 +2,7 @@
 
 ## January 2025
 
+- [Hyman G. Rickover](https://en.wikipedia.org/wiki/Hyman_G._Rickover)
 - [Venom](https://en.wikipedia.org/wiki/Venom)
 - [Indian Ocean Geoid Low](https://en.wikipedia.org/wiki/Indian_Ocean_Geoid_Low)
 - [Richard Arkwright](https://en.wikipedia.org/wiki/Richard_Arkwright)
