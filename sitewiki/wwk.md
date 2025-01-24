@@ -2,6 +2,7 @@
 
 ## January 2025
 
+- [Prion](https://en.wikipedia.org/wiki/Prion)
 - [Drywall](https://en.wikipedia.org/wiki/Drywall)
 - [Hyman G. Rickover](https://en.wikipedia.org/wiki/Hyman_G._Rickover)
 - [Venom](https://en.wikipedia.org/wiki/Venom)
