@@ -2,6 +2,7 @@
 
 ## January 2025
 
+- [Gottlob Frege](https://en.wikipedia.org/wiki/Gottlob_Frege)
 - [Prion](https://en.wikipedia.org/wiki/Prion)
 - [Drywall](https://en.wikipedia.org/wiki/Drywall)
 - [Hyman G. Rickover](https://en.wikipedia.org/wiki/Hyman_G._Rickover)
