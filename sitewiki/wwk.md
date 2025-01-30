@@ -2,6 +2,7 @@
 
 ## January 2025
 
+- [Megachurch](https://en.wikipedia.org/wiki/Megachurch)
 - [Gottlob Frege](https://en.wikipedia.org/wiki/Gottlob_Frege)
 - [Prion](https://en.wikipedia.org/wiki/Prion)
 - [Drywall](https://en.wikipedia.org/wiki/Drywall)
