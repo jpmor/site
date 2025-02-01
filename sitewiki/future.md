@@ -1,5 +1,9 @@
 # future
 
+## January 2025
+
+- [Note on the Relationship Between Artificial Intelligence and Human Intelligence](https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html)
+
 ## April 2024
 
 - [Lavender](https://www.972mag.com/lavender-ai-israeli-army-gaza/)
