@@ -2,6 +2,7 @@
 
 ## February 2025
 
+- [Magnet](https://en.wikipedia.org/wiki/Magnet)
 - [Fission](https://en.wikipedia.org/wiki/Nuclear_fission)
 - [Hells Angels](https://en.wikipedia.org/wiki/Hells_Angels)
 
