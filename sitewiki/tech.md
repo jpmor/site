@@ -1,5 +1,9 @@
 # tech
 
+## February 2025
+
+- [Everyone knows your location](https://timsh.org/tracking-myself-down-through-in-app-ads/)
+
 ## April 2024
 
 - [Timeline of the xz open source attack](https://research.swtch.com/xz-timeline)
