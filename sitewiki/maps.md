@@ -1,5 +1,9 @@
 # maps
 
+## February 2025
+
+- [Weather Stations](https://www.pwsweather.com/map?ob=temps&lat=37.54457732085584&lon=-90.79101562500001&zoom=4)
+
 ## December 2024
 
 - [Interstates](https://interstate-map.com/)
