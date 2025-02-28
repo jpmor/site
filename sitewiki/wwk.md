@@ -2,6 +2,7 @@
 
 ## February 2025
 
+- [Cabeza de Vaca](https://en.wikipedia.org/wiki/Álvar_Núñez_Cabeza_de_Vaca)
 - [Meiosis](https://en.wikipedia.org/wiki/Meiosis)
 - [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights)
 - [Mark-to-market Accounting](https://en.wikipedia.org/wiki/Mark-to-market_accounting)
