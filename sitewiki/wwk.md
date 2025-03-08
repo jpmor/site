@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## March 2025
+
+- [100 Soundscapes of Japan](https://en.wikipedia.org/wiki/100_Soundscapes_of_Japan)
+
 ## February 2025
 
 - [Cabeza de Vaca](https://en.wikipedia.org/wiki/Álvar_Núñez_Cabeza_de_Vaca)
