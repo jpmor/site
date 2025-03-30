@@ -2,6 +2,7 @@
 
 ## March 2025
 
+- [Scandal](https://en.wikipedia.org/wiki/Scandal)
 - [Glottolog](https://en.wikipedia.org/wiki/Glottolog)
 - [Dark Oxygen](https://en.wikipedia.org/wiki/Dark_oxygen)
 - [Auteur](https://en.wikipedia.org/wiki/Auteur)
