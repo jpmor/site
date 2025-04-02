@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## April 2025
+
+- [Vending Machine](https://en.wikipedia.org/wiki/Vending_machine)
+
 ## March 2025
 
 - [Ground Effect](https://en.wikipedia.org/wiki/Ground_effect_(aerodynamics))
