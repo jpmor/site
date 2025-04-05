@@ -1,5 +1,9 @@
 # future
 
+## April 2025
+
+- [AI 2027](https://ai-2027.com/)
+
 ## January 2025
 
 - [Note on the Relationship Between Artificial Intelligence and Human Intelligence](https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html)
