@@ -3247,7 +3247,13 @@
         "Manatee__FL",
         "Sarasota__FL",
         "Charlotte__FL",
-        "Collier__FL"
+        "Collier__FL",
+        "Worth__GA",
+        "Colquitt__GA",
+        "Thomas__GA",
+        "Grady__GA",
+        "Liberty__FL",
+        "Bay__FL"
       ]
     },
     "#ffeda0": {
@@ -3497,7 +3503,8 @@
         "Appomattox__VA",
         "Tift__GA",
         "Fort_Bend__TX",
-        "Brazoria__TX"
+        "Brazoria__TX",
+        "Calhoun__FL"
       ]
     },
     "#feb24c": {
@@ -3586,7 +3593,8 @@
         "Okaloosa__FL",
         "Santa_Clara__CA",
         "Lynchburg__VA",
-        "Pasco__FL"
+        "Pasco__FL",
+        "Walton__FL"
       ]
     },
     "#fc4e2a": {
