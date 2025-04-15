@@ -2,6 +2,7 @@
 
 ## April 2025
 
+- [Akhenaten](https://en.wikipedia.org/wiki/Akhenaten)
 - [Vending Machine](https://en.wikipedia.org/wiki/Vending_machine)
 
 ## March 2025
