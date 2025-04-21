@@ -4,7 +4,6 @@
 
 - [Terra preta](https://en.wikipedia.org/wiki/Terra_preta)
 - [Anesthesia](https://en.wikipedia.org/wiki/Anesthesia)
-- [Spinal Block](https://en.wikipedia.org/wiki/Spinal_anaesthesia)
 - [Vibecoding](https://en.wikipedia.org/wiki/Vibe_coding)
 - [Tell](https://en.wikipedia.org/wiki/Tell_(archaeology))
 - [Akhenaten](https://en.wikipedia.org/wiki/Akhenaten)
