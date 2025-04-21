@@ -2,6 +2,7 @@
 
 ## April 2025
 
+- [Permaculture](https://en.wikipedia.org/wiki/Permaculture)
 - [Terra preta](https://en.wikipedia.org/wiki/Terra_preta)
 - [Anesthesia](https://en.wikipedia.org/wiki/Anesthesia)
 - [Vibecoding](https://en.wikipedia.org/wiki/Vibe_coding)
