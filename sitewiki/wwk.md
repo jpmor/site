@@ -2,6 +2,7 @@
 
 ## April 2025
 
+- [Yankee](https://en.wikipedia.org/wiki/Yankee)
 - [Stereopsis](https://en.wikipedia.org/wiki/Stereopsis)
 - [Permaculture](https://en.wikipedia.org/wiki/Permaculture)
 - [Terra preta](https://en.wikipedia.org/wiki/Terra_preta)
