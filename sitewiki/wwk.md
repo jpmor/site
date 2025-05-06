@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## May 2025
+
+- [DST](https://en.wikipedia.org/wiki/Daylight_saving_time)
+
 ## April 2025
 
 - [Yankee](https://en.wikipedia.org/wiki/Yankee)
