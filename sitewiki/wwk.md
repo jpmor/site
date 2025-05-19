@@ -2,6 +2,8 @@
 
 ## May 2025
 
+- [Deepfake](https://en.wikipedia.org/wiki/Deepfake)
+- [Regulatory Capture](https://en.wikipedia.org/wiki/Regulatory_capture)
 - [Digital Colonialism](https://en.wikipedia.org/wiki/Electronic_colonialism)
 - [Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 - [Promise](https://en.wikipedia.org/wiki/Promise)
