@@ -2,6 +2,7 @@
 
 ## May 2025
 
+- [Climate Refugees](https://en.wikipedia.org/wiki/Climate_migration)
 - [Deepfake](https://en.wikipedia.org/wiki/Deepfake)
 - [Regulatory Capture](https://en.wikipedia.org/wiki/Regulatory_capture)
 - [Digital Colonialism](https://en.wikipedia.org/wiki/Electronic_colonialism)
