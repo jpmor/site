@@ -2,6 +2,7 @@
 
 ## May 2025
 
+- [Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 - [Promise](https://en.wikipedia.org/wiki/Promise)
 - [Hearth](https://en.wikipedia.org/wiki/Hearth)
 - [DST](https://en.wikipedia.org/wiki/Daylight_saving_time)
