@@ -2,6 +2,7 @@
 
 ## May 2025
 
+- [Overtourism](https://en.wikipedia.org/wiki/Overtourism)
 - [Climate Refugees](https://en.wikipedia.org/wiki/Climate_migration)
 - [Deepfake](https://en.wikipedia.org/wiki/Deepfake)
 - [Regulatory Capture](https://en.wikipedia.org/wiki/Regulatory_capture)
