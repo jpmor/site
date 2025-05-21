@@ -2,6 +2,7 @@
 
 ## May 2025
 
+- [Optical Telegraph](https://en.wikipedia.org/wiki/Optical_telegraph)
 - [Overtourism](https://en.wikipedia.org/wiki/Overtourism)
 - [Climate Refugees](https://en.wikipedia.org/wiki/Climate_migration)
 - [Deepfake](https://en.wikipedia.org/wiki/Deepfake)
