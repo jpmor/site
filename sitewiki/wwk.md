@@ -2,6 +2,7 @@
 
 ## May 2025
 
+- [Hyperreality](https://en.wikipedia.org/wiki/Hyperreality)
 - [Gentrification](https://en.wikipedia.org/wiki/Gentrification)
 - [Meme](https://en.wikipedia.org/wiki/Internet_meme)
 - [Degrowth](https://en.wikipedia.org/wiki/Degrowth)
