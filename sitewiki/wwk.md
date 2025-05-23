@@ -2,6 +2,8 @@
 
 ## May 2025
 
+- [Gentrification](https://en.wikipedia.org/wiki/Gentrification)
+- [Meme](https://en.wikipedia.org/wiki/Internet_meme)
 - [Degrowth](https://en.wikipedia.org/wiki/Degrowth)
 - [Debanking](https://en.wikipedia.org/wiki/De-banking)
 - [Optical Telegraph](https://en.wikipedia.org/wiki/Optical_telegraph)
