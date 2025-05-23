@@ -2,6 +2,7 @@
 
 ## May 2025
 
+- [Debanking](https://en.wikipedia.org/wiki/De-banking)
 - [Optical Telegraph](https://en.wikipedia.org/wiki/Optical_telegraph)
 - [Overtourism](https://en.wikipedia.org/wiki/Overtourism)
 - [Climate Refugees](https://en.wikipedia.org/wiki/Climate_migration)
