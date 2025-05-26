@@ -2,6 +2,8 @@
 
 ## May 2025
 
+- [Minié Ball](https://en.wikipedia.org/wiki/Minié_ball)
+- [Percussion Cap](https://en.wikipedia.org/wiki/Percussion_cap)
 - [Secret Service](https://en.wikipedia.org/wiki/United_States_Secret_Service)
 - [Mahdi](https://en.wikipedia.org/wiki/Mahdi)
 - [Negative Capability](https://en.wikipedia.org/wiki/Negative_capability)
