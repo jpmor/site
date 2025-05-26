@@ -2,6 +2,7 @@
 
 ## May 2025
 
+- [Mahdi](https://en.wikipedia.org/wiki/Mahdi)
 - [Negative Capability](https://en.wikipedia.org/wiki/Negative_capability)
 - [Hyperreality](https://en.wikipedia.org/wiki/Hyperreality)
 - [Gentrification](https://en.wikipedia.org/wiki/Gentrification)
