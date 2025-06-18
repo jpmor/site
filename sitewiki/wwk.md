@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## June 2025
+
+- [Sepsis](https://en.wikipedia.org/wiki/Sepsis)
+
 ## May 2025
 
 - [Minié Ball](https://en.wikipedia.org/wiki/Minié_ball)
