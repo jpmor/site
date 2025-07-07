@@ -1,5 +1,9 @@
 # history
 
+## July 2025
+
+- [Why English doesn’t use accents](https://www.deadlanguagesociety.com/p/why-english-doesnt-use-accents)
+
 ## May 2025
 
 - [Parallel Lives](https://janwillemtulp.github.io/parallel-lives/)
