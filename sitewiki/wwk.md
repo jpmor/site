@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## July 2025
+
+- [Digital Twin](https://en.wikipedia.org/wiki/Digital_twin)
+
 ## June 2025
 
 - [Sepsis](https://en.wikipedia.org/wiki/Sepsis)
