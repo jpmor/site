@@ -2,6 +2,7 @@
 
 ## July 2025
 
+- [Liquid Crystal](https://en.wikipedia.org/wiki/Liquid_crystal)
 - [Nacre](https://en.wikipedia.org/wiki/Nacre)
 - [Primary Production](https://en.wikipedia.org/wiki/Primary_production)
 - [Digital Twin](https://en.wikipedia.org/wiki/Digital_twin)
