@@ -2,6 +2,7 @@
 
 ## August 2025
 
+- [Hypnosis](https://en.wikipedia.org/wiki/Hypnosis)
 - [Common Crawl](https://en.wikipedia.org/wiki/Common_Crawl)
 
 ## July 2025
