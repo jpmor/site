@@ -1,5 +1,9 @@
 # business
 
+## August 2025
+
+- [levered beta is all you need](https://ethanding.substack.com/p/levered-beta-is-all-you-need)
+
 ## September 2024
 
 - [HOW TO SUCCEED IN MRBEAST PRODUCTION](https://simonwillison.net/2024/Sep/15/how-to-succeed-in-mrbeast-production/)
