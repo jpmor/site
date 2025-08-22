@@ -2,6 +2,7 @@
 
 ## August 2025
 
+- [Wampum](https://en.wikipedia.org/wiki/Wampum)
 - [Mesic](https://en.wikipedia.org/wiki/Mesic_habitat)
 - [Hypnosis](https://en.wikipedia.org/wiki/Hypnosis)
 - [Common Crawl](https://en.wikipedia.org/wiki/Common_Crawl)
