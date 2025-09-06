@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## September 2025
+
+- [Chicane](https://en.wikipedia.org/wiki/Chicane)
+
 ## August 2025
 
 - [Wampum](https://en.wikipedia.org/wiki/Wampum)
