@@ -2,6 +2,7 @@
 
 ## September 2025
 
+- [Gemütlichkeit](https://en.wikipedia.org/wiki/Gem%C3%BCtlichkeit)
 - [Chicane](https://en.wikipedia.org/wiki/Chicane)
 
 ## August 2025
