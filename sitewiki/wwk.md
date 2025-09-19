@@ -2,6 +2,7 @@
 
 ## September 2025
 
+- [Taixi](https://en.wikipedia.org/wiki/Far_West_(Taixi))
 - [Gemütlichkeit](https://en.wikipedia.org/wiki/Gem%C3%BCtlichkeit)
 - [Chicane](https://en.wikipedia.org/wiki/Chicane)
 
