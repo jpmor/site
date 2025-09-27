@@ -3758,7 +3758,7 @@
   "page": "usa-counties",
   "previousCTCountiesShown": false,
   "scalingPatterns": true,
-  "strokeWidth": "medium",
+  "strokeWidth": "thinner",
   "title": "USA Travel",
   "uncoloredScriptColor": "#ffff33",
   "usTerritoriesShown": false,
