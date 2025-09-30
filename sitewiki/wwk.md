@@ -2,6 +2,8 @@
 
 ## September 2025
 
+- [Nerve Growth Factor](https://en.wikipedia.org/wiki/Nerve_growth_factor)
+- [Kary Mullis](https://en.wikipedia.org/wiki/Kary_Mullis)
 - [Slum](https://en.wikipedia.org/wiki/Slum)
 - [Taixi](https://en.wikipedia.org/wiki/Far_West_(Taixi))
 - [Gemütlichkeit](https://en.wikipedia.org/wiki/Gem%C3%BCtlichkeit)
