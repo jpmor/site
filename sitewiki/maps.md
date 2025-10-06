@@ -1,5 +1,9 @@
 # maps
 
+## October 2025
+
+- [Trans-Sahara](https://theageoftrade.com/trans-saharan-trade-routes-water-sources/)
+
 ## May 2025
 
 - [World Population Density](https://luminocity3d.org/WorldPopDen/)
