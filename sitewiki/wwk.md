@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## October 2025
+
+- [PFAS](https://en.wikipedia.org/wiki/PFAS)
+
 ## September 2025
 
 - [Nerve Growth Factor](https://en.wikipedia.org/wiki/Nerve_growth_factor)
