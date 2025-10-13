@@ -2,6 +2,7 @@
 
 ## October 2025
 
+- [Kitsch](https://en.wikipedia.org/wiki/Kitsch)
 - [PFAS](https://en.wikipedia.org/wiki/PFAS)
 
 ## September 2025
