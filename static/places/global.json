@@ -71,7 +71,6 @@
         "Auvergne-Rhône-Alpes_FR",
         "Bourgogne-Franche-Comté_FR",
         "Bretagne_FR",
-        "Bretagne_FR",
         "Centre-Val_de_Loire_FR",
         "Corsica_FR",
         "Grand_Est_FR",
@@ -509,7 +508,24 @@
         "Wakayama_JP",
         "Yamagata_JP",
         "Yamaguchi_JP",
-        "Yamanashi_JP"
+        "Yamanashi_JP",
+        "Burgenland_AT",
+        "Kärnten_AT",
+        "Niederösterreich_AT",
+        "Oberösterreich_AT",
+        "Salzburg_AT",
+        "Steiermark_AT",
+        "Tirol_AT",
+        "Vorarlberg_AT",
+        "Wien_AT",
+        "Banskobystrický_SK",
+        "Bratislavský_SK",
+        "Košický_SK",
+        "Nitriansky_SK",
+        "Prešov_SK",
+        "Trenciansky_SK",
+        "Trnavský_SK",
+        "Žilinský_SK"
       ]
     },
     "#bdbdbd": {
@@ -572,9 +588,10 @@
         "Ústecký_CZ",
         "Stredoceský_CZ",
         "Prague_CZ",
-        "Vysocina_CZ",
+        "Pardubický_CZ",
         "Jihomoravský_CZ",
         "Trnavský_SK",
+        "Bratislavský_SK",
         "Nitriansky_SK",
         "Pest_HU",
         "Budapest_HU",
@@ -644,7 +661,16 @@
         "Maharashtra_IN",
         "Rajasthan_IN",
         "Haryana_IN",
-        "Incheon_KR"
+        "Incheon_KR",
+        "Schwyz_CH",
+        "Glarus_CH",
+        "Sankt_Gallen_CH",
+        "Graubünden_CH",
+        "Tirol_AT",
+        "Salzburg_AT",
+        "Oberösterreich_AT",
+        "Niederösterreich_AT",
+        "Wien_AT"
       ]
     },
     "#ffeda0": {
@@ -742,7 +768,14 @@
         "Bayern_DE",
         "Maharashtra_IN",
         "Rajasthan_IN",
-        "West_Virginia_US"
+        "West_Virginia_US",
+        "Graubünden_CH",
+        "Tirol_AT",
+        "Wien_AT",
+        "Bratislavský_SK",
+        "Niederösterreich_AT",
+        "Salzburg_AT",
+        "Oberösterreich_AT"
       ]
     },
     "#feb24c": {
@@ -821,7 +854,11 @@
         "Rajasthan_IN",
         "Uttar_Pradesh_IN",
         "Kentucky_US",
-        "West_Virginia_US"
+        "West_Virginia_US",
+        "Graubünden_CH",
+        "Tirol_AT",
+        "Wien_AT",
+        "Salzburg_AT"
       ]
     },
     "#fc4e2a": {
