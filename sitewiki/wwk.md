@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## November 2025
+
+- [Brain Rot](https://en.wikipedia.org/wiki/Brain_rot)
+
 ## October 2025
 
 - [Kitsch](https://en.wikipedia.org/wiki/Kitsch)
