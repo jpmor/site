@@ -2,6 +2,7 @@
 
 ## November 2025
 
+- [AI Slop](https://en.wikipedia.org/wiki/AI_slop)
 - [Brain Rot](https://en.wikipedia.org/wiki/Brain_rot)
 
 ## October 2025
