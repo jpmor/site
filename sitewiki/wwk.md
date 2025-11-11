@@ -2,6 +2,7 @@
 
 ## November 2025
 
+- [Stephen Wiltshire](https://en.wikipedia.org/wiki/Stephen_Wiltshire)
 - [AI Slop](https://en.wikipedia.org/wiki/AI_slop)
 - [Brain Rot](https://en.wikipedia.org/wiki/Brain_rot)
 
