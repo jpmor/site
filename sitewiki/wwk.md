@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## December 2025
+
+- [Cannonball Run](https://en.wikipedia.org/wiki/Cannonball_Run_challenge)
+
 ## November 2025
 
 - [Stephen Wiltshire](https://en.wikipedia.org/wiki/Stephen_Wiltshire)
