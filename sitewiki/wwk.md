@@ -2,6 +2,7 @@
 
 ## December 2025
 
+- [Transient Luminous Events](https://en.wikipedia.org/wiki/Upper-atmospheric_lightning)
 - [Cannonball Run](https://en.wikipedia.org/wiki/Cannonball_Run_challenge)
 
 ## November 2025
