@@ -2,6 +2,7 @@
 
 ## December 2025
 
+- [SIBRS](https://en.wikipedia.org/wiki/Space-Based_Infrared_System)
 - [Transient Luminous Events](https://en.wikipedia.org/wiki/Upper-atmospheric_lightning)
 - [Cannonball Run](https://en.wikipedia.org/wiki/Cannonball_Run_challenge)
 
