@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## January 2026
+
+- [Desert Kite](https://en.wikipedia.org/wiki/Desert_kite)
+
 ## December 2025
 
 - [SIBRS](https://en.wikipedia.org/wiki/Space-Based_Infrared_System)
