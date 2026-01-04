@@ -2,6 +2,7 @@
 
 ## January 2026
 
+- [Praxis](https://en.wikipedia.org/wiki/Praxis_(process))
 - [Desert Kite](https://en.wikipedia.org/wiki/Desert_kite)
 
 ## December 2025
