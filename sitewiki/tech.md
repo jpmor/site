@@ -1,5 +1,9 @@
 # tech
 
+## January 2026
+
+- [Tahoe Icons](https://tonsky.me/blog/tahoe-icons/)
+
 ## February 2025
 
 - [Everyone knows your location](https://timsh.org/tracking-myself-down-through-in-app-ads/)
