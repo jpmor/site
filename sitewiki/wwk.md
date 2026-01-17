@@ -2,6 +2,7 @@
 
 ## January 2026
 
+- [Overton Window](https://en.wikipedia.org/wiki/Overton_window)
 - [Central Pattern Generator](https://en.wikipedia.org/wiki/Central_pattern_generator)
 - [Praxis](https://en.wikipedia.org/wiki/Praxis_(process))
 - [Desert Kite](https://en.wikipedia.org/wiki/Desert_kite)
