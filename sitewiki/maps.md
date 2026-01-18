@@ -1,5 +1,9 @@
 # maps
 
+## January 2026
+
+- [USDA Plant Hardiness Zones](https://planthardiness.ars.usda.gov/)
+
 ## October 2025
 
 - [Trans-Sahara](https://theageoftrade.com/trans-saharan-trade-routes-water-sources/)
