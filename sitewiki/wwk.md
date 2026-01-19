@@ -2,6 +2,7 @@
 
 ## January 2026
 
+- [Synapse](https://en.wikipedia.org/wiki/Synapse)
 - [Overton Window](https://en.wikipedia.org/wiki/Overton_window)
 - [Central Pattern Generator](https://en.wikipedia.org/wiki/Central_pattern_generator)
 - [Praxis](https://en.wikipedia.org/wiki/Praxis_(process))
