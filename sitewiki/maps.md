@@ -2,6 +2,7 @@
 
 ## January 2026
 
+- [Isometric NYC](https://cannoneyed.com/isometric-nyc/)
 - [USDA Plant Hardiness Zones](https://planthardiness.ars.usda.gov/)
 
 ## October 2025
