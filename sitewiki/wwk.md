@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## February 2026
+
+- [Weather Underground](https://en.wikipedia.org/wiki/Weather_Underground)
+
 ## January 2026
 
 - [Synapse](https://en.wikipedia.org/wiki/Synapse)
