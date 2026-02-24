@@ -1,5 +1,9 @@
 # future
 
+## February 2026
+
+- [THE 2028 GLOBAL INTELLIGENCE CRISIS](https://www.citriniresearch.com/p/2028gic)
+
 ## April 2025
 
 - [AI 2027](https://ai-2027.com/)
