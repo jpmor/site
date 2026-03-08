@@ -2,7 +2,7 @@
 
 <div id="toggles"></div>
 <div id="count"></div>
-<table id="books"></table>
+<div class="table-wrap"><table id="books"></table></div>
 
 <script>
 var COLS = [

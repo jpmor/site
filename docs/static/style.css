@@ -62,8 +62,29 @@ a:hover {
   text-decoration: none;
 }
 
+.table-wrap {
+  overflow-x: auto;
+  width: 100%;
+}
+
 #books td:first-child {
   max-width: 250px;
+  min-width: 120px;
+}
+
+#toggles button {
+  margin: 0.2em;
+  padding: 0.4em 0.7em;
+}
+
+@media (max-width: 600px) {
+  .content {
+    width: 100%;
+  }
+
+  #books td:first-child {
+    max-width: 150px;
+  }
 }
 
 nav {
