@@ -11,8 +11,8 @@ fi
 for page in $pages;
 do
   echo "Converting: $page"
-  head -17 static/template > "$page.html"
-  pandoc --lua-filter=links-to-html.lua "sitewiki/$page.md" >> "$page.html"
-  tail -3 static/template >> "$page.html"
-  tidy -iqm -w 80 --tidy-mark no "$page.html"
+  head -17 docs/static/template > "docs/$page.html"
+  pandoc --lua-filter=links-to-html.lua "sitewiki/$page.md" >> "docs/$page.html"
+  tail -3 docs/static/template >> "docs/$page.html"
+  tidy -iqm -w 80 --tidy-mark no "docs/$page.html"
 done
