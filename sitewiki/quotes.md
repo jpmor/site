@@ -1,5 +1,19 @@
 # quotes
 
+<nav id="toc"></nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var nav = document.getElementById('toc');
+  document.querySelectorAll('h2').forEach(function(h) {
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    nav.appendChild(a);
+  });
+});
+</script>
+
 ## proverbs
 
 > It is all the same whether one has good ideas oneself or is prepared

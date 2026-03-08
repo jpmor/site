@@ -6,7 +6,7 @@
 
 [repos](https://github.com/jpmor)
 
-[reading](https://www.goodreads.com/jpmor)
+[reading](reading.md)
 
 [photos](https://500px.com/jpmor)
 

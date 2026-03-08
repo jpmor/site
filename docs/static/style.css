@@ -1,12 +1,18 @@
 html {
-  background-color: black;
+  background-color: #000;
 }
 
 body {
-  color: white;
+  color: #fff;
   display: flex;
-  font-family: verdana, sans-serif;
+  font-family: Georgia, serif;
+  font-size: 1rem;
   justify-content: center;
+  line-height: 1.6;
+  margin: 0 1rem;
+}
+
+.content {
   text-align: center;
 }
 
@@ -14,16 +20,17 @@ h1 {
   font-weight: normal;
   padding-bottom: 0.5em;
 }
-h2 {
-  font-weight: normal;
-}
+
+h2,
 h3 {
   font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 2em;
 }
 
 ul {
   display: contents;
-  font-size: 125%;
+  font-size: 1.25rem;
   list-style-type: none;
 }
 
@@ -37,24 +44,47 @@ li {
 }
 
 p a {
-  font-size: 125%
+  font-size: 1.25rem;
 }
 
-p a:link, ul a:link {
-  color: #66D9FF;
+a:link {
+  color: #66d9ff;
   text-decoration: none;
 }
-p a:visited, ul a:visited {
-  color: #8C66FF;
+
+a:visited {
+  color: #8c66ff;
   text-decoration: none;
 }
-p a:hover, ul a:hover {
-  color: #FABC2A;
+
+a:hover {
+  color: #fabc2a;
   text-decoration: none;
+}
+
+#books td:first-child {
+  max-width: 250px;
+}
+
+nav {
+  margin-bottom: 2em;
+}
+
+nav a {
+  display: block;
+  margin: 0.3em 0;
 }
 
 blockquote {
-  color: #AAAAAA;
+  color: #aaa;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0.6em;
+  max-width: 600px;
+}
+
+blockquote + p {
+  margin-top: 0.1em;
 }
 
 table {
@@ -63,29 +93,38 @@ table {
 }
 
 thead {
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #000;
 }
 
-th {
+th,
+td {
   padding: 0.3em;
 }
 
 td {
-  padding: 0.3em;
   text-align: left;
 }
 
-hr {border: none; border-top: 1px solid #ccc; width: 100%;}
-
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
 
 .map-container {
-  width: 90vw;
-  overflow: hidden;
+  border: 1px solid #444;
   cursor: grab;
   margin-bottom: 1em;
-  border: 1px solid #444;
   margin-left: calc(50% - 45vw);
+  overflow: hidden;
+  width: 90vw;
 }
-.map-container.dragging { cursor: grabbing; }
-.map-container svg { user-select: none; }
+
+.map-container.dragging {
+  cursor: grabbing;
+}
+
+.map-container svg {
+  user-select: none;
+}
