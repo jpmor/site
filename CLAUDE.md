@@ -18,6 +18,11 @@ Personal static website (jpmor.com) hosted on GitHub Pages. Content is written i
 
 Dependencies: `pandoc`, `tidy` (HTML Tidy), `bash`.
 
+```bash
+# Serve the site locally at http://localhost:8000
+./script/serve
+```
+
 ## Architecture
 
 - **`sitewiki/*.md`** — Source content. Each file becomes a `docs/*.html` file.

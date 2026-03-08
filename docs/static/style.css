@@ -78,3 +78,14 @@ td {
 
 hr {border: none; border-top: 1px solid #ccc; width: 100%;}
 
+
+.map-container {
+  width: 90vw;
+  overflow: hidden;
+  cursor: grab;
+  margin-bottom: 1em;
+  border: 1px solid #444;
+  margin-left: calc(50% - 45vw);
+}
+.map-container.dragging { cursor: grabbing; }
+.map-container svg { user-select: none; }
