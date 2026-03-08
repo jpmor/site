@@ -23,7 +23,7 @@ Dependencies: `pandoc`, `tidy` (HTML Tidy), `bash`.
 - **`sitewiki/*.md`** — Source content. Each file becomes a `docs/*.html` file.
 - **`docs/`** — GitHub Pages source (configured in repo settings). Contains all generated `.html` files, `static/`, and `CNAME`.
 - **`docs/static/template`** — HTML wrapper (header + nav + footer). First 17 lines prepended, last 3 appended.
-- **`links-to-html.lua`** — Pandoc Lua filter that rewrites `.md` links to `.html`.
+- **`script/links-to-html.lua`** — Pandoc Lua filter that rewrites `.md` links to `.html`.
 - **`docs/static/style.css`** — Global styles (dark theme).
 - **`docs/static/places/`** — Geographic JSON data and map PNGs for the places page, exported from mapchart.net:
   - `usa.json` — US counties, colored by time spent: State Visited (gray baseline) → Minute → Hour → Day → Month → Year
