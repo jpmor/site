@@ -56,3 +56,8 @@ Automated commits appear in git log as `[PIPELINE] Fetch from queue on YYYY-MM-D
 ## Manual Workflow
 
 Edit a `.md` file in `sitewiki/`, run `./script/md2html <page>` to regenerate the corresponding HTML, then commit both the `.md` and `.html` files.
+
+## Git Guidelines
+
+- **Never push without explicit user approval.** Commit freely, but always show the commit and ask before running `git push`.
+- Do not add `Co-Authored-By` or any Claude attribution to commit messages.
