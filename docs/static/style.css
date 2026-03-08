@@ -123,6 +123,10 @@ td {
   padding: 0.3em;
 }
 
+#books tbody tr {
+  border-top: 1px solid #333;
+}
+
 td {
   text-align: left;
 }
