@@ -1,18 +1,38 @@
 #!/bin/bash
 
 if [ $# -eq 0 ]; then
-  cd sitewiki
-  pages=$(find *.md | sed -e 's/\.md$//')
-  cd ..
-else 
+  pages=$(cd sitewiki && find . -name "*.md" | sed 's|^\./||; s|\.md$||')
+else
   pages=$1
 fi
 
 for page in $pages;
 do
   echo "Converting: $page"
-  head -18 docs/static/template > "docs/$page.html"
-  pandoc --lua-filter=script/links-to-html.lua "sitewiki/$page.md" | sed 's/ type="1"//g' >> "docs/$page.html"
-  tail -3 docs/static/template >> "docs/$page.html"
-  tidy -iqm -w 80 --tidy-mark no "docs/$page.html"
+
+  # If a subdirectory exists for this page, output to page/index.html
+  if [ -d "sitewiki/$page" ]; then
+    outfile="docs/$page/index.html"
+    depth=$(echo "$page/" | tr -cd '/' | wc -c | tr -d ' ')
+  else
+    outfile="docs/$page.html"
+    depth=$(echo "$page" | tr -cd '/' | wc -c | tr -d ' ')
+  fi
+
+  prefix=""
+  for ((i=0; i<depth; i++)); do prefix="../$prefix"; done
+
+  mkdir -p "$(dirname "$outfile")"
+
+  tmpl=$(sed "s|href=\"static/|href=\"${prefix}static/|g; s|src=\"static/|src=\"${prefix}static/|g; s|src=\"js/|src=\"${prefix}js/|g" docs/static/template)
+
+  printf '%s\n' "$tmpl" | head -18 > "$outfile"
+  if [ -d "sitewiki/$page" ]; then
+    base=$(basename "$page")
+    pandoc --lua-filter=script/links-to-html.lua -M "strip-prefix=${base}/" "sitewiki/$page.md" | sed 's/ type="1"//g' >> "$outfile"
+  else
+    pandoc --lua-filter=script/links-to-html.lua "sitewiki/$page.md" | sed 's/ type="1"//g' >> "$outfile"
+  fi
+  printf '%s\n' "$tmpl" | tail -3 >> "$outfile"
+  tidy -iqm -w 80 --tidy-mark no "$outfile"
 done

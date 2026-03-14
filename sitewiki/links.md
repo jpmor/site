@@ -1,17 +1,19 @@
 # links
 
-[business](business.md)
+[business](links/business.md)
 
-[future](future.md)
+[future](links/future.md)
 
-[history](history.md)
+[history](links/history.md)
 
-[interesting](interesting.md)
+[interesting](links/interesting.md)
 
-[maps](maps.md)
+[maps](links/maps.md)
 
-[science](science.md)
+[research](links/research.md)
 
-[tech](tech.md)
+[science](links/science.md)
 
-[wikipedias](wwk.md)
+[tech](links/tech.md)
+
+[wikipedias](links/wwk.md)
