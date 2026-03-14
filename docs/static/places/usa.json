@@ -2531,7 +2531,7 @@
       ]
     },
     "#bdbdbd": {
-      "label": "Minute",
+      "label": "Minutes",
       "paths": [
         "Westchester__NY",
         "Bronx__NY",
@@ -3352,7 +3352,7 @@
       ]
     },
     "#ffeda0": {
-      "label": "Hour",
+      "label": "Hours",
       "paths": [
         "Westchester__NY",
         "New_York__NY",
@@ -3611,7 +3611,7 @@
       ]
     },
     "#feb24c": {
-      "label": "Day",
+      "label": "Days",
       "paths": [
         "Westchester__NY",
         "New_York__NY",
@@ -3704,7 +3704,7 @@
       ]
     },
     "#fc4e2a": {
-      "label": "Month",
+      "label": "Months",
       "paths": [
         "Westchester__NY",
         "DuPage__IL",
@@ -3720,7 +3720,7 @@
       ]
     },
     "#bd0026": {
-      "label": "Year",
+      "label": "Years",
       "paths": [
         "Westchester__NY",
         "DuPage__IL",

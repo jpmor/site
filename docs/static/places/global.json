@@ -529,7 +529,7 @@
       ]
     },
     "#bdbdbd": {
-      "label": "Minute",
+      "label": "Minutes",
       "paths": [
         "New_York_US",
         "New_Jersey_US",
@@ -674,7 +674,7 @@
       ]
     },
     "#ffeda0": {
-      "label": "Hour",
+      "label": "Hours",
       "paths": [
         "New_York_US",
         "Pennsylvania_US",
@@ -779,7 +779,7 @@
       ]
     },
     "#feb24c": {
-      "label": "Day",
+      "label": "Days",
       "paths": [
         "New_York_US",
         "Pennsylvania_US",
@@ -862,7 +862,7 @@
       ]
     },
     "#fc4e2a": {
-      "label": "Month",
+      "label": "Months",
       "paths": [
         "New_York_US",
         "Illinois_US",
@@ -875,7 +875,7 @@
       ]
     },
     "#bd0026": {
-      "label": "Year",
+      "label": "Years",
       "paths": [
         "New_York_US",
         "Illinois_US",
