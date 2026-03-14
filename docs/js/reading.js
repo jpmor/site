@@ -8,12 +8,16 @@ var COLS = [
   {name: 'status',    idx: 1,  vis: true},
   {name: 'place',     idx: 2,  vis: true},
   {name: 'time',      idx: 3,  vis: true},
-  {name: 'system',    idx: 4,  vis: true},
+  {name: 'topic',     idx: 4,  vis: true},
   {name: 'completed', idx: 10, vis: false},
   {name: 'rated',     idx: 11, vis: false},
 ];
 
-var STATUS_ORDER = ['Started', 'Soon', 'Bought', 'Tier 1', 'Tier 2', 'Tier 3', ''];
+var STATUS_ORDER = ['Started', 'Soon', 'Bought', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
+var PLACE_ORDER  = ['north','south','western','meso','sur','northseas','mittel','mediterranean','rus','africa','middleeast','india','china','seasia','pacific'];
+var TIME_ORDER   = ['ancient','classical','medieval','early','modern'];
+var TIME_REGION  = ['america','europe','neareast','fareast'];
+var TOPIC_ORDER  = ['math','physics','environment','biology','taxonomy','engineering','resources','settlements','transport','manufacturing','military','info','healthcare','thought','culture','politics','economy','order','fiction'];
 var STATUS_COLOR = {
   'Started': 'hsl(210, 70%, 65%)',
   'Soon':    'hsl(270, 65%, 65%)',
@@ -21,9 +25,22 @@ var STATUS_COLOR = {
   'Tier 1':  'hsl(0,   70%, 65%)',
   'Tier 2':  'hsl(28,  70%, 65%)',
   'Tier 3':  'hsl(48,  70%, 65%)',
+  'Read':    'hsl(120, 40%, 55%)',
 };
-var PLACE_HUE    = {am: 50, eu: 210, ne: 130, fe: 0};
-var SYSTEM_HUE   = {civ: 210, soc: 0, nat: 130, eng: 50, fic: 270};
+var PLACE_HUE    = {
+  north: 50, south: 50, western: 50, sur: 50, meso: 50,
+  mittel: 210, northseas: 210, rus: 210, mediterranean: 210,
+  africa: 130, middleeast: 130, india: 130,
+  china: 0, pacific: 0, seasia: 0,
+};
+var TIME_HUE     = {america: 50, europe: 210, neareast: 130, fareast: 0};
+var SYSTEM_HUE   = {
+  math: 130, physics: 130, environment: 130, biology: 130, taxonomy: 130,
+  engineering: 50,
+  resources: 210, settlements: 210, transport: 210, manufacturing: 210, military: 210, info: 210, healthcare: 210,
+  thought: 0, culture: 0, politics: 0, economy: 0, order: 0,
+  fiction: 270,
+};
 var ERA_LIGHTNESS = {modern: 65, medieval: 72, early: 79, classical: 86};
 
 var vis = {};
@@ -55,24 +72,22 @@ function cellColor(idx, val) {
     return STATUS_COLOR[val] || '';
   }
   if (idx === 2) {
-    var prefix = val.split('-')[0];
-    var base = PLACE_HUE[prefix];
+    var base = PLACE_HUE[val];
     return base !== undefined
       ? 'hsl(' + (base + strHash(val) % 20 - 10) + ', 65%, 65%)'
       : '';
   }
   if (idx === 3) {
-    var parts = val.split('-');
+    var parts = val.split(' ');
     var era = parts[0], region = parts[1];
     if (era === 'ancient') return 'hsl(0, 0%, 82%)';
-    var l = ERA_LIGHTNESS[era], h2 = PLACE_HUE[region];
+    var l = ERA_LIGHTNESS[era], h2 = TIME_HUE[region];
     return (l !== undefined && h2 !== undefined)
       ? 'hsl(' + h2 + ', 60%, ' + l + '%)'
       : '';
   }
   if (idx === 4) {
-    var sysPrefix = val.split('-')[0];
-    var sysBase = SYSTEM_HUE[sysPrefix];
+    var sysBase = SYSTEM_HUE[val];
     return sysBase !== undefined
       ? 'hsl(' + (sysBase + strHash(val) % 20 - 10) + ', 65%, 65%)'
       : '';
@@ -115,16 +130,27 @@ fetch('static/reading.tsv').then(function(r) { return r.text(); }).then(function
 function render() {
   var sorted = rows.slice().sort(function(a, b) {
     var x = a[sortIdx] || '', y = b[sortIdx] || '';
-    if (sortIdx === 1) {
-      var xi = STATUS_ORDER.indexOf(x), yi = STATUS_ORDER.indexOf(y);
-      if (xi === -1) xi = STATUS_ORDER.length;
-      if (yi === -1) yi = STATUS_ORDER.length;
-      var res = xi - yi;
+    var xempty = !x || x === '?', yempty = !y || y === '?';
+    if (xempty && !yempty) return 1;
+    if (!xempty && yempty) return -1;
+    if (xempty && yempty) return 0;
+    if (sortIdx === 3) {
+      var xp = x.split(' '), yp = y.split(' ');
+      var xei = TIME_ORDER.indexOf(xp[0]), yei = TIME_ORDER.indexOf(yp[0]);
+      var xri = TIME_REGION.indexOf(xp[1]), yri = TIME_REGION.indexOf(yp[1]);
+      if (xei === -1) xei = TIME_ORDER.length;
+      if (yei === -1) yei = TIME_ORDER.length;
+      if (xri === -1) xri = TIME_REGION.length;
+      if (yri === -1) yri = TIME_REGION.length;
+      var res = xei !== yei ? xei - yei : xri - yri;
       return sortAsc ? res : -res;
     }
-    var xunk = !x || x === '?', yunk = !y || y === '?';
-    if (xunk && !yunk) return 1;
-    if (!xunk && yunk) return -1;
+    var orderMap = sortIdx === 1 ? STATUS_ORDER : sortIdx === 2 ? PLACE_ORDER : sortIdx === 4 ? TOPIC_ORDER : null;
+    if (orderMap) {
+      var xo = orderMap.indexOf(x), yo = orderMap.indexOf(y);
+      var res = (xo === -1 ? orderMap.length : xo) - (yo === -1 ? orderMap.length : yo);
+      return sortAsc ? res : -res;
+    }
     var n = parseFloat(x) - parseFloat(y);
     var res = (isNaN(n) || n === 0) ? x.localeCompare(y) : n;
     return sortAsc ? res : -res;
