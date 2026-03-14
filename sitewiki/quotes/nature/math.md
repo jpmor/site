@@ -35,12 +35,6 @@
 
 `- Paul Erdös`
 
-> How willingly would I have exchanged a full-scale invasion for this
-> shapeless, measureless peril, expressed in charts, curves, and
-> statistics.
-
-`- Winston Churchill`
-
 > The best of science doesn’t consist of mathematical models and
 > experiments, as textbooks make it seem. Those come later. It springs
 > fresh from a more primitive mode of thought, wherein the hunter’s mind
@@ -49,8 +43,3 @@
 
 `- Edward Wilson`
 
-> Change is the key. One can wear out a particular part of mind by continually
-> using it and tiring it. The tired parts of the mind can be rested and
-> strengthened not merely by rest, but by using other parts.
-
-`- Winston Churchill `

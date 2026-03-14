@@ -58,3 +58,15 @@
 > We cannot command nature except by obeying her.
 
 `- Francis Bacon`
+
+> Life is a gift of nature but living is a gift of wisdom.
+
+`- Greek adage`
+
+> Quid est mare? Refugium in periculis.
+
+`- Alcuins Catechism`
+
+> The warmth of southern sun pervades in subtle ways the northern shades.
+
+`- Luís de Camões`

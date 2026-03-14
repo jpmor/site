@@ -1,4 +1,4 @@
-# design
+# engineering
 
 > Focusing is about saying no.
 
@@ -40,7 +40,7 @@
 
 `- Donald Knuth`
 
-> If one plan won’t do, another must.
+> If one plan won't do, another must.
 
 `- John Roebling`
 
@@ -66,14 +66,6 @@
 
 `- Dan Geer `
 
-> Better to have one bad general than two good ones.
-
-`- Napoleon`
-
-> Strategy is the art of making use of space and time.
-
-`- Napoleon`
-
 > Great and distant enterprises perish from the very magnitude of the preparations made to ensure their success.
 
 `- Montaigne`
@@ -82,18 +74,6 @@
 
 `- Ferdinand Lassalle`
 
-> The whole art of war consists in getting at what lies on the other side of the hill. In deciding what we do not know from what we do.
+> Innovate or die.
 
-`- Duke of Wellington`
-
-> War is movement.
-
-`- Napoleon`
-
-> The secret of war lies in attacking the enemy lines of communication.
-
-`- Napoleon`
-
-> Wars are not won by fancy tactics. Only simple and direct measures have any chance at all.
-
-`- George Marshall`
+`- Roone Arledge`

@@ -127,3 +127,21 @@
 > Happy is the country that produces a hero. Unhappy is the people that need one.
 
 `- Bertolt Brecht`
+
+> Leadership in a world economy is an experience of power which may one
+> day blind the victor to the march of history.
+
+`- Fernand Braudel`
+
+> So often in international affairs, hawkish paranoia can
+> create the monster that is most feared.
+
+`- William Dalrymple`
+
+> Inaction and inactivity are as decisive as action itself.
+
+`- Richard Holbrooke`
+
+> Patents add the fuel of interest to the fire of genius.
+
+`- Abraham Lincoln`
