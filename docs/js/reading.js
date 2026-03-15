@@ -9,8 +9,11 @@ var COLS = [
   {name: 'place',     idx: 2,  vis: true},
   {name: 'time',      idx: 3,  vis: true},
   {name: 'topic',     idx: 4,  vis: true},
-  {name: 'completed', idx: 10, vis: false},
-  {name: 'rated',     idx: 11, vis: false},
+  {name: 'completed',      idx: 10, vis: false},
+  {name: 'rated',          idx: 11, vis: false},
+  {name: 'specific_place', idx: 15, vis: true},
+  {name: 'specific_time',  idx: 16, vis: true},
+  {name: 'specific_topic', idx: 17, vis: true},
 ];
 
 var STATUS_ORDER = ['Started', 'Soon', 'Bought', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];

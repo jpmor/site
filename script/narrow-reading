@@ -1,0 +1,165 @@
+#!/opt/homebrew/bin/python3
+"""
+narrow-reading — adds specific_place, specific_time, specific_topic columns to reading.tsv
+
+For each unique value in place/time/topic, batches all books with that tag into
+a single claude -p call and asks for the most specific child wiki node per book.
+
+Usage:
+  script/narrow-reading                  # process all dimensions
+  script/narrow-reading -d place         # only one dimension
+  script/narrow-reading --dry-run        # print prompts, don't call claude
+  script/narrow-reading --threshold 70   # confidence cutoff (default 60)
+"""
+
+import argparse
+import csv
+import json
+import os
+import re
+import subprocess
+import sys
+from collections import defaultdict
+
+HW = os.environ.get('HW', os.path.expanduser('~/homewiki'))
+TSV = os.path.join(os.path.dirname(__file__), '../docs/static/reading.tsv')
+CONFIDENCE_THRESHOLD = 60
+DIMENSIONS = ['place', 'time', 'topic']
+
+
+def node_key(tag_value):
+    """Convert TSV tag value to wiki node name (e.g. 'modern america' -> 'modernamerica')."""
+    return tag_value.strip().replace(' ', '')
+
+
+def get_subtree(node):
+    """Return flat list of child nodes under a wiki node using wt."""
+    result = subprocess.run(
+        ['tools/wt', '-f', '-r', node],
+        capture_output=True, text=True, cwd=HW
+    )
+    if result.returncode != 0:
+        return []
+    nodes = []
+    for part in result.stdout.split():
+        n = part.replace('wiki/', '').replace('.md', '')
+        if n and n != node:
+            nodes.append(n)
+    return nodes
+
+
+def ask_claude(books, subtree, dimension, broad_node, dry_run=False):
+    """Call claude -p with a batch of books and available nodes. Returns list of {i, node, pct}."""
+    node_list = ', '.join(subtree[:100])
+    book_lines = '\n'.join(
+        f'{i}: {b["title"]} by {b["author"]}'
+        for i, b in enumerate(books)
+    )
+    prompt = (
+        f'These books are tagged {dimension}="{broad_node}". '
+        f'For each book, pick the single most specific child wiki node that best describes '
+        f'its primary {dimension} focus. Use "{broad_node}" itself if nothing more specific fits. '
+        f'Only use nodes from the list provided.\n\n'
+        f'Books:\n{book_lines}\n\n'
+        f'Available nodes: {node_list}\n\n'
+        f'Return a JSON array only, no other text:\n'
+        f'[{{"i": 0, "node": "specific_node", "pct": 85}}, ...]'
+    )
+
+    if dry_run:
+        print(f'\n--- {dimension}="{broad_node}" ({len(books)} books) ---')
+        print(prompt[:500] + '...')
+        return []
+
+    result = subprocess.run(['claude', '-p', prompt], capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError(f'claude -p failed: {result.stderr.strip()}')
+
+    text = result.stdout.strip()
+    m = re.search(r'\[.*\]', text, re.DOTALL)
+    if not m:
+        raise ValueError(f'No JSON array in response: {text[:200]}')
+    return json.loads(m.group())
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-d', '--dimension', choices=DIMENSIONS, help='Only process one dimension')
+    parser.add_argument('--dry-run', action='store_true', help='Print prompts without calling claude')
+    parser.add_argument('--threshold', type=int, default=CONFIDENCE_THRESHOLD, help='Min confidence pct (default 60)')
+    args = parser.parse_args()
+
+    dims = [args.dimension] if args.dimension else DIMENSIONS
+
+    # Read TSV
+    with open(TSV, newline='') as f:
+        reader = csv.DictReader(f, delimiter='\t')
+        fieldnames = reader.fieldnames[:]
+        rows = list(reader)
+
+    # Add new columns if not present
+    for col in ['specific_place', 'specific_time', 'specific_topic']:
+        if col not in fieldnames:
+            fieldnames.append(col)
+        for row in rows:
+            row.setdefault(col, '')
+
+    for dim in dims:
+        specific_col = f'specific_{dim}'
+
+        # Group rows by tag value (skip blanks)
+        by_tag = defaultdict(list)
+        for i, row in enumerate(rows):
+            val = row.get(dim, '').strip()
+            if val:
+                by_tag[val].append(i)
+
+        print(f'\n{dim}: {len(by_tag)} unique values, '
+              f'{sum(len(v) for v in by_tag.values())} books to process')
+
+        for tag_val, row_indices in sorted(by_tag.items()):
+            node = node_key(tag_val)
+            subtree = get_subtree(node)
+
+            if not subtree:
+                print(f'  {tag_val!r}: no wiki node found, skipping')
+                continue
+
+            if len(subtree) == 1:
+                print(f'  {tag_val!r}: only one node ({subtree[0]}), auto-assigning')
+                for i in row_indices:
+                    rows[i][specific_col] = subtree[0]
+                continue
+
+            books = [{'title': rows[i]['title'], 'author': rows[i]['author']}
+                     for i in row_indices]
+            print(f'  {tag_val!r}: {len(books)} books, {len(subtree)} nodes... ', end='', flush=True)
+
+            try:
+                results = ask_claude(books, subtree, dim, tag_val, dry_run=args.dry_run)
+            except Exception as e:
+                print(f'error: {e}')
+                continue
+
+            accepted = 0
+            for r in results:
+                idx = row_indices[r['i']]
+                node_suggestion = r.get('node', '')
+                pct = r.get('pct', 0)
+                if node_suggestion in set(subtree) and pct >= args.threshold:
+                    rows[idx][specific_col] = node_suggestion
+                    accepted += 1
+
+            print(f'{accepted}/{len(books)} accepted (>={args.threshold}%)')
+
+    if not args.dry_run:
+        with open(TSV, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter='\t',
+                                    extrasaction='ignore', lineterminator='\n')
+            writer.writeheader()
+            writer.writerows(rows)
+        print(f'\nWritten to {TSV}')
+
+
+if __name__ == '__main__':
+    main()
