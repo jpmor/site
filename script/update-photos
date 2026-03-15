@@ -1,0 +1,201 @@
+#!/usr/bin/env python3
+"""Resize, deduplicate, and rebuild photos.json.
+Run after exporting new photos from the Site album to docs/static/photos/.
+"""
+
+import hashlib
+import json
+import os
+import sqlite3
+import subprocess
+from PIL import Image
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PHOTOS_DIR = os.path.join(SCRIPT_DIR, "../docs/static/photos")
+OUTPUT = os.path.join(SCRIPT_DIR, "../docs/static/photos.json")
+PHOTOS_DB = os.path.expanduser(
+    "~/Pictures/Photos Library.photoslibrary/database/Photos.sqlite"
+)
+ALBUM_NAME = "Site"
+EXPORT_DATE = "2026-03-15"  # date photos were exported from Photos.app
+
+REGIONS = {
+    "west":     lambda la, lo: 24 < la < 50 and -125 < lo < -104,
+    "south":    lambda la, lo: 24 < la < 39 and -104 < lo < -65,
+    "north":    lambda la, lo: 39 < la < 50 and -104 < lo < -65,
+    "europe":   lambda la, lo: 28 < la < 72 and  -20 < lo <  26,
+    "neareast": lambda la, lo:  8 < la < 42 and   26 < lo <  97,
+    "fareast":  lambda la, lo:  0 < la < 55 and   97 < lo < 145,
+}
+
+
+def get_region(lat, lon):
+    if lat is None:
+        return None
+    for name, fn in REGIONS.items():
+        if fn(lat, lon):
+            return name
+    return None
+
+
+def dms_to_decimal(dms, ref):
+    d, m, s = float(dms[0]), float(dms[1]), float(dms[2])
+    dec = d + m / 60 + s / 3600
+    if ref in ("S", "W"):
+        dec = -dec
+    return round(dec, 6)
+
+
+def get_exif(path):
+    try:
+        img = Image.open(path)
+        exif = img._getexif()
+        if not exif:
+            return None, None, None
+        gps_raw = exif.get(34853)
+        lat, lon = None, None
+        if gps_raw:
+            lat = dms_to_decimal(gps_raw[2], gps_raw[1])
+            lon = dms_to_decimal(gps_raw[4], gps_raw[3])
+            if lat == -180 or lon == -180:
+                lat, lon = None, None
+        date = None
+        raw_date = exif.get(36867) or exif.get(306)
+        if raw_date:
+            date = raw_date[:10].replace(":", "-") + raw_date[10:]
+        return lat, lon, date
+    except Exception:
+        return None, None, None
+
+
+def resize():
+    print("Resizing oversized photos...")
+    files = [f for f in os.listdir(PHOTOS_DIR) if f.lower().endswith(".jpeg")]
+    resized = 0
+    for f in files:
+        path = os.path.join(PHOTOS_DIR, f)
+        w, h = Image.open(path).size
+        if max(w, h) > 1600:
+            subprocess.run(
+                ["sips", "--resampleHeightWidthMax", "1600",
+                 "--setProperty", "formatOptions", "80", path],
+                capture_output=True,
+            )
+            resized += 1
+    print(f"  {resized} photo(s) resized")
+
+
+def dedupe():
+    print("Deduplicating...")
+    files = sorted(f for f in os.listdir(PHOTOS_DIR) if f.lower().endswith(".jpeg"))
+    seen = {}
+    removed = 0
+    for f in files:
+        path = os.path.join(PHOTOS_DIR, f)
+        h = hashlib.md5(
+            Image.open(path).convert("RGB").resize((16, 16), Image.LANCZOS).tobytes()
+        ).hexdigest()
+        if h in seen:
+            os.remove(path)
+            print(f"  removed {f} (duplicate of {seen[h]})")
+            removed += 1
+        else:
+            seen[h] = f
+    print(f"  {removed} duplicate(s) removed, {len(seen)} photos remaining")
+
+
+def load_db_records():
+    con = sqlite3.connect(PHOTOS_DB)
+    cur = con.cursor()
+    cur.execute("SELECT Z_PK FROM ZGENERICALBUM WHERE ZTITLE = ?", (ALBUM_NAME,))
+    album_pk = cur.fetchone()[0]
+    cur.execute(
+        """
+        SELECT
+            upper(replace(aaa.ZORIGINALFILENAME, '.JPG', '')) as base,
+            datetime(asset.ZDATECREATED + 978307200, 'unixepoch') as date_taken,
+            asset.ZLATITUDE as lat,
+            asset.ZLONGITUDE as lon
+        FROM ZASSET asset
+        JOIN Z_30ASSETS ja ON ja.Z_3ASSETS = asset.Z_PK
+        JOIN ZADDITIONALASSETATTRIBUTES aaa ON aaa.ZASSET = asset.Z_PK
+        WHERE ja.Z_30ALBUMS = ?
+        ORDER BY asset.ZDATECREATED
+        """,
+        (album_pk,),
+    )
+    rows = cur.fetchall()
+    con.close()
+    return rows
+
+
+def build_json():
+    print("Rebuilding photos.json...")
+    db_records = load_db_records()
+
+    by_name = {}
+    for base, date, lat, lon in db_records:
+        if lat == -180:
+            lat, lon = None, None
+        by_name[base] = {"date": date, "lat": lat, "lon": lon}
+
+    by_gps = {}
+    for base, date, lat, lon in db_records:
+        if lat and lat != -180:
+            key = (round(lat, 4), round(lon, 4))
+            by_gps[key] = {"date": date, "lat": round(lat, 6), "lon": round(lon, 6)}
+
+    photos = []
+    unmatched = []
+
+    for fname in sorted(os.listdir(PHOTOS_DIR)):
+        if not fname.lower().endswith(".jpeg"):
+            continue
+
+        path = os.path.join(PHOTOS_DIR, fname)
+        base = os.path.splitext(fname)[0].upper()
+        is_duplicate = "(" in base
+        record = None
+
+        if not is_duplicate and base in by_name:
+            r = by_name[base]
+            exif_lat, exif_lon, exif_date = get_exif(path)
+            date = r["date"]
+            lat, lon = r["lat"], r["lon"]
+            if exif_date and not exif_date.startswith(EXPORT_DATE):
+                date = exif_date
+            if exif_lat is not None:
+                lat, lon = exif_lat, exif_lon
+            record = {"file": fname, "date": date, "lat": lat, "lon": lon}
+        else:
+            lat, lon, exif_date = get_exif(path)
+            if lat is not None:
+                key = (round(lat, 4), round(lon, 4))
+                if key in by_gps:
+                    r = by_gps[key]
+                    record = {"file": fname, "date": r["date"], "lat": lat, "lon": lon}
+
+        if record:
+            record["region"] = get_region(record["lat"], record["lon"])
+            photos.append(record)
+        else:
+            unmatched.append(fname)
+            lat, lon, exif_date = get_exif(path)
+            photos.append({"file": fname, "date": exif_date, "lat": lat, "lon": lon,
+                           "region": get_region(lat, lon)})
+
+    photos.sort(key=lambda p: p["date"] or "")
+
+    with open(OUTPUT, "w") as f:
+        json.dump(photos, f, indent=2)
+
+    print(f"  wrote {len(photos)} photos")
+    if unmatched:
+        print(f"  unmatched ({len(unmatched)}): {unmatched}")
+
+
+if __name__ == "__main__":
+    resize()
+    dedupe()
+    build_json()
+    print("Done.")

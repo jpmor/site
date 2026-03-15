@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>jpmor.com</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="James Moriarty">
+  <meta name="description" content="Website of James P. Moriarty">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="Stylesheet" href="static/style.css" type="text/css">
+  <link rel="shortcut icon" href="static/favicon.png" type="image/png">
+  <style>
+    .photo-controls {
+      margin-bottom: 1.5em;
+    }
+    .photo-controls button {
+      background: none;
+      border: 1px solid #444;
+      color: #66d9ff;
+      cursor: pointer;
+      font-family: verdana, sans-serif;
+      font-size: 0.85rem;
+      margin: 0.2em;
+      padding: 0.3em 0.7em;
+    }
+    .photo-controls button:hover {
+      border-color: #fabc2a;
+      color: #fabc2a;
+    }
+    .photo-controls button.active {
+      border-color: #fff;
+      color: #fff;
+    }
+    .year-group h2 {
+      color: #aaa;
+      font-size: 0.9rem;
+      letter-spacing: 0.1em;
+      margin-top: 2em;
+      text-transform: uppercase;
+    }
+    .photo-grid {
+      display: grid;
+      gap: 4px;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .photo-grid img {
+      aspect-ratio: 4/3;
+      cursor: pointer;
+      display: block;
+      object-fit: cover;
+      width: 100%;
+    }
+    .photo-grid img:hover {
+      opacity: 0.85;
+    }
+    @media (max-width: 800px) {
+      .photo-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 480px) {
+      .photo-grid { grid-template-columns: 1fr; }
+    }
+    #lightbox {
+      align-items: center;
+      background: rgba(0,0,0,0.92);
+      display: none;
+      height: 100%;
+      justify-content: center;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    #lightbox.open { display: flex; }
+    #lightbox img {
+      max-height: 90vh;
+      max-width: 90vw;
+    }
+    #lightbox-close {
+      color: #aaa;
+      cursor: pointer;
+      font-size: 1.5rem;
+      position: absolute;
+      right: 1.5rem;
+      top: 1rem;
+    }
+    #lightbox-caption {
+      bottom: 1rem;
+      color: #aaa;
+      font-size: 0.8rem;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <p><a href="/"><img src="static/favicon.png" alt="favicon" style="width:125px;"></a></p>
+
+    <div class="photo-controls" id="year-filters"></div>
+    <div class="photo-controls" id="region-filters"></div>
+
+    <div id="gallery"></div>
+
+    <div id="lightbox">
+      <span id="lightbox-close">✕</span>
+      <img id="lightbox-img" src="" alt="">
+      <div id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <script>
+    fetch('static/photos.json')
+      .then(r => r.json())
+      .then(photos => init(photos));
+
+    const REGION_ORDER = ['west', 'south', 'north', 'europe', 'neareast', 'fareast'];
+
+    function init(photos) {
+      const years = [...new Set(
+        photos
+          .filter(p => p.date)
+          .map(p => p.date.slice(0, 4))
+      )].sort();
+
+      let activeYear = null;
+      let activeRegion = null;
+
+      function filtered() {
+        return photos.filter(p =>
+          (!activeYear || (p.date && p.date.startsWith(activeYear))) &&
+          (!activeRegion || p.region === activeRegion)
+        );
+      }
+
+      // Year filter buttons
+      const yearControls = document.getElementById('year-filters');
+      const allYearBtn = makeBtn('all', yearControls, () => { activeYear = null; render(filtered()); });
+      allYearBtn.classList.add('active');
+      [...years].reverse().forEach(y =>
+        makeBtn(y, yearControls, () => { activeYear = y; render(filtered()); })
+      );
+
+      // Region filter buttons
+      const regionControls = document.getElementById('region-filters');
+      const allRegionBtn = makeBtn('all', regionControls, () => { activeRegion = null; render(filtered()); });
+      allRegionBtn.classList.add('active');
+      REGION_ORDER.forEach(r =>
+        makeBtn(r, regionControls, () => { activeRegion = r; render(filtered()); })
+      );
+
+      render(filtered());
+
+      // Lightbox
+      const lb = document.getElementById('lightbox');
+      const lbImg = document.getElementById('lightbox-img');
+      const lbCap = document.getElementById('lightbox-caption');
+      document.getElementById('lightbox-close').onclick = () => lb.classList.remove('open');
+      lb.addEventListener('click', e => { if (e.target === lb) lb.classList.remove('open'); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.classList.remove('open'); });
+
+      window._openLightbox = (file, caption) => {
+        lbImg.src = 'static/photos/' + encodeURIComponent(file);
+        lbCap.textContent = caption;
+        lb.classList.add('open');
+      };
+
+      function makeBtn(label, container, onClick) {
+        const btn = document.createElement('button');
+        btn.textContent = label;
+        btn.onclick = () => {
+          container.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          onClick();
+        };
+        container.appendChild(btn);
+        return btn;
+      }
+    }
+
+    function render(photos, filterYear) {
+      const gallery = document.getElementById('gallery');
+      gallery.innerHTML = '';
+
+      const filtered = filterYear
+        ? photos.filter(p => p.date && p.date.startsWith(filterYear))
+        : photos;
+
+      // Group by year
+      const groups = {};
+      filtered.forEach(p => {
+        const y = p.date ? p.date.slice(0, 4) : 'unknown';
+        if (!groups[y]) groups[y] = [];
+        groups[y].push(p);
+      });
+
+      Object.keys(groups).sort().reverse().forEach(year => {
+        const section = document.createElement('div');
+        section.className = 'year-group';
+
+        const h2 = document.createElement('h2');
+        h2.textContent = year;
+        section.appendChild(h2);
+
+        const grid = document.createElement('div');
+        grid.className = 'photo-grid';
+
+        groups[year].reverse().forEach(p => {
+          const img = document.createElement('img');
+          img.src = 'static/photos/' + encodeURIComponent(p.file);
+          img.loading = 'lazy';
+          const caption = p.date ? p.date.slice(0, 10) : '';
+          img.onclick = () => window._openLightbox(p.file, caption);
+          grid.appendChild(img);
+        });
+
+        section.appendChild(grid);
+        gallery.appendChild(section);
+      });
+    }
+  </script>
+</body>
+</html>

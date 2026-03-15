@@ -1,15 +1,15 @@
 # jpmor
 
-[links](links.md)
-
 [places](places.md)
 
-[repos](https://github.com/jpmor)
+[photos](photos.md)
 
 [reading](reading.md)
 
-[photos](https://500px.com/jpmor)
-
-[music](music.md)
+[links](links.md)
 
 [quotes](quotes.md)
+
+[repos](https://github.com/jpmor)
+
+[music](music.md)
