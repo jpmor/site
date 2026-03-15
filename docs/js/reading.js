@@ -17,7 +17,7 @@ var STATUS_ORDER = ['Started', 'Soon', 'Bought', 'Tier 1', 'Tier 2', 'Tier 3', '
 var PLACE_ORDER  = ['america','europe','neareast','fareast'];
 var TIME_ORDER   = ['ancient','classical','medieval','early','modern'];
 var TIME_REGION  = ['america','europe','neareast','fareast'];
-var TOPIC_ORDER  = ['math','physics','environment','biology','taxonomy','engineering','resources','settlements','transport','manufacturing','military','info','healthcare','thought','culture','politics','economy','order','fiction'];
+var TOPIC_ORDER  = ['nature','humanity/engineering','humanity/civilization','humanity/society','fiction'];
 var STATUS_COLOR = {
   'Started': 'hsl(210, 70%, 65%)',
   'Soon':    'hsl(270, 65%, 65%)',
@@ -35,10 +35,10 @@ var PLACE_HUE    = {
 };
 var TIME_HUE     = {america: 50, europe: 210, neareast: 130, fareast: 0};
 var SYSTEM_HUE   = {
-  math: 130, physics: 130, environment: 130, biology: 130, taxonomy: 130,
+  nature: 130,
   engineering: 50,
-  resources: 210, settlements: 210, transport: 210, manufacturing: 210, military: 210, info: 210, healthcare: 210,
-  thought: 0, culture: 0, politics: 0, economy: 0, order: 0,
+  civilization: 210,
+  society: 0,
   fiction: 270,
 };
 var ERA_LIGHTNESS = {modern: 65, medieval: 72, early: 79, classical: 86};
@@ -79,18 +79,21 @@ function cellColor(idx, val) {
     return 'hsl(' + (base + strHash(leaf) % 20 - 10) + ', 65%, 65%)';
   }
   if (idx === 3) {
-    var parts = val.split(' ');
-    var era = parts[0], region = parts[1];
+    var segs = val.split('/');
+    var era = segs[0];
     if (era === 'ancient') return 'hsl(0, 0%, 82%)';
+    var region = segs.length >= 2 && segs[1].indexOf(era) === 0 ? segs[1].slice(era.length) : null;
     var l = ERA_LIGHTNESS[era], h2 = TIME_HUE[region];
     return (l !== undefined && h2 !== undefined)
       ? 'hsl(' + h2 + ', 60%, ' + l + '%)'
       : '';
   }
   if (idx === 4) {
-    var sysBase = SYSTEM_HUE[val];
+    var segs = val.split('/');
+    var key = segs[0] === 'humanity' ? (segs[1] || 'humanity') : segs[0];
+    var sysBase = SYSTEM_HUE[key];
     return sysBase !== undefined
-      ? 'hsl(' + (sysBase + strHash(val) % 20 - 10) + ', 65%, 65%)'
+      ? 'hsl(' + (sysBase + strHash(segs[segs.length - 1]) % 20 - 10) + ', 65%, 65%)'
       : '';
   }
   return '';
@@ -136,14 +139,11 @@ function render() {
     if (!xempty && yempty) return -1;
     if (xempty && yempty) return 0;
     if (sortIdx === 3) {
-      var xp = x.split(' '), yp = y.split(' ');
+      var xp = x.split('/'), yp = y.split('/');
       var xei = TIME_ORDER.indexOf(xp[0]), yei = TIME_ORDER.indexOf(yp[0]);
-      var xri = TIME_REGION.indexOf(xp[1]), yri = TIME_REGION.indexOf(yp[1]);
       if (xei === -1) xei = TIME_ORDER.length;
       if (yei === -1) yei = TIME_ORDER.length;
-      if (xri === -1) xri = TIME_REGION.length;
-      if (yri === -1) yri = TIME_REGION.length;
-      var res = xei !== yei ? xei - yei : xri - yri;
+      var res = xei !== yei ? xei - yei : x.localeCompare(y);
       return sortAsc ? res : -res;
     }
     if (sortIdx === 2) {
@@ -153,10 +153,20 @@ function render() {
       res = x.localeCompare(y);
       return sortAsc ? res : -res;
     }
-    var orderMap = sortIdx === 1 ? STATUS_ORDER : sortIdx === 4 ? TOPIC_ORDER : null;
-    if (orderMap) {
-      var xo = orderMap.indexOf(x), yo = orderMap.indexOf(y);
-      var res = (xo === -1 ? orderMap.length : xo) - (yo === -1 ? orderMap.length : yo);
+    if (sortIdx === 1) {
+      var xo = STATUS_ORDER.indexOf(x), yo = STATUS_ORDER.indexOf(y);
+      var res = (xo === -1 ? STATUS_ORDER.length : xo) - (yo === -1 ? STATUS_ORDER.length : yo);
+      return sortAsc ? res : -res;
+    }
+    if (sortIdx === 4) {
+      var topicRank = function(v) {
+        for (var i = 0; i < TOPIC_ORDER.length; i++) {
+          if (v.indexOf(TOPIC_ORDER[i]) === 0) return i;
+        }
+        return TOPIC_ORDER.length;
+      };
+      var xo = topicRank(x), yo = topicRank(y);
+      var res = xo !== yo ? xo - yo : x.localeCompare(y);
       return sortAsc ? res : -res;
     }
     var n = parseFloat(x) - parseFloat(y);
@@ -186,6 +196,19 @@ function render() {
         if (parts.length >= 3) display = parts[1] + ' (' + parts[parts.length - 1] + ')';
         else if (parts.length === 2) display = parts[1];
         else display = parts[0];
+      }
+      if (col.idx === 3 && val) {
+        var parts = val.split('/');
+        var seg = parts.length >= 2 ? parts[1] : parts[0];
+        var era = TIME_ORDER.filter(function(e) { return seg.indexOf(e) === 0 && seg.length > e.length; })[0];
+        display = era ? era + ' ' + seg.slice(era.length) : seg;
+      }
+      if (col.idx === 4 && val) {
+        var parts = val.split('/');
+        var anchor, leaf = parts[parts.length - 1];
+        if (parts[0] === 'humanity') anchor = parts.length >= 3 ? parts[2] : parts[parts.length - 1];
+        else anchor = parts.length >= 2 ? parts[1] : parts[0];
+        display = anchor !== leaf ? anchor + ' (' + leaf + ')' : anchor;
       }
       td.textContent = display;
       td.style.display = vis[col.idx] ? '' : 'none';
