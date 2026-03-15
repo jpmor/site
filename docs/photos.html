@@ -118,7 +118,7 @@
       .then(r => r.json())
       .then(photos => init(photos));
 
-    const REGION_ORDER = ['west', 'south', 'north', 'europe', 'neareast', 'fareast'];
+    const REGION_ORDER = ['south', 'north', 'west', 'europe', 'neareast', 'fareast'];
 
     function init(photos) {
       const years = [...new Set(
