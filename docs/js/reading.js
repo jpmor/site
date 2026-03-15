@@ -9,15 +9,17 @@ var COLS = [
   {name: 'place',     idx: 2,  vis: true},
   {name: 'time',      idx: 3,  vis: true},
   {name: 'topic',     idx: 4,  vis: true},
-  {name: 'completed',      idx: 10, vis: false},
-  {name: 'rated',          idx: 11, vis: false},
+  {name: 'completed', idx: 10, vis: false},
+  {name: 'rated',     idx: 11, vis: false},
 ];
 
+var COMPLETED_IDX = 10;
+
 var STATUS_ORDER = ['Started', 'Soon', 'Bought', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
-var PLACE_ORDER  = ['america','europe','neareast','fareast'];
-var TIME_ORDER   = ['ancient','classical','medieval','early','modern'];
-var TIME_REGION  = ['america','europe','neareast','fareast'];
-var TOPIC_ORDER  = ['nature','humanity/engineering','humanity/civilization','humanity/society','fiction'];
+var PLACE_ORDER  = ['america', 'europe', 'neareast', 'fareast'];
+var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern'];
+var TOPIC_ORDER  = ['nature', 'humanity/engineering', 'humanity/civilization', 'humanity/society', 'fiction'];
+
 var STATUS_COLOR = {
   'Started': 'hsl(210, 70%, 65%)',
   'Soon':    'hsl(270, 65%, 65%)',
@@ -27,14 +29,8 @@ var STATUS_COLOR = {
   'Tier 3':  'hsl(48,  70%, 65%)',
   'Read':    'hsl(120, 40%, 55%)',
 };
-var PLACE_HUE    = {
-  america: 50,
-  europe: 210,
-  neareast: 130,
-  fareast: 0,
-};
-var TIME_HUE     = {america: 50, europe: 210, neareast: 130, fareast: 0};
-var SYSTEM_HUE   = {
+var REGION_HUE = {america: 50, europe: 210, neareast: 130, fareast: 0};
+var SYSTEM_HUE = {
   nature: 130,
   engineering: 50,
   civilization: 210,
@@ -58,45 +54,62 @@ function ratingColor(val) {
   var n = parseFloat(val);
   if (isNaN(n)) return '';
   var t = Math.pow(Math.min(Math.max(n, 0), 5) / 5, 3);
-  var h = Math.round(10 + t * 110);
-  var l = Math.round(72 - t * 12);
-  return 'hsl(' + h + ', 70%, ' + l + '%)';
+  return 'hsl(' + Math.round(10 + t * 110) + ', 70%, ' + Math.round(72 - t * 12) + '%)';
 }
 
 function cellColor(idx, val) {
   if (!val) return '';
-  if (idx === 6 || idx === 11) {
-    return ratingColor(val);
-  }
-  if (idx === 1) {
-    return STATUS_COLOR[val] || '';
-  }
+  if (idx === 6 || idx === 11) return ratingColor(val);
+  if (idx === 1) return STATUS_COLOR[val] || '';
   if (idx === 2) {
     var segs = val.split('/');
-    var base = PLACE_HUE[segs[0]];
-    if (base === undefined) return '';
-    var leaf = segs[segs.length - 1];
-    return 'hsl(' + (base + strHash(leaf) % 20 - 10) + ', 65%, 65%)';
+    var base = REGION_HUE[segs[0]];
+    return base !== undefined ? 'hsl(' + (base + strHash(segs[segs.length - 1]) % 20 - 10) + ', 65%, 65%)' : '';
   }
   if (idx === 3) {
     var segs = val.split('/');
     var era = segs[0];
     if (era === 'ancient') return 'hsl(0, 0%, 82%)';
     var region = segs.length >= 2 && segs[1].indexOf(era) === 0 ? segs[1].slice(era.length) : null;
-    var l = ERA_LIGHTNESS[era], h2 = TIME_HUE[region];
-    return (l !== undefined && h2 !== undefined)
-      ? 'hsl(' + h2 + ', 60%, ' + l + '%)'
-      : '';
+    var l = ERA_LIGHTNESS[era], h = REGION_HUE[region];
+    return (l !== undefined && h !== undefined) ? 'hsl(' + h + ', 60%, ' + l + '%)' : '';
   }
   if (idx === 4) {
     var segs = val.split('/');
     var key = segs[0] === 'humanity' ? (segs[1] || 'humanity') : segs[0];
-    var sysBase = SYSTEM_HUE[key];
-    return sysBase !== undefined
-      ? 'hsl(' + (sysBase + strHash(segs[segs.length - 1]) % 20 - 10) + ', 65%, 65%)'
-      : '';
+    var base = SYSTEM_HUE[key];
+    return base !== undefined ? 'hsl(' + (base + strHash(segs[segs.length - 1]) % 20 - 10) + ', 65%, 65%)' : '';
   }
   return '';
+}
+
+function displayVal(idx, val) {
+  if (!val) return val;
+  if (idx === 2) {
+    var parts = val.split('/');
+    if (parts.length >= 3) return parts[1] + ' (' + parts[parts.length - 1] + ')';
+    return parts.length === 2 ? parts[1] : parts[0];
+  }
+  if (idx === 3) {
+    var parts = val.split('/');
+    var seg = parts.length >= 2 ? parts[1] : parts[0];
+    var era = TIME_ORDER.filter(function(e) { return seg.indexOf(e) === 0 && seg.length > e.length; })[0];
+    return era ? era + ' ' + seg.slice(era.length) : seg;
+  }
+  if (idx === 4) {
+    var parts = val.split('/');
+    var leaf = parts[parts.length - 1];
+    var anchor = parts[0] === 'humanity' ? (parts.length >= 3 ? parts[2] : leaf) : (parts.length >= 2 ? parts[1] : parts[0]);
+    return anchor !== leaf ? anchor + ' (' + leaf + ')' : anchor;
+  }
+  return val;
+}
+
+function topicRank(v) {
+  for (var i = 0; i < TOPIC_ORDER.length; i++) {
+    if (v.indexOf(TOPIC_ORDER[i]) === 0) return i;
+  }
+  return TOPIC_ORDER.length;
 }
 
 fetch('static/reading.tsv').then(function(r) { return r.text(); }).then(function(tsv) {
@@ -139,8 +152,7 @@ function render() {
     if (!xempty && yempty) return -1;
     if (xempty && yempty) return 0;
     if (sortIdx === 3) {
-      var xp = x.split('/'), yp = y.split('/');
-      var xei = TIME_ORDER.indexOf(xp[0]), yei = TIME_ORDER.indexOf(yp[0]);
+      var xei = TIME_ORDER.indexOf(x.split('/')[0]), yei = TIME_ORDER.indexOf(y.split('/')[0]);
       if (xei === -1) xei = TIME_ORDER.length;
       if (yei === -1) yei = TIME_ORDER.length;
       var res = xei !== yei ? xei - yei : x.localeCompare(y);
@@ -148,9 +160,7 @@ function render() {
     }
     if (sortIdx === 2) {
       var xo = PLACE_ORDER.indexOf(x.split('/')[0]), yo = PLACE_ORDER.indexOf(y.split('/')[0]);
-      var res = (xo === -1 ? PLACE_ORDER.length : xo) - (yo === -1 ? PLACE_ORDER.length : yo);
-      if (res !== 0) return sortAsc ? res : -res;
-      res = x.localeCompare(y);
+      var res = xo !== yo ? xo - yo : x.localeCompare(y);
       return sortAsc ? res : -res;
     }
     if (sortIdx === 1) {
@@ -159,14 +169,7 @@ function render() {
       return sortAsc ? res : -res;
     }
     if (sortIdx === 4) {
-      var topicRank = function(v) {
-        for (var i = 0; i < TOPIC_ORDER.length; i++) {
-          if (v.indexOf(TOPIC_ORDER[i]) === 0) return i;
-        }
-        return TOPIC_ORDER.length;
-      };
-      var xo = topicRank(x), yo = topicRank(y);
-      var res = xo !== yo ? xo - yo : x.localeCompare(y);
+      var res = topicRank(x) !== topicRank(y) ? topicRank(x) - topicRank(y) : x.localeCompare(y);
       return sortAsc ? res : -res;
     }
     var n = parseFloat(x) - parseFloat(y);
@@ -186,31 +189,11 @@ function render() {
   tbody.innerHTML = '';
   sorted.forEach(function(r) {
     var tr = tbody.insertRow();
-    if (r[10]) tr.style.color = 'hsl(120, 40%, 55%)';
+    if (r[COMPLETED_IDX]) tr.style.color = 'hsl(120, 40%, 55%)';
     COLS.forEach(function(col) {
       var td = tr.insertCell();
       var val = r[col.idx] || '';
-      var display = val;
-      if (col.idx === 2 && val) {
-        var parts = val.split('/');
-        if (parts.length >= 3) display = parts[1] + ' (' + parts[parts.length - 1] + ')';
-        else if (parts.length === 2) display = parts[1];
-        else display = parts[0];
-      }
-      if (col.idx === 3 && val) {
-        var parts = val.split('/');
-        var seg = parts.length >= 2 ? parts[1] : parts[0];
-        var era = TIME_ORDER.filter(function(e) { return seg.indexOf(e) === 0 && seg.length > e.length; })[0];
-        display = era ? era + ' ' + seg.slice(era.length) : seg;
-      }
-      if (col.idx === 4 && val) {
-        var parts = val.split('/');
-        var anchor, leaf = parts[parts.length - 1];
-        if (parts[0] === 'humanity') anchor = parts.length >= 3 ? parts[2] : parts[parts.length - 1];
-        else anchor = parts.length >= 2 ? parts[1] : parts[0];
-        display = anchor !== leaf ? anchor + ' (' + leaf + ')' : anchor;
-      }
-      td.textContent = display;
+      td.textContent = displayVal(col.idx, val);
       td.style.display = vis[col.idx] ? '' : 'none';
       if (col.idx !== 0 && col.idx !== 5) td.style.textAlign = 'center';
       if (col.idx === 5) td.style.maxWidth = '150px';

@@ -16,7 +16,7 @@ Millennium: From Religion to Revolution: How Civilization Has Changed Over a Tho
 John Adams	Read	america/anglo/eastern/north/newengland/massachusetts	early/earlyamerica/patriot	humanity/society/politics/government/rulers/presidents	David McCullough	4.08	751	2001		2016/12/24	5	2014/10/11	9780743223133	2203			
 Annals of the Former World	Read			nature/environment/geology	John McPhee	4.37	720	1998		2017/01/29	4	2014/10/11	9780374518738	78			
 The Making of the Atomic Bomb	Read		modern/modernamerica/paxamericana/newdeal	humanity/civilization/military/weapons/offense/bombs/nukes	Richard Rhodes	4.4	886	1986		2017/02/22	5	2016/11/23	9780684813783	16884			
-Homo Deus: A History of Tomorrow	Read			humanity/society/thought/philosophy/epistemology/knowledge/history	Yuval Noah Harari	4.18	450	2015		2017/03/24	3	2017/03/01		31138556			
+Homo Deus: A History of Tomorrow	Read		future		Yuval Noah Harari	4.18	450	2015		2017/03/24	3	2017/03/01		31138556			
 Capital in the Twenty First Century	Read			humanity/society/economy/finance/capital	Thomas Piketty	4.06	685	2013		2017/04/09	4	2014/12/08	9780674430006	18736925			
 The Emperor of All Maladies: A Biography of Cancer	Read			humanity/civilization/healthcare/medicine	Siddhartha Mukherjee	4.34	472	2010		2017/05/05	4	2014/10/11		7170627			
 Alexander Hamilton	Read		early/earlyamerica/patriot	humanity/society/politics/government/rulers	Ron Chernow	4.22	818	2004		2017/05/11	4	2017/01/17		16130			
@@ -47,7 +47,7 @@ Reality Is Not What It Seems: The Journey to Quantum Gravity	Read			nature/physi
 Justice: What's the Right Thing to Do?	Read			humanity/society/politics/ideologies	Michael J. Sandel	4.3	0	2007		2018/04/21	3	2018/04/21	9781427208163	6868637			
 The Pragmatic Programmer: From Journeyman to Master	Read			humanity/engineering/tech/tools	Andy   Hunt	4.33	321	1999		2018/04/24	2	2018/07/21	9780201616224	4099			
 Skunk Works: A Personal Memoir of My Years at Lockheed	Read		modern/modernamerica/paxamericana	humanity/civilization/transport/aircraft/planes	Ben R. Rich	4.46	382	1994		2018/04/27	4	2018/02/22		101438			
-Word by Word: The Secret Life of Dictionaries	Read			humanity/society/culture/art/narrative/literature	Kory Stamper	4.18	296	2017		2018/04/28	3	2017/11/18	9781101870945	30781490			
+Word by Word: The Secret Life of Dictionaries	Read			humanity/society/language/words	Kory Stamper	4.18	296	2017		2018/04/28	3	2017/11/18	9781101870945	30781490			
 On Tyranny: Twenty Lessons from the Twentieth Century	Read			humanity/society/politics/ideologies	Timothy Snyder	4.29	127	2017		2018/04/29	4	2018/04/21	9780804190114	33917107			
 The Thirty Years War: Europe's Tragedy	Read	europe/mittel	early/earlyeurope/reformation/30years		Peter H. Wilson	3.9	997	2009		2018/06/01	5	2018/05/23	9780674036345	6640471			
 The Silk Roads: A New History of the World	Read			humanity/society/economy/commerce/trade	Peter Frankopan	4.17	657	2015		2018/06/04	2	2017/03/24		25968463			
@@ -56,7 +56,7 @@ Pale Blue Dot: A Vision of the Human Future in Space	Read			nature/physics/space
 God Save Texas: A Journey into the Soul of the Lone Star State	Read	america/anglo/western/plains/southplains/texas	modern/modernamerica/paxamericana/maga		Lawrence Wright	4	368	2018		2018/08/12	4	2018/04/26	9780525520108	35457359			
 The House of Morgan: An American Banking Dynasty and the Rise of Modern Finance	Read	america/anglo/eastern/north/midatlantic/newyork/manhattan	modern/modernamerica/union/gilded	humanity/society/economy/finance/banking	Ron Chernow	3.96	812	1990		2018/08/26	4	2018/07/01	9780802138293	16131			
 The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win	Read			humanity/engineering/systems/operations	Gene Kim	4.26	345	2013		2018/08/30	3	2018/08/09	9780988262591	17255186			
-India After Gandhi: The History of the World's Largest Democracy	Read	neareast/india	modern/modernfareast/prc		Ramachandra Guha	4.39	912	2007		2018/09/01	4	2017/11/27	9780060198817	356824			
+India After Gandhi: The History of the World's Largest Democracy	Read	neareast/india	modern/modernneareast/opec		Ramachandra Guha	4.39	912	2007		2018/09/01	4	2017/11/27	9780060198817	356824			
 The Man Who Mistook His Wife for a Hat and Other Clinical Tales	Read			nature/biology/physiology/nervous	Oliver Sacks	4.05	243	1985		2018/09/06	4	2016/10/01		63697			
 The Mediterranean and the Mediterranean World in the Age of Philip II, Volume I	Read	europe/mediterranean	early/earlyeurope/reformation/confessional		Fernand Braudel	4.33	642	1949		2018/10/10	5	2018/06/01	9780520203082	171362			
 The Mediterranean and the Mediterranean World in the Age of Philip II, Volume II	Read	europe/mediterranean	early/earlyeurope/reformation/confessional		Fernand Braudel	4.46	607	1949		2018/10/21	5	2018/08/11	9780060905675	187731			
@@ -110,7 +110,7 @@ Nixonland: The Rise of a President and the Fracturing of America	Read		modern/mo
 The Rise of Theodore Roosevelt	Read		modern/modernamerica/union/gilded	humanity/society/politics/government/rulers/presidents	Edmund  Morris	4.22	816	1979		2021/05/18	5	2015/07/27		40929			
 From Beirut to Jerusalem	Read	neareast/middleeast/levant/lebanon	modern/modernneareast/opec		Thomas L. Friedman	4.15	541	1989		2021/07/05	3	2018/06/02	9780385413725	3559			
 1776	Read	america/anglo/eastern/north/midatlantic/newyork	early/earlyamerica/patriot		David McCullough	4.1	386	2005		2021/07/20	5	2016/08/08	9780743226721	1067			
-The Coldest Winter: America and the Korean War	Read	fareast/pacific/korea	modern/modernamerica/paxamericana		David Halberstam	4.23	734	2007		2021/08/03	5	2018/06/02	9781401300524	448135			
+The Coldest Winter: America and the Korean War	Read	fareast/pacific/korea	modern/modernfareast/prc		David Halberstam	4.23	734	2007		2021/08/03	5	2018/06/02	9781401300524	448135			
 Labyrinths: Selected Stories & Other Writings	Read			fiction	Jorge Luis Borges	4.44	260	1962		2021/08/21	3	2018/07/14	9780811200127	17717			
 Return of a King: The Battle for Afghanistan, 1839-42	Read	neareast/middleeast/persia/afghanistan	modern/modernneareast/raj		William Dalrymple	4.35	515	2013		2021/08/29	4	2020/08/29	9780307958280	13642225			
 Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers	Read			humanity/civilization/info/software/infosec	Andy Greenberg	4.34	368	2019		2021/09/26	4	2021/01/30	9780385544412	41436213			
@@ -125,7 +125,7 @@ A Gentleman in Moscow	Read	europe/rus/muscovy	modern/moderneurope/greatwars	fict
 The Wright Brothers	Read		modern/modernamerica/union/gilded	humanity/civilization/transport/aircraft/planes	David McCullough	4.18	320	2015		2021/12/27	4	2017/11/26		22609391			
 Dostoevsky: A Writer in His Time	Read	europe/rus/muscovy/neva	modern/moderneurope/proudtower	humanity/society/culture/art/narrative/literature	Joseph Frank	4.49	984	2002		2022/02/11	5	2020/08/08	9780691128191	4988505			
 One River: Explorations and Discoveries in the Amazon Rain Forest	Read	america/sur/brazil	modern/modernamerica/paxamericana/boomer	nature/environment/ecology/forests	Wade Davis	4.46	544	1996		2022/03/30	5	2018/11/19	9780684834962	54770			
-Moral Mazes: The World of Corporate Managers	Read			humanity/society/economy/labor/offices	Robert Jackall	3.97	272	1988		2022/04/27	4	2021/03/14	9780195060805	279812			
+Moral Mazes: The World of Corporate Managers	Read			humanity/society/politics/government/polities/corporations	Robert Jackall	3.97	272	1988		2022/04/27	4	2021/03/14	9780195060805	279812			
 The Diversity of Life	Read			nature/taxonomy	Edward O. Wilson	4.22	432	1992		2022/05/03	5	2015/04/25	9780393319408	503051			
 The German Genius: Europe's Third Renaissance, the Second Scientific Revolution, and the Twentieth Century	Read	europe/mittel			Peter Watson	4.18	992	2010		2022/05/08	2	2018/07/05	9780060760229	8155672			
 Dissent and the Supreme Court: Its Role in the Court's History and the Nation's Constitutional Dialogue	Read		modern/modernamerica/paxamericana/neocon	humanity/society/politics/government/courts/supremecourt	Melvin I. Urofsky	4.09	544	2015		2022/05/19	4	2018/03/17	9780307379405	24337527			
@@ -147,7 +147,7 @@ What It Takes: The Way to the White House	Read		modern/modernamerica/paxamerican
 The World for Sale: Money, Power and the Traders Who Barter the Earth’s Resources	Read			humanity/civilization/resources/energy/fuel/petro/oil	Javier Blas	4.33	410	2021		2023/01/06	4	2022/07/15	9781847942661	52199304			
 The Portuguese Seaborne Empire, 1415 - 1825	Read	europe/mediterranean/iberia/portugal	early/earlyeurope/renaissance/highrenaissance		Charles Ralph Boxer	4.22	415	1969		2023/01/15	5	2020/06/14	9780090979400	3366125			
 Mountains of the Heart: A Natural History of the Appalachians	Read			nature/environment/geology/terrain/mountains	Scott Weidensaul	4.39	288	1994		2023/02/12	5	2020/06/18	9781555911393	1372397			
-The World's Writing Systems	Read			humanity/society/culture/art/narrative/literature	Peter T. Daniels	4.57	968	1996		2023/02/18	5	2021/09/07	9780195079937	971342			
+The World's Writing Systems	Read			humanity/society/language/writing/scripts	Peter T. Daniels	4.57	968	1996		2023/02/18	5	2021/09/07	9780195079937	971342			
 A Natural History of Trees of Eastern and Central North America	Read			nature/environment/ecology/forests	Donald Culross Peattie	4.47	606	1966		2023/02/18	4	2023/02/03	9780395581742	500171			
 Science and Civilisation in China, Volume 1: Introductory Orientations	Read	fareast/china			Joseph Needham	4.27	352	1954		2023/03/05	5	2020/02/09	9780521057998	326804			
 Liar's Poker	Read		modern/modernamerica/paxamericana/neocon/reagan	humanity/society/economy/finance	Michael   Lewis	4.15	310	1989		2023/03/10	4	2019/12/16	9780393338690	7865083			
@@ -238,20 +238,20 @@ City of Thieves	Read			fiction	David Benioff	4.3	258	2008		?		2018/07/21	9780452
 A Separate Peace	Read			fiction	John Knowles	3.6	208	1959		?		2018/04/26		5148			
 The Big Short: Inside the Doomsday Machine	Read		modern/modernamerica/paxamericana/neocon	humanity/society/economy/finance	Michael   Lewis	4.3	264	2010		?		2018/04/26	9780393072235	6463967			
 The Westing Game	Read			fiction	Ellen Raskin	3.99	185	1978		?		2018/03/17	9780140349917	947612			
-The Middle Ages: From the Fall of Rome to the Rise of the Renaissance	Read			humanity/society/thought/philosophy/epistemology/knowledge/history	Susan Wise Bauer	4.34	424	2003		?		2017/11/26	9781933339092	225948			
-Early Modern Times: From Elizabeth the First to the Forty-Niners	Read			humanity/society/thought/philosophy/epistemology/knowledge/history	Susan Wise Bauer	4.3	400	2004		?		2017/11/26	9780971412996	775125			
-The Modern Age: From Victoria's Empire to the End of the USSR	Read			humanity/society/thought/philosophy/epistemology/knowledge/history	Susan Wise Bauer	4.26	512	2005		?		2017/11/26	9780972860338	775124			
+The Middle Ages: From the Fall of Rome to the Rise of the Renaissance	Read		medieval		Susan Wise Bauer	4.34	424	2003		?		2017/11/26	9781933339092	225948			
+Early Modern Times: From Elizabeth the First to the Forty-Niners	Read		early		Susan Wise Bauer	4.3	400	2004		?		2017/11/26	9780971412996	775125			
+The Modern Age: From Victoria's Empire to the End of the USSR	Read		modern		Susan Wise Bauer	4.26	512	2005		?		2017/11/26	9780972860338	775124			
 Outliers: The Story of Success	Read			humanity/society/thought/ideas	Malcolm Gladwell	4.19	309	2008		?		2015/12/21	9780316017923	3228917			
 The Power of One	Read			fiction	Bryce Courtenay	4.36	544	1989		?		2015/05/02	9780345410054	122			
 The Little Prince	Read			fiction	Antoine de Saint-Exupéry	4.33	96	1943		?		2015/12/21	9780152023980	157993			
-Into Thin Air: A Personal Account of the Mt. Everest Disaster	Read	neareast/india/ganga/nepal	modern/modernfareast/prc		Jon Krakauer	4.26	368	1997		?		2015/12/21		1898			
+Into Thin Air: A Personal Account of the Mt. Everest Disaster	Read	neareast/india/ganga/nepal	modern/modernneareast/opec		Jon Krakauer	4.26	368	1997		?		2015/12/21		1898			
 East of Eden	Read			fiction	John Steinbeck	4.44	601	1952		?		2016/08/08	9780142000656	4406			
 Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time	Read			humanity/civilization/transport/navigation	Dava Sobel	3.99	184	1995		?		2015/12/21	9780802714626	4806			
 The Chronicles of Narnia	Read			fiction	C.S. Lewis	4.28	767	1956		?		2015/12/21	9780066238500	11127			
 Into the Wild	Read	america/anglo/arctic/alaska	modern/modernamerica/paxamericana/neocon		Jon Krakauer	4.02	207	1996		?		2015/12/21	9780385486804	1845			
 Night	Read			fiction	Elie Wiesel	4.38	120	1956		?		2015/12/21	9780374500016	1617			
 A Tale of Two Cities	Read			fiction	Charles Dickens	3.88	489	1859		?		2015/12/21	9780141439600	1953			
-Where the Sidewalk Ends	Read			humanity/society/thought/print/authors	Shel Silverstein	4.35	176	1974		?		2015/12/21	9780060513030	30119			
+Where the Sidewalk Ends	Read			fiction	Shel Silverstein	4.35	176	1974		?		2015/12/21	9780060513030	30119			
 Eragon	Read			fiction	Christopher Paolini	3.97	503	2002		?		2015/12/21	9780375826696	113436			
 Frankenstein	Read			fiction	Mary Wollstonecraft Shelley	3.91	336	1818		?		2015/12/21	9780393964585	18489			
 The Book Thief	Read			fiction	Markus Zusak	4.39	592	2005		?		2015/12/21		19063			
@@ -304,7 +304,7 @@ The Martian	Bought			fiction	Andy Weir	4.42	384	2011				2018/08/25	9780804139021
 Witness to Hope: The Biography of Pope John Paul II	Bought		modern/moderneurope/eu	humanity/society/thought/religion/abramhamic/christianity/catholic/pope	George Weigel	4.4	1056	1999				2019/08/31	9780060732035	276379			
 The Staff Engineer's Path: A Guide for Individual Contributors Navigating Growth and Change	Bought			humanity/engineering/design/schemas/longterm	Tanya Reilly	4.38	335	2022				2023/12/31	9781098118730	61058107			
 Gravitation	Bought			nature/physics/spacetime/gravity	Charles W. Misner	4.37	1279	1973				2018/08/14	9780716703440	638371			
-The Autobiography of Malcolm X	Bought		modern/modernamerica/paxamericana	humanity/society/order/structures/individuals	Malcolm X	4.37	466	1965				2018/07/04		92057			
+The Autobiography of Malcolm X	Bought		modern/modernamerica/paxamericana	humanity/society/order	Malcolm X	4.37	466	1965				2018/07/04		92057			
 A People's Tragedy: The Russian Revolution, 1891 - 1924	Bought	europe/rus/muscovy/neva	modern/moderneurope/greatwars	humanity/society/order/disorder/protest/revolution	Orlando Figes	4.37	923	1996				2020/08/21	9780140243642	38155			
 Japanese Destroyer Captain: Pearl Harbor, Guadalcanal, Midway - The Great Naval Battles As Seen Through Japanese Eyes	Bought	fareast/pacific/japan	modern/modernfareast/risingsun	humanity/civilization/military/navy	Tameichi Hara	4.37	310	1961				2022/12/30	9781591143543	851017			
 South Carolina: A History	Bought	america/anglo/eastern/south/piedmont/southcarolina			Walter Edgar	4.35	744	1998				2021/04/14	9781570032554	951734			
@@ -315,7 +315,7 @@ William the Silent:  William of Nassau, Prince of Orange 1533-1584	Bought	europe
 Where Peachtree Meets Sweet Auburn: A Saga of Race and Family	Bought	america/anglo/eastern/south/piedmont/georgia/atl/atlanta	modern/modernamerica/paxamericana	humanity/society/order/structures/classes/race	Gary M. Pomerantz	4.3	688					2024/10/04	9780140265095	299807			
 Black Hawk Down: A Story of Modern War	Bought	neareast/africa/eastafrica	modern/modernneareast/opec	humanity/civilization/military/soldiers	Mark Bowden	4.3	386	1999				2017/11/26	9780871137388	55403			
 The Fifties	Bought		modern/modernamerica/paxamericana	humanity/society/culture/art/narrative	David Halberstam	4.29	848	1979				2025/03/07	9780449909331	75402			
-Modern Times: The World from the Twenties to the Nineties	Bought			humanity/society/politics/government/polities/nations	Paul  Johnson	4.29	880	1983				2019/12/15	9780060922832	55304			
+Modern Times: The World from the Twenties to the Nineties	Bought		modern		Paul  Johnson	4.29	880	1983				2019/12/15	9780060922832	55304			
 River Town: Two Years on the Yangtze	Bought	fareast/china/yangtze	modern/modernfareast/prc	humanity/civilization/settlements/cities	Peter Hessler	4.28	432	2001				2020/06/07	9780060855024	94053			
 A Man Called Intrepid	Bought	europe/northseas/britain	modern/moderneurope/greatwars	humanity/civilization/military/intel	William Stevenson	4.28	512	1976				2020/08/09	9781585741540	82022			
 The Best and the Brightest	Bought	fareast/seasia/indochina/vietnam	modern/modernfareast/prc	humanity/civilization/military/army	David Halberstam	4.27	720	1969				2019/08/31	9780449908709	414062			
@@ -375,10 +375,10 @@ The Immortal Life of Henrietta Lacks	Bought		modern/modernamerica/paxamericana	h
 The Proud Tower: A Portrait of the World Before the War, 1890-1914	Bought		modern/moderneurope/proudtower		Barbara W. Tuchman	4.12	588	1965				2021/01/19	9780345405012	192955			
 How to Solve It: A New Aspect of Mathematical Method	Bought			nature/math/pure	George Pólya	4.12	288	1944				2015/01/08	9780691119663	192221			
 Self-Reliance and Other Essays	Bought			humanity/society/thought/ideas/thinkers	Ralph Waldo Emerson	4.12	117	1844				2018/12/22	9780486277905	123845			
-The Wives of Henry VIII	Bought	europe/northseas/britain/england	early/earlyeurope/reformation/charlesV	humanity/society/order/structures/families/marriage	Antonia Fraser	4.11	482	1992				2024/07/26	9780679730019	530793			
+The Wives of Henry VIII	Bought	europe/northseas/britain/england	early/earlyeurope/reformation/charlesV		Antonia Fraser	4.11	482	1992				2024/07/26	9780679730019	530793			
 The Big Rich: The Rise and Fall of the Greatest Texas Oil Fortunes	Bought	america/anglo/western/plains/southplains/texas	modern/modernamerica/paxamericana/newdeal	humanity/society/economy/companies	Bryan Burrough	4.09	466	2009				2025/03/07	9781594201998	3554517			
 The Predators' Ball: The Inside Story of Drexel Burnham and the Rise of the Junk Bond Raiders	Bought		modern/modernamerica/paxamericana/neocon/reagan	humanity/society/economy/finance/capital/securities	Connie Bruck	4.09	400	1988				2024/10/04	9780140120905	100788			
-Personal History: A Memoir	Bought		modern/modernamerica/paxamericana/boomer/watergate	humanity/society/thought/philosophy/epistemology/knowledge/history/biography	Katharine Graham	4.09	642	1997				2018/07/21	9780375701047	95420			
+Personal History: A Memoir	Bought		modern/modernamerica/paxamericana/boomer/watergate	humanity/society/thought/print/journalism	Katharine Graham	4.09	642	1997				2018/07/21	9780375701047	95420			
 Lawrence in Arabia: War, Deceit, Imperial Folly, and the Making of the Modern Middle East	Bought	neareast/middleeast/arabia	modern/modernneareast/sykespicot	humanity/society/politics/geopolitics/war	Scott Anderson	4.09	577	2013				2020/08/09	9780385532921	17262206			
 Zen and Japanese Culture	Bought	fareast/pacific/japan		humanity/society/culture/art	D.T. Suzuki	4.08	502	1938				2024/03/10	9780691017709	900949			
 Thomas Cromwell: A Life	Bought	europe/northseas/britain/england	early/earlyeurope/reformation/charlesV	humanity/society/politics/government/rulers	Diarmaid MacCulloch	4.08	728	2018				2024/10/04	9781846144295	38107934			
@@ -413,7 +413,7 @@ Istanbul: Memories and the City	Bought	neareast/middleeast/turkey/anatolia/marma
 Atlas Shrugged	Bought			humanity/society/politics/ideologies/libertarian	Ayn Rand	3.69	1168	1957				2020/05/14	9780452011878	662			
 Railroaded: The Transcontinentals and the Making of Modern America	Bought		modern/modernamerica/union/gilded	humanity/civilization/transport/trains/earlyrail	Richard White	3.63	704	2011				2023/08/30	9780393061260	9912237			
 Pacific Crucible: War at Sea in the Pacific, 1941-1942	Tier 1	fareast/pacific	modern/modernfareast/risingsun	humanity/civilization/military/navy	Ian W. Toll	4.61	656	2011				2026/01/21	9780393343410	13707735			
-King: A Life	Tier 2	america/anglo/eastern/south/piedmont/georgia/atl/atlanta	modern/modernamerica/paxamericana/boomer	humanity/society/order/structures/individuals	Jonathan Eig	4.64	688	2023				2024/11/02	9780374279295	62039291			
+King: A Life	Tier 2		modern/modernamerica/paxamericana/boomer	humanity/society/order	Jonathan Eig	4.64	688	2023				2024/11/02	9780374279295	62039291			
 Just Mercy	Tier 2	america/anglo/eastern/south/piedmont/alabama	modern/modernamerica/paxamericana/neocon	humanity/society/politics/government/courts	Bryan Stevenson	4.62	336	2014				2026/01/21		20342617			
 The Jakarta Method: Washington's Anticommunist Crusade and the Mass Murder Program that Shaped Our World	Tier 2			humanity/society/politics/geopolitics	Vincent Bevins	4.61	320	2020				2026/01/21	9781541742406	53054943			
 Revolutionaries: The Other Story of How India Won Its Freedom	Tier 2	neareast/india	modern/modernneareast/raj		Sanjeev Sanyal	4.6	364					2026/01/20	9789356295940	74954965			
@@ -539,7 +539,7 @@ Nonviolent Communication: A Language of Life	Tier 3			humanity/society/culture/a
 Life and Death in Shanghai	Tier 3	fareast/china/yangtze/jiang	modern/modernfareast/prc		Nien Cheng	4.33	547	1986				2026/01/20	9780140108705	537404			
 1587: A Year of No Significance: The Ming Dynasty in Decline	Tier 3	fareast/china/huang/hebei	early/earlyfareast/ming		Ray Huang	4.33	310	1982	FALSE			2020/06/18	9780300028843	815857			
 The Unsettling of America: Culture and Agriculture	Tier 3			nature/environment/geology/rocks/soil	Wendell Berry	4.33	246	1977	FALSE			2022/11/27	9780871568779	146191			
-Common Ground: A Turbulent Decade in the Lives of Three American Families	Tier 3		modern/modernamerica/paxamericana/boomer	humanity/society/order/structures/classes/race	J. Anthony Lukas	4.32	688	1985				2022/06/19	9780394746166	25109			
+Common Ground: A Turbulent Decade in the Lives of Three American Families	Tier 3		modern/modernamerica/paxamericana/boomer	humanity/society/order/structures/families	J. Anthony Lukas	4.32	688	1985				2022/06/19	9780394746166	25109			
 The Formula: How Rogues, Geniuses, and Speed Freaks Reengineered F1 into the World's Fastest-Growing Sport―A High-Octane History of Formula 1's Rise in America, Racing Culture, and Engineering Marvels	Tier 3			humanity/civilization/transport/roads/wheels/cars	Joshua Robinson	4.32	304	2024				2024/11/02	9780063318625	176822898			
 Louis XI: The Universal Spider	Tier 3	europe/mediterranean/france	medieval/medievaleurope/highages/poststaufen		Paul Murray Kendall	4.32	640	1971				2023/06/27	9781842124116	1262857			
 Unnatural Causes: The Life and Many Deaths of Britain's Top Forensic Pathologist	Tier 3			humanity/civilization/healthcare/medicine	Richard Shepherd	4.32	400	2018	FALSE			2022/06/25	9780718182717	27833843			
@@ -570,7 +570,7 @@ Infinite Powers: The Story of Calculus - The Most Important Discovery in Mathema
 Sovietistan: Travels in Turkmenistan, Kazakhstan, Tajikistan, Kyrgyzstan, and Uzbekistan	Tier 3	neareast/middleeast/persia/centralasia	modern/modernneareast/opec		Erika Fatland	4.28	477	2014				2025/06/16	9781643133263	46158740			
 White Flight: Atlanta and the Making of Modern Conservatism	Tier 3	america/anglo/eastern/south/piedmont/georgia/atl/atlanta	modern/modernamerica/paxamericana		Kevin M. Kruse	4.28	352	2005	TRUE			2020/11/01	9780691092607	345070			
 Conquerors: How Portugal Forged the First Global Empire	Tier 3	europe/mediterranean/iberia/portugal	early/earlyeurope/renaissance/highrenaissance		Roger Crowley	4.28	368	2015				2026/01/21	9780812994001	25255039			
-Augustine of Hippo: A Biography	Tier 3	neareast/africa/sahara/algeria	classical/classicalneareast/sasanian	humanity/society/thought/philosophy/epistemology/knowledge/history/biography	Peter Brown	4.27	576	1967	FALSE			2020/04/20	9780520227576	1686			
+Augustine of Hippo: A Biography	Tier 3	neareast/africa/sahara/algeria	classical/classicalneareast/sasanian	humanity/society/thought/religion/abrahamic/christianity	Peter Brown	4.27	576	1967	FALSE			2020/04/20	9780520227576	1686			
 Into the Silence: The Great War, Mallory and the Conquest of Everest	Tier 3	neareast/india/ganga/nepal	modern/modernneareast/sykespicot		Wade Davis	4.27	672	2011	FALSE			2021/06/22	9780676979190	11602442			
 The Indifferent Stars Above: The Harrowing Saga of a Donner Party Bride	Tier 3	america/anglo/western/westcoast/california	modern/modernamerica/antebellum		Daniel James Brown	4.25	352	2009				2026/01/21	9780061348105	6033525			
 Manufacturing Consent: The Political Economy of the Mass Media	Tier 3			humanity/society/thought/print/journalism	Edward S. Herman	4.24	412	1988				2018/07/05	9780375714498	12617			
@@ -594,7 +594,7 @@ The Southern Appalachians: A Wilderness Quest		america/anglo/eastern/south/piedm
 Forgotten Grasslands of the South: Natural History and Conservation		america/anglo/eastern/south		nature/environment/ecology/grasslands	Reed F. Noss	4.64	320	2012				2022/11/27	9781597264884	15809827			
 50 Years of Text Games: From Oregon Trail to A.I. Dungeon			modern/modernamerica/paxamericana/neocon	humanity/society/culture/games/videogames	Aaron A. Reed	4.63	620	2023				2023/08/17	9798985966121	178590015			
 The Ants				nature/taxonomy/animals/arthopods	Bert Hölldobler	4.6	745	1990				2020/06/25	9783540520924	115013			
-Garner's Modern American Usage			modern/modernamerica/paxamericana/neocon	humanity/society/culture/art/narrative/literature	Bryan A. Garner	4.6	1008	1998				2023/05/01	9780195382754	6535890			
+Garner's Modern American Usage			modern/modernamerica/paxamericana/neocon	humanity/society/language/grammar	Bryan A. Garner	4.6	1008	1998				2023/05/01	9780195382754	6535890			
 Clashing over Commerce: A History of US Trade Policy			modern/modernamerica/paxamericana/neocon	humanity/society/politics/law/regulations	Douglas A. Irwin	4.58	832	2017				2021/01/01	9780226398969	34524622			
 Block by Block: The Historical and Theoretical Foundations of Thermodynamics				nature/physics/thermodynamics	Robert T. Hanlon	4.58	672					2026/01/21	9780198851547	49344893			
 The Unconscious as Infinite Sets: An Essay in Bi-logic				nature/math/pure	Ignacio Matte Blanco	4.56	502	1975				2020/05/14	9781855752023	465710			
@@ -634,16 +634,16 @@ Linear Algebra Done Right				nature/math/pure	Sheldon Axler	4.39	251	1995				202
 The Broken Heart of America: St. Louis and the Violent History of the United States		america/anglo/western/plains/southplains/missouri	modern/modernamerica/paxamericana/neocon		Walter Johnson	4.39	528	2020				2026/01/21	9780465064267	51343985			
 A Stillness at Appomattox		america/anglo/eastern/south/piedmont/virginia/appomattox	modern/modernamerica/union/civilwar		Bruce Catton	4.38	438	1951	FALSE			2020/04/04	9780385044516	891922			
 The Mathematical Theory of Communication				nature/math/applied	Claude Shannon	4.38	125	1949				2026/01/21	9780252725487	880735			
-W.E.B. Du Bois: Biography of a Race, 1868-1919			modern/modernamerica/union/gilded	humanity/society/order/structures/individuals	David Levering Lewis	4.38	735	1993				2020/06/25	9780613630863	17618			
+W.E.B. Du Bois: Biography of a Race, 1868-1919			modern/modernamerica/union/gilded	humanity/society/order	David Levering Lewis	4.38	735	1993				2020/06/25	9780613630863	17618			
 Slavery by Another Name: The Re-Enslavement of Black Americans from the Civil War to World War II			modern/modernamerica/union/gilded	humanity/society/order/structures/classes/poor/slavery	Douglas A. Blackmon	4.38	480	2008				2020/03/28	9780385506250	2319745			
 Behave: The Biology of Humans at Our Best and Worst				nature/biology/physiology/nervous	Robert M. Sapolsky	4.38	790	2017				2025/12/19	9781594205071	31170723			
 The Paris Review Interviews, 1				fiction	The Paris Review	4.38	510	2006				2021/03/14	9780312361754	11473			
-Witness			modern/modernamerica/paxamericana	humanity/society/politics/ideologies	Whittaker Chambers	4.38		1952	FALSE			2022/01/09	9780786189724	1411174			
+Witness			modern/modernamerica/paxamericana	humanity/society/politics	Whittaker Chambers	4.38		1952	FALSE			2022/01/09	9780786189724	1411174			
 In the Shadow of Man				nature/taxonomy/animals/mammalia/euarchontoglires	Jane Goodall	4.37	297	1971				2026/01/21	9780618056767	135486			
 Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives				humanity/civilization/transport/trains/metros	Jarrett Walker	4.37	256	2011				2026/01/21	9781597269711	13211555			
 The Shape of Ancient Thought: Comparative Studies in Greek and Indian Philosophies				humanity/society/thought/philosophy	Thomas McEvilley	4.37	768	2001				2023/01/12	9781581152036	925680			
 G-Man: J. Edgar Hoover and the Making of the American Century			modern/modernamerica/paxamericana	humanity/society/politics/law/police	Beverly Gage	4.36	837	2022				2024/11/02	9780670025374	60417618			
-The Powers That Be				humanity/society/politics/government	David Halberstam	4.36	792	1979				2022/10/19	9780252069413	75414			
+The Powers That Be				humanity/society/politics/geopolitics	David Halberstam	4.36	792	1979				2022/10/19	9780252069413	75414			
 Factfulness: Ten Reasons We're Wrong About the World – and Why Things Are Better Than You Think				humanity/society/thought/philosophy/epistemology/reason	Hans Rosling	4.36	342	2018	TRUE			2018/08/27	9781473637467	34890015			
 Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection				humanity/civilization/healthcare/epidemiology	John Green	4.36	198	2025				2026/01/21	9780525556572	220341389			
 First They Killed My Father: A Daughter of Cambodia Remembers		fareast/seasia/indochina/cambodia	modern/modernfareast/prc		Loung Ung	4.36	238	2000				2026/01/21	9780060856267	4373			
@@ -656,7 +656,7 @@ March: Book One		america/anglo/eastern/south/piedmont/alabama	modern/modernameri
 Hoover: An Extraordinary Life in Extraordinary Times			modern/modernamerica/paxamericana/newdeal	humanity/society/politics/government/rulers/presidents	Kenneth Whyte	4.35	752	2017				2025/03/07	9780307597960	33998241			
 Pillar of Fire: America in the King Years 1963-65		america/anglo/eastern/south/piedmont/alabama	modern/modernamerica/paxamericana/boomer		Taylor Branch	4.35	768	1998				2025/12/19	9780684848099	79356			
 Chuck Amuck: The Life and Times of an Animated Cartoonist			modern/modernamerica/paxamericana	humanity/society/culture/art/narrative/film/animation	Chuck Jones	4.34	303	1989				2026/01/21	9780374526207	338619			
-The King's Two Bodies: A Study in Mediaeval Political Theology			medieval/medievaleurope/highages	humanity/society/thought/philosophy/epistemology/knowledge/history	Ernst H. Kantorowicz	4.34	616	1957				2022/05/03	9780691017044	356630			
+The King's Two Bodies: A Study in Mediaeval Political Theology			medieval/medievaleurope/highages	humanity/society/politics/government/rulers	Ernst H. Kantorowicz	4.34	616	1957				2022/05/03	9780691017044	356630			
 Eye of the Shoal: A Fishwatcher's Guide to Life, the Ocean and Everything				nature/environment/ecology/aquatic	Helen Scales	4.34	320	2018				2021/02/20	9781472936844	36873421			
 Mathematics and Its History				nature/math/pure	John Stillwell	4.34	542	1997	FALSE			2020/05/27	9780387953366	946185			
 The Outlier: The Unfinished Presidency of Jimmy Carter		america/anglo/eastern/south/piedmont/georgia	modern/modernamerica/paxamericana/boomer/watergate/carter		Kai Bird	4.34	772	2021				2022/08/20	9780451495235	55558235			
@@ -749,7 +749,6 @@ Legacy of Violence: A History of the British Empire		europe/northseas/britain	mo
 One Two Three Four: The Beatles in Time			modern/moderneurope/eu	humanity/society/culture/art/music/vocal/pop	Craig  Brown	4.26	642	2020				2024/11/02		49333926			
 The Stripping of the Altars: Traditional Religion in England, 1400-1580		europe/northseas/britain/england	early/earlyeurope/reformation/charlesV		Eamon Duffy	4.26	700	1992				2021/11/28	9780300108286	418937			
 Centennial				fiction	James A. Michener	4.26	1056	1974				2019/05/05		133430			
-The Soul of America: The Battle for Our Better Angels			modern/modernamerica/paxamericana/maga	humanity/society/thought/philosophy/epistemology/knowledge/history	Jon Meacham	4.26	372	2018				2020/11/07		38385947			
 A Scientific Revolution: Ten Men and Women Who Reinvented American Medicine				humanity/civilization/healthcare/medicine	Ralph H. Hruban	4.26	408					2022/07/17	9781639361472	59365404			
 Lost Enlightenment: Central Asia's Golden Age from the Arab Conquest to Tamerlane		neareast/middleeast/persia/centralasia	medieval/medievalneareast/abbasid		S. Frederick Starr	4.26	634	2013				2024/08/31	9780691165851	23528909			
 The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care				humanity/civilization/healthcare/healthinsurance	T.R. Reid	4.26	277	2009				2022/06/27	9781594202346	6402544			
@@ -794,7 +793,7 @@ German History 1770-1866		europe/mittel	modern/moderneurope/napoleonic		James J.
 Atlas of Remote Islands: Fifty Islands I Have Never Set Foot On and Never Will				nature/environment/water/ocean/coasts	Judith Schalansky	4.23	144	2009				2019/06/13	9780143118206	8197735			
 Something Incredibly Wonderful Happens: Frank Oppenheimer and the world he made up			modern/modernamerica/paxamericana/newdeal	humanity/society/culture/art/narrative	K.C. Cole	4.23	416	2009				2021/03/14	9780151008223	6321411			
 The Prophet				fiction	Kahlil Gibran	4.23	80	1923				2020/06/07	9781853264856	846490			
-The Etymologicon: A Circular Stroll through the Hidden Connections of the English Language				humanity/society/culture/art/narrative/literature	Mark Forsyth	4.23	252	2011				2023/03/28		12870068			
+The Etymologicon: A Circular Stroll through the Hidden Connections of the English Language				humanity/society/language/words/etymology	Mark Forsyth	4.23	252	2011				2023/03/28		12870068			
 Boss: Richard J. Daley of Chicago		america/anglo/eastern/north/greatlakes/illinois/chicago	modern/modernamerica/paxamericana/boomer		Mike Royko	4.23	216	1971				2020/10/28	9780452261679	55322			
 The Florentines: From Dante to Galileo: The Transformation of Western Civilization		europe/mediterranean/italy/tuscany	early/earlyeurope/renaissance/earlyrenaissance		Paul Strathern	4.23	400	2021				2026/01/21	9781643137322	55711095			
 The Pleasure of Finding Things Out: The Best Short Works of Richard P. Feynman				nature/physics/matter/chemistry/atoms/quantum	Richard P. Feynman	4.23	270	1999				2018/10/21		10260			
@@ -889,7 +888,7 @@ The Big Picture: On the Origins of Life, Meaning, and the Universe Itself				nat
 Ten Drugs: How Plants, Powders, and Pills Have Shaped the History of Medicine				humanity/civilization/healthcare/treatment	Thomas Hager	4.18	304	2019				2026/01/21	9781419734403	41104130			
 The Boer War		neareast/africa/southafrica	modern/modernneareast/raj		Thomas Pakenham	4.18	718	1979				2025/04/14	9780380720019	830238			
 Fortune's Formula: The Untold Story of the Scientific Betting System That Beat the Casinos and Wall Street			modern/modernamerica/paxamericana/neocon	humanity/society/economy/finance/capital/investing	William Poundstone	4.18	386	2006				2021/03/14	9780809045990	186124			
-The Elements of Style				humanity/society/culture/art/narrative/literature	William Strunk Jr.	4.18	105	1918	TRUE			2018/07/04		33514			
+The Elements of Style				humanity/society/language/grammar	William Strunk Jr.	4.18	105	1918	TRUE			2018/07/04		33514			
 A History of Opera			modern/moderneurope	humanity/society/culture/art/music/vocal	Carolyn Abbate	4.17	656	2012				2023/03/04	9780393348958	23316523			
 Putin's People: How the KGB Took Back Russia and Then Took On the West		europe/rus/muscovy	modern/moderneurope/eu		Catherine Belton	4.17	640	2020				2022/03/18	9780374238711	23848139			
 The Beginning of Infinity: Explanations That Transform the World				nature/math/pure	David Deutsch	4.17	487	2011				2021/03/14	9780670022755	10483171			
@@ -958,7 +957,7 @@ John A: The Man Who Made Us		america/anglo/eastern/north/greatlakes/ontario	mode
 The Perfectionists: How Precision Engineers Created the Modern World				humanity/civilization/manufacturing/machines	Simon Winchester	4.14	416	2018				2026/01/21	9780062652577	35068671			
 The Company: The Rise and Fall of the Hudson's Bay Empire		america/anglo/arctic	early/earlyamerica/asiento		Stephen R. Bown	4.14	496	2020				2026/01/21	9780385694070	51114662			
 Against Interpretation and Other Essays				fiction	Susan Sontag	4.14	312	1966				2018/07/05	9780141190068	6335913			
-Orality and Literacy: The Technologizing of the Word				humanity/society/culture/art/narrative/literature	Walter J. Ong	4.14	216	1982				2021/03/14	9780415281294	164515			
+Orality and Literacy: The Technologizing of the Word				humanity/society/language/writing	Walter J. Ong	4.14	216	1982				2021/03/14	9780415281294	164515			
 The Collapse of American Criminal Justice			modern/modernamerica/paxamericana/neocon	humanity/society/politics/government/courts	William J. Stuntz	4.14	432	2011				2020/04/04	9780674051751	10858177			
 The Order of Time				nature/physics/spacetime/time	Carlo Rovelli	4.13	224	2017				2025/12/19	9780735216105	36442813			
 The World Turned Upside Down: Radical Ideas During the English Revolution		europe/northseas/britain/england	early/earlyeurope/enlightenment/westphalian		Christopher      Hill	4.13	431	1972	FALSE			2022/08/28	9780140137323	167530			
@@ -1070,7 +1069,7 @@ Lion City: Singapore and the Invention of Modern Asia		fareast/seasia/malay/mala
 In Search of Schrödinger's Cat: Quantum Physics and Reality				nature/physics/matter/chemistry/atoms/quantum	John Gribbin	4.06	320	1984				2017/07/24	9780553342536	513367			
 The Global Interior: Mineral Frontiers and American Power				humanity/civilization/resources/mining	Megan A. Black	4.06	360	2018	FALSE			2022/06/08	9780674984257	38363733			
 The Botany of Desire: A Plant's-Eye View of the World				nature/biology/evolution	Michael Pollan	4.06	297	2001				2017/11/26	9780375760396	13839			
-Empires of the Word: A Language History of the World				humanity/society/culture/art/narrative/literature	Nicholas Ostler	4.06	615	2005				2022/05/28	9780060935726	166433			
+Empires of the Word: A Language History of the World				humanity/society/language/languages	Nicholas Ostler	4.06	615	2005				2022/05/28	9780060935726	166433			
 The Snow Leopard		fareast/china/xiyu/tibet	modern/modernfareast/prc	nature/taxonomy/animals/mammalia/carnivora	Peter Matthiessen	4.06	338	1978	TRUE			2018/11/07	9780140255089	764165			
 Uncontrolled Spread: Why COVID-19 Crushed Us and How We Can Defeat the Next Pandemic				humanity/civilization/healthcare/epidemiology/covid	Scott Gottlieb	4.06	480	2021				2021/10/10	9780063080027	58226638			
 The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power				humanity/civilization/info/software/swe/bigtech	Shoshana Zuboff	4.06	691	2018	TRUE			2021/01/01	9781610395694	26195941			
@@ -1180,7 +1179,7 @@ Postcards from Tomorrow Square: Reports from China		fareast/china	modern/modernf
 Mayflower: A Story of Courage, Community, and War	Bought	america/anglo/eastern/north/newengland/massachusetts	early/earlyamerica/interloper/champlain		Nathaniel Philbrick	3.89	461	2006				2025/04/14	9780670037605	4820			
 Genoa and the Genoese, 958-1528		europe/mediterranean/italy/liguria	medieval/medievaleurope/highages		Steven A. Epstein	3.89	416	1996				2023/05/16	9780807849927	1273301			
 The New Koreans: The Story of a Nation		fareast/pacific/korea	modern/modernfareast/prc		Michael Breen	3.88	480					2024/06/08	9781250065056	29939342			
-Martin Heidegger: Between Good and Evil				humanity/society/thought/philosophy/epistemology/knowledge/history/biography	Rüdiger Safranski	3.88	496	1994				2020/06/07	9780674387102	207897			
+Martin Heidegger: Between Good and Evil				humanity/society/thought/philosophy/metaphysics	Rüdiger Safranski	3.88	496	1994				2020/06/07	9780674387102	207897			
 The House of Medici: Its Rise and Fall		europe/mediterranean/italy/tuscany	early/earlyeurope/renaissance/earlyrenaissance		Christopher Hibbert	3.87	364	1975				2023/06/27	9780688053390	144185			
 The Structural Transformation of the Public Sphere: An Inquiry into a Category of Bourgeois Society				humanity/society/order/structures/groups/institutions	Jürgen Habermas	3.87	301	1962				2022/09/04	9780262581080	235141			
 My Name Is Red				fiction	Orhan Pamuk	3.87	417	1998				2020/06/07		2517			
@@ -1197,7 +1196,7 @@ A Modern History of Japan: From Tokugawa Times to the Present		fareast/pacific/j
 Six Thousand Years of Bread: Its Holy and Unholy History				humanity/civilization/resources/agriculture/food	Heinrich Eduard Jacob	3.84	416	1943				2025/01/11	9781558215757	740112			
 Nudge: Improving Decisions About Health, Wealth, and Happiness				humanity/society/thought/ideas	Richard H. Thaler	3.84	260	2008				2023/03/04	9780143115267	3450744			
 Tokyo Underworld: The Fast Times and Hard Life of an American Gangster in Japan		fareast/pacific/japan/kanto	modern/modernfareast/prc		Robert Whiting	3.84	400	1999				2023/07/22	9780375724893	33031			
-Our Magnificent Bastard Tongue: The Untold History of English				humanity/society/culture/art/narrative/literature	John McWhorter	3.83	230	2008				2023/03/28	9781592403950	3143472			
+Our Magnificent Bastard Tongue: The Untold History of English				humanity/society/language/languages/indoeuropean/english	John McWhorter	3.83	230	2008				2023/03/28	9781592403950	3143472			
 Danubia: A Personal History of Habsburg Europe		europe/mittel/danube	early/earlyeurope/reformation/charlesV		Simon Winder	3.83	576	2013				2025/06/16	9780374175290	17910055			
 Southeast Asia in the Age of Commerce, 1450-1680: Volume One: The Lands Below the Winds		fareast/seasia/malay	early/earlyfareast/ming		Anthony Reid	3.82	297	1988				2022/08/02	9780300047509	1302765			
 The White Road: Journey Into an Obsession				humanity/civilization/manufacturing/artisan/pottery	Edmund de Waal	3.82	416	2015				2026/01/21	9780307362100	25241462			
