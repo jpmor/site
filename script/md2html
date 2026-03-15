@@ -26,13 +26,13 @@ do
 
   tmpl=$(sed "s|href=\"static/|href=\"${prefix}static/|g; s|src=\"static/|src=\"${prefix}static/|g; s|src=\"js/|src=\"${prefix}js/|g; s|PAGE_NAME|${page}|g" docs/static/template)
 
-  printf '%s\n' "$tmpl" | head -21 > "$outfile"
+  printf '%s\n' "$tmpl" | awk '/<!-- Begin page-specific html -->/{print; exit} {print}' > "$outfile"
   if [ -d "sitewiki/$page" ]; then
     base=$(basename "$page")
     pandoc --lua-filter=script/links-to-html.lua -M "strip-prefix=${base}/" "sitewiki/$page.md" | sed 's/ type="1"//g' >> "$outfile"
   else
     pandoc --lua-filter=script/links-to-html.lua "sitewiki/$page.md" | sed 's/ type="1"//g' >> "$outfile"
   fi
-  printf '%s\n' "$tmpl" | tail -3 >> "$outfile"
+  printf '%s\n' "$tmpl" | awk '/<!-- Begin page-specific html -->/{found=1; next} found{print}' >> "$outfile"
   tidy -iqm -w 80 --tidy-mark no "$outfile"
 done
