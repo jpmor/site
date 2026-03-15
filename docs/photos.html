@@ -213,7 +213,8 @@
           const img = document.createElement('img');
           img.src = 'static/photos/' + encodeURIComponent(p.file);
           img.loading = 'lazy';
-          const caption = p.date ? p.date.slice(0, 10) : '';
+          const parts = [p.date ? p.date.slice(0, 10) : null, p.place];
+          const caption = parts.filter(Boolean).join(' · ');
           img.onclick = () => window._openLightbox(p.file, caption);
           grid.appendChild(img);
         });

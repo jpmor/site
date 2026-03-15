@@ -8,6 +8,7 @@ import json
 import os
 import sqlite3
 import subprocess
+import reverse_geocoder
 from PIL import Image
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -36,6 +37,15 @@ def get_region(lat, lon):
         if fn(lat, lon):
             return name
     return None
+
+
+def get_place(lat, lon):
+    if lat is None:
+        return None
+    r = reverse_geocoder.get((lat, lon), verbose=False)
+    city = r.get("name", "")
+    cc = r.get("cc", "")
+    return f"{city}, {cc}" if city else None
 
 
 def dms_to_decimal(dms, ref):
@@ -183,6 +193,19 @@ def build_json():
             lat, lon, exif_date = get_exif(path)
             photos.append({"file": fname, "date": exif_date, "lat": lat, "lon": lon,
                            "region": get_region(lat, lon)})
+
+    # Batch reverse geocode all photos with GPS
+    print("  reverse geocoding...")
+    coords = [(p["lat"], p["lon"]) for p in photos if p["lat"] is not None]
+    results = reverse_geocoder.search(coords, verbose=False)
+    ri = 0
+    for p in photos:
+        if p["lat"] is not None:
+            r = results[ri]; ri += 1
+            city, admin1 = r.get("name", ""), r.get("admin1", "")
+            p["place"] = f"{city}, {admin1}" if city and admin1 else (city or None)
+        else:
+            p["place"] = None
 
     photos.sort(key=lambda p: p["date"] or "")
 
