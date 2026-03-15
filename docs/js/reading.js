@@ -11,13 +11,12 @@ var COLS = [
   {name: 'topic',     idx: 4,  vis: true},
   {name: 'completed',      idx: 10, vis: false},
   {name: 'rated',          idx: 11, vis: false},
-  {name: 'specific_place', idx: 15, vis: true},
   {name: 'specific_time',  idx: 16, vis: true},
   {name: 'specific_topic', idx: 17, vis: true},
 ];
 
 var STATUS_ORDER = ['Started', 'Soon', 'Bought', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
-var PLACE_ORDER  = ['north','south','western','meso','sur','northseas','mittel','mediterranean','rus','africa','middleeast','india','china','seasia','pacific'];
+var PLACE_ORDER  = ['america','europe','neareast','fareast'];
 var TIME_ORDER   = ['ancient','classical','medieval','early','modern'];
 var TIME_REGION  = ['america','europe','neareast','fareast'];
 var TOPIC_ORDER  = ['math','physics','environment','biology','taxonomy','engineering','resources','settlements','transport','manufacturing','military','info','healthcare','thought','culture','politics','economy','order','fiction'];
@@ -31,10 +30,10 @@ var STATUS_COLOR = {
   'Read':    'hsl(120, 40%, 55%)',
 };
 var PLACE_HUE    = {
-  north: 50, south: 50, western: 50, sur: 50, meso: 50,
-  mittel: 210, northseas: 210, rus: 210, mediterranean: 210,
-  africa: 130, middleeast: 130, india: 130,
-  china: 0, pacific: 0, seasia: 0,
+  america: 50,
+  europe: 210,
+  neareast: 130,
+  fareast: 0,
 };
 var TIME_HUE     = {america: 50, europe: 210, neareast: 130, fareast: 0};
 var SYSTEM_HUE   = {
@@ -75,10 +74,11 @@ function cellColor(idx, val) {
     return STATUS_COLOR[val] || '';
   }
   if (idx === 2) {
-    var base = PLACE_HUE[val];
-    return base !== undefined
-      ? 'hsl(' + (base + strHash(val) % 20 - 10) + ', 65%, 65%)'
-      : '';
+    var segs = val.split('/');
+    var base = PLACE_HUE[segs[0]];
+    if (base === undefined) return '';
+    var leaf = segs[segs.length - 1];
+    return 'hsl(' + (base + strHash(leaf) % 20 - 10) + ', 65%, 65%)';
   }
   if (idx === 3) {
     var parts = val.split(' ');
@@ -148,7 +148,14 @@ function render() {
       var res = xei !== yei ? xei - yei : xri - yri;
       return sortAsc ? res : -res;
     }
-    var orderMap = sortIdx === 1 ? STATUS_ORDER : sortIdx === 2 ? PLACE_ORDER : sortIdx === 4 ? TOPIC_ORDER : null;
+    if (sortIdx === 2) {
+      var xo = PLACE_ORDER.indexOf(x.split('/')[0]), yo = PLACE_ORDER.indexOf(y.split('/')[0]);
+      var res = (xo === -1 ? PLACE_ORDER.length : xo) - (yo === -1 ? PLACE_ORDER.length : yo);
+      if (res !== 0) return sortAsc ? res : -res;
+      res = x.localeCompare(y);
+      return sortAsc ? res : -res;
+    }
+    var orderMap = sortIdx === 1 ? STATUS_ORDER : sortIdx === 4 ? TOPIC_ORDER : null;
     if (orderMap) {
       var xo = orderMap.indexOf(x), yo = orderMap.indexOf(y);
       var res = (xo === -1 ? orderMap.length : xo) - (yo === -1 ? orderMap.length : yo);
@@ -175,7 +182,14 @@ function render() {
     COLS.forEach(function(col) {
       var td = tr.insertCell();
       var val = r[col.idx] || '';
-      td.textContent = val;
+      var display = val;
+      if (col.idx === 2 && val) {
+        var parts = val.split('/');
+        if (parts.length >= 3) display = parts[1] + ' (' + parts[parts.length - 1] + ')';
+        else if (parts.length === 2) display = parts[1];
+        else display = parts[0];
+      }
+      td.textContent = display;
       td.style.display = vis[col.idx] ? '' : 'none';
       if (col.idx !== 0 && col.idx !== 5) td.style.textAlign = 'center';
       if (col.idx === 5) td.style.maxWidth = '150px';
