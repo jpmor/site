@@ -24,7 +24,7 @@ do
 
   mkdir -p "$(dirname "$outfile")"
 
-  tmpl=$(sed "s|href=\"static/|href=\"${prefix}static/|g; s|src=\"static/|src=\"${prefix}static/|g; s|src=\"js/|src=\"${prefix}js/|g" docs/static/template)
+  tmpl=$(sed "s|href=\"static/|href=\"${prefix}static/|g; s|src=\"static/|src=\"${prefix}static/|g; s|src=\"js/|src=\"${prefix}js/|g; s|PAGE_NAME|${page}|g" docs/static/template)
 
   printf '%s\n' "$tmpl" | head -18 > "$outfile"
   if [ -d "sitewiki/$page" ]; then
