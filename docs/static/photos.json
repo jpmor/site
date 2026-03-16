@@ -408,6 +408,14 @@
     "place": "Concord, New Hampshire"
   },
   {
+    "file": "IMG_1714.jpeg",
+    "date": "2013-12-06 00:00:00",
+    "lat": 43.217667,
+    "lon": -71.503167,
+    "region": "north",
+    "place": "Concord, New Hampshire"
+  },
+  {
     "file": "IMG_1679.jpeg",
     "date": "2013-12-10 16:01:02",
     "lat": 43.196,
@@ -2032,6 +2040,14 @@
     "place": "Atlanta, Georgia"
   },
   {
+    "file": "IMG_6663 (1).jpeg",
+    "date": "2018-08-04 14:55:33",
+    "lat": 33.782333,
+    "lon": -84.386253,
+    "region": "south",
+    "place": "Atlanta, Georgia"
+  },
+  {
     "file": "IMG_6918.jpeg",
     "date": "2018-08-30 19:40:22",
     "lat": 33.782544,
@@ -2096,7 +2112,7 @@
     "place": "Tremont, Maine"
   },
   {
-    "file": "IMG_7133.jpeg",
+    "file": "IMG_7133 (1).jpeg",
     "date": "2018-11-04 22:21:31",
     "lat": 32.840989,
     "lon": -96.777747,
@@ -2160,7 +2176,7 @@
     "place": "Austin, Texas"
   },
   {
-    "file": "IMG_7541.jpeg",
+    "file": "IMG_7541 (1).jpeg",
     "date": "2019-02-23 01:35:07",
     "lat": 30.259278,
     "lon": -97.738511,
@@ -2176,7 +2192,7 @@
     "place": "San Marcos, Texas"
   },
   {
-    "file": "IMG_7594.jpeg",
+    "file": "IMG_7594 (1).jpeg",
     "date": "2019-02-23 23:43:32",
     "lat": 29.882892,
     "lon": -97.946275,
@@ -2368,7 +2384,7 @@
     "place": "San Antonio, Texas"
   },
   {
-    "file": "IMG_8188.jpeg",
+    "file": "IMG_8188 (1).jpeg",
     "date": "2019-06-15 18:05:36",
     "lat": 29.422269,
     "lon": -98.488608,
@@ -2728,7 +2744,7 @@
     "place": "Chicago, Illinois"
   },
   {
-    "file": "IMG_9028.jpeg",
+    "file": "IMG_9028 (1).jpeg",
     "date": "2019-08-16 20:23:37",
     "lat": 41.886636,
     "lon": -87.615136,
@@ -2782,14 +2798,6 @@
     "lon": -77.059836,
     "region": "north",
     "place": "Washington, D.C., Washington, D.C."
-  },
-  {
-    "file": "IMG_9326.jpeg",
-    "date": "2019-11-21 13:50:24",
-    "lat": 33.781989,
-    "lon": -84.377922,
-    "region": "south",
-    "place": "Atlanta, Georgia"
   },
   {
     "file": "IMG_9327.jpeg",
@@ -3704,7 +3712,7 @@
     "place": "Channelview, Texas"
   },
   {
-    "file": "IMG_2494.jpeg",
+    "file": "IMG_2494 (1).jpeg",
     "date": "2023-01-01 03:20:45",
     "lat": 29.702186,
     "lon": -95.528406,
@@ -3924,6 +3932,14 @@
     "date": "2023-09-02 13:59:41",
     "lat": 40.710431,
     "lon": -74.007897,
+    "region": "north",
+    "place": "New York City, New York"
+  },
+  {
+    "file": "IMG_5156.jpeg",
+    "date": "2023-09-02 15:15:20",
+    "lat": 40.739444,
+    "lon": -74.007164,
     "region": "north",
     "place": "New York City, New York"
   },
@@ -4177,7 +4193,7 @@
   },
   {
     "file": "IMG_6663.jpeg",
-    "date": "2024-02-29 02:38:34",
+    "date": "2024-02-28 21:38:34",
     "lat": 34.984256,
     "lon": 135.710586,
     "region": "fareast",
@@ -4200,10 +4216,26 @@
     "place": "Muko, Kyoto"
   },
   {
+    "file": "IMG_6711.jpeg",
+    "date": "2024-02-29 03:55:25",
+    "lat": 34.982667,
+    "lon": 135.711778,
+    "region": "fareast",
+    "place": "Muko, Kyoto"
+  },
+  {
     "file": "IMG_6756.jpeg",
     "date": "2024-02-29 06:44:32",
     "lat": 35.011975,
     "lon": 135.680114,
+    "region": "fareast",
+    "place": "Muko, Kyoto"
+  },
+  {
+    "file": "IMG_6758.jpeg",
+    "date": "2024-02-29 06:52:46",
+    "lat": 35.011414,
+    "lon": 135.676667,
     "region": "fareast",
     "place": "Muko, Kyoto"
   },
@@ -4376,6 +4408,14 @@
     "place": "Hiroshima-shi, Hiroshima"
   },
   {
+    "file": "IMG_7010.jpeg",
+    "date": "2024-03-02 08:29:39",
+    "lat": 34.395633,
+    "lon": 132.463578,
+    "region": "fareast",
+    "place": "Hiroshima-shi, Hiroshima"
+  },
+  {
     "file": "IMG_7022.jpeg",
     "date": "2024-03-03 01:43:34",
     "lat": 34.306111,
@@ -4536,6 +4576,14 @@
     "place": "Aso, Kumamoto"
   },
   {
+    "file": "IMG_7313.jpeg",
+    "date": "2024-03-06 04:11:11",
+    "lat": 33.591167,
+    "lon": 130.418228,
+    "region": "fareast",
+    "place": "Fukuoka-shi, Fukuoka"
+  },
+  {
     "file": "IMG_7330.jpeg",
     "date": "2024-03-06 10:34:10",
     "lat": 33.592214,
@@ -4568,6 +4616,14 @@
     "place": "Fukuoka-shi, Fukuoka"
   },
   {
+    "file": "IMG_7340.jpeg",
+    "date": "2024-03-06 11:11:44",
+    "lat": 33.592217,
+    "lon": 130.407853,
+    "region": "fareast",
+    "place": "Fukuoka-shi, Fukuoka"
+  },
+  {
     "file": "IMG_7393.jpeg",
     "date": "2024-03-08 01:37:31",
     "lat": 35.713944,
@@ -4596,6 +4652,22 @@
     "date": "2024-07-04 15:05:19",
     "lat": 48.143428,
     "lon": 11.587669,
+    "region": "europe",
+    "place": "Munich, Bavaria"
+  },
+  {
+    "file": "IMG_7969.jpeg",
+    "date": "2024-07-04 17:17:56",
+    "lat": 48.137494,
+    "lon": 11.553408,
+    "region": "europe",
+    "place": "Munich, Bavaria"
+  },
+  {
+    "file": "IMG_7987.jpeg",
+    "date": "2024-07-05 15:53:32",
+    "lat": 48.134464,
+    "lon": 11.594872,
     "region": "europe",
     "place": "Munich, Bavaria"
   },
@@ -4800,6 +4872,14 @@
     "place": "Miramar Beach, Florida"
   },
   {
+    "file": "IMG_8407 (1).jpeg",
+    "date": "2024-08-06 23:30:06",
+    "lat": 30.375428,
+    "lon": -86.366417,
+    "region": "south",
+    "place": "Miramar Beach, Florida"
+  },
+  {
     "file": "IMG_8412.jpeg",
     "date": "2024-08-07 00:12:47",
     "lat": 30.393458,
@@ -4950,6 +5030,14 @@
     "lon": -83.811036,
     "region": "south",
     "place": "Hiawassee, Georgia"
+  },
+  {
+    "file": "IMG_8817.jpeg",
+    "date": "2024-10-09 17:49:39",
+    "lat": 37.350389,
+    "lon": -121.921844,
+    "region": "west",
+    "place": "Burbank, California"
   },
   {
     "file": "IMG_8834.jpeg",
@@ -5262,6 +5350,14 @@
     "lon": -80.308639,
     "region": "south",
     "place": "White Sulphur Springs, West Virginia"
+  },
+  {
+    "file": "IMG_0467 (1).jpeg",
+    "date": "2025-07-17 22:03:57",
+    "lat": 34.019447,
+    "lon": -84.359961,
+    "region": "south",
+    "place": "Roswell, Georgia"
   },
   {
     "file": "IMG_0571.jpeg",
@@ -5712,6 +5808,14 @@
     "place": "Poschiavo, Grisons"
   },
   {
+    "file": "IMG_0452.jpeg",
+    "date": "2025-10-19 14:39:17",
+    "lat": 46.326028,
+    "lon": 10.058083,
+    "region": "europe",
+    "place": "Poschiavo, Grisons"
+  },
+  {
     "file": "IMG_0466.jpeg",
     "date": "2025-10-20 08:13:24",
     "lat": 46.951919,
@@ -5748,6 +5852,22 @@
     "date": "2025-10-20 13:42:03",
     "lat": 47.312828,
     "lon": 11.386372,
+    "region": "europe",
+    "place": "Innsbruck, Tyrol"
+  },
+  {
+    "file": "IMG_0530.jpeg",
+    "date": "2025-10-20 16:51:33",
+    "lat": 47.267539,
+    "lon": 11.392072,
+    "region": "europe",
+    "place": "Innsbruck, Tyrol"
+  },
+  {
+    "file": "IMG_0531 (1).jpeg",
+    "date": "2025-10-20 16:51:33",
+    "lat": 47.267536,
+    "lon": 11.392089,
     "region": "europe",
     "place": "Innsbruck, Tyrol"
   },
@@ -5958,13 +6078,5 @@
     "lon": -73.992881,
     "region": "north",
     "place": "Weehawken, New Jersey"
-  },
-  {
-    "file": "IMG_1714.jpeg",
-    "date": "2026-03-15 23:13:43",
-    "lat": null,
-    "lon": null,
-    "region": null,
-    "place": null
   }
 ]
