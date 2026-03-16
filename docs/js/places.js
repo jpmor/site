@@ -1,5 +1,23 @@
+var tooltip = document.createElement('div');
+tooltip.id = 'map-tooltip';
+tooltip.style.cssText = 'position:fixed;pointer-events:none;display:none;background:#111;border:1px solid #444;color:#aaa;font-family:verdana,sans-serif;font-size:0.75rem;padding:0.3em 0.6em;z-index:999;';
+document.body.appendChild(tooltip);
+
 document.querySelectorAll('.map-container').forEach(function(c) {
-  fetch(c.dataset.src).then(function(r) { return r.text(); }).then(function(html) {
+  var jsonSrc = c.dataset.src.replace('.svg', '.json');
+
+  Promise.all([
+    fetch(c.dataset.src).then(function(r) { return r.text(); }),
+    fetch(jsonSrc).then(function(r) { return r.json(); })
+  ]).then(function(results) {
+    var html = results[0], data = results[1];
+
+    // Build id → tier label lookup
+    var tierMap = {};
+    Object.values(data.groups).forEach(function(group) {
+      group.paths.forEach(function(id) { tierMap[id] = group.label; });
+    });
+
     c.innerHTML = html;
     var svg = c.querySelector('svg');
     var vb = svg.viewBox.baseVal;
@@ -37,14 +55,34 @@ document.querySelectorAll('.map-container').forEach(function(c) {
       c.classList.add('dragging');
     });
     window.addEventListener('mousemove', function(e) {
-      if (!drag) return;
-      var r = c.getBoundingClientRect();
-      cx = startCx - (e.clientX - sx) / r.width * cw;
-      cy = startCy - (e.clientY - sy) / r.height * ch;
-      apply();
+      if (drag) {
+        var r = c.getBoundingClientRect();
+        cx = startCx - (e.clientX - sx) / r.width * cw;
+        cy = startCy - (e.clientY - sy) / r.height * ch;
+        apply();
+      }
+      tooltip.style.left = (e.clientX + 14) + 'px';
+      tooltip.style.top  = (e.clientY + 14) + 'px';
     });
     window.addEventListener('mouseup', function() { drag = false; c.classList.remove('dragging'); });
     c.addEventListener('dblclick', function() { cx = ox; cy = oy; cw = ow; ch = oh; apply(); });
+
+    // Tooltip on path hover
+    svg.addEventListener('mouseover', function(e) {
+      var path = e.target.closest('path');
+      if (!path || !path.id) return;
+      var id = path.id;
+      var name = id.replace(/__.*$/, '').replace(/_/g, ' ');
+      var state = id.match(/__(.+)$/);
+      if (state) name += ', ' + state[1].replace(/_/g, ' ');
+      var tier = tierMap[id];
+      tooltip.textContent = tier ? name + ' — ' + tier : name;
+      tooltip.style.display = 'block';
+    });
+    svg.addEventListener('mouseout', function(e) {
+      if (!e.target.closest('path')) return;
+      tooltip.style.display = 'none';
+    });
 
     var t0 = null, pinchDist = null;
     c.addEventListener('touchstart', function(e) {
