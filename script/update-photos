@@ -21,9 +21,9 @@ ALBUM_NAME = "Site"
 EXPORT_DATE = "2026-03-15"  # date photos were exported from Photos.app
 
 REGIONS = {
-    "west":     lambda la, lo: 24 < la < 50 and -125 < lo < -104,
-    "south":    lambda la, lo: 24 < la < 39 and -104 < lo < -65,
-    "north":    lambda la, lo: 39 < la < 50 and -104 < lo < -65,
+    "west":     lambda la, lo: 24 < la < 50 and -125 < lo < -94,
+    "south":    lambda la, lo: 24 < la < 38.5 and  -94 < lo < -65,
+    "north":    lambda la, lo: 38.5 < la < 50 and  -94 < lo < -65,
     "europe":   lambda la, lo: 28 < la < 72 and  -20 < lo <  26,
     "neareast": lambda la, lo:  8 < la < 42 and   26 < lo <  97,
     "fareast":  lambda la, lo:  0 < la < 55 and   97 < lo < 145,

@@ -988,7 +988,7 @@
     "date": "2018-03-21 16:36:41",
     "lat": 38.906883,
     "lon": -77.072219,
-    "region": "south",
+    "region": "north",
     "place": "Washington, D.C., Washington, D.C."
   },
   {
@@ -996,7 +996,7 @@
     "date": "2018-03-21 17:18:29",
     "lat": 38.908097,
     "lon": -77.072197,
-    "region": "south",
+    "region": "north",
     "place": "Washington, D.C., Washington, D.C."
   },
   {
@@ -1004,7 +1004,7 @@
     "date": "2018-03-22 13:27:44",
     "lat": 38.888756,
     "lon": -77.014022,
-    "region": "south",
+    "region": "north",
     "place": "Washington, D.C., Washington, D.C."
   },
   {
@@ -1012,7 +1012,7 @@
     "date": "2018-03-22 15:58:08",
     "lat": 38.891472,
     "lon": -77.033342,
-    "region": "south",
+    "region": "north",
     "place": "Washington, D.C., Washington, D.C."
   },
   {
@@ -1844,7 +1844,7 @@
     "date": "2018-11-04 22:52:14",
     "lat": 32.841086,
     "lon": -96.778183,
-    "region": "south",
+    "region": "west",
     "place": "Highland Park, Texas"
   },
   {
@@ -1884,7 +1884,7 @@
     "date": "2019-02-22 19:19:47",
     "lat": 30.274558,
     "lon": -97.739958,
-    "region": "south",
+    "region": "west",
     "place": "Austin, Texas"
   },
   {
@@ -1892,7 +1892,7 @@
     "date": "2019-02-22 19:19:47",
     "lat": 30.274567,
     "lon": -97.739975,
-    "region": "south",
+    "region": "west",
     "place": "Austin, Texas"
   },
   {
@@ -1900,7 +1900,7 @@
     "date": "2019-02-23 23:11:54",
     "lat": 29.885094,
     "lon": -97.935836,
-    "region": "south",
+    "region": "west",
     "place": "San Marcos, Texas"
   },
   {
@@ -2052,7 +2052,7 @@
     "date": "2019-06-15 03:33:48",
     "lat": 29.425089,
     "lon": -98.490233,
-    "region": "south",
+    "region": "west",
     "place": "San Antonio, Texas"
   },
   {
@@ -2060,7 +2060,7 @@
     "date": "2019-06-15 03:45:11",
     "lat": 29.425797,
     "lon": -98.486519,
-    "region": "south",
+    "region": "west",
     "place": "San Antonio, Texas"
   },
   {
@@ -2068,7 +2068,7 @@
     "date": "2019-06-15 16:00:52",
     "lat": 29.426411,
     "lon": -98.492042,
-    "region": "south",
+    "region": "west",
     "place": "San Antonio, Texas"
   },
   {
@@ -2076,7 +2076,7 @@
     "date": "2019-06-15 16:05:44",
     "lat": 29.42435,
     "lon": -98.493461,
-    "region": "south",
+    "region": "west",
     "place": "San Antonio, Texas"
   },
   {
@@ -2084,7 +2084,7 @@
     "date": "2019-06-15 16:06:59",
     "lat": 29.424431,
     "lon": -98.493697,
-    "region": "south",
+    "region": "west",
     "place": "San Antonio, Texas"
   },
   {
@@ -2092,7 +2092,7 @@
     "date": "2019-06-15 19:38:12",
     "lat": 29.390767,
     "lon": -98.491547,
-    "region": "south",
+    "region": "west",
     "place": "San Antonio, Texas"
   },
   {
@@ -2100,7 +2100,7 @@
     "date": "2019-06-28 13:59:31",
     "lat": 43.877031,
     "lon": -103.456117,
-    "region": "north",
+    "region": "west",
     "place": "Custer, South Dakota"
   },
   {
@@ -2396,24 +2396,24 @@
     "date": "2019-07-05 19:33:01",
     "lat": 46.895583,
     "lon": -103.380614,
-    "region": "north",
+    "region": "west",
     "place": "Medora, North Dakota"
   },
   {
     "file": "IMG_8884.jpeg",
     "date": "2019-07-07 19:35:01",
-    "lat": 41.786419,
-    "lon": -87.806297,
-    "region": "north",
-    "place": "Summit, Illinois"
+    "lat": 33.6407,
+    "lon": -84.4277,
+    "region": "south",
+    "place": "College Park, Georgia"
   },
   {
     "file": "IMG_8890.jpeg",
     "date": "2019-07-07 19:41:23",
-    "lat": 41.786419,
-    "lon": -87.806297,
-    "region": "north",
-    "place": "Summit, Illinois"
+    "lat": 33.6407,
+    "lon": -84.4277,
+    "region": "south",
+    "place": "College Park, Georgia"
   },
   {
     "file": "IMG_8920.jpeg",
@@ -2468,7 +2468,7 @@
     "date": "2019-09-27 16:35:54",
     "lat": 38.905903,
     "lon": -77.068764,
-    "region": "south",
+    "region": "north",
     "place": "Washington, D.C., Washington, D.C."
   },
   {
@@ -2476,7 +2476,7 @@
     "date": "2019-09-27 21:50:20",
     "lat": 38.905114,
     "lon": -77.059769,
-    "region": "south",
+    "region": "north",
     "place": "Washington, D.C., Washington, D.C."
   },
   {
@@ -2484,7 +2484,7 @@
     "date": "2019-09-27 21:50:28",
     "lat": 38.904889,
     "lon": -77.059836,
-    "region": "south",
+    "region": "north",
     "place": "Washington, D.C., Washington, D.C."
   },
   {
@@ -3404,7 +3404,7 @@
     "date": "2022-12-30 17:31:00",
     "lat": 29.761161,
     "lon": -95.0802,
-    "region": "south",
+    "region": "west",
     "place": "Channelview, Texas"
   },
   {
@@ -4668,7 +4668,7 @@
     "date": "2025-03-28 18:45:33",
     "lat": 29.64755,
     "lon": -95.570122,
-    "region": "south",
+    "region": "west",
     "place": "Meadows Place, Texas"
   },
   {
@@ -4676,7 +4676,7 @@
     "date": "2025-03-29 22:06:23",
     "lat": 29.705233,
     "lon": -95.521042,
-    "region": "south",
+    "region": "west",
     "place": "Piney Point Village, Texas"
   },
   {
