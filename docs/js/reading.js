@@ -177,13 +177,12 @@ function render() {
     var res = (isNaN(n) || n === 0) ? x.localeCompare(y) : n;
     return sortAsc ? res : -res;
   });
-  document.getElementById('count').textContent = sorted.length + ' books';
 
   document.querySelectorAll('#books th').forEach(function(th) {
     th.style.display = vis[+th.dataset.idx] ? '' : 'none';
   });
   document.querySelectorAll('#toggles button').forEach(function(b) {
-    b.style.fontWeight = vis[+b.dataset.idx] ? 'bold' : 'normal';
+    b.classList.toggle('active', !!vis[+b.dataset.idx]);
   });
 
   var tbody = document.querySelector('#books tbody');

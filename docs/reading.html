@@ -14,6 +14,26 @@
   <link rel="Stylesheet" href="static/style.css" type="text/css">
   <link rel="shortcut icon" href="static/favicon.png" type="image/png">
   <script src="js/toc.js" defer></script>
+  <style>
+  #toggles button {
+    background: none;
+    border: 1px solid #444;
+    color: #8c66ff;
+    cursor: pointer;
+    font-family: verdana, sans-serif;
+    font-size: 0.85rem;
+    margin: 0.2em;
+    padding: 0.3em 0.7em;
+  }
+  #toggles button:hover {
+    border-color: #fabc2a;
+    color: #fabc2a;
+  }
+  #toggles button.active {
+    border-color: #66d9ff;
+    color: #66d9ff;
+  }
+  </style>
 </head>
 <body>
   <div class="content">
@@ -21,7 +41,6 @@
     "width:125px;"></a></p><!-- Begin page-specific html -->
     <h1 id="reading">reading</h1>
     <div id="toggles"></div>
-    <div id="count"></div>
     <div class="table-wrap">
       <table id="books"></table>
     </div>
