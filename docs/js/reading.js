@@ -15,7 +15,7 @@ var COLS = [
 
 var COMPLETED_IDX = 10;
 
-var STATUS_ORDER = ['Started', 'Soon', 'Bought', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
+var STATUS_ORDER = ['Started', 'Next', 'Soon', 'Bought', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
 var PLACE_ORDER  = ['america', 'europe', 'neareast', 'fareast'];
 var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern'];
 var TOPIC_ORDER  = ['nature', 'humanity/engineering', 'humanity/civilization', 'humanity/society', 'fiction'];
@@ -23,6 +23,7 @@ var TOPIC_ORDER  = ['nature', 'humanity/engineering', 'humanity/civilization', '
 
 var STATUS_COLOR = {
   'Started': 'hsl(210, 70%, 65%)',
+  'Next':    'hsl(240, 70%, 65%)',
   'Soon':    'hsl(270, 65%, 65%)',
   'Bought':  'hsl(320, 65%, 65%)',
   'Tier 1':  'hsl(0,   70%, 65%)',
