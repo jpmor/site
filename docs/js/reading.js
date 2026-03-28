@@ -15,17 +15,18 @@ var COLS = [
 
 var COMPLETED_IDX = 10;
 
-var STATUS_ORDER = ['Started', 'Next', 'Soon', 'Bought', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
+var STATUS_ORDER = ['Reading', 'Next', 'Soon', 'Stalled', 'Eventually', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
 var PLACE_ORDER  = ['america', 'europe', 'neareast', 'fareast'];
 var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern'];
 var TOPIC_ORDER  = ['nature', 'humanity/engineering', 'humanity/civilization', 'humanity/society', 'fiction'];
 // column indices: title=0 author=1 rating=2 year=3 pages=4 isbn13=5 status=6 place=7 time=8 topic=9 completed=10 rated=11 library=12 added=13
 
 var STATUS_COLOR = {
-  'Started': 'hsl(210, 70%, 65%)',
+  'Reading': 'hsl(210, 70%, 65%)',
   'Next':    'hsl(240, 70%, 65%)',
   'Soon':    'hsl(270, 65%, 65%)',
-  'Bought':  'hsl(320, 65%, 65%)',
+  'Stalled':    'hsl(30,  30%, 62%)',
+  'Eventually': 'hsl(320, 65%, 65%)',
   'Tier 1':  'hsl(0,   70%, 65%)',
   'Tier 2':  'hsl(28,  70%, 65%)',
   'Tier 3':  'hsl(48,  70%, 65%)',
