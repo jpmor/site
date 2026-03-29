@@ -1,19 +1,14 @@
 #!/usr/bin/env python3 -u
 """
-Check Cobb County library catalog for books in reading.tsv and fill in the
+Scrape Cobb County library catalog for books in reading.tsv and fill in the
 library column with available formats (book, ebook, audiobook, combos, or FALSE).
-
-Usage:
-    ./script/check-library                        # check all blank entries
-    ./script/check-library --dry-run              # print results without writing
-    ./script/check-library --title "Dune"         # check one title (no TSV changes)
-    ./script/check-library --status "Tier 2"      # limit to one status group
 """
 
-import sys
-import re
-import time
+import argparse
 import csv
+import re
+import sys
+import time
 import urllib.request
 import urllib.parse
 
@@ -67,22 +62,24 @@ def normalize(s):
 
 
 def main():
-    dry_run = "--dry-run" in sys.argv
-    force = "--force" in sys.argv
-    recheck_true = "--recheck-true" in sys.argv
-    recheck_false = "--recheck-false" in sys.argv
+    p = argparse.ArgumentParser(description="Scrape library catalog for available formats.")
+    p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--force", action="store_true", help="recheck all entries")
+    p.add_argument("--recheck-true", action="store_true", help="recheck entries marked TRUE")
+    p.add_argument("--recheck-false", action="store_true", help="recheck entries marked FALSE")
+    p.add_argument("--status", metavar="STATUS", help="limit to one status group")
+    p.add_argument("--title", metavar="TITLE", help="check one title (no TSV changes)")
+    args = p.parse_args()
 
-    only_status = None
-    if "--status" in sys.argv:
-        idx = sys.argv.index("--status")
-        only_status = sys.argv[idx + 1]
+    dry_run = args.dry_run
+    force = args.force
+    recheck_true = args.recheck_true
+    recheck_false = args.recheck_false
+    only_status = args.status
 
-    # Single-title mode for validation
-    if "--title" in sys.argv:
-        idx = sys.argv.index("--title")
-        title = sys.argv[idx + 1]
-        print(f"Checking: {title}")
-        formats = fetch_formats(title, "")
+    if args.title:
+        print(f"Checking: {args.title}")
+        formats = fetch_formats(args.title, "")
         if formats is None:
             print("  -> fetch error")
         elif formats:

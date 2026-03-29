@@ -12,9 +12,9 @@ var COLS = [
   {name: 'status',   idx: 5,  vis: true,  row: 2},
   {name: 'completed',idx: 9,  vis: false, row: 2},
   {name: 'rated',    idx: 10, vis: false, row: 2},
-  {name: 'topic',    idx: 8,  vis: true,  row: 3},
-  {name: 'place',    idx: 6,  vis: true,  row: 3},
-  {name: 'time',     idx: 7,  vis: true,  row: 3},
+  {name: 'topic',    idx: 8,  vis: false, row: 3},
+  {name: 'place',    idx: 6,  vis: false, row: 3},
+  {name: 'time',     idx: 7,  vis: false, row: 3},
 ];
 
 var COMPLETED_IDX = 9;
@@ -23,7 +23,7 @@ var STATUS_ORDER = ['Reading', 'Next', 'Soon', 'Stalled', 'Eventually', 'Tier 1'
 var PLACE_ORDER  = ['america', 'europe', 'neareast', 'fareast'];
 var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern'];
 var TOPIC_ORDER  = ['nature', 'humanity/engineering', 'humanity/civilization', 'humanity/society', 'fiction'];
-// column indices: title=0 author=1 year=2 pages=3 isbn13=4 status=5 place=6 time=7 topic=8 completed=9 rated=10 library=11 price=12 added=13 rating=14 reviews=15
+// TSV indices: title=0 author=1 year=2 pages=3 isbn13=4 status=5 place=6 time=7 topic=8 completed=9 rated=10 library=11 price=12 added=13 rating=14 reviews=15 | score=16 (computed)
 
 var STATUS_COLOR = {
   'Reading': 'hsl(210, 70%, 65%)',
@@ -51,6 +51,8 @@ COLS.forEach(function(col) { vis[col.idx] = col.vis; });
 
 var sortIdx = 5, sortAsc = true, rows = [];
 var searchQuery = '', colWidthsLocked = false;
+var CURRENT_YEAR = new Date().getFullYear();
+var colFilters = {};  // idx -> Set of excluded raw values (null key = exclude blanks)
 
 function strHash(s) {
   var h = 0;
@@ -68,14 +70,14 @@ function ratingColor(val) {
 function priceColor(val) {
   var n = parseFloat(val.replace(/[^0-9.]/g, ''));
   if (isNaN(n) || val === 'N/A') return 'hsl(0, 0%, 50%)';
-  var t = Math.min(n, 60) / 60;  // $0=green, $60+=red
+  var t = Math.min(n, 60) / 60;
   return 'hsl(' + Math.round(120 - t * 110) + ', 60%, 65%)';
 }
 
 function reviewsColor(val) {
   var n = parseInt(val);
   if (isNaN(n)) return '';
-  var t = Math.min(Math.log10(n + 1) / Math.log10(10000), 1);  // log scale, 10k = max
+  var t = Math.min(Math.log10(n + 1) / Math.log10(10000), 1);
   return 'hsl(' + Math.round(10 + t * 110) + ', 60%, 68%)';
 }
 
@@ -96,25 +98,24 @@ function computeScore(r) {
     else mult = 0.97;
   }
   var year  = parseInt(r[2]),  pages = parseInt(r[3]);
-  var recency = (!isNaN(year)  && year > 0)  ? Math.min((2026 - year) / 2, 1) : 1;
+  var recency = (!isNaN(year)  && year > 0)  ? Math.min((CURRENT_YEAR - year) / 2, 1) : 1;
   var length  = (!isNaN(pages) && pages > 0) ? (1 - 0.15 * Math.min(pages, 1200) / 1200) : 1;
-
   return (base * mult * recency * length).toFixed(1);
 }
 
 function cellColor(idx, val) {
   if (!val) return '';
-  if (idx === 10) return ratingColor(val);   // rated
-  if (idx === 12) return priceColor(val);    // price
-  if (idx === 14) return ratingColor(val);   // rating
-  if (idx === 15) return reviewsColor(val);  // reviews
-  if (idx === 16) {                           // score
+  if (idx === 10) return ratingColor(val);
+  if (idx === 12) return priceColor(val);
+  if (idx === 14) return ratingColor(val);
+  if (idx === 15) return reviewsColor(val);
+  if (idx === 16) {
     var n = parseFloat(val);
     if (isNaN(n)) return '';
     var t = Math.min(n / 15, 1);
     return 'hsl(' + Math.round(10 + t * 110) + ', 65%, 65%)';
   }
-  if (idx === 11) {                           // library
+  if (idx === 11) {
     if (val === 'FALSE') return 'hsl(0, 0%, 45%)';
     if (val) return 'hsl(140, 50%, 60%)';
     return '';
@@ -177,6 +178,134 @@ function topicRank(v) {
   return TOPIC_ORDER.length;
 }
 
+// --- column filter menu ---
+
+var activeMenu = null;
+
+function closeMenu() {
+  if (activeMenu) { activeMenu.remove(); activeMenu = null; }
+}
+
+function openMenu(th, colIdx) {
+  closeMenu();
+
+  // collect unique raw values for this column
+  var seen = {}, vals = [];
+  rows.forEach(function(r) {
+    var v = r[colIdx] || '';
+    if (!seen[v]) { seen[v] = true; vals.push(v); }
+  });
+  vals.sort();
+
+  var excluded = colFilters[colIdx] || new Set();
+
+  var menu = document.createElement('div');
+  menu.style.cssText = 'position:absolute;z-index:1000;background:#2a2a2a;border:1px solid #555;border-radius:4px;padding:6px 0;min-width:160px;max-height:360px;overflow-y:auto;box-shadow:0 4px 12px rgba(0,0,0,.5);font-size:0.85em;';
+
+  // sort options
+  function sortItem(label, asc) {
+    var d = document.createElement('div');
+    d.textContent = label;
+    d.style.cssText = 'padding:5px 12px;cursor:pointer;color:#ccc;';
+    d.onmouseenter = function() { d.style.background = '#3a3a3a'; };
+    d.onmouseleave = function() { d.style.background = ''; };
+    d.onclick = function() { sortIdx = colIdx; sortAsc = asc; closeMenu(); render(); };
+    return d;
+  }
+  menu.appendChild(sortItem('↑ Sort ascending', true));
+  menu.appendChild(sortItem('↓ Sort descending', false));
+
+  // separator
+  var sep = document.createElement('div');
+  sep.style.cssText = 'border-top:1px solid #444;margin:4px 0;';
+  menu.appendChild(sep);
+
+  // select all / clear
+  var actions = document.createElement('div');
+  actions.style.cssText = 'display:flex;gap:8px;padding:3px 12px 5px;';
+  function actionBtn(label, fn) {
+    var b = document.createElement('span');
+    b.textContent = label;
+    b.style.cssText = 'cursor:pointer;color:#888;text-decoration:underline;font-size:0.9em;';
+    b.onclick = fn;
+    return b;
+  }
+  actions.appendChild(actionBtn('all', function() {
+    colFilters[colIdx] = new Set();
+    rebuildChecks();
+    render();
+    updateHeaders();
+  }));
+  actions.appendChild(actionBtn('none', function() {
+    colFilters[colIdx] = new Set(vals);
+    rebuildChecks();
+    render();
+    updateHeaders();
+  }));
+  menu.appendChild(actions);
+
+  // checkboxes
+  var checks = [];
+  function rebuildChecks() {
+    excluded = colFilters[colIdx] || new Set();
+    checks.forEach(function(item) {
+      item.cb.checked = !excluded.has(item.val);
+    });
+  }
+
+  vals.forEach(function(val) {
+    var row = document.createElement('label');
+    row.style.cssText = 'display:flex;align-items:center;gap:6px;padding:3px 12px;cursor:pointer;color:#ccc;';
+    row.onmouseenter = function() { row.style.background = '#3a3a3a'; };
+    row.onmouseleave = function() { row.style.background = ''; };
+
+    var cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = !excluded.has(val);
+    cb.onchange = function() {
+      if (!colFilters[colIdx]) colFilters[colIdx] = new Set();
+      if (cb.checked) colFilters[colIdx].delete(val);
+      else colFilters[colIdx].add(val);
+      render();
+      updateHeaders();
+    };
+
+    var label = document.createElement('span');
+    var display = displayVal(colIdx, val) || '(blank)';
+    label.textContent = display;
+    var color = cellColor(colIdx, val);
+    if (color) label.style.color = color;
+
+    row.appendChild(cb);
+    row.appendChild(label);
+    menu.appendChild(row);
+    checks.push({cb: cb, val: val});
+  });
+
+  // position below the th
+  var rect = th.getBoundingClientRect();
+  menu.style.top = (rect.bottom + window.scrollY) + 'px';
+  menu.style.left = (rect.left + window.scrollX) + 'px';
+  document.body.appendChild(menu);
+  activeMenu = menu;
+}
+
+function updateHeaders() {
+  document.querySelectorAll('#books th').forEach(function(th) {
+    var idx = +th.dataset.idx;
+    var hasFilter = colFilters[idx] && colFilters[idx].size > 0;
+    th.style.color = hasFilter ? 'hsl(40, 90%, 65%)' : '';
+  });
+}
+
+document.addEventListener('click', function(e) {
+  if (activeMenu && !activeMenu.contains(e.target) && !e.target.closest('#books thead')) {
+    closeMenu();
+  }
+});
+
+// --- end menu ---
+
 fetch('static/reading.tsv').then(function(r) { return r.text(); }).then(function(tsv) {
   rows = tsv.trim().split('\n').slice(1).map(function(l) { return l.split('\t'); });
 
@@ -189,10 +318,10 @@ fetch('static/reading.tsv').then(function(r) { return r.text(); }).then(function
     th.textContent = col.name;
     th.dataset.idx = col.idx;
     th.style.cursor = 'pointer';
-    th.onclick = function() {
-      if (sortIdx === col.idx) sortAsc = !sortAsc;
-      else { sortIdx = col.idx; sortAsc = true; }
-      render();
+    th.onclick = function(e) {
+      e.stopPropagation();
+      if (activeMenu) { closeMenu(); return; }
+      openMenu(th, col.idx);
     };
     hr.appendChild(th);
   });
@@ -228,8 +357,13 @@ function render() {
   rows.forEach(function(r) { r[16] = computeScore(r); });
 
   var filtered = rows.filter(function(r) {
-    if (!searchQuery) return true;
-    return r.some(function(v) { return v.toLowerCase().indexOf(searchQuery) !== -1; });
+    if (searchQuery && !r.some(function(v) { return v.toLowerCase().indexOf(searchQuery) !== -1; })) return false;
+    for (var idx in colFilters) {
+      var excluded = colFilters[idx];
+      if (!excluded || excluded.size === 0) continue;
+      if (excluded.has(r[+idx] || '')) return false;
+    }
+    return true;
   });
 
   var sorted = filtered.sort(function(a, b) {
