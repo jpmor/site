@@ -23,7 +23,7 @@ var STATUS_ORDER = ['Reading', 'Next', 'Soon', 'Stalled', 'Eventually', 'Tier 1'
 var PLACE_ORDER  = ['america', 'europe', 'neareast', 'fareast'];
 var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern'];
 var TOPIC_ORDER  = ['nature', 'humanity/engineering', 'humanity/civilization', 'humanity/society', 'fiction'];
-// TSV indices: title=0 author=1 year=2 pages=3 isbn13=4 status=5 place=6 time=7 topic=8 completed=9 rated=10 library=11 price=12 added=13 rating=14 reviews=15 | score=16 (computed)
+// TSV indices: title=0 author=1 year=2 pages=3 isbn13=4 status=5 place=6 time=7 topic=8 completed=9 rated=10 library=11 price=12 added=13 rating=14 reviews=15 score=16
 
 var STATUS_COLOR = {
   'Reading': 'hsl(210, 70%, 65%)',
@@ -51,7 +51,6 @@ COLS.forEach(function(col) { vis[col.idx] = col.vis; });
 
 var sortIdx = 5, sortAsc = true, rows = [];
 var searchQuery = '', colWidthsLocked = false;
-var CURRENT_YEAR = new Date().getFullYear();
 var colFilters = {};  // idx -> Set of excluded raw values (null key = exclude blanks)
 
 function strHash(s) {
@@ -81,27 +80,6 @@ function reviewsColor(val) {
   return 'hsl(' + Math.round(10 + t * 110) + ', 60%, 68%)';
 }
 
-function computeScore(r) {
-  var rating  = parseFloat(r[14]);
-  var reviews = parseInt(r[15]);
-  if (isNaN(rating) || isNaN(reviews)) return '';
-  var base = rating * Math.log10(Math.min(reviews, 1000) + 1);
-  var library = r[11], price = r[12];
-  var mult = 1.0;
-  if (library && library !== 'FALSE') {
-    mult = 1.1;
-  } else {
-    var p = parseFloat((price || '').replace(/[^0-9.]/g, ''));
-    if (price === 'N/A' || !price) mult = 0.9;
-    else if (!isNaN(p) && p <= 15)  mult = 1.05;
-    else if (!isNaN(p) && p <= 40)  mult = 1.0;
-    else mult = 0.97;
-  }
-  var year  = parseInt(r[2]),  pages = parseInt(r[3]);
-  var recency = (!isNaN(year)  && year > 0)  ? Math.min((CURRENT_YEAR - year) / 2, 1) : 1;
-  var length  = (!isNaN(pages) && pages > 0) ? (1 - 0.15 * Math.min(pages, 1200) / 1200) : 1;
-  return (base * mult * recency * length).toFixed(1);
-}
 
 function cellColor(idx, val) {
   if (!val) return '';
@@ -354,8 +332,6 @@ fetch('static/reading.tsv').then(function(r) { return r.text(); }).then(function
 
 
 function render() {
-  rows.forEach(function(r) { r[16] = computeScore(r); });
-
   var filtered = rows.filter(function(r) {
     if (searchQuery && !r.some(function(v) { return v.toLowerCase().indexOf(searchQuery) !== -1; })) return false;
     for (var idx in colFilters) {

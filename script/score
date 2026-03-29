@@ -1,0 +1,101 @@
+#!/usr/bin/env python3 -u
+"""
+Compute reading scores and write to the score column in reading.tsv.
+
+Score formula:
+    rating × log10(min(reviews, 1000) + 1) × acquisition × recency × length
+
+acquisition: library=1.1, price≤$15=1.05, price≤$40=1.0, price>$40=0.97, N/A=0.9
+recency:     min((current_year - year) / 2, 1)  — ramps over 2 years, capped at 1
+length:      1 - 0.15 × min(pages, 1200) / 1200 — 0.85 for 1200+ page books
+
+Usage:
+    ./script/score             # compute and write all scores
+    ./script/score --dry-run   # print scores without writing
+"""
+
+import argparse
+import csv
+import math
+from datetime import date
+
+TSV_PATH = "docs/static/reading.tsv"
+CURRENT_YEAR = date.today().year
+
+
+def compute_score(row, col):
+    try:
+        rating  = float(row[col["rating"]])
+        reviews = int(row[col["reviews"]])
+    except (ValueError, KeyError):
+        return ""
+    if reviews == 0:
+        return ""
+
+    base = rating * math.log10(min(reviews, 1000) + 1)
+
+    library = row[col["library"]]
+    price   = row[col["price"]]
+    if library and library != "FALSE":
+        acq = 1.1
+    else:
+        try:
+            p = float("".join(c for c in price if c.isdigit() or c == "."))
+        except (ValueError, TypeError):
+            p = None
+        if not price or price == "N/A": acq = 0.9
+        elif p is not None and p <= 15:  acq = 1.05
+        elif p is not None and p <= 40:  acq = 1.0
+        else:                            acq = 0.97
+
+    try:
+        year    = int(row[col["year"]])
+        recency = min((CURRENT_YEAR - year) / 2, 1) if year > 0 else 1
+    except (ValueError, KeyError):
+        recency = 1
+
+    try:
+        pages  = int(row[col["pages"]])
+        length = (1 - 0.15 * min(pages, 1200) / 1200) if pages > 0 else 1
+    except (ValueError, KeyError):
+        length = 1
+
+    return f"{base * acq * recency * length:.1f}"
+
+
+def main():
+    p = argparse.ArgumentParser(description="Compute and write reading scores.")
+    p.add_argument("--dry-run", action="store_true", help="print scores without writing")
+    args = p.parse_args()
+
+    with open(TSV_PATH, newline="", encoding="utf-8") as f:
+        rows = list(csv.reader(f, delimiter="\t"))
+
+    header = rows[0]
+    col = {name: i for i, name in enumerate(header)}
+
+    if "score" not in col:
+        print("ERROR: 'score' column not found in TSV header")
+        return
+
+    updated = 0
+    for row in rows[1:]:
+        while len(row) < len(header):
+            row.append("")
+        score = compute_score(row, col)
+        if row[col["score"]] != score:
+            if args.dry_run:
+                print(f"{row[col['title']][:55]}  {row[col['score']]} -> {score}")
+            row[col["score"]] = score
+            updated += 1
+
+    if not args.dry_run:
+        with open(TSV_PATH, "w", newline="", encoding="utf-8") as f:
+            f.write("\n".join("\t".join(row) for row in rows) + "\n")
+        print(f"Done. Updated {updated} scores.")
+    else:
+        print(f"\nDry run complete. {updated} scores would change.")
+
+
+if __name__ == "__main__":
+    main()
