@@ -85,6 +85,10 @@ a:hover {
   #books td:first-child {
     max-width: 150px;
   }
+
+  #books {
+    font-size: 0.75rem;
+  }
 }
 
 nav {

@@ -425,8 +425,9 @@ function render() {
       var text = displayVal(col.idx, val);
       if (col.idx === 0) {
         var a = document.createElement('a');
-        var q = r[4] ? r[4] : (val + ' ' + (r[1] || ''));
-        a.href = 'https://www.goodreads.com/search?q=' + encodeURIComponent(q);
+        a.href = r[4]
+          ? 'https://www.goodreads.com/book/isbn/' + encodeURIComponent(r[4])
+          : 'https://www.goodreads.com/search?q=' + encodeURIComponent(val + ' ' + (r[1] || ''));
         a.target = '_blank';
         a.style.cssText = 'color:inherit;text-decoration:none;';
         a.textContent = text;
