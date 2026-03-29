@@ -1,0 +1,142 @@
+#!/usr/bin/env python3 -u
+"""
+Check Cobb County library catalog for books in reading.tsv and fill in the
+library column with available formats (book, ebook, audiobook, combos, or FALSE).
+
+Usage:
+    ./script/check-library                        # check all blank entries
+    ./script/check-library --dry-run              # print results without writing
+    ./script/check-library --title "Dune"         # check one title (no TSV changes)
+    ./script/check-library --status "Tier 2"      # limit to one status group
+"""
+
+import sys
+import re
+import time
+import csv
+import urllib.request
+import urllib.parse
+
+TSV_PATH = "docs/static/reading.tsv"
+CATALOG_URL = "https://cbpl.ent.sirsi.net/client/en_US/default/search/results?qu={}&te="
+DELAY = 0.1  # seconds between requests
+
+SKIP_STATUSES = {"Read", "Reading", "Stalled", "Eventually", "Next", "Soon"}
+
+FORMAT_MAP = {
+    "BOOK": "book",
+    "E_BOOK": "ebook",
+    "E_SOUNDREC": "audiobook",
+}
+
+
+def fetch_formats(title, author):
+    query = f"{title} {author}".strip()
+    url = CATALOG_URL.format(urllib.parse.quote(query))
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"  ERROR fetching: {e}", file=sys.stderr)
+        return None
+
+    title_norm = normalize(title)
+    found_formats = set()
+
+    blocks = re.split(r'class="results_cell"', html)
+    for block in blocks[1:]:
+        # Title is in the checkbox alt attribute
+        alt_m = re.search(r'<input alt="([^"]+)"', block)
+        if not alt_m:
+            continue
+        result_title = normalize(alt_m.group(1))
+        if result_title not in title_norm and title_norm not in result_title:
+            continue
+        # Extract format types for this matching result
+        for fmt_key in re.findall(r'formatTypeIcon-(\w+)', block):
+            if fmt_key in FORMAT_MAP:
+                found_formats.add(FORMAT_MAP[fmt_key])
+
+    return found_formats  # empty set = not found
+
+
+def normalize(s):
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+def main():
+    dry_run = "--dry-run" in sys.argv
+    force = "--force" in sys.argv
+    recheck_true = "--recheck-true" in sys.argv
+
+    only_status = None
+    if "--status" in sys.argv:
+        idx = sys.argv.index("--status")
+        only_status = sys.argv[idx + 1]
+
+    # Single-title mode for validation
+    if "--title" in sys.argv:
+        idx = sys.argv.index("--title")
+        title = sys.argv[idx + 1]
+        print(f"Checking: {title}")
+        formats = fetch_formats(title, "")
+        if formats is None:
+            print("  -> fetch error")
+        elif formats:
+            print(f"  -> {','.join(sorted(formats))}")
+        else:
+            print("  -> FALSE (not in catalog)")
+        return
+
+    with open(TSV_PATH, newline="", encoding="utf-8") as f:
+        rows = list(csv.reader(f, delimiter="\t"))
+
+    header = rows[0]
+    col = {name: i for i, name in enumerate(header)}
+
+    updated = 0
+    for i, row in enumerate(rows[1:], start=1):
+        while len(row) < len(header):
+            row.append("")
+
+        status = row[col["status"]]
+        library = row[col["library"]]
+
+        if status in SKIP_STATUSES:
+            continue
+        if only_status is not None and status != only_status:
+            continue
+        if library == "TRUE" and recheck_true:
+            pass
+        elif library != "" and not force:
+            continue
+
+        title = row[col["title"]]
+        author = row[col["author"]]
+
+        print(f"Checking: {title[:60]}")
+        formats = fetch_formats(title, author)
+        if formats is None:
+            print("  -> fetch error (skipping)")
+            continue
+        elif formats:
+            result = ",".join(sorted(formats))
+            print(f"  -> {result}")
+        else:
+            result = "FALSE"
+            print("  -> FALSE (not in catalog)")
+
+        if not dry_run:
+            rows[i][col["library"]] = result
+            updated += 1
+            with open(TSV_PATH, "w", encoding="utf-8") as f:
+                f.write("\n".join("\t".join(row) for row in rows) + "\n")
+
+        time.sleep(DELAY)
+
+    print(f"\nDone. Updated {updated} entries." if not dry_run else f"\nDry run complete. Would update {updated} entries.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,16 +1,19 @@
 var COLS = [
-  {name: 'title',     idx: 0,  vis: true},
-  {name: 'author',    idx: 1,  vis: true},
-  {name: 'rating',    idx: 2,  vis: false},
-  {name: 'year',      idx: 3,  vis: false},
-  {name: 'pages',     idx: 4,  vis: false},
-  {name: 'isbn13',    idx: 5,  vis: false},
-  {name: 'status',    idx: 6,  vis: true},
-  {name: 'place',     idx: 7,  vis: true},
-  {name: 'time',      idx: 8,  vis: true},
-  {name: 'topic',     idx: 9,  vis: true},
-  {name: 'completed', idx: 10, vis: false},
-  {name: 'rated',     idx: 11, vis: false},
+  {name: 'title',     idx: 0,  vis: true,  row: 0},
+  {name: 'author',    idx: 1,  vis: true,  row: 0},
+  {name: 'year',      idx: 3,  vis: false, row: 0},
+  {name: 'pages',     idx: 4,  vis: false, row: 0},
+  {name: 'isbn13',    idx: 5,  vis: false, row: 0},
+  {name: 'rating',    idx: 2,  vis: false, row: 1},
+  {name: 'reviews',   idx: 14, vis: false, row: 1},
+  {name: 'library',   idx: 12, vis: false, row: 1},
+  {name: 'price',     idx: 13, vis: false, row: 1},
+  {name: 'status',    idx: 6,  vis: true,  row: 2},
+  {name: 'completed', idx: 10, vis: false, row: 2},
+  {name: 'rated',     idx: 11, vis: false, row: 2},
+  {name: 'topic',     idx: 9,  vis: true,  row: 3},
+  {name: 'place',     idx: 7,  vis: true,  row: 3},
+  {name: 'time',      idx: 8,  vis: true,  row: 3},
 ];
 
 var COMPLETED_IDX = 10;
@@ -19,7 +22,7 @@ var STATUS_ORDER = ['Reading', 'Next', 'Soon', 'Stalled', 'Eventually', 'Tier 1'
 var PLACE_ORDER  = ['america', 'europe', 'neareast', 'fareast'];
 var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern'];
 var TOPIC_ORDER  = ['nature', 'humanity/engineering', 'humanity/civilization', 'humanity/society', 'fiction'];
-// column indices: title=0 author=1 rating=2 year=3 pages=4 isbn13=5 status=6 place=7 time=8 topic=9 completed=10 rated=11 library=12 added=13
+// column indices: title=0 author=1 rating=2 year=3 pages=4 isbn13=5 status=6 place=7 time=8 topic=9 completed=10 rated=11 library=12 price=13 reviews=14 added=15
 
 var STATUS_COLOR = {
   'Reading': 'hsl(210, 70%, 65%)',
@@ -46,6 +49,7 @@ var vis = {};
 COLS.forEach(function(col) { vis[col.idx] = col.vis; });
 
 var sortIdx = 6, sortAsc = true, rows = [];
+var searchQuery = '', colFilters = {}, colWidthsLocked = false;
 
 function strHash(s) {
   var h = 0;
@@ -63,6 +67,11 @@ function ratingColor(val) {
 function cellColor(idx, val) {
   if (!val) return '';
   if (idx === 2 || idx === 11) return ratingColor(val);
+  if (idx === 12) {
+    if (val === 'FALSE') return 'hsl(0, 0%, 45%)';
+    if (val) return 'hsl(140, 50%, 60%)';
+    return '';
+  }
   if (idx === 6) return STATUS_COLOR[val] || '';
   if (idx === 7) {
     var segs = val.split('/');
@@ -86,8 +95,14 @@ function cellColor(idx, val) {
   return '';
 }
 
+var LIB_ABBR = {book: 'bk', ebook: 'e', audiobook: 'au'};
+
 function displayVal(idx, val) {
   if (!val) return val;
+  if (idx === 12) {
+    if (val === 'FALSE' || val === 'TRUE') return val;
+    return val.split(',').map(function(f) { return LIB_ABBR[f] || f; }).join('+');
+  }
   if (idx === 7) {
     var parts = val.split('/');
     if (parts.length >= 3) return parts[1] + ' (' + parts[parts.length - 1] + ')';
@@ -136,7 +151,28 @@ fetch('static/reading.tsv').then(function(r) { return r.text(); }).then(function
   });
 
   var toggles = document.getElementById('toggles');
+
+  var searchInput = document.createElement('input');
+  searchInput.type = 'text';
+  searchInput.placeholder = 'search...';
+  searchInput.style.cssText = 'margin-bottom:8px;padding:4px 8px;background:#222;color:#ccc;border:1px solid #444;border-radius:3px;font-size:0.9em;width:200px;';
+  searchInput.oninput = function() { searchQuery = this.value.toLowerCase(); render(); };
+  toggles.appendChild(searchInput);
+
+  var filterTags = document.createElement('span');
+  filterTags.id = 'filter-tags';
+  filterTags.style.cssText = 'margin-left:8px;';
+  toggles.appendChild(filterTags);
+
+  var br = document.createElement('br');
+  toggles.appendChild(br);
+
+  var curRow = -1;
   COLS.forEach(function(col) {
+    if (col.row !== curRow) {
+      if (curRow !== -1) toggles.appendChild(document.createElement('br'));
+      curRow = col.row;
+    }
     var b = document.createElement('button');
     b.textContent = col.name;
     b.dataset.idx = col.idx;
@@ -147,8 +183,34 @@ fetch('static/reading.tsv').then(function(r) { return r.text(); }).then(function
   render();
 });
 
+function renderFilterTags() {
+  var tags = document.getElementById('filter-tags');
+  if (!tags) return;
+  tags.innerHTML = '';
+  Object.keys(colFilters).forEach(function(idx) {
+    var col = COLS.filter(function(c) { return c.idx === +idx; })[0];
+    var tag = document.createElement('span');
+    tag.style.cssText = 'margin-left:6px;padding:2px 6px;background:#333;border-radius:3px;font-size:0.85em;cursor:pointer;';
+    tag.textContent = (col ? col.name : idx) + ': ' + colFilters[idx] + ' ✕';
+    tag.onclick = function() { delete colFilters[idx]; render(); };
+    tags.appendChild(tag);
+  });
+}
+
 function render() {
-  var sorted = rows.slice().sort(function(a, b) {
+  var filtered = rows.filter(function(r) {
+    if (searchQuery) {
+      var match = r.some(function(v) { return v.toLowerCase().indexOf(searchQuery) !== -1; });
+      if (!match) return false;
+    }
+    return Object.keys(colFilters).every(function(idx) {
+      return (r[+idx] || '').indexOf(colFilters[idx]) !== -1;
+    });
+  });
+
+  renderFilterTags();
+
+  var sorted = filtered.sort(function(a, b) {
     var x = a[sortIdx] || '', y = b[sortIdx] || '';
     var xempty = !x || x === '?', yempty = !y || y === '?';
     if (xempty && !yempty) return 1;
@@ -175,7 +237,8 @@ function render() {
       var res = topicRank(x) !== topicRank(y) ? topicRank(x) - topicRank(y) : x.localeCompare(y);
       return sortAsc ? res : -res;
     }
-    var n = parseFloat(x) - parseFloat(y);
+    var xn = parseFloat(x.replace(/[^0-9.]/g, '')), yn = parseFloat(y.replace(/[^0-9.]/g, ''));
+    var n = xn - yn;
     var res = (isNaN(n) || n === 0) ? x.localeCompare(y) : n;
     return sortAsc ? res : -res;
   });
@@ -183,6 +246,14 @@ function render() {
   document.querySelectorAll('#books th').forEach(function(th) {
     th.style.display = vis[+th.dataset.idx] ? '' : 'none';
   });
+
+  if (!colWidthsLocked) {
+    document.querySelectorAll('#books th').forEach(function(th) {
+      th.style.width = th.offsetWidth + 'px';
+    });
+    document.getElementById('books').style.tableLayout = 'fixed';
+    colWidthsLocked = true;
+  }
   document.querySelectorAll('#toggles button').forEach(function(b) {
     b.classList.toggle('active', !!vis[+b.dataset.idx]);
   });
@@ -201,6 +272,15 @@ function render() {
       if (col.idx === 1) td.style.maxWidth = '150px';
       var color = cellColor(col.idx, val);
       if (color) td.style.color = color;
+      if (val && col.idx !== 0 && col.idx !== 1) {
+        td.style.cursor = 'pointer';
+        td.title = 'Filter by this value';
+        td.onclick = function() {
+          if (colFilters[col.idx] === val) delete colFilters[col.idx];
+          else colFilters[col.idx] = val;
+          render();
+        };
+      }
     });
   });
 }
