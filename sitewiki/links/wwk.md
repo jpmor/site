@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## March 2026
+
+- [Dark Forest Hypothesis](https://en.wikipedia.org/wiki/Dark_forest_hypothesis)
+
 ## February 2026
 
 - [Leitmotif](https://en.wikipedia.org/wiki/Leitmotif)
