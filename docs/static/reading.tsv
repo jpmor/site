@@ -1,5 +1,5 @@
 title	author	year	pages	isbn13	status	place	time	topic	completed	rated	library	price	added	rating	reviews	score
-A Short History of Byzantium	John Julius Norwich	1997	496	9780679772699	Read	neareast/middleeast/turkey/anatolia			2026/03/23	3		$19.57	2025/12/25	4.11	2658	11.6
+A Short History of Byzantium	John Julius Norwich	1997	496	9780679772699	Read	neareast/middleeast/aegean/anatolia			2026/03/23	3		$19.57	2025/12/25	4.11	2658	11.6
 Nuclear War: A Scenario	Annie Jacobsen	2024	373	9780593476093	Read		modern/modernamerica/paxamericana/maga/biden	humanity/civilization/military/weapons/offense/bombs/nukes	2025/12/21	5		$17.15 (hc)	2024/09/01	4.36	49623	12.5
 Germany and the Holy Roman Empire: Volume II: The Peace of Westphalia to the Dissolution of the Reich, 1648-1806	Joachim Whaley	2011	784	9780199693078	Read	europe/mittel	early/earlyeurope/enlightenment/westphalian		2025/11/09	4		$76.93	2024/06/23	4.32	77	7.2
 The Magic Mountain	Thomas Mann	1924	706	9780593688137	Read		modern/moderneurope/proudtower	fiction	2025/10/29	4		$18.71	2025/10/09	4.13	62971	11.3
@@ -350,7 +350,7 @@ Dead in the Water: A True Story of Hijacking, Murder, and a Global Maritime Cons
 The Right Stuff	Tom Wolfe	1979	369		Eventually		modern/modernamerica/paxamericana	humanity/civilization/transport/aircraft/planes				$15.04	2019/08/31	4.23	56011	12.1
 The Lincoln Highway	Amor Towles	2021	576	9780735222359	Eventually		modern/modernamerica/paxamericana	fiction				$9.91	2022/07/12	4.22	316248	12.3
 The Smartest Guys in the Room: The Amazing Rise and Scandalous Fall of Enron	Bethany McLean	2003	440	9781591840534	Stalled		modern/modernamerica/paxamericana/neocon	humanity/society/economy/companies				$15.02	2020/08/08	4.22	28304	12.0
-A Peace to End All Peace: The Fall of the Ottoman Empire and The Creation of the Modern Middle East	David Fromkin	1989	635	9780805068849	Eventually	neareast/middleeast/turkey	modern/modernneareast/sykespicot	humanity/society/politics/geopolitics				$14.99	2017/03/24	4.22	9905	12.2
+A Peace to End All Peace: The Fall of the Ottoman Empire and The Creation of the Modern Middle East	David Fromkin	1989	635	9780805068849	Eventually	neareast/middleeast/aegean/anatolia	modern/modernneareast/sykespicot	humanity/society/politics/geopolitics				$14.99	2017/03/24	4.22	9905	12.2
 Rising Tide: the Great Mississippi Flood of 1927 and How it Changed America	John M. Barry	1997	524	9780684840024	Eventually	america/anglo/eastern/south/delta	modern/modernamerica/paxamericana/newdeal	nature/environment/water/rivers				$12.18	2022/11/27	4.22	5902	12.4
 Dispatches	Michael Herr	1977	260	9780679735250	Eventually	fareast/seasia/indochina/vietnam	modern/modernfareast/prc	humanity/civilization/military/soldiers				$15.95	2018/07/05	4.22	22034	12.3
 We Wish to Inform You That Tomorrow We Will Be Killed with Our Families	Philip Gourevitch	1998	356	9780312243357	Eventually	neareast/africa/eastafrica	modern/modernneareast/opec	humanity/society/order/disorder/violence				$10.53	2019/08/31	4.22	37222	12.7
@@ -370,7 +370,7 @@ The China Mission: George Marshall's Unfinished War, 1945-1947	Daniel Kurtz-Phel
 Theodore Rex	Edmund  Morris	2001	772	9780812966008	Eventually		modern/modernamerica/union/gilded	humanity/society/politics/government/rulers/presidents				$11.09	2017/03/13	4.19	51397	11.9
 The Origins of Political Order: From Prehuman Times to the French Revolution	Francis Fukuyama	2011	585	9780374227340	Eventually			humanity/society/politics/government				$12.75	2023/03/11	4.19	10483	12.2
 Crucible of War: The Seven Years' War and the Fate of Empire in British North America, 1754 - 1766	Fred  Anderson	2000	912	9780375706363	Eventually	america/anglo/eastern	early/earlyamerica/patriot	humanity/civilization/military/army				$14.99	2018/11/11	4.19	4358	11.7
-Atatürk: The Biography of the Founder of Modern Turkey	Andrew Mango	1999	666	9781585673346	Eventually	neareast/middleeast/turkey	modern/modernneareast/sykespicot	humanity/society/politics/government/rulers				$23.60	2025/04/14	4.16	1495	11.4
+Atatürk: The Biography of the Founder of Modern Turkey	Andrew Mango	1999	666	9781585673346	Eventually	neareast/middleeast/aegean/anatolia	modern/modernneareast/sykespicot	humanity/society/politics/government/rulers				$23.60	2025/04/14	4.16	1495	11.4
 Breakneck: China's Quest to Engineer the Future	Dan  Wang	2025	288	9781324106036	Reading	fareast/sinosphere/china	modern/modernfareast/prc	humanity/civilization/manufacturing/supplychain/factories				$10.99	2026/01/02	4.14	7718	11.9
 Frederick Douglass: Prophet of Freedom	David W. Blight	2018	888	9781416590316	Eventually		modern/modernamerica/union/civilwar	humanity/society/order/structures/classes/poor/slavery				$14.49	2021/12/28	4.18	12850	11.7
 The Great Deluge: Hurricane Katrina, New Orleans, and the Mississippi Gulf Coast	Douglas Brinkley	2006	736	9780061124235	Eventually	america/anglo/eastern/south/delta/louisiana/neworleans	modern/modernamerica/paxamericana/neocon	nature/environment/atmosphere/troposphere/weather/cyclones				$23.99	2022/06/25	4.17	3200	11.4
@@ -410,7 +410,7 @@ Silent Spring	Rachel Carson	1962	378	9780618249060	Eventually			nature/environme
 Democracy in America	Alexis de Tocqueville	1835	983	9780140447606	Eventually		modern/modernamerica/antebellum/jackson	humanity/society/politics/ideologies/democracy				$14.24	2020/09/23	4.05	27200	11.2
 Broca's Brain: Reflections on the Romance of Science	Carl Sagan	1979	398	9780345336897	Eventually			nature/biology/physiology/nervous				$77.00 (hc)	2018/08/25	4.05	10905	11.2
 Isaac's Storm: A Man, a Time, and the Deadliest Hurricane in History	Erik Larson	1999	323	9780375708275	Eventually	america/anglo/western/plains/southplains/texas/houston	modern/modernamerica/union/gilded	nature/environment/atmosphere/troposphere/weather/cyclones				$10.30	2024/07/02	4.05	73356	12.2
-The Ottoman Centuries: The Rise and Fall of the Turkish Empire	John Patrick Douglas Balfour	1976	640	9780688080938	Eventually	neareast/middleeast/turkey	early/earlyneareast/earlysultanate	humanity/society/politics/geopolitics/empires				$13.50	2018/03/17	4.05	1029	11.7
+The Ottoman Centuries: The Rise and Fall of the Turkish Empire	John Patrick Douglas Balfour	1976	640	9780688080938	Eventually	neareast/middleeast/aegean/anatolia	early/earlyneareast/earlysultanate	humanity/society/politics/geopolitics/empires				$13.50	2018/03/17	4.05	1029	11.7
 Benjamin Franklin: An American Life	Walter Isaacson	2003	586	9780743258074	Stalled	america/anglo/eastern/north/midatlantic/pennsylvania/philadelphia	early/earlyamerica/patriot					$11.39	2021/02/06	4.05	151381	11.8
 The Devil in the White City	Erik Larson	2003	496	9780739303405	Eventually		modern/modernamerica/union/gilded	fiction				$14.06	2018/10/12	4	766184	11.8
 The French and Indian War: Deciding the Fate of North America	Walter R. Borneman	2006	360	9780060761844	Eventually	america/anglo/eastern/north/midatlantic/pennsylvania/pittsburgh	early/earlyamerica/patriot	humanity/civilization/military/army				$11.59	2025/03/07	4	1152	12.0
@@ -429,7 +429,7 @@ American Lion: Andrew Jackson in the White House	Jon Meacham	2008	483	9781400063
 The Habsburgs: To Rule the World	Martyn Rady	2020	416	9781541644502	Stalled	europe/mittel/danube/austria	early/earlyeurope/reformation/charlesV	humanity/society/politics/geopolitics/empires				$14.75	2025/09/28	3.86	3261	11.5
 River of the Gods: Genius, Courage and Betrayal in the Search for the Source of the Nile	Candice Millard	2022	349	9780525524076	Eventually	neareast/africa/eastafrica	modern/modernneareast/raj					$10.49	2025/03/07	3.84	17088	11.6
 A World Lit Only by Fire: The Medieval Mind and the Renaissance: Portrait of an Age	William Manchester	1992	322	9780316545563	Eventually	europe/mediterranean	medieval/medievaleurope/highages/poststaufen					$9.66	2020/06/20	3.83	12939	11.6
-Istanbul: Memories and the City	Orhan Pamuk	2003	356	9781400033881	Eventually	neareast/middleeast/turkey/anatolia/marmara/istanbul	modern/modernneareast/sykespicot					$15.54	2018/09/29	3.82	22462	11.0
+Istanbul: Memories and the City	Orhan Pamuk	2003	356	9781400033881	Eventually	neareast/middleeast/aegean/marmara/istanbul	modern/modernneareast/sykespicot					$15.54	2018/09/29	3.82	22462	11.0
 Atlas Shrugged	Ayn Rand	1957	1168	9780452011878	Eventually			humanity/society/politics/ideologies/libertarian				$12.93	2020/05/14	3.69	408633	9.9
 Railroaded: The Transcontinentals and the Making of Modern America	Richard White	2011	704	9780393061260	Eventually		modern/modernamerica/union/gilded	humanity/civilization/transport/trains/earlyrail				$20.00 (hc)	2023/08/30	3.63	911	9.8
 Pacific Crucible: War at Sea in the Pacific, 1941-1942	Ian W. Toll	2011	656	9780393343410	Tier 2	fareast/sinosphere	modern/modernfareast/risingsun	humanity/civilization/military/navy			book,ebook	$12.89	2026/01/21	4.61	10375	14.0
@@ -531,7 +531,7 @@ Set the Night on Fire: L.A. in the Sixties	Mike  Davis	2020	1051	9781784780234		
 The Illusion of Life: Disney Animation	Ollie Johnston	1981	576	9780786860708			modern/modernamerica/paxamericana	humanity/society/culture/art/narrative/film/animation			FALSE	$34.00 (hc)	2026/01/21	4.37	4939	12.2
 This Divided Island: Stories from the Sri Lankan War	Samanth Subramanian	2013	320	9780670086030		neareast/india/tamilakam/srilanka	modern/modernneareast/raj				FALSE	N/A	2024/11/02	4.36	1829	11.3
 The Rise and Reign of the Mammals: A New History, from the Shadow of the Dinosaurs to Us	Steve Brusatte	2022	528	9780062951519				nature/taxonomy/animals/mammalia			FALSE	$14.44	2022/07/17	4.37	8166	12.9
-Philip and Alexander: Kings and Conquerors	Adrian Goldsworthy	2020	620	9781784978709		neareast/middleeast/turkey/anatolia	classical/classicaleurope/alexandrian				FALSE	$12.00	2026/01/21	4.36	2494	12.7
+Philip and Alexander: Kings and Conquerors	Adrian Goldsworthy	2020	620	9781784978709		neareast/middleeast/aegean/anatolia	classical/classicaleurope/alexandrian				FALSE	$12.00	2026/01/21	4.36	2494	12.7
 Happy City: Transforming Our Lives Through Urban Design	Charles Montgomery	2012	368	9780385669122				humanity/civilization/settlements/cities			FALSE	$11.51	2017/07/28	4.36	9532	13.1
 Framing the Early Middle Ages: Europe and the Mediterranean, 400-800	Chris Wickham	2005	1024	9780199212965		europe/mediterranean	medieval/medievaleurope/darkages				FALSE	$17.73	2023/11/12	4.36	187	8.6
 The Arabs: A History	Eugene Rogan	2009	513	9780465071005		neareast/middleeast/levant					FALSE	$23.29	2018/03/18	4.36	4589	12.2
@@ -669,7 +669,7 @@ Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infecti
 First They Killed My Father: A Daughter of Cambodia Remembers	Loung Ung	2000	238	9780060856267		fareast/seasia/indochina/cambodia	modern/modernfareast/prc				book,ebook	$8.95	2026/01/21	4.36	54997	14.0
 The Selected Poetry of Rainer Maria Rilke	Rainer Maria Rilke	1926	356	9780679722014				fiction			FALSE	$14.21	2018/10/15	4.36	17342	13.1
 The Alchemy of Air: A Jewish Genius, a Doomed Tycoon, and the Scientific Discovery That Fed the World but Fueled the Rise of Hitler	Thomas Hager	2008	336	9780307351784	Tier 2		modern/moderneurope/greatwars	nature/physics/matter/chemistry/reactions			FALSE	$16.00	2026/01/21	4.36	4704	12.5
-Between Two Worlds: The Construction of the Ottoman State	Cemal Kafadar	1995	205	9780520206007	Tier 3	neareast/middleeast/turkey/anatolia	early/earlyneareast/earlysultanate				FALSE	$31.86	2026/01/20	4.35	318	10.6
+Between Two Worlds: The Construction of the Ottoman State	Cemal Kafadar	1995	205	9780520206007	Tier 3	neareast/middleeast/aegean/anatolia	early/earlyneareast/earlysultanate				FALSE	$31.86	2026/01/20	4.35	318	10.6
 The Variational Principles of Mechanics	Cornelius Lanczos	1970	464	9780486650678				nature/physics/spacetime/mechanics			FALSE	$27.96	2020/01/19	4.36	96	8.2
 The Wretched of the Earth	Frantz Fanon	1961	251	9780802141323				humanity/society/order/disorder/protest/revolution			FALSE	$8.48	2026/01/21	4.35	33166	13.3
 March: Book One	John Lewis	2013	128	9781603093002		america/anglo/eastern/south/piedmont/alabama	modern/modernamerica/paxamericana				ebook	$9.99	2020/06/14	4.35	57627	14.1
@@ -701,7 +701,7 @@ Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures	
 Firepower: How Weapons Shaped Warfare	Paul Lockhart	2021	624	9781541672963				humanity/civilization/military/weapons			FALSE	$29.24	2022/10/31	4.32	206	9.2
 The Man Who Knew: The Life and Times of Alan Greenspan	Sebastian Mallaby	2016	800	9781594204845			modern/modernamerica/paxamericana/neocon	humanity/society/economy/finance/banking			FALSE	$17.99 (hc)	2023/11/12	4.32	1273	11.7
 Ghost Wars: The Secret History of the CIA, Afghanistan, and Bin Laden from the Soviet Invasion to September 10, 2001	Steve Coll	2004	712	9780143034667		neareast/middleeast/persia/afghanistan	modern/modernneareast/opec				book,ebook	$9.84	2017/11/26	4.31	19136	13.0
-The Fall of Constantinople 1453	Steven Runciman	1965	270	9780521398329		neareast/middleeast/turkey/anatolia/marmara/istanbul	early/earlyneareast/earlysultanate				FALSE	$11.92	2026/01/21	4.32	1573	13.2
+The Fall of Constantinople 1453	Steven Runciman	1965	270	9780521398329		neareast/middleeast/aegean/marmara/istanbul	early/earlyneareast/earlysultanate				FALSE	$11.92	2026/01/21	4.32	1573	13.2
 Britain Begins	Barry Cunliffe	2012	568	9780199609338		europe/northseas/britain					FALSE	$36.99	2025/06/16	4.31	422	10.5
 How to Prove It: A Structured Approach	Daniel J. Velleman	1994	384	9780521675994				nature/math/pure			FALSE	$55.42	2019/03/03	4.3	990	11.9
 Open Veins of Latin America: Five Centuries of the Pillage of a Continent	Eduardo Galeano	1971	317	9780853459910	Tier 2	america					FALSE	$13.68	2026/01/20	4.31	28366	13.0
@@ -834,7 +834,7 @@ Chain of Title: How Three Ordinary Americans Uncovered Wall Street's Great Forec
 The Breaks of the Game	David Halberstam	1981	362	9780345296252			modern/modernamerica/paxamericana/boomer/watergate/carter	humanity/society/culture/games/sports/basketball			FALSE	$11.95	2026/01/21	4.22	13433	12.7
 Reconstruction: America's Unfinished Revolution 1863-1877	Eric Foner	1988	690	9780060937164		america/anglo/eastern/south	modern/modernamerica/union/gilded				book	$53.91 (hc)	2020/08/22	4.22	6277	12.7
 The Age of Revolution, 1789–1848	Eric J. Hobsbawm	1962	356	9780679772538				humanity/society/order/disorder/protest/revolution			FALSE	$12.45	2023/07/09	4.23	8633	12.7
-The Greek Revolution: 1821 and the Making of Modern Europe	Mark Mazower	2021	624	9780241004104		europe/mediterranean/balkans/greece	modern/moderneurope/proudtower				FALSE	$17.35	2026/01/21	4.22	945	11.6
+The Greek Revolution: 1821 and the Making of Modern Europe	Mark Mazower	2021	624	9780241004104		neareast/middleeast/aegean/greece	modern/moderneurope/proudtower				FALSE	$17.35	2026/01/21	4.22	945	11.6
 Cryptography Engineering: Design Principles and Practical Applications	Niels Ferguson	2010	384	9780470474242				humanity/civilization/info/data/encryption			FALSE	$47.92	2023/01/19	4.22	407	10.2
 God's Playground: A History of Poland, Vol. 1: The Origins to 1795	Norman Davies	1981	570	9780199253395		europe/mittel/platt/poland	early/earlyeurope/reformation/confessional				FALSE	$18.00	2020/10/31	4.22	811	11.4
 A Room of One's Own	Virginia Woolf	1929	112					humanity/society/order/structures/families/gender			book	$9.00	2018/07/05	4.22	267050	13.7
@@ -895,7 +895,7 @@ Franklin Delano Roosevelt: Champion of Freedom	Conrad Black	2003	1328	9781586482
 The Impending Crisis: America Before the Civil War, 1848-1861	David Morris Potter	1976	638	9780061319297			modern/modernamerica/antebellum				FALSE	$10.99	2020/03/10	4.18	2494	12.1
 I Contain Multitudes: The Microbes Within Us and a Grander View of Life	Ed Yong	2016	368	9780062368591				nature/biology/cells			FALSE	$11.69 (hc)	2017/03/11	4.17	32205	12.5
 Desert Solitaire	Edward Abbey	1968	337	9780345326492	Tier 2	america/anglo/western/rockies/utah					FALSE	$11.05	2026/01/21	4.18	55018	12.6
-The Ottoman Empire: The Classical Age 1300-1600	Halil İnalcık	1973	272	9781842124420		neareast/middleeast/turkey	early/earlyneareast/earlysultanate				FALSE	$19.95	2020/08/21	4.18	1127	12.1
+The Ottoman Empire: The Classical Age 1300-1600	Halil İnalcık	1973	272	9781842124420		neareast/middleeast/aegean/anatolia	early/earlyneareast/earlysultanate				FALSE	$19.95	2020/08/21	4.18	1127	12.1
 Dancing in the Glory of Monsters: The Collapse of the Congo and the Great War of Africa	Jason K. Stearns	2010	400	9781586489298		neareast/africa/westafrica	modern/modernneareast/opec				FALSE	$15.19	2021/03/14	4.18	5671	11.9
 Africa: A Biography of the Continent	John Reader	1997	816	9780679738695		neareast/africa					book	$15.98	2022/02/11	4.18	1907	12.4
 Pure Invention: How Japan Made the Modern World	Matt Alt	2020	368	9781984826718	Tier 3	fareast/sinosphere/kuroshio/japan	modern/modernfareast/prc				FALSE	$16.60	2026/01/21	4.17	3336	11.9
