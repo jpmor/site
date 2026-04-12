@@ -14,11 +14,50 @@
   <link rel="Stylesheet" href="static/style.css" type="text/css">
   <link rel="shortcut icon" href="static/favicon.png" type="image/png">
   <script src="js/toc.js" defer></script>
+  <style>
+  .map-controls button {
+    background: none;
+    border: 1px solid #444;
+    color: #8c66ff;
+    cursor: pointer;
+    font-family: verdana, sans-serif;
+    font-size: 0.85rem;
+    margin: 0.2em;
+    padding: 0.3em 0.7em;
+  }
+  .map-controls button:hover {
+    border-color: #fabc2a;
+    color: #fabc2a;
+  }
+  .map-controls button.active {
+    border-color: #66d9ff;
+    color: #66d9ff;
+  }
+  </style>
 </head>
 <body>
   <div class="content">
     <p><a href="/"><img src="static/favicon.png" alt="favicon" style=
     "width:125px;"></a></p><!-- Begin page-specific html -->
+    <h1 id="places">places</h1>
+    <div class="map-controls">
+      <p><button id="btn-usa" class="active" onclick=
+      "showMap('usa')">usa</button> <button id="btn-global" onclick=
+      "showMap('global')">global</button></p>
+    </div>
+    <div id="map-usa" class="map-container" data-src="static/places/usa.svg">
+    </div>
+    <div id="map-global" class="map-container" data-src=
+    "static/places/global.svg" style="display:none"></div>
+    <script>
+    function showMap(name) {
+    ['usa', 'global'].forEach(function(m) {
+      document.getElementById('map-' + m).style.display = m === name ? '' : 'none';
+      document.getElementById('btn-' + m).classList.toggle('active', m === name);
+    });
+    }
+    </script> 
+    <script src="js/places.js"></script>
   </div>
 </body>
 </html>

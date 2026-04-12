@@ -1,5 +1,9 @@
 # business
 
+## April 2026
+
+- [Sam Altman May Control Our Future—Can He Be Trusted?](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted)
+
 ## August 2025
 
 - [levered beta is all you need](https://ethanding.substack.com/p/levered-beta-is-all-you-need)
