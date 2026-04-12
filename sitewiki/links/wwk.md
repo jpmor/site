@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## April 2026
+
+- [Ecumene](https://en.wikipedia.org/wiki/Ecumene)
+
 ## March 2026
 
 - [Dark Forest Hypothesis](https://en.wikipedia.org/wiki/Dark_forest_hypothesis)
