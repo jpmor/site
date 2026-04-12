@@ -16,7 +16,7 @@ TSV_PATH = "docs/static/reading.tsv"
 CATALOG_URL = "https://cbpl.ent.sirsi.net/client/en_US/default/search/results?qu={}&te="
 DELAY = 0.1  # seconds between requests
 
-SKIP_STATUSES = {"Read", "Reading", "Stalled", "Eventually", "Next", "Soon"}
+SKIP_STATUSES = {"Read", "Reading", "Did Not Finish", "Eventually", "Next", "Soon"}
 
 FORMAT_MAP = {
     "BOOK": "book",
@@ -65,7 +65,6 @@ def main():
     p = argparse.ArgumentParser(description="Scrape library catalog for available formats.")
     p.add_argument("--dry-run", action="store_true")
     p.add_argument("--force", action="store_true", help="recheck all entries")
-    p.add_argument("--recheck-true", action="store_true", help="recheck entries marked TRUE")
     p.add_argument("--recheck-false", action="store_true", help="recheck entries marked FALSE")
     p.add_argument("--status", metavar="STATUS", help="limit to one status group")
     p.add_argument("--title", metavar="TITLE", help="check one title (no TSV changes)")
@@ -73,7 +72,6 @@ def main():
 
     dry_run = args.dry_run
     force = args.force
-    recheck_true = args.recheck_true
     recheck_false = args.recheck_false
     only_status = args.status
 
@@ -106,9 +104,7 @@ def main():
             continue
         if only_status is not None and status != only_status:
             continue
-        if library == "TRUE" and recheck_true:
-            pass
-        elif library == "FALSE" and recheck_false:
+        if library == "FALSE" and recheck_false:
             pass
         elif library != "" and not force:
             continue

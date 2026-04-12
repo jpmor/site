@@ -19,7 +19,7 @@ var COLS = [
 
 var COMPLETED_IDX = 9;
 
-var STATUS_ORDER = ['Reading', 'Next', 'Soon', 'Stalled', 'Eventually', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
+var STATUS_ORDER = ['Reading', 'Next', 'Soon', 'Did Not Finish', 'Eventually', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
 var PLACE_ORDER  = ['america', 'europe', 'neareast', 'fareast'];
 var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern'];
 var TOPIC_ORDER  = ['nature', 'humanity/engineering', 'humanity/civilization', 'humanity/society', 'fiction'];
@@ -29,7 +29,7 @@ var STATUS_COLOR = {
   'Reading': 'hsl(210, 70%, 65%)',
   'Next':    'hsl(240, 70%, 65%)',
   'Soon':    'hsl(270, 65%, 65%)',
-  'Stalled':    'hsl(30,  30%, 62%)',
+  'Did Not Finish': 'hsl(30,  30%, 62%)',
   'Eventually': 'hsl(320, 65%, 65%)',
   'Tier 1':  'hsl(0,   70%, 65%)',
   'Tier 2':  'hsl(28,  70%, 65%)',

@@ -19,8 +19,9 @@ DEFAULT_OUT = "goodreads_import.csv"
 
 # TSV status → Goodreads exclusive shelf
 SHELF_MAP = {
-    "Read":    "read",
-    "Reading": "currently-reading",
+    "Read":           "read",
+    "Reading":        "currently-reading",
+    "Did Not Finish": "did-not-finish",
 }
 
 # Goodreads import columns
@@ -49,7 +50,6 @@ def tsv_date_to_gr(date_str):
 STATUS_SHELF = {
     "Next":       "status-next",
     "Soon":       "status-soon",
-    "Stalled":    "status-stalled",
     "Eventually": "status-eventually",
     "Tier 1":     "status-tier-1",
     "Tier 2":     "status-tier-2",
@@ -67,6 +67,12 @@ def to_gr_row(t, no_tags=False):
             s = tag_shelf(col, t.get(col, ""))
             if s:
                 shelves.append(s)
+        library = t.get("library", "")
+        if library and library not in ("FALSE",):
+            for fmt in ("audiobook", "book", "ebook"):
+                if fmt in library:
+                    tag = "library_audio" if fmt == "audiobook" else f"library_{'paper' if fmt == 'book' else fmt}"
+                    shelves.append(tag)
     return {
         "Title":      t["title"],
         "Author":     t["author"],

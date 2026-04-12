@@ -23,7 +23,7 @@ GR_URL = "https://www.goodreads.com/search?q={}"
 DELAY = 1.0
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
-SKIP_STATUSES = {"Read", "Reading", "Stalled", "Eventually", "Next", "Soon"}
+SKIP_STATUSES = {"Read", "Reading", "Did Not Finish", "Eventually", "Next", "Soon"}
 
 
 def _author_present(author, html):
