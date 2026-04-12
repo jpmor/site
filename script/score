@@ -6,7 +6,7 @@ Score formula:
     rating × log10(min(reviews, 1000) + 1) × acquisition × recency × length
 
 acquisition: library=1.1, price≤$15=1.05, price≤$40=1.0, price>$40=0.97, N/A=0.9
-recency:     min((current_year - year) / 2, 1)  — ramps over 2 years, capped at 1
+recency:     0.9 + 0.1 * min((current_year - year) / 2, 1)  — 10% penalty for new books, ramps to 1.0 over 2 years
 length:      1 - 0.15 × min(pages, 1200) / 1200 — 0.85 for 1200+ page books
 
 Usage:
@@ -50,7 +50,7 @@ def compute_score(row, col):
 
     try:
         year    = int(row[col["year"]])
-        recency = min((CURRENT_YEAR - year) / 2, 1) if year > 0 else 1
+        recency = (0.9 + 0.1 * min((CURRENT_YEAR - year) / 2, 1)) if year > 0 else 1
     except (ValueError, KeyError):
         recency = 1
 

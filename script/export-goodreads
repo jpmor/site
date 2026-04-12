@@ -1,0 +1,140 @@
+#!/usr/bin/env python3
+"""
+Export reading.tsv to a Goodreads-compatible CSV for import.
+
+Usage:
+    ./script/export-goodreads                  # write to goodreads_import.csv
+    ./script/export-goodreads --out foo.csv    # write to custom path
+    ./script/export-goodreads --diff ~/Downloads/goodreads_library_export.csv
+                                               # only rows that differ from a GR export
+
+Goodreads import: https://www.goodreads.com/review/import
+"""
+
+import argparse
+import csv
+
+TSV_PATH = "docs/static/reading.tsv"
+DEFAULT_OUT = "goodreads_import.csv"
+
+# TSV status → Goodreads exclusive shelf
+SHELF_MAP = {
+    "Read":    "read",
+    "Reading": "currently-reading",
+}
+
+# Goodreads import columns
+GR_COLS = ["Title", "Author", "ISBN13", "My Rating", "Date Read", "Date Added", "Bookshelves"]
+
+
+def tag_shelf(col, val):
+    """Convert a hierarchical tag path to a Goodreads shelf name."""
+    if not val:
+        return None
+    parts = val.split('/')
+    if col == 'time':
+        seg = parts[0]
+    elif parts[0] == 'humanity':
+        seg = parts[2] if len(parts) >= 3 else parts[-1]
+    else:
+        seg = parts[1] if len(parts) >= 2 else parts[0]
+    return f"{col}-{seg}".replace(' ', '-') or None
+
+
+def tsv_date_to_gr(date_str):
+    """Pass through YYYY/MM/DD as-is (Goodreads native format). Returns '' on blank."""
+    return date_str or ""
+
+
+STATUS_SHELF = {
+    "Next":       "status-next",
+    "Soon":       "status-soon",
+    "Stalled":    "status-stalled",
+    "Eventually": "status-eventually",
+    "Tier 1":     "status-tier-1",
+    "Tier 2":     "status-tier-2",
+    "Tier 3":     "status-tier-3",
+}
+
+def to_gr_row(t, no_tags=False):
+    shelf = SHELF_MAP.get(t["status"], "to-read")
+    shelves = [shelf]
+    status_shelf = STATUS_SHELF.get(t["status"])
+    if status_shelf:
+        shelves.append(status_shelf)
+    if not no_tags:
+        for col in ("place", "time", "topic"):
+            s = tag_shelf(col, t.get(col, ""))
+            if s:
+                shelves.append(s)
+    return {
+        "Title":      t["title"],
+        "Author":     t["author"],
+        "ISBN13":     t["isbn13"],
+        "My Rating":  t["rated"] or "0",
+        "Date Read":  tsv_date_to_gr(t["completed"]) if shelf == "read" else "",
+        "Date Added": tsv_date_to_gr(t["added"]),
+        "Bookshelves": ", ".join(shelves),
+    }
+
+
+def load_gr_export(path):
+    """Return dict of ISBN13 → row from a Goodreads library export CSV."""
+    with open(path, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    return {r["ISBN13"].strip('="'): r for r in rows if r.get("ISBN13")}
+
+
+def rows_differ(new, existing):
+    """Return True if the export row differs meaningfully from the GR export row."""
+    if new["Bookshelves"] != existing["Exclusive Shelf"]:
+        return True
+    if new["My Rating"] != existing["My Rating"]:
+        return True
+    # Compare Date Read (normalize both to MM/DD/YYYY)
+    gr_date = existing.get("Date Read", "")
+    if new["Date Read"] != gr_date:
+        return True
+    return False
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--out", default=DEFAULT_OUT, metavar="PATH")
+    p.add_argument("--diff", metavar="GR_EXPORT_CSV",
+                   help="only emit rows that differ from this Goodreads export")
+    p.add_argument("--no-tags", action="store_true",
+                   help="omit place/time/topic shelves, only emit the exclusive shelf")
+    args = p.parse_args()
+    no_tags = args.no_tags
+
+    with open(TSV_PATH, encoding="utf-8") as f:
+        tsv_rows = list(csv.DictReader(f, delimiter="\t"))
+
+    gr_export = load_gr_export(args.diff) if args.diff else {}
+
+    out_rows = []
+    skipped = 0
+    for t in tsv_rows:
+        if not t["isbn13"]:
+            continue
+        row = to_gr_row(t, no_tags=no_tags)
+        if args.diff:
+            existing = gr_export.get(t["isbn13"])
+            if existing and not rows_differ(row, existing):
+                skipped += 1
+                continue
+        out_rows.append(row)
+
+    with open(args.out, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=GR_COLS)
+        writer.writeheader()
+        writer.writerows(out_rows)
+
+    print(f"Wrote {len(out_rows)} rows to {args.out}")
+    if skipped:
+        print(f"Skipped {skipped} unchanged rows (--diff)")
+
+
+if __name__ == "__main__":
+    main()
