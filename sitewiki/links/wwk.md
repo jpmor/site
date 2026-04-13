@@ -2,6 +2,7 @@
 
 ## April 2026
 
+- [Horizon](https://en.wikipedia.org/wiki/Horizon)
 - [Ecumene](https://en.wikipedia.org/wiki/Ecumene)
 
 ## March 2026
