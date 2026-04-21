@@ -49,9 +49,72 @@ var ERA_LIGHTNESS = {modern: 65, medieval: 72, early: 79, classical: 86};
 var vis = {};
 COLS.forEach(function(col) { vis[col.idx] = col.vis; });
 
-var sortIdx = 5, sortAsc = true, rows = [];
+var COL_BY_NAME = {}, COL_BY_IDX = {};
+COLS.forEach(function(col) { COL_BY_NAME[col.name] = col; COL_BY_IDX[col.idx] = col; });
+
+var DEFAULT_SORT_KEYS = [{idx: 5, asc: true}];
+var sortKeys = [{idx: 5, asc: true}], rows = [];
 var searchQuery = '', colWidthsLocked = false;
 var colFilters = {};  // idx -> Set of excluded raw values (null key = exclude blanks)
+
+// --- query param sync ---
+
+function writeParams() {
+  var params = new URLSearchParams();
+  if (searchQuery) params.set('q', searchQuery);
+  var sortStr = sortKeys.map(function(k) { return COL_BY_IDX[k.idx].name + ':' + (k.asc ? 'asc' : 'desc'); }).join('|');
+  var defaultStr = DEFAULT_SORT_KEYS.map(function(k) { return COL_BY_IDX[k.idx].name + ':' + (k.asc ? 'asc' : 'desc'); }).join('|');
+  if (sortStr !== defaultStr) params.set('sort', sortStr);
+
+  // visible columns — only write if different from defaults
+  var defaultVis = COLS.filter(function(c) { return c.vis; }).map(function(c) { return c.name; }).sort().join('|');
+  var currentVis = COLS.filter(function(c) { return vis[c.idx]; }).map(function(c) { return c.name; }).sort().join('|');
+  if (currentVis !== defaultVis) params.set('cols', COLS.filter(function(c) { return vis[c.idx]; }).map(function(c) { return c.name; }).join('|'));
+
+  COLS.forEach(function(col) {
+    var excluded = colFilters[col.idx];
+    if (!excluded || excluded.size === 0) return;
+    var seen = {}, allVals = [];
+    rows.forEach(function(r) { var v = r[col.idx] || ''; if (!seen[v]) { seen[v] = true; allVals.push(v); } });
+    var included = allVals.filter(function(v) { return !excluded.has(v); });
+    if (included.length) params.set(col.name, included.join('|'));
+  });
+  var qs = params.toString();
+  history.replaceState(null, '', qs ? '?' + qs : window.location.pathname);
+}
+
+function applyInitialParams(searchInput) {
+  var params = new URLSearchParams(window.location.search);
+  var pq = params.get('q');
+  if (pq) { searchQuery = pq.toLowerCase(); searchInput.value = pq; }
+  var ps = params.get('sort');
+  if (ps !== null) {
+    var parsed = ps.split('|').map(function(part) {
+      var seg = part.split(':'), col = COL_BY_NAME[seg[0]];
+      return col ? {idx: col.idx, asc: seg[1] !== 'desc'} : null;
+    }).filter(Boolean);
+    if (parsed.length) sortKeys = parsed;
+  }
+
+  var pcols = params.get('cols');
+  if (pcols !== null) {
+    var visNames = new Set(pcols ? pcols.split('|') : []);
+    COLS.forEach(function(col) { vis[col.idx] = visNames.has(col.name); });
+  }
+
+  COLS.forEach(function(col) {
+    var val = params.get(col.name);
+    if (val === null) return;
+    var included = new Set(val.split('|'));
+    var seen = {}, allVals = [];
+    rows.forEach(function(r) { var v = r[col.idx] || ''; if (!seen[v]) { seen[v] = true; allVals.push(v); } });
+    var excluded = new Set();
+    allVals.forEach(function(v) { if (!included.has(v)) excluded.add(v); });
+    if (excluded.size) colFilters[col.idx] = excluded;
+  });
+}
+
+// --- end query param sync ---
 
 function strHash(s) {
   var h = 0;
@@ -143,7 +206,7 @@ function displayVal(idx, val) {
   if (idx === 8) {
     var parts = val.split('/');
     var leaf = parts[parts.length - 1];
-    var anchor = parts[0] === 'humanity' ? (parts.length >= 3 ? parts[2] : leaf) : (parts.length >= 2 ? parts[1] : parts[0]);
+    var anchor = parts[0] === 'humanity' ? (parts[1] === 'engineering' ? 'engineering' : (parts.length >= 3 ? parts[2] : leaf)) : (parts.length >= 2 ? parts[1] : parts[0]);
     return anchor !== leaf ? anchor + ' (' + leaf + ')' : anchor;
   }
   return val;
@@ -187,7 +250,11 @@ function openMenu(th, colIdx) {
     d.style.cssText = 'padding:5px 12px;cursor:pointer;color:#ccc;';
     d.onmouseenter = function() { d.style.background = '#3a3a3a'; };
     d.onmouseleave = function() { d.style.background = ''; };
-    d.onclick = function() { sortIdx = colIdx; sortAsc = asc; closeMenu(); render(); };
+    d.onclick = function() {
+      sortKeys = sortKeys.filter(function(k) { return k.idx !== colIdx; });
+      sortKeys.unshift({idx: colIdx, asc: asc});
+      closeMenu(); render();
+    };
     return d;
   }
   menu.appendChild(sortItem('↑ Sort ascending', true));
@@ -269,10 +336,12 @@ function openMenu(th, colIdx) {
 }
 
 function updateHeaders() {
+  var sortIdxSet = {};
+  sortKeys.forEach(function(k) { sortIdxSet[k.idx] = true; });
   document.querySelectorAll('#books th').forEach(function(th) {
     var idx = +th.dataset.idx;
     var hasFilter = colFilters[idx] && colFilters[idx].size > 0;
-    th.style.color = hasFilter ? 'hsl(40, 90%, 65%)' : '';
+    th.style.color = hasFilter ? 'hsl(40, 90%, 65%)' : sortIdxSet[idx] ? 'hsl(200, 80%, 65%)' : '';
   });
 }
 
@@ -327,6 +396,7 @@ fetch('static/reading.tsv').then(function(r) { return r.text(); }).then(function
     toggles.appendChild(b);
   });
 
+  applyInitialParams(searchInput);
   render();
 });
 
@@ -343,36 +413,35 @@ function render() {
   });
 
   var sorted = filtered.sort(function(a, b) {
-    var x = a[sortIdx] || '', y = b[sortIdx] || '';
-    var xempty = !x || x === '?', yempty = !y || y === '?';
-    if (xempty && !yempty) return 1;
-    if (!xempty && yempty) return -1;
-    if (xempty && yempty) return 0;
-    if (sortIdx === 7) {
-      var xei = TIME_ORDER.indexOf(x.split('/')[0]), yei = TIME_ORDER.indexOf(y.split('/')[0]);
-      if (xei === -1) xei = TIME_ORDER.length;
-      if (yei === -1) yei = TIME_ORDER.length;
-      var res = xei !== yei ? xei - yei : x.localeCompare(y);
-      return sortAsc ? res : -res;
+    for (var ki = 0; ki < sortKeys.length; ki++) {
+      var idx = sortKeys[ki].idx, asc = sortKeys[ki].asc;
+      var x = a[idx] || '', y = b[idx] || '';
+      var xempty = !x || x === '?', yempty = !y || y === '?';
+      if (xempty && !yempty) return 1;
+      if (!xempty && yempty) return -1;
+      if (xempty && yempty) continue;
+      var res;
+      if (idx === 7) {
+        var xei = TIME_ORDER.indexOf(x.split('/')[0]), yei = TIME_ORDER.indexOf(y.split('/')[0]);
+        if (xei === -1) xei = TIME_ORDER.length;
+        if (yei === -1) yei = TIME_ORDER.length;
+        res = xei !== yei ? xei - yei : x.localeCompare(y);
+      } else if (idx === 6) {
+        var xo = PLACE_ORDER.indexOf(x.split('/')[0]), yo = PLACE_ORDER.indexOf(y.split('/')[0]);
+        res = xo !== yo ? xo - yo : x.localeCompare(y);
+      } else if (idx === 5) {
+        var xo = STATUS_ORDER.indexOf(x), yo = STATUS_ORDER.indexOf(y);
+        res = (xo === -1 ? STATUS_ORDER.length : xo) - (yo === -1 ? STATUS_ORDER.length : yo);
+      } else if (idx === 8) {
+        res = topicRank(x) !== topicRank(y) ? topicRank(x) - topicRank(y) : x.localeCompare(y);
+      } else {
+        var xn = parseFloat(x.replace(/[^0-9.]/g, '')), yn = parseFloat(y.replace(/[^0-9.]/g, ''));
+        var n = xn - yn;
+        res = (isNaN(n) || n === 0) ? x.localeCompare(y) : n;
+      }
+      if (res !== 0) return asc ? res : -res;
     }
-    if (sortIdx === 6) {
-      var xo = PLACE_ORDER.indexOf(x.split('/')[0]), yo = PLACE_ORDER.indexOf(y.split('/')[0]);
-      var res = xo !== yo ? xo - yo : x.localeCompare(y);
-      return sortAsc ? res : -res;
-    }
-    if (sortIdx === 5) {
-      var xo = STATUS_ORDER.indexOf(x), yo = STATUS_ORDER.indexOf(y);
-      var res = (xo === -1 ? STATUS_ORDER.length : xo) - (yo === -1 ? STATUS_ORDER.length : yo);
-      return sortAsc ? res : -res;
-    }
-    if (sortIdx === 8) {
-      var res = topicRank(x) !== topicRank(y) ? topicRank(x) - topicRank(y) : x.localeCompare(y);
-      return sortAsc ? res : -res;
-    }
-    var xn = parseFloat(x.replace(/[^0-9.]/g, '')), yn = parseFloat(y.replace(/[^0-9.]/g, ''));
-    var n = xn - yn;
-    var res = (isNaN(n) || n === 0) ? x.localeCompare(y) : n;
-    return sortAsc ? res : -res;
+    return 0;
   });
 
   document.querySelectorAll('#books th').forEach(function(th) {
@@ -389,6 +458,8 @@ function render() {
   document.querySelectorAll('#toggles button').forEach(function(b) {
     b.classList.toggle('active', !!vis[+b.dataset.idx]);
   });
+
+  writeParams();
 
   var tbody = document.querySelector('#books tbody');
   tbody.innerHTML = '';

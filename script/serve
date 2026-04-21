@@ -3,9 +3,9 @@ import http.server, os, sys
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
-        path = self.translate_path(self.path)
+        path = self.translate_path(self.path.split('?')[0])
         if not os.path.exists(path) and os.path.exists(path + '.html'):
-            self.path += '.html'
+            self.path = self.path.split('?')[0] + '.html' + ('?' + self.path.split('?')[1] if '?' in self.path else '')
         super().do_GET()
 
 os.chdir(os.path.join(os.path.dirname(__file__), '..', 'docs'))

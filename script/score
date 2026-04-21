@@ -3,11 +3,10 @@
 Compute reading scores and write to the score column in reading.tsv.
 
 Score formula:
-    rating × log10(min(reviews, 1000) + 1) × acquisition × recency × length
+    rating^1.5 × sqrt(log10(reviews + 1)) × acquisition × recency
 
 acquisition: library=1.1, price≤$15=1.05, price≤$40=1.0, price>$40=0.97, N/A=0.9
 recency:     0.9 + 0.1 * min((current_year - year) / 2, 1)  — 10% penalty for new books, ramps to 1.0 over 2 years
-length:      1 - 0.15 × min(pages, 1200) / 1200 — 0.85 for 1200+ page books
 
 Usage:
     ./script/score             # compute and write all scores
@@ -32,7 +31,7 @@ def compute_score(row, col):
     if reviews == 0:
         return ""
 
-    base = rating * math.log10(min(reviews, 1000) + 1)
+    base = (rating ** 1.5) * math.sqrt(math.log10(reviews + 1))
 
     library = row[col["library"]]
     price   = row[col["price"]]
@@ -54,13 +53,7 @@ def compute_score(row, col):
     except (ValueError, KeyError):
         recency = 1
 
-    try:
-        pages  = int(row[col["pages"]])
-        length = (1 - 0.15 * min(pages, 1200) / 1200) if pages > 0 else 1
-    except (ValueError, KeyError):
-        length = 1
-
-    return f"{base * acq * recency * length:.1f}"
+    return f"{base * acq * recency:.1f}"
 
 
 def main():
