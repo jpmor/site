@@ -2,6 +2,7 @@
 
 ## April 2026
 
+- [Teleconnection](https://en.wikipedia.org/wiki/Teleconnection)
 - [Fireplace](https://en.wikipedia.org/wiki/Fireplace)
 - [Horizon](https://en.wikipedia.org/wiki/Horizon)
 - [Ecumene](https://en.wikipedia.org/wiki/Ecumene)
