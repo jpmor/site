@@ -2,6 +2,7 @@
 
 ## April 2026
 
+- [Terpenoid](https://en.wikipedia.org/wiki/Terpenoid)
 - [Mevalonate Pathway](https://en.wikipedia.org/wiki/Mevalonate_pathway)
 - [Zipf's Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
 - [Fogbank](https://en.wikipedia.org/wiki/Fogbank)
