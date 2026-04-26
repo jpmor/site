@@ -2,6 +2,7 @@
 
 ## April 2026
 
+- [Mevalonate Pathway](https://en.wikipedia.org/wiki/Mevalonate_pathway)
 - [Zipf's Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
 - [Fogbank](https://en.wikipedia.org/wiki/Fogbank)
 - [Teleconnection](https://en.wikipedia.org/wiki/Teleconnection)
