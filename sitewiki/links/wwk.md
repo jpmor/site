@@ -2,6 +2,7 @@
 
 ## April 2026
 
+- [Zipf's Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
 - [Fogbank](https://en.wikipedia.org/wiki/Fogbank)
 - [Teleconnection](https://en.wikipedia.org/wiki/Teleconnection)
 - [Fireplace](https://en.wikipedia.org/wiki/Fireplace)
