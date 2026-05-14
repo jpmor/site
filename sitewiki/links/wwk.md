@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## May 2026
+
+- [Shifting Baseline](https://en.wikipedia.org/wiki/Shifting_baseline)
+
 ## April 2026
 
 - [Speedrunning](https://en.wikipedia.org/wiki/Speedrunning)
