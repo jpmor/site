@@ -2,6 +2,7 @@
 
 ## May 2026
 
+- [Landauer's Principle](https://en.wikipedia.org/wiki/Landauer%27s_principle)
 - [Mnemonic](https://en.wikipedia.org/wiki/Mnemonic)
 - [Marine Protected Area](https://en.wikipedia.org/wiki/Marine_protected_area)
 - [Shifting Baseline](https://en.wikipedia.org/wiki/Shifting_baseline)
