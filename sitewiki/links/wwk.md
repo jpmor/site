@@ -2,6 +2,7 @@
 
 ## May 2026
 
+- [Mnemonic](https://en.wikipedia.org/wiki/Mnemonic)
 - [Marine Protected Area](https://en.wikipedia.org/wiki/Marine_protected_area)
 - [Shifting Baseline](https://en.wikipedia.org/wiki/Shifting_baseline)
 
