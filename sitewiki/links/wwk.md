@@ -2,6 +2,7 @@
 
 ## May 2026
 
+- [Noether's Theorem](https://en.wikipedia.org/wiki/Noether%27s_theorem)
 - [Landauer's Principle](https://en.wikipedia.org/wiki/Landauer%27s_principle)
 - [Mnemonic](https://en.wikipedia.org/wiki/Mnemonic)
 - [Marine Protected Area](https://en.wikipedia.org/wiki/Marine_protected_area)
