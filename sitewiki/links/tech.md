@@ -1,5 +1,9 @@
 # tech
 
+## May 2026
+
+- [AI is Killing the Cheap Smartphone](https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone)
+
 ## January 2026
 
 - [Tahoe Icons](https://tonsky.me/blog/tahoe-icons/)
