@@ -2,6 +2,7 @@
 
 ## May 2026
 
+- [FairTax](https://en.wikipedia.org/wiki/FairTax)
 - [Rorschach Test](https://en.wikipedia.org/wiki/Rorschach_test)
 - [Compton Wavelength](https://en.wikipedia.org/wiki/Compton_wavelength)
 - [Noether's Theorem](https://en.wikipedia.org/wiki/Noether%27s_theorem)
