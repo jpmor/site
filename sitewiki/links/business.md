@@ -1,5 +1,9 @@
 # business
 
+## May 2026
+
+- [How Private Equity Bought America’s Essential Services](https://rubbishtalk.com/economy/how-private-equity-bought-americas-essential-services/)
+
 ## April 2026
 
 - [Sam Altman May Control Our Future—Can He Be Trusted?](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted)
