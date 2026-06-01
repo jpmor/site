@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## June 2026
+
+- [Usufruct](https://en.wikipedia.org/wiki/Usufruct)
+
 ## May 2026
 
 - [Kondiaronk](https://en.wikipedia.org/wiki/Kondiaronk)
