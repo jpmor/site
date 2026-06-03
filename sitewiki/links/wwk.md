@@ -2,6 +2,7 @@
 
 ## June 2026
 
+- [Obsidian](https://en.wikipedia.org/wiki/Obsidian)
 - [Usufruct](https://en.wikipedia.org/wiki/Usufruct)
 
 ## May 2026
