@@ -1,5 +1,9 @@
 # tech
 
+## June 2026
+
+- [How LLMs Actually Work](https://www.0xkato.xyz/how-llms-actually-work/)
+
 ## May 2026
 
 - [AI is Killing the Cheap Smartphone](https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone)
