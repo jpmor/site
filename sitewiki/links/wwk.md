@@ -2,6 +2,7 @@
 
 ## June 2026
 
+- [Nostalgia](https://en.wikipedia.org/wiki/Nostalgia)
 - [Dreamcatcher](https://en.wikipedia.org/wiki/Dreamcatcher)
 - [Grimdark](https://en.wikipedia.org/wiki/Grimdark)
 - [Obsidian](https://en.wikipedia.org/wiki/Obsidian)
