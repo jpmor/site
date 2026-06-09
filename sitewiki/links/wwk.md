@@ -2,6 +2,7 @@
 
 ## June 2026
 
+- [Dreamcatcher](https://en.wikipedia.org/wiki/Dreamcatcher)
 - [Grimdark](https://en.wikipedia.org/wiki/Grimdark)
 - [Obsidian](https://en.wikipedia.org/wiki/Obsidian)
 - [Usufruct](https://en.wikipedia.org/wiki/Usufruct)
