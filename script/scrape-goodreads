@@ -12,36 +12,91 @@ Usage:
 """
 
 import argparse
+import json
+import os
 import re
 import sys
 import time
-import urllib.request
 import urllib.parse
+import urllib.request
+from datetime import datetime, timezone
+
+from playwright.sync_api import sync_playwright
 
 TSV_PATH = "docs/static/reading.tsv"
 GR_URL = "https://www.goodreads.com/search?q={}"
 DELAY = 1.0
-HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+TOKEN_CACHE = os.path.expanduser("~/.cache/goodreads-waf-token.json")
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 
 SKIP_STATUSES = {"Read", "Reading", "Did Not Finish", "Eventually", "Next", "Soon"}
 
 
+def _load_cached_token():
+    try:
+        with open(TOKEN_CACHE) as f:
+            data = json.load(f)
+        expires = datetime.fromisoformat(data["expires"])
+        if expires > datetime.now(timezone.utc):
+            return data["token"]
+    except Exception:
+        pass
+    return None
+
+
+def _fetch_token_via_playwright():
+    print("Fetching WAF token via Playwright...", file=sys.stderr)
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
+        ctx = browser.new_context(user_agent=UA)
+        page = ctx.new_page()
+        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        page.goto("https://www.goodreads.com/search?q=dune", timeout=30000, wait_until="load")
+        if not page.title():
+            page.wait_for_selector("html.desktop", timeout=30000)
+        cookies = ctx.cookies()
+        browser.close()
+
+    waf = next((c for c in cookies if c["name"] == "aws-waf-token"), None)
+    if not waf:
+        raise RuntimeError("Playwright did not yield an aws-waf-token cookie")
+
+    expires = datetime.fromtimestamp(waf["expires"], tz=timezone.utc).isoformat()
+    os.makedirs(os.path.dirname(TOKEN_CACHE), exist_ok=True)
+    with open(TOKEN_CACHE, "w") as f:
+        json.dump({"token": waf["value"], "expires": expires}, f)
+    print(f"  token cached until {expires}", file=sys.stderr)
+    return waf["value"]
+
+
+def _get_token():
+    token = _load_cached_token()
+    if token:
+        return token
+    return _fetch_token_via_playwright()
+
+
+def _fetch(url, token):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Cookie": f"aws-waf-token={token}"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return resp.read().decode("utf-8")
+    except Exception as e:
+        print(f"  ERROR: {e}", file=sys.stderr)
+        return ""
+
+
 def _author_present(author, html):
-    """Return True if the author's last name appears in the HTML (case-insensitive)."""
     if not author:
         return True
     return author.split()[-1].lower() in html.lower()
 
 
-def scrape(query, author=None):
-    url = GR_URL.format(urllib.parse.quote(query))
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            html = resp.read().decode("utf-8", errors="replace")
-    except Exception as e:
-        print(f"  ERROR: {e}", file=sys.stderr)
-        return None
+def scrape(query, author=None, token=None):
+    html = _fetch(GR_URL.format(urllib.parse.quote(query)), token)
 
     # averageRating and ratingsCount appear in a JSON blob near the bottom
     rating_m = re.search(r'"averageRating":([\d.]+)', html)
@@ -89,20 +144,22 @@ def main():
     p.add_argument("--title", metavar="TITLE", help="check one title (no TSV changes)")
     args = p.parse_args()
 
-    dry_run = args.dry_run
-    force = args.force
-    missing = args.missing
-    only_status = args.status
-    effective_skip = SKIP_STATUSES if only_status is None else set()
+    token = _get_token()
 
     if args.title:
         print(f"Checking: {args.title}")
-        result = scrape(args.title)
+        result = scrape(args.title, token=token)
         if result:
             print(f"  rating={result[0]}  reviews={result[1]}")
         else:
             print("  -> not found")
         return
+
+    dry_run = args.dry_run
+    force = args.force
+    missing = args.missing
+    only_status = args.status
+    effective_skip = SKIP_STATUSES if only_status is None else set()
 
     with open(TSV_PATH, encoding="utf-8") as f:
         lines = f.readlines()
@@ -138,14 +195,14 @@ def main():
 
         print(f"Checking: {title[:60]}")
         if isbn13:
-            result = scrape(isbn13)
+            result = scrape(isbn13, token=token)
             if result and int(result[1]) < 50:
-                result = _best(result, scrape(f"{short_title} {author}", author=author))
-                result = _best(result, scrape(short_title, author=author))
+                result = _best(result, scrape(f"{short_title} {author}", author=author, token=token))
+                result = _best(result, scrape(short_title, author=author, token=token))
         else:
-            result = scrape(f"{short_title} {author}", author=author)
+            result = scrape(f"{short_title} {author}", author=author, token=token)
             if result is None or int(result[1]) < 50:
-                result = _best(result, scrape(short_title, author=author))
+                result = _best(result, scrape(short_title, author=author, token=token))
 
         if result is None:
             print("  -> not found (skipping)")
