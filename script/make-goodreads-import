@@ -32,17 +32,7 @@ def tag_shelf(col, val):
     """Convert a hierarchical tag path to a Goodreads shelf name."""
     if not val:
         return None
-    parts = val.split('/')
-    if col == 'time':
-        seg = parts[0]
-    elif parts[0] == 'humanity':
-        if len(parts) >= 2 and parts[1] == 'engineering':
-            seg = 'engineering'
-        else:
-            seg = parts[2] if len(parts) >= 3 else parts[-1]
-    else:
-        seg = parts[1] if len(parts) >= 2 else parts[0]
-    return f"{col}-{seg}".replace(' ', '-') or None
+    return f"{col}-{val.split('/')[0]}"
 
 
 def tsv_date_to_gr(date_str):

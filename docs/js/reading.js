@@ -21,8 +21,8 @@ var COMPLETED_IDX = 9;
 
 var STATUS_ORDER = ['Reading', 'Next', 'Soon', 'Did Not Finish', 'Eventually', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
 var PLACE_ORDER  = ['america', 'europe', 'neareast', 'fareast'];
-var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern'];
-var TOPIC_ORDER  = ['nature', 'humanity/engineering', 'humanity/civilization', 'humanity/society', 'fiction'];
+var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern', 'contemporary'];
+var TOPIC_ORDER  = ['nature', 'tech', 'culture', 'fiction'];
 // TSV indices: title=0 author=1 year=2 pages=3 isbn13=4 status=5 place=6 time=7 topic=8 completed=9 rated=10 library=11 price=12 added=13 rating=14 reviews=15 score=16
 
 var STATUS_COLOR = {
@@ -39,12 +39,11 @@ var STATUS_COLOR = {
 var REGION_HUE = {america: 50, europe: 210, neareast: 130, fareast: 0};
 var SYSTEM_HUE = {
   nature: 130,
-  engineering: 50,
-  civilization: 210,
-  society: 0,
+  tech: 50,
+  culture: 210,
   fiction: 270,
 };
-var ERA_LIGHTNESS = {modern: 65, medieval: 72, early: 79, classical: 86};
+var ERA_LIGHTNESS = {contemporary: 58, modern: 65, medieval: 72, early: 79, classical: 86};
 
 var vis = {};
 COLS.forEach(function(col) { vis[col.idx] = col.vis; });
@@ -177,7 +176,7 @@ function cellColor(idx, val) {
   }
   if (idx === 8) {
     var segs = val.split('/');
-    var key = segs[0] === 'humanity' ? (segs[1] || 'humanity') : segs[0];
+    var key = segs[0];
     var base = SYSTEM_HUE[key];
     return base !== undefined ? 'hsl(' + (base + strHash(segs[segs.length - 1]) % 20 - 10) + ', 65%, 65%)' : '';
   }
@@ -206,7 +205,7 @@ function displayVal(idx, val) {
   if (idx === 8) {
     var parts = val.split('/');
     var leaf = parts[parts.length - 1];
-    var anchor = parts[0] === 'humanity' ? (parts[1] === 'engineering' ? 'engineering' : (parts.length >= 3 ? parts[2] : leaf)) : (parts.length >= 2 ? parts[1] : parts[0]);
+    var anchor = parts.length >= 2 ? parts[1] : parts[0];
     return anchor !== leaf ? anchor + ' (' + leaf + ')' : anchor;
   }
   return val;
