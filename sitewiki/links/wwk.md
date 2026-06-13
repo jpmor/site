@@ -2,6 +2,7 @@
 
 ## June 2026
 
+- [SNR](https://en.wikipedia.org/wiki/Signal-to-noise_ratio)
 - [Triangulation](https://en.wikipedia.org/wiki/Triangulation)
 - [Noise Floor](https://en.wikipedia.org/wiki/Noise_floor)
 - [Nostalgia](https://en.wikipedia.org/wiki/Nostalgia)
