@@ -5,7 +5,6 @@
 - [MEMS](https://en.wikipedia.org/wiki/MEMS)
 - [SNR](https://en.wikipedia.org/wiki/Signal-to-noise_ratio)
 - [Triangulation](https://en.wikipedia.org/wiki/Triangulation)
-- [Noise Floor](https://en.wikipedia.org/wiki/Noise_floor)
 - [Nostalgia](https://en.wikipedia.org/wiki/Nostalgia)
 - [Dreamcatcher](https://en.wikipedia.org/wiki/Dreamcatcher)
 - [Grimdark](https://en.wikipedia.org/wiki/Grimdark)
