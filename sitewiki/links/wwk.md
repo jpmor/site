@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## July 2026
+
+- [Neutrino](https://en.wikipedia.org/wiki/Neutrino)
+
 ## June 2026
 
 - [MEMS](https://en.wikipedia.org/wiki/MEMS)
