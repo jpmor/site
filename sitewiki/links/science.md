@@ -1,5 +1,9 @@
 # science
 
+## July 2026
+
+- [The Fall of the Theorem Economy](https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy)
+
 ## March 2024
 
 - [When Armor Met Lips](https://crookedtimber.org/2024/03/16/occasional-paper-when-armor-met-lips/)
