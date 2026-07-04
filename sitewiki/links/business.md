@@ -1,5 +1,10 @@
 # business
 
+## July 2026
+
+- [Why Switzerland Has 25 GB Internet](https://stefan.schueller.net/posts/the-free-market-lie/)
+- [Half-Baked ProducT](https://weli.dev/blog/half-baked-product/)
+
 ## May 2026
 
 - [How Private Equity Bought America’s Essential Services](https://rubbishtalk.com/economy/how-private-equity-bought-americas-essential-services/)
