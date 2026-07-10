@@ -1,5 +1,9 @@
 # tech
 
+## July 2026
+
+- [The Glass Backbone](https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/)
+
 ## June 2026
 
 - [How LLMs Actually Work](https://www.0xkato.xyz/how-llms-actually-work/)
