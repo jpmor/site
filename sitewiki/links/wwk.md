@@ -2,6 +2,7 @@
 
 ## July 2026
 
+- [Celestial Sphere](https://en.wikipedia.org/wiki/Celestial_sphere)
 - [Neutrino](https://en.wikipedia.org/wiki/Neutrino)
 
 ## June 2026
