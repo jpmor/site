@@ -22,7 +22,7 @@ var COMPLETED_IDX = 9;
 var STATUS_ORDER = ['Reading', 'Next', 'Soon', 'Did Not Finish', 'Eventually', 'Tier 1', 'Tier 2', 'Tier 3', '', 'Read'];
 var PLACE_ORDER  = ['america', 'europe', 'neareast', 'fareast'];
 var TIME_ORDER   = ['ancient', 'classical', 'medieval', 'early', 'modern', 'contemporary'];
-var TOPIC_ORDER  = ['nature', 'tech', 'culture', 'fiction'];
+var TOPIC_ORDER  = ['nature', 'tech', 'culture', 'practice', 'fiction'];
 // TSV indices: title=0 author=1 year=2 pages=3 isbn13=4 status=5 place=6 time=7 topic=8 completed=9 rated=10 library=11 price=12 added=13 rating=14 reviews=15 score=16
 
 var STATUS_COLOR = {
@@ -37,11 +37,33 @@ var STATUS_COLOR = {
   'Read':    'hsl(120, 40%, 55%)',
 };
 var REGION_HUE = {america: 50, europe: 210, neareast: 130, fareast: 0};
-var SYSTEM_HUE = {
-  nature: 130,
-  tech: 50,
-  culture: 210,
-  fiction: 270,
+
+// Topic branch -> its trunk (drives grouped sort). Mirrors the homewiki tree.
+var BRANCH_TRUNK = {
+  behavior: 'nature', biology: 'nature', ecology: 'nature', environment: 'nature',
+  math: 'nature', physics: 'nature',
+  healthcare: 'tech', info: 'tech', manufacturing: 'tech', resources: 'tech',
+  settlements: 'tech', transport: 'tech', war: 'tech',
+  development: 'culture', economy: 'culture', language: 'culture', philosophy: 'culture',
+  politics: 'culture', ritual: 'culture', society: 'culture',
+  engineering: 'practice',
+};
+
+// Per-branch color, taken directly from the homewiki tree palette (colors.py
+// WIKI_COLORS, xterm 256 -> hex). Families: nature=greens, tech=blues/cyans,
+// culture=purples/magentas, practice=gold.
+var TOPIC_COLOR = {
+  // nature (greens)
+  behavior: '#87ff87', biology: '#5fff00', ecology: '#00d787', environment: '#00d700',
+  math: '#00875f', physics: '#5f8700',
+  // tech (blues/cyans)
+  healthcare: '#afffff', info: '#87afff', manufacturing: '#00ffff', resources: '#0087ff',
+  settlements: '#00afff', transport: '#00d7ff', war: '#5fafff',
+  // culture (purples/magentas)
+  development: '#ff87ff', economy: '#d787ff', language: '#8700ff', philosophy: '#875fff',
+  politics: '#af5fff', ritual: '#af00ff', society: '#afafff',
+  // practice (gold)
+  engineering: '#d7d75f',
 };
 var ERA_LIGHTNESS = {contemporary: 58, modern: 65, medieval: 72, early: 79, classical: 86};
 
@@ -175,10 +197,7 @@ function cellColor(idx, val) {
     return (l !== undefined && h !== undefined) ? 'hsl(' + h + ', 60%, ' + l + '%)' : '';
   }
   if (idx === 8) {
-    var segs = val.split('/');
-    var key = segs[0];
-    var base = SYSTEM_HUE[key];
-    return base !== undefined ? 'hsl(' + (base + strHash(segs[segs.length - 1]) % 20 - 10) + ', 65%, 65%)' : '';
+    return TOPIC_COLOR[val.split('/')[0]] || '';
   }
   return '';
 }
@@ -212,10 +231,8 @@ function displayVal(idx, val) {
 }
 
 function topicRank(v) {
-  for (var i = 0; i < TOPIC_ORDER.length; i++) {
-    if (v.indexOf(TOPIC_ORDER[i]) === 0) return i;
-  }
-  return TOPIC_ORDER.length;
+  var i = TOPIC_ORDER.indexOf(BRANCH_TRUNK[v.split('/')[0]]);
+  return i === -1 ? TOPIC_ORDER.length : i;
 }
 
 // --- column filter menu ---
