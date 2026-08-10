@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## August 2026
+
+- [Hikikomori](https://en.wikipedia.org/wiki/Hikikomori)
+
 ## July 2026
 
 - [Celestial Sphere](https://en.wikipedia.org/wiki/Celestial_sphere)
