@@ -2,6 +2,7 @@
 
 ## August 2026
 
+- [Light Pollution](https://www.lightpollutionmap.info/)
 - [DeFlock](https://maps.deflock.org/)
 
 ## January 2026
