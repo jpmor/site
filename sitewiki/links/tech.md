@@ -1,5 +1,9 @@
 # tech
 
+## August 2026
+
+- [Sondehub and War](https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/)
+
 ## July 2026
 
 - [The Glass Backbone](https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/)
