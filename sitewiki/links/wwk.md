@@ -2,6 +2,7 @@
 
 ## August 2026
 
+- [VDJ Recombination](https://en.wikipedia.org/wiki/V(D)J_recombination)
 - [Hikikomori](https://en.wikipedia.org/wiki/Hikikomori)
 
 ## July 2026
