@@ -2,6 +2,7 @@
 
 ## August 2026
 
+- [Prion](https://en.wikipedia.org/wiki/Prion)
 - [Apoptosis](https://en.wikipedia.org/wiki/Apoptosis)
 - [VDJ Recombination](https://en.wikipedia.org/wiki/V(D)J_recombination)
 - [Hikikomori](https://en.wikipedia.org/wiki/Hikikomori)
