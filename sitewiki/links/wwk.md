@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## September 2026
+
+- [Diagram](https://en.wikipedia.org/wiki/Diagram)
+
 ## August 2026
 
 - [Prion](https://en.wikipedia.org/wiki/Prion)
