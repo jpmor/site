@@ -2,6 +2,7 @@
 
 ## September 2026
 
+- [Semiotics](https://en.wikipedia.org/wiki/Semiotics)
 - [Diagram](https://en.wikipedia.org/wiki/Diagram)
 
 ## August 2026
