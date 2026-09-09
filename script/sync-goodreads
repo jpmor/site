@@ -1,0 +1,243 @@
+#!/usr/bin/env python3
+"""
+Sync reading.tsv from a fresh Goodreads library export.
+
+Goodreads is authoritative for: status, My Rating, Date Read, Date Added,
+library_* shelves, and the set of books. reading.tsv keeps its curated
+columns (full place/time/topic paths, price, community rating, reviews,
+score) for books that already exist.
+
+Usage:
+    ./script/sync-goodreads ~/Downloads/goodreads_library_export.csv --dry-run
+    ./script/sync-goodreads ~/Downloads/goodreads_library_export.csv
+    ./script/sync-goodreads EXPORT.csv --prune   # also drop tsv rows absent from GR
+
+New books are appended with place/time/topic seeded from the top-level
+Goodreads shelf (single path segment) for later narrowing; price/rating/
+reviews/score are left blank for the scrapers to fill.
+"""
+
+import argparse
+import csv
+import re
+import sys
+
+TSV_PATH = "docs/static/reading.tsv"
+
+# Goodreads exclusive shelf -> tsv status
+EXCL_STATUS = {
+    "read": "Read",
+    "currently-reading": "Reading",
+    "did-not-finish": "Did Not Finish",
+}
+# Goodreads status-* shelf -> tsv status (for to-read books)
+TAG_STATUS = {
+    "status-next": "Next",
+    "status-soon": "Soon",
+    "status-eventually": "Eventually",
+    "status-tier-1": "Tier 1",
+    "status-tier-2": "Tier 2",
+    "status-tier-3": "Tier 3",
+}
+# Goodreads library_* shelf -> tsv library token (emitted in this order)
+LIB_ORDER = [("library_audio", "audiobook"), ("library_paper", "book"), ("library_ebook", "ebook")]
+
+
+def norm(s):
+    return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
+
+
+def title_core(s):
+    """Drop subtitle (after ':'), series parentheticals, and brackets."""
+    s = s.split(":")[0]
+    s = re.sub(r"\([^)]*\)", "", s)
+    s = re.sub(r"\[[^]]*\]", "", s)
+    return norm(s)
+
+
+def author_last(s):
+    parts = norm(s).split()
+    return parts[-1] if parts else ""
+
+
+def clean_isbn(s):
+    return re.sub(r"[^0-9X]", "", s or "")
+
+
+def gr_shelves(row):
+    return [s.strip() for s in re.split(r",\s*", row["Bookshelves"]) if s.strip()]
+
+
+def gr_status(row):
+    shelf = row["Exclusive Shelf"]
+    if shelf in EXCL_STATUS:
+        return EXCL_STATUS[shelf]
+    # to-read: refine by status-* tag
+    for s in gr_shelves(row):
+        if s in TAG_STATUS:
+            return TAG_STATUS[s]
+    return ""  # plain to-read, no tier
+
+
+def gr_library(row):
+    shelves = set(gr_shelves(row))
+    toks = [tok for shelf, tok in LIB_ORDER if shelf in shelves]
+    return ",".join(toks)
+
+
+def gr_tag(row, dim):
+    """Top-level place/time/topic path segment from GR shelf, or ''."""
+    for s in gr_shelves(row):
+        if s.startswith(dim + "-"):
+            return s[len(dim) + 1:]
+    return ""
+
+
+def gr_rating(row):
+    r = (row["My Rating"] or "").strip()
+    return "" if r in ("", "0") else r.rstrip("0").rstrip(".") if "." in r else r
+
+
+def load_gr(path):
+    with open(path, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    by_isbn, by_pair, by_title = {}, {}, {}
+    for r in rows:
+        isbn = clean_isbn(r["ISBN13"])
+        if isbn:
+            by_isbn.setdefault(isbn, r)
+        by_pair.setdefault((title_core(r["Title"]), author_last(r["Author"])), r)
+        by_title.setdefault(title_core(r["Title"]), r)
+    return rows, by_isbn, by_pair, by_title
+
+
+def match(trow, col, by_isbn, by_pair, by_title):
+    isbn = clean_isbn(trow[col["isbn13"]])
+    if isbn and isbn in by_isbn:
+        return by_isbn[isbn]
+    pair = (title_core(trow[col["title"]]), author_last(trow[col["author"]]))
+    if pair in by_pair:
+        return by_pair[pair]
+    tc = title_core(trow[col["title"]])
+    if tc in by_title:
+        return by_title[tc]
+    return None
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("export", help="Goodreads library export CSV")
+    p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--prune", action="store_true",
+                   help="remove tsv rows that have no match in the GR export")
+    args = p.parse_args()
+
+    gr_rows, by_isbn, by_pair, by_title = load_gr(args.export)
+
+    with open(TSV_PATH, encoding="utf-8") as f:
+        reader = csv.reader(f, delimiter="\t")
+        header = next(reader)
+        tsv = list(reader)
+    col = {h: i for i, h in enumerate(header)}
+
+    matched_gr = set()
+    changes = []          # (title, [field: old->new])
+    pruned = []
+    out = []
+
+    for r in tsv:
+        g = match(r, col, by_isbn, by_pair, by_title)
+        if g is None:
+            if args.prune:
+                pruned.append(r[col["title"]])
+                continue
+            out.append(r)
+            continue
+        matched_gr.add(id(g))
+        diffs = []
+
+        def setf(name, val):
+            i = col[name]
+            if val and r[i] != val:
+                diffs.append(f"{name}: {r[i]!r}->{val!r}")
+                r[i] = val
+
+        # Goodreads-authoritative fields
+        newstatus = gr_status(g)
+        if r[col["status"]] != newstatus:
+            diffs.append(f"status: {r[col['status']]!r}->{newstatus!r}")
+            r[col["status"]] = newstatus
+        setf("completed", g["Date Read"] if g["Exclusive Shelf"] == "read" else "")
+        newrated = gr_rating(g)
+        if r[col["rated"]] != newrated:
+            diffs.append(f"rated: {r[col['rated']]!r}->{newrated!r}")
+            r[col["rated"]] = newrated
+        setf("added", g["Date Added"])
+        lib = gr_library(g)
+        if lib and r[col["library"]] != lib:
+            diffs.append(f"library: {r[col['library']]!r}->{lib!r}")
+            r[col["library"]] = lib
+        # fill blanks only
+        if not r[col["pages"]] and g["Number of Pages"]:
+            r[col["pages"]] = g["Number of Pages"]
+
+        if diffs:
+            changes.append((r[col["title"]], diffs))
+        out.append(r)
+
+    # new books
+    new_rows = []
+    for g in gr_rows:
+        if id(g) in matched_gr:
+            continue
+        row = [""] * len(header)
+        row[col["title"]] = g["Title"]
+        row[col["author"]] = g["Author"]
+        row[col["year"]] = g["Original Publication Year"] or g["Year Published"]
+        row[col["pages"]] = g["Number of Pages"]
+        row[col["isbn13"]] = clean_isbn(g["ISBN13"])
+        row[col["status"]] = gr_status(g)
+        row[col["place"]] = gr_tag(g, "place")
+        row[col["time"]] = gr_tag(g, "time")
+        row[col["topic"]] = gr_tag(g, "topic")
+        row[col["completed"]] = g["Date Read"] if g["Exclusive Shelf"] == "read" else ""
+        row[col["rated"]] = gr_rating(g)
+        row[col["library"]] = gr_library(g)
+        row[col["added"]] = g["Date Added"]
+        new_rows.append(row)
+
+    # report
+    print(f"matched & updated : {len(changes)} rows changed")
+    print(f"new books added   : {len(new_rows)}")
+    if args.prune:
+        print(f"pruned (absent)   : {len(pruned)}")
+
+    if changes:
+        print("\n--- field changes (first 40) ---")
+        for title, diffs in changes[:40]:
+            print(f"  {title[:45]:45}  " + " | ".join(diffs))
+        if len(changes) > 40:
+            print(f"  ... and {len(changes)-40} more")
+    if new_rows:
+        print("\n--- new books ---")
+        for row in new_rows:
+            print(f"  [{row[col['status']] or 'to-read':13}] {row[col['title']][:55]:55} {row[col['author']]}")
+    if pruned:
+        print("\n--- pruned ---")
+        for t in pruned:
+            print(f"  {t}")
+
+    if args.dry_run:
+        print("\n(dry run — nothing written)")
+        return
+
+    out.extend(new_rows)
+    with open(TSV_PATH, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f, delimiter="\t", lineterminator="\n")
+        w.writerow(header)
+        w.writerows(out)
+    print(f"\nWrote {len(out)} rows to {TSV_PATH}")
+
+
+if __name__ == "__main__":
+    main()

@@ -32,58 +32,51 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML,
 SKIP_STATUSES = {"Read", "Reading", "Did Not Finish", "Eventually", "Next", "Soon"}
 
 
-def _load_cached_token():
-    try:
-        with open(TOKEN_CACHE) as f:
-            data = json.load(f)
-        expires = datetime.fromisoformat(data["expires"])
-        if expires > datetime.now(timezone.utc):
-            return data["token"]
-    except Exception:
-        pass
-    return None
+# Goodreads is behind Cloudflare (was AWS WAF). A headless Chromium passes the
+# challenge transparently, so we render each page in a persistent browser and
+# read the rating off the DOM rather than fetching JSON with urllib.
+_PW = _BROWSER = _PAGE = None
 
 
-def _fetch_token_via_playwright():
-    print("Fetching WAF token via Playwright...", file=sys.stderr)
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
+def _get_page():
+    global _PW, _BROWSER, _PAGE
+    if _PAGE is None:
+        _PW = sync_playwright().start()
+        _BROWSER = _PW.chromium.launch(
             headless=True,
             args=["--disable-blink-features=AutomationControlled"],
         )
-        ctx = browser.new_context(user_agent=UA)
-        page = ctx.new_page()
-        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-        page.goto("https://www.goodreads.com/search?q=dune", timeout=30000, wait_until="load")
-        if not page.title():
-            page.wait_for_selector("html.desktop", timeout=30000)
-        cookies = ctx.cookies()
-        browser.close()
-
-    waf = next((c for c in cookies if c["name"] == "aws-waf-token"), None)
-    if not waf:
-        raise RuntimeError("Playwright did not yield an aws-waf-token cookie")
-
-    expires = datetime.fromtimestamp(waf["expires"], tz=timezone.utc).isoformat()
-    os.makedirs(os.path.dirname(TOKEN_CACHE), exist_ok=True)
-    with open(TOKEN_CACHE, "w") as f:
-        json.dump({"token": waf["value"], "expires": expires}, f)
-    print(f"  token cached until {expires}", file=sys.stderr)
-    return waf["value"]
+        ctx = _BROWSER.new_context(user_agent=UA)
+        ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        _PAGE = ctx.new_page()
+    return _PAGE
 
 
+def _close_page():
+    global _PW, _BROWSER, _PAGE
+    if _BROWSER:
+        _BROWSER.close()
+    if _PW:
+        _PW.stop()
+    _PW = _BROWSER = _PAGE = None
+
+
+# Kept for CLI compatibility; browser is created lazily on first fetch.
 def _get_token():
-    token = _load_cached_token()
-    if token:
-        return token
-    return _fetch_token_via_playwright()
+    return None
 
 
-def _fetch(url, token):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Cookie": f"aws-waf-token={token}"})
+def _fetch(url, token=None):
     try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            return resp.read().decode("utf-8")
+        page = _get_page()
+        page.goto(url, timeout=60000, wait_until="domcontentloaded")
+        # Wait for whichever rating widget renders: search results (.minirating)
+        # or a book detail page (.RatingStatistics__rating).
+        try:
+            page.wait_for_selector(".minirating, .RatingStatistics__rating", timeout=15000)
+        except Exception:
+            pass
+        return page.content()
     except Exception as e:
         print(f"  ERROR: {e}", file=sys.stderr)
         return ""
@@ -153,6 +146,7 @@ def main():
             print(f"  rating={result[0]}  reviews={result[1]}")
         else:
             print("  -> not found")
+        _close_page()
         return
 
     dry_run = args.dry_run
@@ -221,6 +215,7 @@ def main():
 
         time.sleep(DELAY)
 
+    _close_page()
     print(f"\nDone. Updated {updated} entries." if not dry_run else "\nDry run complete.")
 
 
