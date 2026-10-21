@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## October 2026
+
+- [Hockney–Falco Thesis](https://en.wikipedia.org/wiki/Hockney–Falco_thesis)
+
 ## September 2026
 
 - [Semiotics](https://en.wikipedia.org/wiki/Semiotics)
