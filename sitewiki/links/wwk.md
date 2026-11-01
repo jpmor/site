@@ -2,6 +2,7 @@
 
 ## October 2026
 
+- [Polygraph](https://en.wikipedia.org/wiki/Polygraph)
 - [John Bardeen](https://en.wikipedia.org/wiki/John_Bardeen)
 - [Hockney–Falco Thesis](https://en.wikipedia.org/wiki/Hockney–Falco_thesis)
 
