@@ -1,5 +1,9 @@
 # wikipedias worth knowing
 
+## November 2026
+
+- [Amphidromic Points](https://en.wikipedia.org/wiki/Amphidromic_point)
+
 ## October 2026
 
 - [Polygraph](https://en.wikipedia.org/wiki/Polygraph)
