@@ -2,6 +2,7 @@
 
 ## November 2026
 
+- [AlexNet](https://en.wikipedia.org/wiki/AlexNet)
 - [Amphidromic Points](https://en.wikipedia.org/wiki/Amphidromic_point)
 
 ## October 2026
