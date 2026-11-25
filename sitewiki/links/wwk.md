@@ -2,6 +2,7 @@
 
 ## November 2026
 
+- [Great Oxidation Event](https://en.wikipedia.org/wiki/Great_Oxidation_Event)
 - [Levent Alpöge](https://en.wikipedia.org/wiki/Levent_Alpöge)
 - [AlexNet](https://en.wikipedia.org/wiki/AlexNet)
 - [Amphidromic Points](https://en.wikipedia.org/wiki/Amphidromic_point)
